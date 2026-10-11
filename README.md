@@ -66,7 +66,7 @@ Full details: [`docs/final_test_protocol.md`](docs/final_test_protocol.md).
 ## Project structure
 
 ```text
-nba-game-prediction/
+nba-prediction/
 ├── data/                 # raw downloads and processed tables (not committed; rebuilt by the scripts)
 ├── docs/
 │   ├── data_availability_audit.md   # which features were feasible, leakage risks, results of each feature group
@@ -85,8 +85,8 @@ nba-game-prediction/
 Requires Python 3.11+ (developed on 3.12).
 
 ```bash
-git clone https://github.com/<your-username>/nba-game-prediction.git
-cd nba-game-prediction
+git clone https://github.com/z3nsz/nba-prediction.git
+cd nba-prediction
 python3 -m venv .venv
 source .venv/bin/activate        # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
