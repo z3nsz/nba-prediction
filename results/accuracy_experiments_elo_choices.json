@@ -1,0 +1,20 @@
+{
+  "2022-23": {
+    "k": 18,
+    "carryover": 0.5,
+    "home_advantage": 40,
+    "margin_of_victory": true
+  },
+  "2023-24": {
+    "k": 18,
+    "carryover": 0.5,
+    "home_advantage": 40,
+    "margin_of_victory": true
+  },
+  "2024-25": {
+    "k": 18,
+    "carryover": 0.5,
+    "home_advantage": 40,
+    "margin_of_victory": true
+  }
+}

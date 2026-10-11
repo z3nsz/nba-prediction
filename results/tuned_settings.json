@@ -1,0 +1,17 @@
+{
+  "logistic": {
+    "feature_set": "elo + form + rest",
+    "c": 10
+  },
+  "random_forest": {
+    "min_samples_leaf": 20,
+    "max_features": 7,
+    "max_depth": 4
+  },
+  "xgboost": {
+    "max_depth": 1,
+    "learning_rate": 0.1,
+    "min_child_weight": 20,
+    "n_estimators": 200
+  }
+}

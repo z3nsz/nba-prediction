@@ -1,0 +1,23 @@
+{
+  "final_model": {
+    "name": "E1+E2: logistic regression with probability-weighted missing minutes and player impact",
+    "type": "logistic regression, no intercept, differences scaled with training-season standard deviations",
+    "inputs": ["elo_diff", "home_court", "point_diff_last10_diff", "win_pct_last10_diff", "win_pct_last5_diff",
+               "rest_days_diff", "back_to_back_diff", "exp_missing_minutes_diff", "starters_out_diff",
+               "exp_missing_value_diff", "exp_stars_missing_diff"],
+    "c": 1.0,
+    "train_seasons": ["2020-21", "2021-22", "2022-23", "2023-24", "2024-25"],
+    "injury_feature_settings": {"pregame_buffer_minutes": 60, "prior_weight": 5, "shrink_minutes": 300,
+                                "star_game_score": 18, "starter_minutes": 28}
+  },
+  "comparison_models": {
+    "logistic_10_inputs": {"inputs": ["elo_diff", "home_court", "point_diff_last10_diff", "win_pct_last10_diff",
+                                      "win_pct_last5_diff", "rest_days_diff", "back_to_back_diff",
+                                      "out_minutes_diff", "questionable_minutes_diff", "starters_out_diff"], "c": 1.0},
+    "logistic_phase2": {"inputs": "first 7 inputs of the final model", "c": 1.0},
+    "elo_tuned": {"k": 18, "home_advantage": 40},
+    "always_home": "home win rate of the training seasons"
+  },
+  "test_season": "2025-26",
+  "prediction_time": "60 minutes before each game's tip-off"
+}

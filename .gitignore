@@ -1,0 +1,35 @@
+# Secrets and credentials
+.env
+.env.*
+*.pem
+*.key
+secrets/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+# Personal learning notebooks (kept local, not part of the portfolio)
+notebooks/learning/
+
+# OS / editor
+.DS_Store
+.vscode/
+
+# Data: downloaded and generated datasets stay local (re-create them with the scripts)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Temporary files and logs
+*.tmp
+*.log
+logs/

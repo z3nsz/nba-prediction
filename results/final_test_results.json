@@ -1,0 +1,136 @@
+{
+  "games": 1230,
+  "scores": {
+    "E1+E2 (final model)": {
+      "accuracy": 0.6878048780487804,
+      "log_loss": 0.5819733975979686,
+      "brier": 0.19948794779373183,
+      "auc": 0.7517098234943256,
+      "calibration_error": 0.039920851480317
+    },
+    "logistic 10 inputs": {
+      "accuracy": 0.6878048780487804,
+      "log_loss": 0.5865891409934779,
+      "brier": 0.20116472194099902,
+      "auc": 0.7482460434002285,
+      "calibration_error": 0.025502710542355027
+    },
+    "logistic phase 2": {
+      "accuracy": 0.691869918699187,
+      "log_loss": 0.5963159409630917,
+      "brier": 0.20490776189103724,
+      "auc": 0.7379964640020968,
+      "calibration_error": 0.03170632480829462
+    },
+    "Elo (tuned)": {
+      "accuracy": 0.6894308943089431,
+      "log_loss": 0.5973255594607754,
+      "brier": 0.20513234472237019,
+      "auc": 0.7376139770882315,
+      "calibration_error": 0.04709801481307613
+    },
+    "always home": {
+      "accuracy": 0.5536585365853659,
+      "log_loss": 0.6873901534994858,
+      "brier": 0.24712697086720864,
+      "auc": 0.5,
+      "calibration_error": 0.031707317073170746
+    }
+  },
+  "log_loss_gaps": {
+    "E1+E2 (final model) minus logistic 10 inputs": {
+      "log_loss_gap": -0.004615743395509247,
+      "ci_low": -0.007758528936065543,
+      "ci_high": -0.0015577876762929057
+    },
+    "E1+E2 (final model) minus logistic phase 2": {
+      "log_loss_gap": -0.01434254336512308,
+      "ci_low": -0.022832093284149233,
+      "ci_high": -0.005781534165889423
+    },
+    "E1+E2 (final model) minus Elo (tuned)": {
+      "log_loss_gap": -0.015352161862806656,
+      "ci_low": -0.02546755279070652,
+      "ci_high": -0.005130526279824819
+    },
+    "E1+E2 (final model) minus always home": {
+      "log_loss_gap": -0.10541675590151706,
+      "ci_low": -0.1301160211146435,
+      "ci_high": -0.08051612065856875
+    }
+  },
+  "confidence_thresholds": {
+    "60%": {
+      "games_covered": 0.7040650406504065,
+      "accuracy": 0.7448036951501155
+    },
+    "65%": {
+      "games_covered": 0.5609756097560976,
+      "accuracy": 0.7710144927536232
+    },
+    "70%": {
+      "games_covered": 0.4211382113821138,
+      "accuracy": 0.7895752895752896
+    },
+    "75%": {
+      "games_covered": 0.3008130081300813,
+      "accuracy": 0.8378378378378378
+    },
+    "80%": {
+      "games_covered": 0.191869918699187,
+      "accuracy": 0.885593220338983
+    }
+  },
+  "primary_calibration": {
+    "0": {
+      "predicted": 0.1778,
+      "actual": 0.1301,
+      "games": 123
+    },
+    "1": {
+      "predicted": 0.3062,
+      "actual": 0.3496,
+      "games": 123
+    },
+    "2": {
+      "predicted": 0.3862,
+      "actual": 0.3089,
+      "games": 123
+    },
+    "3": {
+      "predicted": 0.4601,
+      "actual": 0.5366,
+      "games": 123
+    },
+    "4": {
+      "predicted": 0.53,
+      "actual": 0.5122,
+      "games": 123
+    },
+    "5": {
+      "predicted": 0.5946,
+      "actual": 0.6504,
+      "games": 123
+    },
+    "6": {
+      "predicted": 0.6552,
+      "actual": 0.6911,
+      "games": 123
+    },
+    "7": {
+      "predicted": 0.7197,
+      "actual": 0.7154,
+      "games": 123
+    },
+    "8": {
+      "predicted": 0.7881,
+      "actual": 0.7561,
+      "games": 123
+    },
+    "9": {
+      "predicted": 0.8775,
+      "actual": 0.8862,
+      "games": 123
+    }
+  }
+}
