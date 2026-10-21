@@ -1,0 +1,94 @@
+{
+ "id": "espn-401909841",
+ "computed_et": "2026-10-21T14:33",
+ "final": false,
+ "report": "2026-10-21_02_30PM",
+ "cutoff_et": "2026-10-21T21:00",
+ "elo_home_win_prob": 0.6,
+ "inputs": {
+  "elo_diff": -29.6663,
+  "home_court": 1.0,
+  "point_diff_last10_diff": 0.0,
+  "win_pct_last10_diff": 0.0,
+  "win_pct_last5_diff": 0.0,
+  "rest_days_diff": 0.0,
+  "back_to_back_diff": 0.0,
+  "exp_missing_minutes_diff": 0.0,
+  "starters_out_diff": 0.0,
+  "exp_missing_value_diff": 0.0,
+  "exp_stars_missing_diff": 0.0
+ },
+ "home": {
+  "team": "POR",
+  "elo": 1522.2,
+  "win_pct_last10": null,
+  "win_pct_last5": null,
+  "point_diff_last10": null,
+  "rest_days": null,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Sharpe, Shaedon",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Avdija, Deni",
+    "status": "Questionable",
+    "avg_minutes": 0.0,
+    "p_play": 0.698,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Carlson, Branden",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Potter, Micah",
+    "status": "Questionable",
+    "avg_minutes": 0.0,
+    "p_play": 0.629,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Youngblood, Chris",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ },
+ "away": {
+  "team": "PHX",
+  "elo": 1551.9,
+  "win_pct_last10": null,
+  "win_pct_last5": null,
+  "point_diff_last10": null,
+  "rest_days": null,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Kennard, Luke",
+    "status": "Questionable",
+    "avg_minutes": 0.0,
+    "p_play": 0.677,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Williams, Mark",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ }
+}
