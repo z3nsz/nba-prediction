@@ -1,0 +1,52 @@
+{
+  "description": "Final NBA model (logistic regression, no intercept), retrained on all six seasons",
+  "trained_on": [
+    "2020-21",
+    "2021-22",
+    "2022-23",
+    "2023-24",
+    "2024-25",
+    "2025-26"
+  ],
+  "training_games": 7230,
+  "created": "2026-10-20",
+  "inputs": [
+    "elo_diff",
+    "home_court",
+    "point_diff_last10_diff",
+    "win_pct_last10_diff",
+    "win_pct_last5_diff",
+    "rest_days_diff",
+    "back_to_back_diff",
+    "exp_missing_minutes_diff",
+    "starters_out_diff",
+    "exp_missing_value_diff",
+    "exp_stars_missing_diff"
+  ],
+  "scale": {
+    "elo_diff": 153.12068443916283,
+    "home_court": 1.0,
+    "point_diff_last10_diff": 10.23184870562751,
+    "win_pct_last10_diff": 0.31459066552355225,
+    "win_pct_last5_diff": 0.38252367558022027,
+    "rest_days_diff": 1.014635190794608,
+    "back_to_back_diff": 0.5067275610212101,
+    "exp_missing_minutes_diff": 57.86147228935293,
+    "starters_out_diff": 1.2961715552614896,
+    "exp_missing_value_diff": 5.943895859503639,
+    "exp_stars_missing_diff": 0.5764998007564335
+  },
+  "weight": {
+    "elo_diff": 0.749536138981581,
+    "home_court": 0.21674053840881044,
+    "point_diff_last10_diff": 0.1414218926034716,
+    "win_pct_last10_diff": -0.16301110812845718,
+    "win_pct_last5_diff": -0.006125038549907741,
+    "rest_days_diff": 0.03673298643682948,
+    "back_to_back_diff": 0.0991058772254805,
+    "exp_missing_minutes_diff": 0.2754843745458386,
+    "starters_out_diff": 0.0392609616327053,
+    "exp_missing_value_diff": 0.11251931035345501,
+    "exp_stars_missing_diff": 0.022465642859189828
+  }
+}
