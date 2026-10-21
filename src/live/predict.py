@@ -105,7 +105,12 @@ def injury_table(day, games, now_et, box_scores) -> tuple[pd.DataFrame, pd.DataF
 def run(day: pd.Timestamp | None = None, now: pd.Timestamp | None = None) -> pd.DataFrame:
     now_et = to_eastern(pd.Series([now or pd.Timestamp.now(tz="UTC")])).iloc[0]
     today = now_et.normalize()
-    day = today if day is None else pd.Timestamp(day)
+    if day is None:
+        # After midnight, while last night's games are still being played, keep working on last night
+        # (its games are locked; this run only adds results) instead of starting the new day too early.
+        yesterday = today - pd.Timedelta(days=1)
+        day = yesterday if yesterday >= SEASON_START and unfinished_games(yesterday) else today
+    day = pd.Timestamp(day)
     if day > today:
         raise ValueError("only today or past days can be predicted")
     if day > SEASON_START and unfinished_games(day - pd.Timedelta(days=1)):
@@ -127,6 +132,8 @@ def run(day: pd.Timestamp | None = None, now: pd.Timestamp | None = None) -> pd.
         rows = todo.merge(team, on="game_id").merge(injury, on="game_id").merge(flags, on="game_id")
         rows = rows.assign(p_home=predict(load_model(), rows), tip_off_et=to_eastern(rows["tip_off_utc"]),
                            predicted_at=now_et.isoformat(timespec="minutes"))[PREDICTION_COLUMNS]
+        rows = rows[[changed(row, saved) for _, row in rows.iterrows()]]
+    if not todo.empty and not rows.empty:
         saved = pd.concat([saved[~saved["game_id"].isin(rows["game_id"])], rows], ignore_index=True)
         saved = saved.sort_values(["game_date", "tip_off_et", "game_id"]).reset_index(drop=True)
         PREDICTIONS_PATH.parent.mkdir(exist_ok=True)
@@ -134,6 +141,17 @@ def run(day: pd.Timestamp | None = None, now: pd.Timestamp | None = None) -> pd.
 
     write_site_data(saved, season_games, now_et)
     return saved[saved["game_date"] == day]
+
+
+def changed(row: pd.Series, saved: pd.DataFrame) -> bool:
+    """New game, or a preview whose probability or report changed (unchanged rows are not rewritten,
+    so the job only commits when something real changed)."""
+    before = saved[saved["game_id"] == row["game_id"]]
+    if before.empty:
+        return True
+    old = before.iloc[0]
+    return (not np.isclose(float(old["p_home"]), row["p_home"], atol=1e-9) or old["report"] != row["report"]
+            or bool(old["final"]) != bool(row["final"]))
 
 
 # ---------------------------------------------------------------- website data
@@ -170,6 +188,10 @@ def write_site_data(saved: pd.DataFrame, season_games: pd.DataFrame, now_et: pd.
             "model": {"description": model["description"], "training_games": model["training_games"],
                       "trained_on": model["trained_on"]},
             "record": track_record(games), "games": rows}
+    if SITE_DATA_PATH.exists():
+        old = json.loads(SITE_DATA_PATH.read_text())
+        if {**old, "updated_et": None} == {**data, "updated_et": None}:
+            return                            # nothing new: keep the file (and skip a commit)
     SITE_DATA_PATH.parent.mkdir(parents=True, exist_ok=True)
     SITE_DATA_PATH.write_text(json.dumps(data, indent=1) + "\n")
 

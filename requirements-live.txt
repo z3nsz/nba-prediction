@@ -1,0 +1,9 @@
+# What the cloud job (.github/workflows/predictions.yml) needs to run src/live/predict.py
+pandas==3.0.6
+requests==2.34.2
+numpy==2.5.3
+nba_api==1.11.4
+matplotlib==3.11.2
+scikit-learn==1.9.1
+xgboost==3.4.1
+pdfplumber==0.11.10
