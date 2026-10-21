@@ -1,4 +1,4 @@
-# NBA Game Prediction (nba-prediction-lemon.vercel.app)
+# NBA Game Prediction ([nba-prediction-lemon.vercel.app](url)
 
 Calibrated win probabilities for NBA regular-season games, built only from information available **60 minutes
 before tip-off**: team strength (Elo and recent form), rest, home court, and the NBA's **official pre-game injury
