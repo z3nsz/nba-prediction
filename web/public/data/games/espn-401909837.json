@@ -1,8 +1,8 @@
 {
  "id": "espn-401909837",
- "computed_et": "2026-10-21T14:33",
+ "computed_et": "2026-10-21T17:58",
  "final": false,
- "report": "2026-10-21_02_30PM",
+ "report": "2026-10-21_05_45PM",
  "cutoff_et": "2026-10-21T18:30",
  "elo_home_win_prob": 0.818,
  "inputs": {
@@ -56,9 +56,9 @@
   "injuries": [
    {
     "player": "Awaka, Tobe",
-    "status": "Probable",
+    "status": "Available",
     "avg_minutes": 0.0,
-    "p_play": 0.907,
+    "p_play": 0.808,
     "exp_missing_minutes": 0.0
    },
    {
@@ -70,23 +70,23 @@
    },
    {
     "player": "Collins, Zach",
-    "status": "Probable",
+    "status": "Available",
     "avg_minutes": 0.0,
-    "p_play": 0.958,
+    "p_play": 0.936,
     "exp_missing_minutes": 0.0
    },
    {
-    "player": "Miller, Leonard",
-    "status": "Probable",
+    "player": "Hawkins, Jordan",
+    "status": "Out",
     "avg_minutes": 0.0,
-    "p_play": 0.907,
+    "p_play": 0.0,
     "exp_missing_minutes": 0.0
    },
    {
     "player": "Okoro, Isaac",
-    "status": "Probable",
+    "status": "Available",
     "avg_minutes": 0.0,
-    "p_play": 0.933,
+    "p_play": 0.88,
     "exp_missing_minutes": 0.0
    },
    {
@@ -97,10 +97,10 @@
     "exp_missing_minutes": 0.0
    },
    {
-    "player": "Hawkins, Jordan",
-    "status": "Out",
+    "player": "Miller, Leonard",
+    "status": "Available",
     "avg_minutes": 0.0,
-    "p_play": 0.0,
+    "p_play": 0.64,
     "exp_missing_minutes": 0.0
    }
   ]

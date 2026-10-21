@@ -1,8 +1,8 @@
 {
  "id": "espn-401909835",
- "computed_et": "2026-10-21T14:33",
+ "computed_et": "2026-10-21T17:58",
  "final": false,
- "report": "2026-10-21_02_30PM",
+ "report": "2026-10-21_05_45PM",
  "cutoff_et": "2026-10-21T18:00",
  "elo_home_win_prob": 0.49,
  "inputs": {
@@ -63,9 +63,9 @@
   "injuries": [
    {
     "player": "Ament, Nate",
-    "status": "Probable",
+    "status": "Available",
     "avg_minutes": 0.0,
-    "p_play": 0.907,
+    "p_play": 0.808,
     "exp_missing_minutes": 0.0
    }
   ]

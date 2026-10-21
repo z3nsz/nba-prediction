@@ -1,8 +1,8 @@
 {
  "id": "espn-401909091",
- "computed_et": "2026-10-21T14:33",
+ "computed_et": "2026-10-21T17:58",
  "final": false,
- "report": "2026-10-21_02_30PM",
+ "report": "2026-10-21_05_45PM",
  "cutoff_et": "2026-10-21T18:30",
  "elo_home_win_prob": 0.619,
  "inputs": {
@@ -29,17 +29,10 @@
   "report_known": true,
   "injuries": [
    {
-    "player": "Gardner, Myron",
+    "player": "Goldin, Vladislav",
     "status": "Available",
     "avg_minutes": 0.0,
-    "p_play": 0.894,
-    "exp_missing_minutes": 0.0
-   },
-   {
-    "player": "Goldin, Vladislav",
-    "status": "Questionable",
-    "avg_minutes": 0.0,
-    "p_play": 0.51,
+    "p_play": 0.449,
     "exp_missing_minutes": 0.0
    },
    {
@@ -47,6 +40,13 @@
     "status": "Available",
     "avg_minutes": 0.0,
     "p_play": 0.801,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Gardner, Myron",
+    "status": "Available",
+    "avg_minutes": 0.0,
+    "p_play": 0.894,
     "exp_missing_minutes": 0.0
    }
   ]

@@ -1,8 +1,8 @@
 {
  "id": "espn-401909834",
- "computed_et": "2026-10-21T14:33",
+ "computed_et": "2026-10-21T17:58",
  "final": false,
- "report": "2026-10-21_02_30PM",
+ "report": "2026-10-21_05_45PM",
  "cutoff_et": "2026-10-21T18:00",
  "elo_home_win_prob": 0.591,
  "inputs": {
@@ -70,16 +70,16 @@
   "injuries": [
    {
     "player": "Dennis, RayJ",
-    "status": "Questionable",
+    "status": "Out",
     "avg_minutes": 0.0,
-    "p_play": 0.373,
+    "p_play": 0.0,
     "exp_missing_minutes": 0.0
    },
    {
     "player": "Gilbert, Keshon",
-    "status": "Questionable",
+    "status": "Out",
     "avg_minutes": 0.0,
-    "p_play": 0.425,
+    "p_play": 0.0,
     "exp_missing_minutes": 0.0
    },
    {
@@ -98,9 +98,9 @@
    },
    {
     "player": "Wilson, Jalen",
-    "status": "Questionable",
+    "status": "Out",
     "avg_minutes": 0.0,
-    "p_play": 0.51,
+    "p_play": 0.0,
     "exp_missing_minutes": 0.0
    }
   ]
