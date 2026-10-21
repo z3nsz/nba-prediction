@@ -108,8 +108,8 @@ export default function Home() {
       </section>
       {record.games > 0 && record.games < 100 && (
         <p className="note">
-          Only {record.games} games so far: early numbers swing a lot. The model scored about 66% on a full
-          held-out season.
+          Only {record.games} games so far: early numbers swing a lot. On a full held-out season (2025-26, tested
+          once, before this season) the model was right 68.8% of the time.
         </p>
       )}
 
