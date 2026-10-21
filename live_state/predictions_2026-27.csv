@@ -1,0 +1,4 @@
+game_id,game_date,tip_off_et,home_team,away_team,p_home,final,report,predicted_at,elo_diff,home_court,point_diff_last10_diff,win_pct_last10_diff,win_pct_last5_diff,rest_days_diff,back_to_back_diff,exp_missing_minutes_diff,starters_out_diff,exp_missing_value_diff,exp_stars_missing_diff
+espn-401909088,2026-10-20 00:00:00,2026-10-20 15:00:00,DET,BOS,0.5556764608913393,True,2026-10-20_02_00PM,2026-10-20T22:26,1.4080893386612843,1,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,0.0
+espn-401909089,2026-10-20 00:00:00,2026-10-20 19:00:00,NYK,PHI,0.6700269985462067,True,2026-10-20_06_00PM,2026-10-20T22:26,100.42080061248134,1,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,0.0
+espn-401909090,2026-10-20 00:00:00,2026-10-20 21:50:00,SAS,OKC,0.5916066649137881,True,2026-10-20_08_30PM,2026-10-20T22:26,31.43382206914498,1,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,0.0

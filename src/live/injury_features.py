@@ -82,10 +82,10 @@ def history_logs(value_state: pd.DataFrame, before: pd.Timestamp) -> pd.DataFram
         season=np.where(value_state["name_key"] == LEAGUE_KEY, HISTORY_SEASON, last_season),
         GAME_DATE=before - pd.Timedelta(days=1), PLAYER_ID=value_state["name_key"],
         PTS=value_state["gs_sum"], MIN=value_state["min_sum"])
-    for column in BOX_COLUMNS:
+    for column in [*BOX_COLUMNS, "PLUS_MINUS"]:
         if column not in ("PTS", "MIN"):
             rows[column] = 0
-    return rows[["season", "PLAYER_ID", "name_key", "GAME_DATE", *BOX_COLUMNS]]
+    return rows[["season", "PLAYER_ID", "name_key", "GAME_DATE", *BOX_COLUMNS, "PLUS_MINUS"]]
 
 
 def history_listings(listing_state: pd.DataFrame, before: pd.Timestamp) -> pd.DataFrame:
@@ -109,6 +109,10 @@ def injury_inputs(day: pd.Timestamp, season: str, listed: pd.DataFrame, season_l
                         *pd.to_datetime(season_listings["game_date"]).tolist()])
     logs = pd.concat([history_logs(value_state, season_start), season_logs[season_logs["GAME_DATE"] < day]],
                      ignore_index=True)
+    # Set types explicitly: an empty season log (opening night) would otherwise make these "object".
+    stats = [*BOX_COLUMNS, "PLUS_MINUS"]
+    logs[stats] = logs[stats].fillna(0).astype(float)
+    logs["GAME_DATE"] = pd.to_datetime(logs["GAME_DATE"])
 
     players = listed[listed["status"].isin(STATUSES)].copy()
     players = players.assign(name_key=players["player"].map(live_key), game_date=day, season=season)

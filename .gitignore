@@ -33,3 +33,8 @@ data/processed/*
 *.tmp
 *.log
 logs/
+
+# Website (Next.js)
+web/node_modules/
+web/.next/
+web/next-env.d.ts

@@ -22,6 +22,8 @@ from src.live.espn import box_score
 from src.live.injury_features import BOX_COLUMNS, live_key
 from src.live.team_features import STATE_DIR
 
+LOG_COLUMNS = [*BOX_COLUMNS, "PLUS_MINUS"]   # plus-minus is averaged by the training code (not a model input)
+
 REPORT_URL = "https://ak-static.cms.nba.com/referee/injury/Injury-Report_{stamp}.pdf"
 LIVE_REPORT_DIR = RAW_DATA_DIR / "injury_reports_live"
 EARLIEST_REPORT_HOUR = 9          # no reports before 9:00 AM ET
@@ -101,7 +103,7 @@ def listings_path(season: str):
 def load_box_scores(season: str) -> pd.DataFrame:
     path = box_scores_path(season)
     if not path.exists():
-        return pd.DataFrame(columns=["game_id", "game_date", "team", "player", *BOX_COLUMNS])
+        return pd.DataFrame(columns=["game_id", "game_date", "team", "player", *LOG_COLUMNS])
     return pd.read_csv(path, dtype={"game_id": str}, parse_dates=["game_date"])
 
 
@@ -113,7 +115,7 @@ def update_box_scores(season: str, finished: pd.DataFrame) -> pd.DataFrame:
                                                                               game_date=game.game_date)
             for game in new.itertuples()]
     if rows:
-        added = pd.concat(rows, ignore_index=True)[["game_id", "game_date", "team", "player", *BOX_COLUMNS]]
+        added = pd.concat(rows, ignore_index=True)[["game_id", "game_date", "team", "player", *LOG_COLUMNS]]
         saved = pd.concat([saved, added], ignore_index=True)
         saved.to_csv(box_scores_path(season), index=False)
     return saved
@@ -122,7 +124,7 @@ def update_box_scores(season: str, finished: pd.DataFrame) -> pd.DataFrame:
 def season_logs(box_scores: pd.DataFrame, season: str) -> pd.DataFrame:
     """Saved box scores in the player-log format the injury features use."""
     key = box_scores["player"].map(live_key)
-    return box_scores[["game_date", *BOX_COLUMNS]].rename(columns={"game_date": "GAME_DATE"}).assign(
+    return box_scores[["game_date", *LOG_COLUMNS]].rename(columns={"game_date": "GAME_DATE"}).assign(
         season=season, name_key=key, PLAYER_ID=key)
 
 

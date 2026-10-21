@@ -1,0 +1,100 @@
+{
+ "updated_et": "2026-10-20T22:27",
+ "season": "2026-27",
+ "model": {
+  "description": "Final NBA model (logistic regression, no intercept), retrained on all six seasons",
+  "training_games": 7230,
+  "trained_on": [
+   "2020-21",
+   "2021-22",
+   "2022-23",
+   "2023-24",
+   "2024-25",
+   "2025-26"
+  ]
+ },
+ "record": {
+  "games": 2,
+  "correct": 1,
+  "accuracy": 0.5,
+  "log_loss": 0.8482,
+  "brier": 0.3232
+ },
+ "games": [
+  {
+   "id": "espn-401909088",
+   "date": "2026-10-20",
+   "tip_off_et": "2026-10-20T15:00",
+   "home": "DET",
+   "away": "BOS",
+   "p_home": 0.5557,
+   "final": true,
+   "report": "2026-10-20_02_00PM",
+   "home_score": 121,
+   "away_score": 113,
+   "contributions": {
+    "elo_diff": 0.0069,
+    "home_court": 0.2167,
+    "point_diff_last10_diff": 0.0,
+    "win_pct_last10_diff": -0.0,
+    "win_pct_last5_diff": -0.0,
+    "rest_days_diff": 0.0,
+    "back_to_back_diff": 0.0,
+    "exp_missing_minutes_diff": 0.0,
+    "starters_out_diff": 0.0,
+    "exp_missing_value_diff": 0.0,
+    "exp_stars_missing_diff": 0.0
+   }
+  },
+  {
+   "id": "espn-401909089",
+   "date": "2026-10-20",
+   "tip_off_et": "2026-10-20T19:00",
+   "home": "NYK",
+   "away": "PHI",
+   "p_home": 0.67,
+   "final": true,
+   "report": "2026-10-20_06_00PM",
+   "home_score": 100,
+   "away_score": 106,
+   "contributions": {
+    "elo_diff": 0.4916,
+    "home_court": 0.2167,
+    "point_diff_last10_diff": 0.0,
+    "win_pct_last10_diff": -0.0,
+    "win_pct_last5_diff": -0.0,
+    "rest_days_diff": 0.0,
+    "back_to_back_diff": 0.0,
+    "exp_missing_minutes_diff": 0.0,
+    "starters_out_diff": 0.0,
+    "exp_missing_value_diff": 0.0,
+    "exp_stars_missing_diff": 0.0
+   }
+  },
+  {
+   "id": "espn-401909090",
+   "date": "2026-10-20",
+   "tip_off_et": "2026-10-20T21:50",
+   "home": "SAS",
+   "away": "OKC",
+   "p_home": 0.5916,
+   "final": true,
+   "report": "2026-10-20_08_30PM",
+   "home_score": null,
+   "away_score": null,
+   "contributions": {
+    "elo_diff": 0.1539,
+    "home_court": 0.2167,
+    "point_diff_last10_diff": 0.0,
+    "win_pct_last10_diff": -0.0,
+    "win_pct_last5_diff": -0.0,
+    "rest_days_diff": 0.0,
+    "back_to_back_diff": 0.0,
+    "exp_missing_minutes_diff": 0.0,
+    "starters_out_diff": 0.0,
+    "exp_missing_value_diff": 0.0,
+    "exp_stars_missing_diff": 0.0
+   }
+  }
+ ]
+}

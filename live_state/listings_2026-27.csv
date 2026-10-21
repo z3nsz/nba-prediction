@@ -1,0 +1,17 @@
+game_id,game_date,team_abbr,player,status,report,final
+espn-401909088,2026-10-20,BOS,"Carter, Devin",Out,2026-10-20_02_00PM,True
+espn-401909088,2026-10-20,DET,"Harkless, Elijah",Out,2026-10-20_02_00PM,True
+espn-401909088,2026-10-20,DET,"Jones, Isaac",Out,2026-10-20_02_00PM,True
+espn-401909088,2026-10-20,DET,"Onyenso, Ugonna",Out,2026-10-20_02_00PM,True
+espn-401909088,2026-10-20,DET,"Prince, Taurean",Out,2026-10-20_02_00PM,True
+espn-401909089,2026-10-20,PHI,"Barlow, Dominick",Out,2026-10-20_06_00PM,True
+espn-401909089,2026-10-20,PHI,"Bona, Adem",Questionable,2026-10-20_06_00PM,True
+espn-401909089,2026-10-20,PHI,"Fall, Tacko",Out,2026-10-20_06_00PM,True
+espn-401909089,2026-10-20,PHI,"Hukporti, Ariel",Out,2026-10-20_06_00PM,True
+espn-401909089,2026-10-20,PHI,"Simons, Anfernee",Questionable,2026-10-20_06_00PM,True
+espn-401909089,2026-10-20,PHI,"Wade, Dean",Questionable,2026-10-20_06_00PM,True
+espn-401909090,2026-10-20,OKC,"Oweh, Otega",Out,2026-10-20_08_30PM,True
+espn-401909090,2026-10-20,OKC,"Sorber, Thomas",Out,2026-10-20_08_30PM,True
+espn-401909090,2026-10-20,OKC,"Topic, Nikola",Out,2026-10-20_08_30PM,True
+espn-401909090,2026-10-20,SAS,"Harris, Tobias",Out,2026-10-20_08_30PM,True
+espn-401909090,2026-10-20,SAS,"Quaintance, Jayden",Out,2026-10-20_08_30PM,True
