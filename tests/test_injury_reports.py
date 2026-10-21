@@ -57,3 +57,10 @@ def test_statuses_times_and_names_are_parsed(parsed_samples):
 ])
 def test_name_formats_normalize_to_the_same_key(report_name, log_name):
     assert normalize_player_name(report_name) == normalize_player_name(log_name)
+
+
+def test_tip_off_times_without_am_pm_are_all_pm():
+    """'12:30' is 12:30 PM, '07:00' is 7 PM and '11:00' is 11 PM (late West Coast games), never 11 AM."""
+    from src.injury_reports import tip_off_times
+    times = tip_off_times(pd.Series(["03/24/2026"] * 3), pd.Series(["12:30 (ET)", "07:00 (ET)", "11:00 (ET)"]))
+    assert [t.strftime("%H:%M") for t in times] == ["12:30", "19:00", "23:00"]

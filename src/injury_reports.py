@@ -73,6 +73,20 @@ def page_lines(page, previous_starts: list[float] | None) -> tuple[str | None, l
     return (stamp.group(0) if stamp else None), starts, ordered
 
 
+def tip_off_times(game_dates: pd.Series, game_times: pd.Series) -> pd.Series:
+    """Combine '03/24/2026' and '11:00 (ET)' into an Eastern-time timestamp.
+
+    Times are printed without AM/PM, and "12:30" parses as 00:30. Regular-season games tip between noon and
+    11 PM ET, so every printed time is PM: add 12 to hours 0-11 (12:30 -> 12:30 PM, 7:00 -> 7 PM,
+    11:00 -> 11 PM). Until 2026-10-21 this covered only hours 0-10, which read late "11:00" tip-offs as
+    11 AM; that affected 15 games of 2025-26 and none before.
+    """
+    tips = pd.to_datetime(game_dates + " " + game_times.str.replace(r"\s*\(ET\)", "", regex=True),
+                          format="%m/%d/%Y %I:%M", errors="coerce")
+    is_pm = tips.dt.hour.between(0, 11)
+    return tips.where(~is_pm, tips + pd.Timedelta(hours=12))
+
+
 def parse_report(path: Path) -> pd.DataFrame:
     """One row per player listed in the report, plus rows for teams marked NOT YET SUBMITTED."""
     rows, report_stamp, starts = [], None, None
@@ -98,12 +112,7 @@ def parse_report(path: Path) -> pd.DataFrame:
     report = pd.DataFrame(rows, columns=["game_date", "game_time", "matchup", "team", "player", "status"])
     match = REPORT_TIME_PATTERN.search(report_stamp or "")
     report["report_time"] = pd.to_datetime(f"{match.group(1)} {match.group(2)}", format="%m/%d/%y %I:%M %p") if match else pd.NaT
-    report["tip_off"] = pd.to_datetime(report["game_date"] + " " + report["game_time"].str.replace(r"\s*\(ET\)", "", regex=True),
-                                       format="%m/%d/%Y %I:%M", errors="coerce")
-    # Game times are printed without AM/PM, and "12:30" parses as 00:30. NBA games tip between
-    # 11 AM and 11 PM ET, so hours 0-10 are afternoon/evening: add 12 (12:30 -> 12:30 PM, 7:00 -> 7 PM).
-    is_afternoon_or_evening = report["tip_off"].dt.hour.between(0, 10)
-    report.loc[is_afternoon_or_evening, "tip_off"] += pd.Timedelta(hours=12)
+    report["tip_off"] = tip_off_times(report["game_date"], report["game_time"])
     report["source_file"] = path.name
     return report
 
