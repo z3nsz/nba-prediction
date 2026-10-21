@@ -70,6 +70,7 @@ def scoreboard(date: pd.Timestamp, cache: bool = True) -> pd.DataFrame:
             "completed": bool(event["status"]["type"].get("completed")),
             "status": event["status"]["type"].get("description"),
             "neutral_site": bool(competition.get("neutralSite")),
+            "note": " | ".join(n.get("headline", "") for n in competition.get("notes", [])),
         })
     return pd.DataFrame(rows)
 
