@@ -29,3 +29,15 @@ def test_track_record_counts_only_locked_games_with_results():
                           "home_score": [110, 100, 90, None], "away_score": [100, 105, 120, None]})
     record = track_record(games)
     assert record["games"] == 2 and record["correct"] == 2 and record["accuracy"] == 1.0
+
+
+def test_backfilled_details_only_for_games_that_reproduce_the_locked_prediction(capsys):
+    from src.live.predict import matching_locked
+    saved = pd.DataFrame({"game_id": ["espn-1", "espn-2"], "p_home": [0.6, 0.7], "report": ["r1", "r1"],
+                          "final": [True, True], "predicted_at": ["2026-10-20T18:00", "2026-10-20T18:00"]})
+    recomputed = pd.DataFrame({"game_id": ["espn-1", "espn-2"], "p_home": [0.6, 0.71], "report": ["r1", "r1"],
+                               "final": [True, True], "predicted_at": ["2026-10-22T10:00"] * 2})
+    kept = matching_locked(recomputed, saved)
+    assert kept["game_id"].tolist() == ["espn-1"]
+    assert kept["predicted_at"].tolist() == ["2026-10-20T18:00"]     # when it was locked, not when backfilled
+    assert "espn-2" in capsys.readouterr().out                         # mismatch is reported, not written

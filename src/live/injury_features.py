@@ -37,6 +37,7 @@ LEAGUE_KEY = "__league__"
 HISTORY_SEASON = "0000"   # sorts before every real season
 SUFFIX = re.compile(r"\b(jr|sr|ii|iii|iv)\b\.?", re.IGNORECASE)
 INJURY_INPUTS = ["exp_missing_minutes", "starters_out", "exp_missing_value", "exp_stars_missing"]
+PLAYER_DETAILS = ["avg_minutes", "avg_game_score", "p_play", "exp_missing_minutes"]
 
 
 def live_key(name: str) -> str:
@@ -98,12 +99,14 @@ def history_listings(listing_state: pd.DataFrame, before: pd.Timestamp) -> pd.Da
 # ---------------------------------------------------------------- the features
 
 def injury_inputs(day: pd.Timestamp, season: str, listed: pd.DataFrame, season_logs: pd.DataFrame,
-                  season_listings: pd.DataFrame, value_state: pd.DataFrame, listing_state: pd.DataFrame) -> pd.DataFrame:
+                  season_listings: pd.DataFrame, value_state: pd.DataFrame, listing_state: pd.DataFrame,
+                  with_players: bool = False):
     """Per-team injury inputs for `day`'s games.
 
     listed:          today's listed players: game_id, team_abbr, player, status
     season_logs:     this season's player logs before `day` (training format, live keys)
     season_listings: this season's listings before `day`: game_date, name_key, status, played
+    with_players:    also return each listed player's numbers (for the website)
     """
     season_start = min([day, *pd.to_datetime(season_logs["GAME_DATE"]).tolist(),
                         *pd.to_datetime(season_listings["game_date"]).tolist()])
@@ -117,7 +120,9 @@ def injury_inputs(day: pd.Timestamp, season: str, listed: pd.DataFrame, season_l
     players = listed[listed["status"].isin(STATUSES)].copy()
     players = players.assign(name_key=players["player"].map(live_key), game_date=day, season=season)
     if players.empty:
-        return pd.DataFrame(columns=["game_id", "team_abbr", *INJURY_INPUTS])
+        empty = pd.DataFrame(columns=["game_id", "team_abbr", *INJURY_INPUTS])
+        return (empty, pd.DataFrame(columns=["game_id", "team_abbr", "player", "status", *PLAYER_DETAILS])) \
+            if with_players else empty
     players = attach_expected_minutes(players, expected_minutes_table(logs)).reset_index(drop=True)
     players[["avg_minutes", "avg_game_score"]] = players[["avg_minutes", "avg_game_score"]].fillna(0)
 
@@ -140,7 +145,10 @@ def injury_inputs(day: pd.Timestamp, season: str, listed: pd.DataFrame, season_l
     players["starters_out"] = (is_out & (players["avg_minutes"] >= STARTER_MINUTES)).astype(int)
     players["exp_missing_value"] = players["rate_above_league"] * players["avg_minutes"] * miss
     players["exp_stars_missing"] = (players["avg_game_score"] >= STAR_GAME_SCORE) * miss
-    return players.groupby(["game_id", "team_abbr"])[INJURY_INPUTS].sum().reset_index()
+    per_team = players.groupby(["game_id", "team_abbr"])[INJURY_INPUTS].sum().reset_index()
+    if with_players:
+        return per_team, players[["game_id", "team_abbr", "player", "status", *PLAYER_DETAILS]]
+    return per_team
 
 
 def injury_diffs(games: pd.DataFrame, per_team: pd.DataFrame, known: pd.DataFrame) -> pd.DataFrame:

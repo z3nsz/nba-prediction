@@ -1,0 +1,86 @@
+{
+ "id": "espn-401909089",
+ "computed_et": "2026-10-20T22:26",
+ "final": true,
+ "report": "2026-10-20_06_00PM",
+ "cutoff_et": "2026-10-20T18:00",
+ "elo_home_win_prob": 0.76,
+ "inputs": {
+  "elo_diff": 100.4208,
+  "home_court": 1.0,
+  "point_diff_last10_diff": 0.0,
+  "win_pct_last10_diff": 0.0,
+  "win_pct_last5_diff": 0.0,
+  "rest_days_diff": 0.0,
+  "back_to_back_diff": 0.0,
+  "exp_missing_minutes_diff": 0.0,
+  "starters_out_diff": 0.0,
+  "exp_missing_value_diff": 0.0,
+  "exp_stars_missing_diff": 0.0
+ },
+ "home": {
+  "team": "NYK",
+  "elo": 1617.0,
+  "win_pct_last10": null,
+  "win_pct_last5": null,
+  "point_diff_last10": null,
+  "rest_days": null,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": []
+ },
+ "away": {
+  "team": "PHI",
+  "elo": 1516.5,
+  "win_pct_last10": null,
+  "win_pct_last5": null,
+  "point_diff_last10": null,
+  "rest_days": null,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Barlow, Dominick",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Bona, Adem",
+    "status": "Questionable",
+    "avg_minutes": 0.0,
+    "p_play": 0.65,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Fall, Tacko",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Hukporti, Ariel",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Simons, Anfernee",
+    "status": "Questionable",
+    "avg_minutes": 0.0,
+    "p_play": 0.555,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Wade, Dean",
+    "status": "Questionable",
+    "avg_minutes": 0.0,
+    "p_play": 0.428,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ }
+}

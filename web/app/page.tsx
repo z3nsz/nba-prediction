@@ -1,22 +1,6 @@
+import Link from "next/link";
 import { FACTORS, Game, TEAMS, loadData } from "../lib/data";
-
-const pct = (p: number) => `${Math.round(p * 100)}%`;
-
-function tipTime(iso: string) {
-  const [, time] = iso.split("T");
-  const [h, m] = time.split(":").map(Number);
-  return `${((h + 11) % 12) + 1}:${String(m).padStart(2, "0")} ${h < 12 ? "AM" : "PM"} ET`;
-}
-
-function longDate(date: string) {
-  return new Date(`${date}T12:00:00`).toLocaleDateString("en-US", { weekday: "long", month: "long", day: "numeric" });
-}
-
-function reportTime(stamp: string | null) {
-  if (!stamp) return "no injury report yet";
-  const [, hh, mm, ampm] = stamp.match(/_(\d\d)_(\d\d)(AM|PM)$/) ?? [];
-  return `injury report ${Number(hh)}:${mm} ${ampm}`;
-}
+import { Logo, longDate, pct, reportTime, tipTime } from "../lib/ui";
 
 function topFactors(game: Game) {
   return Object.entries(game.contributions)
@@ -32,7 +16,7 @@ function GameCard({ game }: { game: Game }) {
   const pick = game.p_home >= 0.5 ? game.home : game.away;
   const correct = done && (game.p_home >= 0.5) === homeWon;
   return (
-    <article className="card">
+    <Link href={`/game/${game.id}`} className="card">
       <div className="card-top">
         <span className="time">{tipTime(game.tip_off_et)}</span>
         {done ? (
@@ -47,8 +31,8 @@ function GameCard({ game }: { game: Game }) {
         { team: game.home, p: game.p_home, score: game.home_score, tag: "Home" }].map((side) => (
         <div className={`team ${side.team === pick ? "pick" : ""}`} key={side.team}>
           <div className="team-name">
-            <span className="abbr">{side.team}</span>
-            <span className="full">{TEAMS[side.team] ?? side.team}</span>
+            <Logo team={side.team} />
+            <span className="abbr" title={TEAMS[side.team]}>{side.team}</span>
             <span className="tag">{side.tag}</span>
           </div>
           <div className="team-right">
@@ -68,8 +52,11 @@ function GameCard({ game }: { game: Game }) {
           </li>
         ))}
       </ul>
-      <p className="source">{reportTime(game.report)}</p>
-    </article>
+      <p className="source">
+        <span>{reportTime(game.report)}</span>
+        <span className="more">Details →</span>
+      </p>
+    </Link>
   );
 }
 

@@ -80,8 +80,11 @@ def espn_season_games(season: str, first_date: pd.Timestamp, through_date: pd.Ti
     return pd.DataFrame(rows)
 
 
-def team_features(history: pd.DataFrame, season_games: pd.DataFrame) -> pd.DataFrame:
-    """Model team inputs for every game in `season_games` that has no final score yet."""
+def team_features(history: pd.DataFrame, season_games: pd.DataFrame, details: bool = False) -> pd.DataFrame:
+    """Model team inputs for every game in `season_games` that has no final score yet.
+
+    details=True also returns each side's raw numbers (Elo, form, rest) for the website; missing = NaN.
+    """
     games = pd.concat([history, season_games.drop(columns="tip_off_utc", errors="ignore")], ignore_index=True)
     games = games.sort_values(["game_date", "game_id"]).reset_index(drop=True)
     upcoming = games[games["home_score"].isna()]
@@ -105,7 +108,19 @@ def team_features(history: pd.DataFrame, season_games: pd.DataFrame) -> pd.DataF
         "rest_days_diff": (home["days_since_last_game"] - away["days_since_last_game"]).to_numpy(),
         "back_to_back_diff": (away["is_back_to_back"] - home["is_back_to_back"]).to_numpy(),
     })
-    return features.fillna(0)
+    features = features.fillna(0)
+    if details:
+        raw = {"elo": (elo["home_elo"], elo["away_elo"]),
+               "win_pct_last10": (home["win_pct_last10"], away["win_pct_last10"]),
+               "win_pct_last5": (home["win_pct_last5"], away["win_pct_last5"]),
+               "point_diff_last10": (home["avg_point_diff_last10"], away["avg_point_diff_last10"]),
+               "rest_days": (home["days_since_last_game"], away["days_since_last_game"]),
+               "back_to_back": (home["is_back_to_back"], away["is_back_to_back"])}
+        for name, (home_values, away_values) in raw.items():
+            features[f"home_{name}"] = home_values.to_numpy()
+            features[f"away_{name}"] = away_values.to_numpy()
+        features["elo_home_win_prob"] = elo["elo_home_win_prob"].to_numpy()
+    return features
 
 
 if __name__ == "__main__":

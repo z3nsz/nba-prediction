@@ -12,7 +12,8 @@ can be rebuilt later with exactly the information that existed before its games.
 
 Outputs:
     live_state/predictions_<season>.csv    every prediction (the track record), committed by the job
-    web/public/data/predictions.json       what the website reads
+    web/public/data/predictions.json       what the website reads (every game, summary)
+    web/public/data/games/<game_id>.json   one game's details page: Elo, form, rest, injured players
 """
 
 import argparse
@@ -36,6 +37,7 @@ SEASON_START = pd.Timestamp("2026-10-20")
 MINUTES_BEFORE_TIP = 60
 PREDICTIONS_PATH = STATE_DIR / f"predictions_{SEASON}.csv"
 SITE_DATA_PATH = PROJECT_ROOT / "web" / "public" / "data" / "predictions.json"
+GAME_DETAILS_DIR = SITE_DATA_PATH.parent / "games"
 INPUTS = TEAM_INPUTS + [f"{name}_diff" for name in INJURY_INPUTS]
 PREDICTION_COLUMNS = ["game_id", "game_date", "tip_off_et", "home_team", "away_team", "p_home", "final",
                       "report", "predicted_at", *INPUTS]
@@ -71,11 +73,19 @@ def cutoffs(games: pd.DataFrame, report: pd.DataFrame) -> pd.Series:
     return pd.Series(pd.to_datetime(tips), index=games.index) - pd.Timedelta(minutes=MINUTES_BEFORE_TIP)
 
 
-def injury_table(day, games, now_et, box_scores) -> tuple[pd.DataFrame, pd.DataFrame]:
-    """Injury inputs (away minus home) per game, and the report / final flag used for each game."""
-    newest = latest_report(now_et)
-    report_now = parsed(newest) if newest else pd.DataFrame(columns=["matchup", "tip_off"])
-    games = games.assign(cutoff=cutoffs(games, report_now))
+def injury_table(day, games, now_et, box_scores):
+    """Injury inputs (away minus home) per game; the report, final flag and cutoff used for each game;
+    and, for the website, each listed player's numbers and which teams' reports were known."""
+    # Tip-off times come from the report published before ESPN's cutoff (it always lists the game), not from
+    # the newest report: that way a game's cutoff is the same whenever the job runs, even days later.
+    espn_cutoff = to_eastern(games["tip_off_utc"]) - pd.Timedelta(minutes=MINUTES_BEFORE_TIP)
+    probe = espn_cutoff.where(espn_cutoff < now_et, now_et)
+    games = games.assign(cutoff=espn_cutoff)
+    for as_of in probe.unique():
+        stamp = latest_report(as_of)
+        if stamp:
+            same = probe == as_of
+            games.loc[same, "cutoff"] = cutoffs(games[same], parsed(stamp))
     games["final"] = now_et >= games["cutoff"]
     games["as_of"] = games["cutoff"].where(games["final"], now_et)
 
@@ -95,11 +105,13 @@ def injury_table(day, games, now_et, box_scores) -> tuple[pd.DataFrame, pd.DataF
 
     past = box_scores[box_scores["game_date"] < day]
     listings = season_listings(load_listings(SEASON), box_scores)
-    per_team = injury_inputs(day, SEASON, listed, season_logs(past, SEASON),
-                             listings[listings["game_date"] < day].drop(columns="game_id"),
-                             pd.read_csv(VALUE_STATE_PATH), pd.read_csv(LISTING_STATE_PATH))
+    per_team, players = injury_inputs(day, SEASON, listed, season_logs(past, SEASON),
+                                      listings[listings["game_date"] < day].drop(columns="game_id"),
+                                      pd.read_csv(VALUE_STATE_PATH), pd.read_csv(LISTING_STATE_PATH),
+                                      with_players=True)
     diffs = injury_diffs(games, per_team, known)
-    return diffs[["game_id", *[f"{name}_diff" for name in INJURY_INPUTS]]], games[["game_id", "final", "report"]]
+    return (diffs[["game_id", *[f"{name}_diff" for name in INJURY_INPUTS]]],
+            games[["game_id", "final", "report", "cutoff"]], players, known)
 
 
 def run(day: pd.Timestamp | None = None, now: pd.Timestamp | None = None) -> pd.DataFrame:
@@ -126,14 +138,25 @@ def run(day: pd.Timestamp | None = None, now: pd.Timestamp | None = None) -> pd.
     day_games = season_games[season_games["game_date"] == day].assign(home_score=np.nan, away_score=np.nan,
                                                                       home_team_win=np.nan)
     todo = day_games[~day_games["game_id"].isin(locked)]
-    if not todo.empty:
-        team = team_features(load_history(), pd.concat([known_games, todo], ignore_index=True))
-        injury, flags = injury_table(day, todo.reset_index(drop=True), now_et, box_scores)
-        rows = todo.merge(team, on="game_id").merge(injury, on="game_id").merge(flags, on="game_id")
+    # Locked games without a details page (e.g. locked before details existed): recompute them only to write
+    # the page. Their locked prediction is never changed.
+    backfill = day_games[day_games["game_id"].isin(locked)
+                         & ~day_games["game_id"].map(lambda g: (GAME_DETAILS_DIR / f"{g}.json").exists())]
+    compute = pd.concat([todo, backfill], ignore_index=True)
+    rows = pd.DataFrame(columns=PREDICTION_COLUMNS)
+    if not compute.empty:
+        team = team_features(load_history(), pd.concat([known_games, compute], ignore_index=True), details=True)
+        injury, flags, players, known = injury_table(day, compute, now_et, box_scores)
+        rows = compute.merge(team, on="game_id").merge(injury, on="game_id").merge(flags, on="game_id")
         rows = rows.assign(p_home=predict(load_model(), rows), tip_off_et=to_eastern(rows["tip_off_utc"]),
-                           predicted_at=now_et.isoformat(timespec="minutes"))[PREDICTION_COLUMNS]
-        rows = rows[[changed(row, saved) for _, row in rows.iterrows()]]
-    if not todo.empty and not rows.empty:
+                           predicted_at=now_et.isoformat(timespec="minutes"))
+        refilled = rows[rows["game_id"].isin(backfill["game_id"])]
+        write_game_details(matching_locked(refilled, saved), players, known)
+        rows = rows[rows["game_id"].isin(todo["game_id"])]
+        rows = rows[np.array([changed(row, saved) for _, row in rows.iterrows()], dtype=bool)]
+        write_game_details(rows, players, known)
+        rows = rows[PREDICTION_COLUMNS]
+    if not rows.empty:
         saved = pd.concat([saved[~saved["game_id"].isin(rows["game_id"])], rows], ignore_index=True)
         saved = saved.sort_values(["game_date", "tip_off_et", "game_id"]).reset_index(drop=True)
         PREDICTIONS_PATH.parent.mkdir(exist_ok=True)
@@ -141,6 +164,24 @@ def run(day: pd.Timestamp | None = None, now: pd.Timestamp | None = None) -> pd.
 
     write_site_data(saved, season_games, now_et)
     return saved[saved["game_date"] == day]
+
+
+def matching_locked(rows: pd.DataFrame, saved: pd.DataFrame) -> pd.DataFrame:
+    """Recomputed locked games whose probability and report equal the locked ones (the details then describe
+    exactly the published prediction). Any mismatch is reported and skipped, never written over."""
+    locked = saved.set_index("game_id")
+    keep = []
+    for _, row in rows.iterrows():
+        old = locked.loc[row["game_id"]]
+        same = np.isclose(float(old["p_home"]), row["p_home"], atol=1e-9) and old["report"] == row["report"]
+        if not same:
+            print(f"warning: {row['game_id']} recomputes to {row['p_home']:.4f} (locked {float(old['p_home']):.4f}); "
+                  "details page skipped")
+        keep.append(same)
+    # The page shows when the locked prediction was made, not when the page was backfilled.
+    rows = rows[np.array(keep, dtype=bool)]
+    return rows.assign(predicted_at=[locked.loc[g, "predicted_at"] for g in rows["game_id"]],
+                             final=True)
 
 
 def changed(row: pd.Series, saved: pd.DataFrame) -> bool:
@@ -155,6 +196,41 @@ def changed(row: pd.Series, saved: pd.DataFrame) -> bool:
 
 
 # ---------------------------------------------------------------- website data
+
+def number(value, digits: int = 3):
+    return None if pd.isna(value) else round(float(value), digits)
+
+
+def write_game_details(rows: pd.DataFrame, players: pd.DataFrame, known: pd.DataFrame) -> None:
+    """One JSON file per game with the raw numbers behind its prediction (NaN = no games yet this season)."""
+    GAME_DETAILS_DIR.mkdir(parents=True, exist_ok=True)
+    is_known = known.set_index(["game_id", "team_abbr"])["known"] if len(known) else pd.Series(dtype=bool)
+    for _, game in rows.iterrows():
+        sides = {}
+        for side in ["home", "away"]:
+            team = game[f"{side}_team"]
+            listed = players[(players["game_id"] == game["game_id"]) & (players["team_abbr"] == team)]
+            listed = listed.sort_values("exp_missing_minutes", ascending=False)
+            sides[side] = {
+                "team": team,
+                "elo": number(game[f"{side}_elo"], 1),
+                "win_pct_last10": number(game[f"{side}_win_pct_last10"]),
+                "win_pct_last5": number(game[f"{side}_win_pct_last5"]),
+                "point_diff_last10": number(game[f"{side}_point_diff_last10"], 1),
+                "rest_days": number(game[f"{side}_rest_days"], 0),
+                "back_to_back": bool(game[f"{side}_back_to_back"] == 1),
+                "report_known": bool(is_known.get((game["game_id"], team), False)),
+                "injuries": [{"player": p.player, "status": p.status, "avg_minutes": number(p.avg_minutes, 1),
+                              "p_play": number(p.p_play), "exp_missing_minutes": number(p.exp_missing_minutes, 1)}
+                             for p in listed.itertuples()],
+            }
+        details = {"id": game["game_id"], "computed_et": game["predicted_at"], "final": bool(game["final"]),
+                   "report": None if pd.isna(game["report"]) else game["report"],
+                   "cutoff_et": None if pd.isna(game["cutoff"]) else game["cutoff"].isoformat(timespec="minutes"),
+                   "elo_home_win_prob": number(game["elo_home_win_prob"]),
+                   "inputs": {name: number(game[name], 4) for name in INPUTS}, **sides}
+        (GAME_DETAILS_DIR / f"{game['game_id']}.json").write_text(json.dumps(details, indent=1) + "\n")
+
 
 def contributions(row: pd.Series, model: dict) -> dict:
     """Each input's push on the home team's log-odds (positive helps the home team)."""
