@@ -1,0 +1,94 @@
+{
+ "id": "espn-401909093",
+ "computed_et": "2026-10-22T01:21",
+ "final": false,
+ "report": "2026-10-21_11_45PM",
+ "cutoff_et": "2026-10-22T18:00",
+ "elo_home_win_prob": 0.559,
+ "inputs": {
+  "elo_diff": -59.0119,
+  "home_court": 1.0,
+  "point_diff_last10_diff": 0.0,
+  "win_pct_last10_diff": 0.0,
+  "win_pct_last5_diff": 0.0,
+  "rest_days_diff": 0.0,
+  "back_to_back_diff": 0.0,
+  "exp_missing_minutes_diff": 0.0,
+  "starters_out_diff": 0.0,
+  "exp_missing_value_diff": 0.0,
+  "exp_stars_missing_diff": 0.0
+ },
+ "home": {
+  "team": "PHI",
+  "elo": 1530.5,
+  "win_pct_last10": 1.0,
+  "win_pct_last5": 1.0,
+  "point_diff_last10": 6.0,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Barlow, Dominick",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Fall, Tacko",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Hukporti, Ariel",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Wade, Dean",
+    "status": "Questionable",
+    "avg_minutes": 0.0,
+    "p_play": 0.412,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ },
+ "away": {
+  "team": "CLE",
+  "elo": 1589.5,
+  "win_pct_last10": null,
+  "win_pct_last5": null,
+  "point_diff_last10": null,
+  "rest_days": null,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Allen, Jarrett",
+    "status": "Questionable",
+    "avg_minutes": 0.0,
+    "p_play": 0.648,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Diop, Khalifa",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.001,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Tomlin, Nae'Qwan",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ }
+}
