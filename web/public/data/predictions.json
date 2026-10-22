@@ -1,5 +1,5 @@
 {
- "updated_et": "2026-10-22T14:29",
+ "updated_et": "2026-10-22T17:54",
  "season": "2026-27",
  "model": {
   "description": "Final NBA model (logistic regression, no intercept), retrained on all six seasons",
@@ -379,7 +379,7 @@
    "away": "CLE",
    "p_home": 0.482,
    "final": false,
-   "report": "2026-10-22_02_15PM",
+   "report": "2026-10-22_05_45PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
@@ -404,7 +404,7 @@
    "away": "DEN",
    "p_home": 0.6138,
    "final": false,
-   "report": "2026-10-22_02_15PM",
+   "report": "2026-10-22_05_45PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
