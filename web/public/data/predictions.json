@@ -1,5 +1,5 @@
 {
- "updated_et": "2026-10-23T18:01",
+ "updated_et": "2026-10-23T19:01",
  "season": "2026-27",
  "model": {
   "description": "Final NBA model (logistic regression, no intercept), retrained on all six seasons",
@@ -14,11 +14,11 @@
   ]
  },
  "record": {
-  "games": 16,
+  "games": 17,
   "correct": 9,
-  "accuracy": 0.5625,
-  "log_loss": 0.6143,
-  "brier": 0.2144
+  "accuracy": 0.5294,
+  "log_loss": 0.6416,
+  "brier": 0.2274
  },
  "games": [
   {
@@ -430,8 +430,8 @@
    "p_home": 0.6601,
    "final": true,
    "report": "2026-10-23_03_00PM",
-   "home_score": null,
-   "away_score": null,
+   "home_score": 125,
+   "away_score": 132,
    "contributions": {
     "elo_diff": -0.0004,
     "home_court": 0.2167,
@@ -578,8 +578,8 @@
    "home": "MIA",
    "away": "DET",
    "p_home": 0.3729,
-   "final": false,
-   "report": "2026-10-23_06_00PM",
+   "final": true,
+   "report": "2026-10-23_07_00PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
@@ -604,7 +604,7 @@
    "away": "HOU",
    "p_home": 0.6492,
    "final": false,
-   "report": "2026-10-23_06_00PM",
+   "report": "2026-10-23_07_00PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
@@ -629,7 +629,7 @@
    "away": "NOP",
    "p_home": 0.3831,
    "final": false,
-   "report": "2026-10-23_06_00PM",
+   "report": "2026-10-23_07_00PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
@@ -654,7 +654,7 @@
    "away": "MEM",
    "p_home": 0.6892,
    "final": false,
-   "report": "2026-10-23_06_00PM",
+   "report": "2026-10-23_07_00PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
@@ -679,7 +679,7 @@
    "away": "LAC",
    "p_home": 0.5806,
    "final": false,
-   "report": "2026-10-23_06_00PM",
+   "report": "2026-10-23_07_00PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
@@ -704,7 +704,7 @@
    "away": "POR",
    "p_home": 0.2629,
    "final": false,
-   "report": "2026-10-23_06_00PM",
+   "report": "2026-10-23_07_00PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
