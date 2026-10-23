@@ -1,8 +1,8 @@
 {
  "id": "espn-401909841",
- "computed_et": "2026-10-21T20:37",
- "final": false,
- "report": "2026-10-21_08_30PM",
+ "computed_et": "2026-10-22T20:17",
+ "final": true,
+ "report": "2026-10-21_09_00PM",
  "cutoff_et": "2026-10-21T21:00",
  "elo_home_win_prob": 0.6,
  "inputs": {
@@ -29,13 +29,6 @@
   "report_known": true,
   "injuries": [
    {
-    "player": "Sharpe, Shaedon",
-    "status": "Out",
-    "avg_minutes": 0.0,
-    "p_play": 0.0,
-    "exp_missing_minutes": 0.0
-   },
-   {
     "player": "Avdija, Deni",
     "status": "Questionable",
     "avg_minutes": 0.0,
@@ -54,6 +47,13 @@
     "status": "Probable",
     "avg_minutes": 0.0,
     "p_play": 0.907,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Sharpe, Shaedon",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
     "exp_missing_minutes": 0.0
    },
    {
@@ -77,9 +77,9 @@
   "injuries": [
    {
     "player": "Kennard, Luke",
-    "status": "Questionable",
+    "status": "Out",
     "avg_minutes": 0.0,
-    "p_play": 0.677,
+    "p_play": 0.0,
     "exp_missing_minutes": 0.0
    },
    {
