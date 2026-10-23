@@ -1,5 +1,5 @@
 {
- "updated_et": "2026-10-22T20:17",
+ "updated_et": "2026-10-22T20:31",
  "season": "2026-27",
  "model": {
   "description": "Final NBA model (logistic regression, no intercept), retrained on all six seasons",
@@ -403,8 +403,8 @@
    "home": "OKC",
    "away": "DEN",
    "p_home": 0.6138,
-   "final": false,
-   "report": "2026-10-22_08_15PM",
+   "final": true,
+   "report": "2026-10-22_08_30PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
