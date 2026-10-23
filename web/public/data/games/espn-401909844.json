@@ -1,0 +1,129 @@
+{
+ "id": "espn-401909844",
+ "computed_et": "2026-10-23T01:18",
+ "final": false,
+ "report": "2026-10-22_11_45PM",
+ "cutoff_et": "2026-10-23T18:00",
+ "elo_home_win_prob": 0.638,
+ "inputs": {
+  "elo_diff": -1.4744,
+  "home_court": 1.0,
+  "point_diff_last10_diff": 21.0,
+  "win_pct_last10_diff": 1.0,
+  "win_pct_last5_diff": 1.0,
+  "rest_days_diff": 0.0,
+  "back_to_back_diff": 0.0,
+  "exp_missing_minutes_diff": -6.3017,
+  "starters_out_diff": 0.0,
+  "exp_missing_value_diff": 0.805,
+  "exp_stars_missing_diff": 0.0
+ },
+ "home": {
+  "team": "IND",
+  "elo": 1384.0,
+  "win_pct_last10": 1.0,
+  "win_pct_last5": 1.0,
+  "point_diff_last10": 3.0,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Sheppard, Ben",
+    "status": "Questionable",
+    "avg_minutes": 12.0,
+    "p_play": 0.475,
+    "exp_missing_minutes": 6.3
+   },
+   {
+    "player": "Furphy, Johnny",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Brown, Kobe",
+    "status": "Probable",
+    "avg_minutes": 0.0,
+    "p_play": 0.755,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "McConnell, T.J.",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Nesmith, Aaron",
+    "status": "Questionable",
+    "avg_minutes": 0.0,
+    "p_play": 0.634,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Slawson, Jalen",
+    "status": "Probable",
+    "avg_minutes": 0.0,
+    "p_play": 0.79,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Smith, Braden",
+    "status": "Doubtful",
+    "avg_minutes": 0.0,
+    "p_play": 0.016,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ },
+ "away": {
+  "team": "DAL",
+  "elo": 1385.5,
+  "win_pct_last10": 0.0,
+  "win_pct_last5": 0.0,
+  "point_diff_last10": -18.0,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Aldama, Santi",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Biberovic, Tarik",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.001,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Howard, Jett",
+    "status": "Doubtful",
+    "avg_minutes": 0.0,
+    "p_play": 0.02,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Lively II, Dereck",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Martin, Caleb",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ }
+}

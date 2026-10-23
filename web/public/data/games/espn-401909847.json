@@ -1,0 +1,94 @@
+{
+ "id": "espn-401909847",
+ "computed_et": "2026-10-23T01:18",
+ "final": false,
+ "report": "2026-10-22_11_45PM",
+ "cutoff_et": "2026-10-23T19:00",
+ "elo_home_win_prob": 0.416,
+ "inputs": {
+  "elo_diff": -159.0162,
+  "home_court": 1.0,
+  "point_diff_last10_diff": -33.0,
+  "win_pct_last10_diff": -1.0,
+  "win_pct_last5_diff": -1.0,
+  "rest_days_diff": -1.0,
+  "back_to_back_diff": 0.0,
+  "exp_missing_minutes_diff": -0.2876,
+  "starters_out_diff": 0.0,
+  "exp_missing_value_diff": -0.004,
+  "exp_stars_missing_diff": 0.0
+ },
+ "home": {
+  "team": "MIA",
+  "elo": 1500.1,
+  "win_pct_last10": 0.0,
+  "win_pct_last5": 0.0,
+  "point_diff_last10": -25.0,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Gardner, Myron",
+    "status": "Available",
+    "avg_minutes": 3.0,
+    "p_play": 0.904,
+    "exp_missing_minutes": 0.3
+   },
+   {
+    "player": "Goldin, Vladislav",
+    "status": "Available",
+    "avg_minutes": 0.0,
+    "p_play": 0.404,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Smith, Dru",
+    "status": "Available",
+    "avg_minutes": 0.0,
+    "p_play": 0.786,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ },
+ "away": {
+  "team": "DET",
+  "elo": 1659.2,
+  "win_pct_last10": 1.0,
+  "win_pct_last5": 1.0,
+  "point_diff_last10": 8.0,
+  "rest_days": 3.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Harkless, Elijah",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Onyenso, Ugonna",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.001,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Prince, Taurean",
+    "status": "Probable",
+    "avg_minutes": 0.0,
+    "p_play": 0.941,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Jones, Isaac",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ }
+}

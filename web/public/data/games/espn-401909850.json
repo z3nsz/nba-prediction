@@ -1,0 +1,94 @@
+{
+ "id": "espn-401909850",
+ "computed_et": "2026-10-23T01:18",
+ "final": false,
+ "report": "2026-10-22_11_45PM",
+ "cutoff_et": "2026-10-23T21:00",
+ "elo_home_win_prob": 0.752,
+ "inputs": {
+  "elo_diff": 92.5732,
+  "home_court": 1.0,
+  "point_diff_last10_diff": -42.0,
+  "win_pct_last10_diff": -1.0,
+  "win_pct_last5_diff": -1.0,
+  "rest_days_diff": 0.0,
+  "back_to_back_diff": 0.0,
+  "exp_missing_minutes_diff": 27.7488,
+  "starters_out_diff": 1.0,
+  "exp_missing_value_diff": 0.5445,
+  "exp_stars_missing_diff": 0.0
+ },
+ "home": {
+  "team": "GSW",
+  "elo": 1439.1,
+  "win_pct_last10": 0.0,
+  "win_pct_last5": 0.0,
+  "point_diff_last10": -22.0,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Bassey, Charles",
+    "status": "Questionable",
+    "avg_minutes": 0.0,
+    "p_play": 0.65,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Butler III, Jimmy",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Moody, Moses",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Podziemski, Brandin",
+    "status": "Questionable",
+    "avg_minutes": 0.0,
+    "p_play": 0.65,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Porzingis, Kristaps",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ },
+ "away": {
+  "team": "MEM",
+  "elo": 1346.6,
+  "win_pct_last10": 1.0,
+  "win_pct_last5": 1.0,
+  "point_diff_last10": 20.0,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Coward, Cedric",
+    "status": "Doubtful",
+    "avg_minutes": 28.0,
+    "p_play": 0.009,
+    "exp_missing_minutes": 27.7
+   },
+   {
+    "player": "Stewart, Isaiah",
+    "status": "Questionable",
+    "avg_minutes": 0.0,
+    "p_play": 0.504,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ }
+}

@@ -1,0 +1,87 @@
+{
+ "id": "espn-401909096",
+ "computed_et": "2026-10-23T01:18",
+ "final": false,
+ "report": "2026-10-22_11_45PM",
+ "cutoff_et": "2026-10-23T20:30",
+ "elo_home_win_prob": 0.737,
+ "inputs": {
+  "elo_diff": 78.886,
+  "home_court": 1.0,
+  "point_diff_last10_diff": -30.0,
+  "win_pct_last10_diff": -1.0,
+  "win_pct_last5_diff": -1.0,
+  "rest_days_diff": 1.0,
+  "back_to_back_diff": 0.0,
+  "exp_missing_minutes_diff": -20.5593,
+  "starters_out_diff": 0.0,
+  "exp_missing_value_diff": -2.3845,
+  "exp_stars_missing_diff": 0.0
+ },
+ "home": {
+  "team": "SAS",
+  "elo": 1669.8,
+  "win_pct_last10": 0.0,
+  "win_pct_last5": 0.0,
+  "point_diff_last10": -12.0,
+  "rest_days": 3.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Fox, De'Aaron",
+    "status": "Questionable",
+    "avg_minutes": 32.0,
+    "p_play": 0.418,
+    "exp_missing_minutes": 18.6
+   },
+   {
+    "player": "Johnson, Keldon",
+    "status": "Questionable",
+    "avg_minutes": 20.0,
+    "p_play": 0.576,
+    "exp_missing_minutes": 8.5
+   },
+   {
+    "player": "Harris, Tobias",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Quaintance, Jayden",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.001,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ },
+ "away": {
+  "team": "HOU",
+  "elo": 1591.0,
+  "win_pct_last10": 1.0,
+  "win_pct_last5": 1.0,
+  "point_diff_last10": 18.0,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Sheppard, Reed",
+    "status": "Questionable",
+    "avg_minutes": 16.0,
+    "p_play": 0.591,
+    "exp_missing_minutes": 6.5
+   },
+   {
+    "player": "Adams, Steven",
+    "status": "Questionable",
+    "avg_minutes": 0.0,
+    "p_play": 0.535,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ }
+}

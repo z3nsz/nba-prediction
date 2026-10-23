@@ -1,0 +1,94 @@
+{
+ "id": "espn-401909852",
+ "computed_et": "2026-10-23T01:18",
+ "final": false,
+ "report": "2026-10-22_11_45PM",
+ "cutoff_et": "2026-10-23T21:00",
+ "elo_home_win_prob": 0.39,
+ "inputs": {
+  "elo_diff": -177.7004,
+  "home_court": 1.0,
+  "point_diff_last10_diff": -66.0,
+  "win_pct_last10_diff": -1.0,
+  "win_pct_last5_diff": -1.0,
+  "rest_days_diff": 0.0,
+  "back_to_back_diff": 0.0,
+  "exp_missing_minutes_diff": 0.0,
+  "starters_out_diff": 0.0,
+  "exp_missing_value_diff": 0.0,
+  "exp_stars_missing_diff": 0.0
+ },
+ "home": {
+  "team": "SAC",
+  "elo": 1365.4,
+  "win_pct_last10": 0.0,
+  "win_pct_last5": 0.0,
+  "point_diff_last10": -25.0,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Raynaud, Maxime",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.001,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Cardwell, Dylan",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Monk, Malik",
+    "status": "Probable",
+    "avg_minutes": 0.0,
+    "p_play": 0.855,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Simmons, Ben",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ },
+ "away": {
+  "team": "POR",
+  "elo": 1543.1,
+  "win_pct_last10": 1.0,
+  "win_pct_last5": 1.0,
+  "point_diff_last10": 41.0,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Carlson, Branden",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Sharpe, Shaedon",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Youngblood, Chris",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ }
+}
