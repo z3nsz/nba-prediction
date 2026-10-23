@@ -1,8 +1,8 @@
 {
  "id": "espn-401909848",
- "computed_et": "2026-10-23T01:18",
+ "computed_et": "2026-10-23T14:15",
  "final": false,
- "report": "2026-10-22_11_45PM",
+ "report": "2026-10-23_02_15PM",
  "cutoff_et": "2026-10-23T15:00",
  "elo_home_win_prob": 0.64,
  "inputs": {
@@ -13,9 +13,9 @@
   "win_pct_last5_diff": 0.0,
   "rest_days_diff": 0.0,
   "back_to_back_diff": 0.0,
-  "exp_missing_minutes_diff": 3.3182,
+  "exp_missing_minutes_diff": 3.5435,
   "starters_out_diff": 0.0,
-  "exp_missing_value_diff": 0.1632,
+  "exp_missing_value_diff": 0.1222,
   "exp_stars_missing_diff": 0.0
  },
  "home": {
@@ -40,25 +40,25 @@
   "report_known": true,
   "injuries": [
    {
-    "player": "Giddey, Josh",
-    "status": "Probable",
-    "avg_minutes": 24.0,
-    "p_play": 0.933,
-    "exp_missing_minutes": 1.6
+    "player": "Awaka, Tobe",
+    "status": "Available",
+    "avg_minutes": 14.0,
+    "p_play": 0.84,
+    "exp_missing_minutes": 2.2
    },
    {
-    "player": "Awaka, Tobe",
-    "status": "Probable",
-    "avg_minutes": 14.0,
-    "p_play": 0.906,
-    "exp_missing_minutes": 1.3
+    "player": "Giddey, Josh",
+    "status": "Available",
+    "avg_minutes": 24.0,
+    "p_play": 0.968,
+    "exp_missing_minutes": 0.8
    },
    {
     "player": "Collins, Zach",
-    "status": "Probable",
+    "status": "Available",
     "avg_minutes": 9.0,
-    "p_play": 0.957,
-    "exp_missing_minutes": 0.4
+    "p_play": 0.94,
+    "exp_missing_minutes": 0.5
    },
    {
     "player": "Claxton, Nic",
@@ -69,16 +69,16 @@
    },
    {
     "player": "Hawkins, Jordan",
-    "status": "Questionable",
+    "status": "Available",
     "avg_minutes": 0.0,
-    "p_play": 0.686,
+    "p_play": 0.92,
     "exp_missing_minutes": 0.0
    },
    {
     "player": "Swain, Dailyn",
-    "status": "Questionable",
+    "status": "Available",
     "avg_minutes": 0.0,
-    "p_play": 0.509,
+    "p_play": 0.808,
     "exp_missing_minutes": 0.0
    }
   ]

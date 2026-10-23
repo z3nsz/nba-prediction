@@ -1,8 +1,8 @@
 {
  "id": "espn-401909843",
- "computed_et": "2026-10-23T01:18",
+ "computed_et": "2026-10-23T14:15",
  "final": false,
- "report": "2026-10-22_11_45PM",
+ "report": "2026-10-23_02_15PM",
  "cutoff_et": "2026-10-23T18:00",
  "elo_home_win_prob": 0.691,
  "inputs": {
@@ -13,9 +13,9 @@
   "win_pct_last5_diff": 0.0,
   "rest_days_diff": 0.0,
   "back_to_back_diff": 0.0,
-  "exp_missing_minutes_diff": 0.0,
+  "exp_missing_minutes_diff": 1.8217,
   "starters_out_diff": 0.0,
-  "exp_missing_value_diff": 0.0,
+  "exp_missing_value_diff": 0.0943,
   "exp_stars_missing_diff": 0.0
  },
  "home": {
@@ -68,6 +68,13 @@
   "back_to_back": false,
   "report_known": true,
   "injuries": [
+   {
+    "player": "Landale, Jock",
+    "status": "Available",
+    "avg_minutes": 19.0,
+    "p_play": 0.904,
+    "exp_missing_minutes": 1.8
+   },
    {
     "player": "Dennis, RayJ",
     "status": "Questionable",

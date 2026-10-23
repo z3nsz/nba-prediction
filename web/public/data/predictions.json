@@ -1,5 +1,5 @@
 {
- "updated_et": "2026-10-23T01:18",
+ "updated_et": "2026-10-23T14:15",
  "season": "2026-27",
  "model": {
   "description": "Final NBA model (logistic regression, no intercept), retrained on all six seasons",
@@ -429,7 +429,7 @@
    "away": "CHI",
    "p_home": 0.6601,
    "final": false,
-   "report": "2026-10-22_11_45PM",
+   "report": "2026-10-23_02_15PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
@@ -440,9 +440,9 @@
     "win_pct_last5_diff": -0.0,
     "rest_days_diff": 0.0,
     "back_to_back_diff": 0.0,
-    "exp_missing_minutes_diff": 0.0158,
+    "exp_missing_minutes_diff": 0.0169,
     "starters_out_diff": 0.0,
-    "exp_missing_value_diff": 0.0031,
+    "exp_missing_value_diff": 0.0023,
     "exp_stars_missing_diff": 0.0
    }
   },
@@ -454,7 +454,7 @@
    "away": "NYK",
    "p_home": 0.5983,
    "final": false,
-   "report": "2026-10-22_11_45PM",
+   "report": "2026-10-23_02_15PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
@@ -477,9 +477,9 @@
    "tip_off_et": "2026-10-23T19:00",
    "home": "CHA",
    "away": "ATL",
-   "p_home": 0.6017,
+   "p_home": 0.6042,
    "final": false,
-   "report": "2026-10-22_11_45PM",
+   "report": "2026-10-23_02_15PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
@@ -490,9 +490,9 @@
     "win_pct_last5_diff": -0.0,
     "rest_days_diff": 0.0,
     "back_to_back_diff": 0.0,
-    "exp_missing_minutes_diff": 0.0,
+    "exp_missing_minutes_diff": 0.0087,
     "starters_out_diff": 0.0,
-    "exp_missing_value_diff": 0.0,
+    "exp_missing_value_diff": 0.0018,
     "exp_stars_missing_diff": 0.0
    }
   },
@@ -504,7 +504,7 @@
    "away": "DAL",
    "p_home": 0.4877,
    "final": false,
-   "report": "2026-10-22_11_45PM",
+   "report": "2026-10-23_02_15PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
@@ -529,7 +529,7 @@
    "away": "MIN",
    "p_home": 0.5256,
    "final": false,
-   "report": "2026-10-22_11_45PM",
+   "report": "2026-10-23_02_15PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
@@ -554,7 +554,7 @@
    "away": "TOR",
    "p_home": 0.1838,
    "final": false,
-   "report": "2026-10-22_11_45PM",
+   "report": "2026-10-23_02_15PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
@@ -577,9 +577,9 @@
    "tip_off_et": "2026-10-23T20:00",
    "home": "MIA",
    "away": "DET",
-   "p_home": 0.3726,
+   "p_home": 0.3729,
    "final": false,
-   "report": "2026-10-22_11_45PM",
+   "report": "2026-10-23_02_15PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
@@ -590,9 +590,9 @@
     "win_pct_last5_diff": 0.016,
     "rest_days_diff": -0.0362,
     "back_to_back_diff": 0.0,
-    "exp_missing_minutes_diff": -0.0014,
+    "exp_missing_minutes_diff": 0.0,
     "starters_out_diff": 0.0,
-    "exp_missing_value_diff": -0.0001,
+    "exp_missing_value_diff": 0.0,
     "exp_stars_missing_diff": 0.0
    }
   },
@@ -604,7 +604,7 @@
    "away": "HOU",
    "p_home": 0.6492,
    "final": false,
-   "report": "2026-10-22_11_45PM",
+   "report": "2026-10-23_02_15PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
@@ -629,7 +629,7 @@
    "away": "NOP",
    "p_home": 0.3831,
    "final": false,
-   "report": "2026-10-22_11_45PM",
+   "report": "2026-10-23_02_15PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
@@ -654,7 +654,7 @@
    "away": "MEM",
    "p_home": 0.6892,
    "final": false,
-   "report": "2026-10-22_11_45PM",
+   "report": "2026-10-23_02_15PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
@@ -679,7 +679,7 @@
    "away": "LAC",
    "p_home": 0.5876,
    "final": false,
-   "report": "2026-10-22_11_45PM",
+   "report": "2026-10-23_02_15PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
@@ -704,7 +704,7 @@
    "away": "POR",
    "p_home": 0.2629,
    "final": false,
-   "report": "2026-10-22_11_45PM",
+   "report": "2026-10-23_02_15PM",
    "home_score": null,
    "away_score": null,
    "contributions": {

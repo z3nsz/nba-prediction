@@ -1,8 +1,8 @@
 {
  "id": "espn-401909847",
- "computed_et": "2026-10-23T01:18",
+ "computed_et": "2026-10-23T14:15",
  "final": false,
- "report": "2026-10-22_11_45PM",
+ "report": "2026-10-23_02_15PM",
  "cutoff_et": "2026-10-23T19:00",
  "elo_home_win_prob": 0.416,
  "inputs": {
@@ -13,9 +13,9 @@
   "win_pct_last5_diff": -1.0,
   "rest_days_diff": -1.0,
   "back_to_back_diff": 0.0,
-  "exp_missing_minutes_diff": -0.2876,
+  "exp_missing_minutes_diff": 0.0,
   "starters_out_diff": 0.0,
-  "exp_missing_value_diff": -0.004,
+  "exp_missing_value_diff": 0.0,
   "exp_stars_missing_diff": 0.0
  },
  "home": {
@@ -28,13 +28,6 @@
   "back_to_back": false,
   "report_known": true,
   "injuries": [
-   {
-    "player": "Gardner, Myron",
-    "status": "Available",
-    "avg_minutes": 3.0,
-    "p_play": 0.904,
-    "exp_missing_minutes": 0.3
-   },
    {
     "player": "Goldin, Vladislav",
     "status": "Available",
@@ -62,7 +55,7 @@
   "report_known": true,
   "injuries": [
    {
-    "player": "Harkless, Elijah",
+    "player": "Jones, Isaac",
     "status": "Out",
     "avg_minutes": 0.0,
     "p_play": 0.0,
@@ -77,13 +70,13 @@
    },
    {
     "player": "Prince, Taurean",
-    "status": "Probable",
+    "status": "Available",
     "avg_minutes": 0.0,
-    "p_play": 0.941,
+    "p_play": 0.86,
     "exp_missing_minutes": 0.0
    },
    {
-    "player": "Jones, Isaac",
+    "player": "Harkless, Elijah",
     "status": "Out",
     "avg_minutes": 0.0,
     "p_play": 0.0,
