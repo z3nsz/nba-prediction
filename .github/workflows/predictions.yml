@@ -5,6 +5,8 @@
 #   - the first run after each game's cutoff (tip-off - 60 min) LOCKS that game's prediction, using the report
 #     published before the cutoff, so a late run (GitHub's schedule often runs late) gives the same result
 #   - later runs add final scores to the track record
+#   - after each run, the job waits for the next cutoff within 5 hours and runs again, so one run carries the day's
+#     locks even when GitHub starts scheduled runs late or skips them
 # If anything changed, it commits live_state/ and web/public/data/, and Vercel redeploys the site.
 # It uses GitHub's built-in, temporary GITHUB_TOKEN: no secrets are stored in the repository.
 name: Predictions
@@ -24,7 +26,7 @@ concurrency:
 jobs:
   predict:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 350                # waits for cutoffs up to 5 hours ahead (GitHub's limit is 6)
     steps:
       - uses: actions/checkout@v5
 
@@ -46,18 +48,26 @@ jobs:
           key: raw-${{ github.run_id }}
           restore-keys: raw-
 
-      - name: Predict
-        run: python -m src.live.predict
-
-      - name: Commit new predictions
+      # Predict and commit; then, if a preview's cutoff comes within 5 hours, wait for it and run again, so games
+      # lock on time even when GitHub starts scheduled runs late or skips them.
+      - name: Predict, and again after each upcoming cutoff
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add live_state web/public/data
-          if git diff --cached --quiet; then
-            echo "No changes to commit."
-            exit 0
-          fi
-          git commit -m "Update predictions ($(TZ=America/New_York date '+%Y-%m-%d %H:%M ET'))"
-          git pull --rebase origin "${GITHUB_REF_NAME}"
-          git push origin "HEAD:${GITHUB_REF_NAME}"
+          while true; do
+            python -m src.live.predict
+            git add live_state web/public/data
+            if git diff --cached --quiet; then
+              echo "No changes to commit."
+            else
+              git commit -m "Update predictions ($(TZ=America/New_York date '+%Y-%m-%d %H:%M ET'))"
+              git pull --rebase origin "${GITHUB_REF_NAME}"
+              git push origin "HEAD:${GITHUB_REF_NAME}"
+            fi
+            wait=$(python -m src.live.predict --next-cutoff)
+            if [ -z "$wait" ]; then
+              break
+            fi
+            echo "Waiting ${wait}s for the next cutoff."
+            sleep "$wait"
+          done

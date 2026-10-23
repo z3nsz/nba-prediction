@@ -2,6 +2,7 @@
 
     python -m src.live.predict                    predict today's games (Eastern date)
     python -m src.live.predict --day 2026-10-20   (re)build one day, e.g. a day the job missed
+    python -m src.live.predict --next-cutoff      seconds until the next preview's cutoff (used by the job to wait)
 
 For each game, the injury report used is the newest one published at or before the CUTOFF:
     cutoff = tip-off - 60 minutes        (the earlier of ESPN's and the injury report's tip-off time)
@@ -118,6 +119,12 @@ def run(day: pd.Timestamp | None = None, now: pd.Timestamp | None = None) -> pd.
     now_et = to_eastern(pd.Series([now or pd.Timestamp.now(tz="UTC")])).iloc[0]
     today = now_et.normalize()
     if day is None:
+        # Earlier days whose games are still previews (the job missed their cutoffs): lock them first, with the
+        # report published before each cutoff, so they count in the track record.
+        saved = load_predictions()
+        missed = saved.loc[~saved["final"].astype(bool) & (saved["game_date"] < today), "game_date"]
+        for missed_day in sorted(missed.unique()):
+            run(pd.Timestamp(missed_day), now)
         # After midnight, while last night's games are still being played, keep working on last night
         # (its games are locked; this run only adds results) instead of starting the new day too early.
         yesterday = today - pd.Timedelta(days=1)
@@ -164,6 +171,18 @@ def run(day: pd.Timestamp | None = None, now: pd.Timestamp | None = None) -> pd.
 
     write_site_data(saved, season_games, now_et)
     return saved[saved["game_date"] == day]
+
+
+def seconds_to_next_cutoff(now: pd.Timestamp | None = None, max_hours: float = 5) -> int | None:
+    """Seconds until just after the next preview game's cutoff, if it comes within `max_hours`: the job waits
+    that long and runs again, so locking does not depend on GitHub starting a scheduled run on time."""
+    now_et = to_eastern(pd.Series([now or pd.Timestamp.now(tz="UTC")])).iloc[0]
+    saved = load_predictions()
+    cutoffs = saved.loc[~saved["final"].astype(bool), "tip_off_et"] - pd.Timedelta(minutes=MINUTES_BEFORE_TIP)
+    upcoming = cutoffs[(cutoffs > now_et) & (cutoffs <= now_et + pd.Timedelta(hours=max_hours))]
+    if upcoming.empty:
+        return None
+    return int((upcoming.min() - now_et).total_seconds()) + 60
 
 
 def matching_locked(rows: pd.DataFrame, saved: pd.DataFrame) -> pd.DataFrame:
@@ -275,7 +294,12 @@ def write_site_data(saved: pd.DataFrame, season_games: pd.DataFrame, now_et: pd.
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--day", help="YYYY-MM-DD (default: today, Eastern time)")
+    parser.add_argument("--next-cutoff", action="store_true", help="print seconds until the next preview's cutoff")
     args = parser.parse_args()
+    if args.next_cutoff:
+        wait = seconds_to_next_cutoff()
+        print("" if wait is None else wait)
+        raise SystemExit
     predictions = run(args.day)
     print(f"{len(predictions)} games:")
     for g in predictions.itertuples():
