@@ -1,8 +1,8 @@
 {
  "id": "espn-401909852",
- "computed_et": "2026-10-23T15:01",
+ "computed_et": "2026-10-23T18:01",
  "final": false,
- "report": "2026-10-23_03_00PM",
+ "report": "2026-10-23_06_00PM",
  "cutoff_et": "2026-10-23T21:00",
  "elo_home_win_prob": 0.39,
  "inputs": {
@@ -44,9 +44,9 @@
    },
    {
     "player": "Monk, Malik",
-    "status": "Probable",
+    "status": "Available",
     "avg_minutes": 0.0,
-    "p_play": 0.855,
+    "p_play": 0.95,
     "exp_missing_minutes": 0.0
    },
    {

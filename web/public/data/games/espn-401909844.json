@@ -1,8 +1,8 @@
 {
  "id": "espn-401909844",
- "computed_et": "2026-10-23T15:01",
- "final": false,
- "report": "2026-10-23_03_00PM",
+ "computed_et": "2026-10-23T18:01",
+ "final": true,
+ "report": "2026-10-23_06_00PM",
  "cutoff_et": "2026-10-23T18:00",
  "elo_home_win_prob": 0.638,
  "inputs": {
@@ -13,9 +13,9 @@
   "win_pct_last5_diff": 1.0,
   "rest_days_diff": 0.0,
   "back_to_back_diff": 0.0,
-  "exp_missing_minutes_diff": -6.3017,
+  "exp_missing_minutes_diff": -11.9986,
   "starters_out_diff": 0.0,
-  "exp_missing_value_diff": 0.805,
+  "exp_missing_value_diff": 1.5328,
   "exp_stars_missing_diff": 0.0
  },
  "home": {
@@ -30,24 +30,10 @@
   "injuries": [
    {
     "player": "Sheppard, Ben",
-    "status": "Questionable",
-    "avg_minutes": 12.0,
-    "p_play": 0.475,
-    "exp_missing_minutes": 6.3
-   },
-   {
-    "player": "Furphy, Johnny",
     "status": "Out",
-    "avg_minutes": 0.0,
+    "avg_minutes": 12.0,
     "p_play": 0.0,
-    "exp_missing_minutes": 0.0
-   },
-   {
-    "player": "Brown, Kobe",
-    "status": "Probable",
-    "avg_minutes": 0.0,
-    "p_play": 0.755,
-    "exp_missing_minutes": 0.0
+    "exp_missing_minutes": 12.0
    },
    {
     "player": "McConnell, T.J.",
@@ -57,10 +43,24 @@
     "exp_missing_minutes": 0.0
    },
    {
-    "player": "Nesmith, Aaron",
-    "status": "Questionable",
+    "player": "Furphy, Johnny",
+    "status": "Out",
     "avg_minutes": 0.0,
-    "p_play": 0.634,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Nesmith, Aaron",
+    "status": "Available",
+    "avg_minutes": 0.0,
+    "p_play": 0.897,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Slawson, Jalen",
+    "status": "Probable",
+    "avg_minutes": 0.0,
+    "p_play": 0.79,
     "exp_missing_minutes": 0.0
    },
    {
@@ -71,10 +71,10 @@
     "exp_missing_minutes": 0.0
    },
    {
-    "player": "Slawson, Jalen",
+    "player": "Brown, Kobe",
     "status": "Probable",
     "avg_minutes": 0.0,
-    "p_play": 0.79,
+    "p_play": 0.755,
     "exp_missing_minutes": 0.0
    }
   ]
@@ -105,9 +105,9 @@
    },
    {
     "player": "Howard, Jett",
-    "status": "Doubtful",
+    "status": "Out",
     "avg_minutes": 0.0,
-    "p_play": 0.02,
+    "p_play": 0.0,
     "exp_missing_minutes": 0.0
    },
    {
