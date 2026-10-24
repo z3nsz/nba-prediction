@@ -1,8 +1,8 @@
 {
  "id": "espn-401909855",
- "computed_et": "2026-10-24T05:04",
+ "computed_et": "2026-10-24T13:22",
  "final": false,
- "report": "2026-10-23_11_45PM",
+ "report": "2026-10-24_01_15PM",
  "cutoff_et": "2026-10-24T18:30",
  "elo_home_win_prob": 0.832,
  "inputs": {
@@ -13,9 +13,9 @@
   "win_pct_last5_diff": 1.0,
   "rest_days_diff": 1.0,
   "back_to_back_diff": 1.0,
-  "exp_missing_minutes_diff": 0.0,
-  "starters_out_diff": 0.0,
-  "exp_missing_value_diff": 0.0,
+  "exp_missing_minutes_diff": -33.4988,
+  "starters_out_diff": -1.0,
+  "exp_missing_value_diff": -4.5976,
   "exp_stars_missing_diff": 0.0
  },
  "home": {
@@ -30,10 +30,10 @@
   "injuries": [
    {
     "player": "James, LeBron",
-    "status": "Questionable",
+    "status": "Out",
     "avg_minutes": 33.5,
-    "p_play": 0.945,
-    "exp_missing_minutes": 1.9
+    "p_play": 0.0,
+    "exp_missing_minutes": 33.5
    },
    {
     "player": "Barlow, Dominick",
@@ -73,7 +73,7 @@
   "point_diff_last10": -9.5,
   "rest_days": 1.0,
   "back_to_back": true,
-  "report_known": false,
+  "report_known": true,
   "injuries": []
  }
 }

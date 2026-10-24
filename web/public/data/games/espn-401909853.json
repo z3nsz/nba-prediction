@@ -1,8 +1,8 @@
 {
  "id": "espn-401909853",
- "computed_et": "2026-10-24T05:04",
+ "computed_et": "2026-10-24T13:22",
  "final": false,
- "report": "2026-10-23_11_45PM",
+ "report": "2026-10-24_01_15PM",
  "cutoff_et": "2026-10-24T17:00",
  "elo_home_win_prob": 0.744,
  "inputs": {
@@ -13,9 +13,9 @@
   "win_pct_last5_diff": 0.5,
   "rest_days_diff": 0.0,
   "back_to_back_diff": 0.0,
-  "exp_missing_minutes_diff": 0.0,
+  "exp_missing_minutes_diff": 1.1337,
   "starters_out_diff": 0.0,
-  "exp_missing_value_diff": 0.0,
+  "exp_missing_value_diff": -0.0722,
   "exp_stars_missing_diff": 0.0
  },
  "home": {
@@ -26,8 +26,44 @@
   "point_diff_last10": -20.0,
   "rest_days": 1.0,
   "back_to_back": true,
-  "report_known": false,
-  "injuries": []
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Anderson, Christian",
+    "status": "Probable",
+    "avg_minutes": 14.5,
+    "p_play": 0.906,
+    "exp_missing_minutes": 1.4
+   },
+   {
+    "player": "Boswell, Kylan",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.001,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Knueppel, Kon",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.001,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "White, Coby",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Williams, Grant",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
  },
  "away": {
   "team": "MIA",
@@ -37,7 +73,15 @@
   "point_diff_last10": -21.0,
   "rest_days": 1.0,
   "back_to_back": true,
-  "report_known": false,
-  "injuries": []
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Larsson, Pelle",
+    "status": "Probable",
+    "avg_minutes": 26.5,
+    "p_play": 0.906,
+    "exp_missing_minutes": 2.5
+   }
+  ]
  }
 }
