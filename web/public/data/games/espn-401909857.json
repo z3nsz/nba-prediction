@@ -1,8 +1,8 @@
 {
  "id": "espn-401909857",
- "computed_et": "2026-10-24T18:31",
- "final": false,
- "report": "2026-10-24_06_30PM",
+ "computed_et": "2026-10-24T19:01",
+ "final": true,
+ "report": "2026-10-24_07_00PM",
  "cutoff_et": "2026-10-24T19:00",
  "elo_home_win_prob": 0.76,
  "inputs": {
@@ -13,9 +13,9 @@
   "win_pct_last5_diff": 0.0,
   "rest_days_diff": 0.0,
   "back_to_back_diff": 0.0,
-  "exp_missing_minutes_diff": -6.625,
+  "exp_missing_minutes_diff": -13.4992,
   "starters_out_diff": 0.0,
-  "exp_missing_value_diff": 3.9467,
+  "exp_missing_value_diff": 8.0418,
   "exp_stars_missing_diff": 0.0
  },
  "home": {
@@ -30,20 +30,20 @@
   "injuries": [
    {
     "player": "Essengue, Noa",
-    "status": "Questionable",
+    "status": "Out",
     "avg_minutes": 13.5,
-    "p_play": 0.509,
-    "exp_missing_minutes": 6.6
-   },
-   {
-    "player": "Williams, Patrick",
-    "status": "Questionable",
-    "avg_minutes": 0.0,
-    "p_play": 0.505,
-    "exp_missing_minutes": 0.0
+    "p_play": 0.0,
+    "exp_missing_minutes": 13.5
    },
    {
     "player": "Claxton, Nic",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Williams, Patrick",
     "status": "Out",
     "avg_minutes": 0.0,
     "p_play": 0.0,
@@ -69,14 +69,14 @@
     "exp_missing_minutes": 0.0
    },
    {
-    "player": "Vukcevic, Tristan",
+    "player": "Watkins, Jamir",
     "status": "Out",
     "avg_minutes": 0.0,
     "p_play": 0.0,
     "exp_missing_minutes": 0.0
    },
    {
-    "player": "Watkins, Jamir",
+    "player": "Vukcevic, Tristan",
     "status": "Out",
     "avg_minutes": 0.0,
     "p_play": 0.0,

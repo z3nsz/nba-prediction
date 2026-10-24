@@ -1,8 +1,8 @@
 {
  "id": "espn-401909858",
- "computed_et": "2026-10-24T18:31",
- "final": false,
- "report": "2026-10-24_06_30PM",
+ "computed_et": "2026-10-24T19:01",
+ "final": true,
+ "report": "2026-10-24_07_00PM",
  "cutoff_et": "2026-10-24T19:00",
  "elo_home_win_prob": 0.292,
  "inputs": {
@@ -13,9 +13,9 @@
   "win_pct_last5_diff": 0.5,
   "rest_days_diff": 0.0,
   "back_to_back_diff": 0.0,
-  "exp_missing_minutes_diff": -67.0997,
+  "exp_missing_minutes_diff": -67.2398,
   "starters_out_diff": 0.0,
-  "exp_missing_value_diff": -2.8675,
+  "exp_missing_value_diff": -2.8896,
   "exp_stars_missing_diff": -0.9997
  },
  "home": {
@@ -37,10 +37,10 @@
    },
    {
     "player": "Irving, Kyrie",
-    "status": "Doubtful",
+    "status": "Out",
     "avg_minutes": 24.5,
-    "p_play": 0.014,
-    "exp_missing_minutes": 24.2
+    "p_play": 0.0,
+    "exp_missing_minutes": 24.5
    },
    {
     "player": "Christie, Max",
@@ -51,10 +51,10 @@
    },
    {
     "player": "Risacher, Zaccharie",
-    "status": "Probable",
+    "status": "Available",
     "avg_minutes": 29.5,
-    "p_play": 0.906,
-    "exp_missing_minutes": 2.8
+    "p_play": 0.912,
+    "exp_missing_minutes": 2.6
    },
    {
     "player": "Johnson Jr., Morez",
@@ -62,13 +62,6 @@
     "avg_minutes": 15.5,
     "p_play": 0.906,
     "exp_missing_minutes": 1.5
-   },
-   {
-    "player": "Martin, Caleb",
-    "status": "Out",
-    "avg_minutes": 0.0,
-    "p_play": 0.0,
-    "exp_missing_minutes": 0.0
    },
    {
     "player": "Aldama, Santi",
@@ -86,9 +79,16 @@
    },
    {
     "player": "Howard, Jett",
-    "status": "Questionable",
+    "status": "Probable",
     "avg_minutes": 0.0,
-    "p_play": 0.318,
+    "p_play": 0.906,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Martin, Caleb",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
     "exp_missing_minutes": 0.0
    },
    {
