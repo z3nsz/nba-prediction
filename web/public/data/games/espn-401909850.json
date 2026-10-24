@@ -1,8 +1,8 @@
 {
  "id": "espn-401909850",
- "computed_et": "2026-10-23T19:01",
+ "computed_et": "2026-10-23T20:06",
  "final": false,
- "report": "2026-10-23_07_00PM",
+ "report": "2026-10-23_08_00PM",
  "cutoff_et": "2026-10-23T21:00",
  "elo_home_win_prob": 0.752,
  "inputs": {
@@ -36,6 +36,13 @@
     "exp_missing_minutes": 0.0
    },
    {
+    "player": "Butler III, Jimmy",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
     "player": "Moody, Moses",
     "status": "Out",
     "avg_minutes": 0.0,
@@ -51,13 +58,6 @@
    },
    {
     "player": "Porzingis, Kristaps",
-    "status": "Out",
-    "avg_minutes": 0.0,
-    "p_play": 0.0,
-    "exp_missing_minutes": 0.0
-   },
-   {
-    "player": "Butler III, Jimmy",
     "status": "Out",
     "avg_minutes": 0.0,
     "p_play": 0.0,
