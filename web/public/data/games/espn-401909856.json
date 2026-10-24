@@ -1,0 +1,43 @@
+{
+ "id": "espn-401909856",
+ "computed_et": "2026-10-24T05:04",
+ "final": false,
+ "report": "2026-10-23_11_45PM",
+ "cutoff_et": "2026-10-24T19:30",
+ "elo_home_win_prob": 0.675,
+ "inputs": {
+  "elo_diff": 27.1984,
+  "home_court": 1.0,
+  "point_diff_last10_diff": 16.0,
+  "win_pct_last10_diff": 0.0,
+  "win_pct_last5_diff": 0.0,
+  "rest_days_diff": 0.0,
+  "back_to_back_diff": 0.0,
+  "exp_missing_minutes_diff": 0.0,
+  "starters_out_diff": 0.0,
+  "exp_missing_value_diff": 0.0,
+  "exp_stars_missing_diff": 0.0
+ },
+ "home": {
+  "team": "ATL",
+  "elo": 1629.0,
+  "win_pct_last10": 1.0,
+  "win_pct_last5": 1.0,
+  "point_diff_last10": 27.0,
+  "rest_days": 1.0,
+  "back_to_back": true,
+  "report_known": false,
+  "injuries": []
+ },
+ "away": {
+  "team": "HOU",
+  "elo": 1601.8,
+  "win_pct_last10": 1.0,
+  "win_pct_last5": 1.0,
+  "point_diff_last10": 11.0,
+  "rest_days": 1.0,
+  "back_to_back": true,
+  "report_known": false,
+  "injuries": []
+ }
+}

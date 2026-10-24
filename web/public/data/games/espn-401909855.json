@@ -1,0 +1,79 @@
+{
+ "id": "espn-401909855",
+ "computed_et": "2026-10-24T05:04",
+ "final": false,
+ "report": "2026-10-23_11_45PM",
+ "cutoff_et": "2026-10-24T18:30",
+ "elo_home_win_prob": 0.832,
+ "inputs": {
+  "elo_diff": 177.3249,
+  "home_court": 1.0,
+  "point_diff_last10_diff": 16.5,
+  "win_pct_last10_diff": 1.0,
+  "win_pct_last5_diff": 1.0,
+  "rest_days_diff": 1.0,
+  "back_to_back_diff": 1.0,
+  "exp_missing_minutes_diff": 0.0,
+  "starters_out_diff": 0.0,
+  "exp_missing_value_diff": 0.0,
+  "exp_stars_missing_diff": 0.0
+ },
+ "home": {
+  "team": "PHI",
+  "elo": 1538.3,
+  "win_pct_last10": 1.0,
+  "win_pct_last5": 1.0,
+  "point_diff_last10": 7.0,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "James, LeBron",
+    "status": "Questionable",
+    "avg_minutes": 33.5,
+    "p_play": 0.945,
+    "exp_missing_minutes": 1.9
+   },
+   {
+    "player": "Barlow, Dominick",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Fall, Tacko",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Hukporti, Ariel",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Wade, Dean",
+    "status": "Questionable",
+    "avg_minutes": 0.0,
+    "p_play": 0.398,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ },
+ "away": {
+  "team": "MIL",
+  "elo": 1361.0,
+  "win_pct_last10": 0.0,
+  "win_pct_last5": 0.0,
+  "point_diff_last10": -9.5,
+  "rest_days": 1.0,
+  "back_to_back": true,
+  "report_known": false,
+  "injuries": []
+ }
+}
