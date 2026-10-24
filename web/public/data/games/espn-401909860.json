@@ -1,8 +1,8 @@
 {
  "id": "espn-401909860",
- "computed_et": "2026-10-24T13:22",
+ "computed_et": "2026-10-24T17:01",
  "final": false,
- "report": "2026-10-24_01_15PM",
+ "report": "2026-10-24_05_00PM",
  "cutoff_et": "2026-10-24T21:00",
  "elo_home_win_prob": 0.751,
  "inputs": {
@@ -13,9 +13,9 @@
   "win_pct_last5_diff": 0.0,
   "rest_days_diff": 0.0,
   "back_to_back_diff": 0.0,
-  "exp_missing_minutes_diff": 0.0,
+  "exp_missing_minutes_diff": 43.5957,
   "starters_out_diff": 0.0,
-  "exp_missing_value_diff": 0.0,
+  "exp_missing_value_diff": 3.5777,
   "exp_stars_missing_diff": 0.0
  },
  "home": {
@@ -30,10 +30,10 @@
   "injuries": [
    {
     "player": "Ighodaro, Oso",
-    "status": "Doubtful",
+    "status": "Out",
     "avg_minutes": 15.0,
-    "p_play": 0.02,
-    "exp_missing_minutes": 14.7
+    "p_play": 0.001,
+    "exp_missing_minutes": 15.0
    },
    {
     "player": "Kennard, Luke",
@@ -59,7 +59,64 @@
   "point_diff_last10": -22.0,
   "rest_days": 3.0,
   "back_to_back": false,
-  "report_known": false,
-  "injuries": []
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Curry, Stephen",
+    "status": "Out",
+    "avg_minutes": 21.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 21.0
+   },
+   {
+    "player": "Green, Draymond",
+    "status": "Doubtful",
+    "avg_minutes": 21.0,
+    "p_play": 0.02,
+    "exp_missing_minutes": 20.6
+   },
+   {
+    "player": "Horford, Al",
+    "status": "Out",
+    "avg_minutes": 17.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 17.0
+   },
+   {
+    "player": "Butler III, Jimmy",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Bassey, Charles",
+    "status": "Questionable",
+    "avg_minutes": 0.0,
+    "p_play": 0.649,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Moody, Moses",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Podziemski, Brandin",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Porzingis, Kristaps",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
  }
 }

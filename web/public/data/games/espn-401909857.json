@@ -1,8 +1,8 @@
 {
  "id": "espn-401909857",
- "computed_et": "2026-10-24T13:22",
+ "computed_et": "2026-10-24T17:01",
  "final": false,
- "report": "2026-10-24_01_15PM",
+ "report": "2026-10-24_05_00PM",
  "cutoff_et": "2026-10-24T19:00",
  "elo_home_win_prob": 0.76,
  "inputs": {
@@ -13,9 +13,9 @@
   "win_pct_last5_diff": 0.0,
   "rest_days_diff": 0.0,
   "back_to_back_diff": 0.0,
-  "exp_missing_minutes_diff": 0.0,
+  "exp_missing_minutes_diff": -1.2754,
   "starters_out_diff": 0.0,
-  "exp_missing_value_diff": 0.0,
+  "exp_missing_value_diff": 0.7598,
   "exp_stars_missing_diff": 0.0
  },
  "home": {
@@ -52,7 +52,29 @@
   "point_diff_last10": 1.0,
   "rest_days": 1.0,
   "back_to_back": true,
-  "report_known": false,
-  "injuries": []
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Vukcevic, Tristan",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Watkins, Jamir",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Dybantsa, AJ",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.001,
+    "exp_missing_minutes": 0.0
+   }
+  ]
  }
 }
