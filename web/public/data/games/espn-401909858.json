@@ -1,8 +1,8 @@
 {
  "id": "espn-401909858",
- "computed_et": "2026-10-24T17:01",
+ "computed_et": "2026-10-24T18:31",
  "final": false,
- "report": "2026-10-24_05_00PM",
+ "report": "2026-10-24_06_30PM",
  "cutoff_et": "2026-10-24T19:00",
  "elo_home_win_prob": 0.292,
  "inputs": {
@@ -13,9 +13,9 @@
   "win_pct_last5_diff": 0.5,
   "rest_days_diff": 0.0,
   "back_to_back_diff": 0.0,
-  "exp_missing_minutes_diff": -75.438,
+  "exp_missing_minutes_diff": -67.0997,
   "starters_out_diff": 0.0,
-  "exp_missing_value_diff": -2.0068,
+  "exp_missing_value_diff": -2.8675,
   "exp_stars_missing_diff": -0.9997
  },
  "home": {
@@ -37,10 +37,10 @@
    },
    {
     "player": "Irving, Kyrie",
-    "status": "Questionable",
+    "status": "Doubtful",
     "avg_minutes": 24.5,
-    "p_play": 0.303,
-    "exp_missing_minutes": 17.1
+    "p_play": 0.014,
+    "exp_missing_minutes": 24.2
    },
    {
     "player": "Christie, Max",
@@ -51,17 +51,24 @@
    },
    {
     "player": "Risacher, Zaccharie",
-    "status": "Questionable",
+    "status": "Probable",
     "avg_minutes": 29.5,
-    "p_play": 0.591,
-    "exp_missing_minutes": 12.1
+    "p_play": 0.906,
+    "exp_missing_minutes": 2.8
    },
    {
     "player": "Johnson Jr., Morez",
-    "status": "Questionable",
+    "status": "Probable",
     "avg_minutes": 15.5,
-    "p_play": 0.509,
-    "exp_missing_minutes": 7.6
+    "p_play": 0.906,
+    "exp_missing_minutes": 1.5
+   },
+   {
+    "player": "Martin, Caleb",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
    },
    {
     "player": "Aldama, Santi",
@@ -79,20 +86,13 @@
    },
    {
     "player": "Howard, Jett",
-    "status": "Doubtful",
+    "status": "Questionable",
     "avg_minutes": 0.0,
-    "p_play": 0.02,
+    "p_play": 0.318,
     "exp_missing_minutes": 0.0
    },
    {
     "player": "Lively II, Dereck",
-    "status": "Out",
-    "avg_minutes": 0.0,
-    "p_play": 0.0,
-    "exp_missing_minutes": 0.0
-   },
-   {
-    "player": "Martin, Caleb",
     "status": "Out",
     "avg_minutes": 0.0,
     "p_play": 0.0,
