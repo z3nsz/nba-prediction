@@ -1,8 +1,8 @@
 {
  "id": "espn-401909865",
- "computed_et": "2026-10-25T16:01",
+ "computed_et": "2026-10-25T17:01",
  "final": false,
- "report": "2026-10-25_04_00PM",
+ "report": "2026-10-25_05_00PM",
  "cutoff_et": "2026-10-25T18:00",
  "elo_home_win_prob": 0.801,
  "inputs": {
@@ -29,14 +29,14 @@
   "report_known": true,
   "injuries": [
    {
-    "player": "Sorber, Thomas",
+    "player": "Topic, Nikola",
     "status": "Out",
     "avg_minutes": 0.0,
     "p_play": 0.0,
     "exp_missing_minutes": 0.0
    },
    {
-    "player": "Topic, Nikola",
+    "player": "Sorber, Thomas",
     "status": "Out",
     "avg_minutes": 0.0,
     "p_play": 0.0,
@@ -62,6 +62,13 @@
     "exp_missing_minutes": 0.0
    },
    {
+    "player": "Ingram, Brandon",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
     "player": "Miller, Jordan",
     "status": "Out",
     "avg_minutes": 0.0,
@@ -77,13 +84,6 @@
    },
    {
     "player": "Strus, Max",
-    "status": "Out",
-    "avg_minutes": 0.0,
-    "p_play": 0.0,
-    "exp_missing_minutes": 0.0
-   },
-   {
-    "player": "Ingram, Brandon",
     "status": "Out",
     "avg_minutes": 0.0,
     "p_play": 0.0,
