@@ -1,8 +1,8 @@
 {
  "id": "espn-401909860",
- "computed_et": "2026-10-24T19:01",
+ "computed_et": "2026-10-24T20:30",
  "final": false,
- "report": "2026-10-24_07_00PM",
+ "report": "2026-10-24_08_30PM",
  "cutoff_et": "2026-10-24T21:00",
  "elo_home_win_prob": 0.751,
  "inputs": {
@@ -13,9 +13,9 @@
   "win_pct_last5_diff": 0.0,
   "rest_days_diff": 0.0,
   "back_to_back_diff": 0.0,
-  "exp_missing_minutes_diff": 43.5957,
+  "exp_missing_minutes_diff": 44.0085,
   "starters_out_diff": 0.0,
-  "exp_missing_value_diff": 3.5777,
+  "exp_missing_value_diff": 3.5333,
   "exp_stars_missing_diff": 0.0
  },
  "home": {
@@ -70,10 +70,10 @@
    },
    {
     "player": "Green, Draymond",
-    "status": "Doubtful",
+    "status": "Out",
     "avg_minutes": 21.0,
-    "p_play": 0.02,
-    "exp_missing_minutes": 20.6
+    "p_play": 0.0,
+    "exp_missing_minutes": 21.0
    },
    {
     "player": "Horford, Al",
@@ -87,6 +87,13 @@
     "status": "Out",
     "avg_minutes": 0.0,
     "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Bassey, Charles",
+    "status": "Questionable",
+    "avg_minutes": 0.0,
+    "p_play": 0.649,
     "exp_missing_minutes": 0.0
    },
    {
@@ -108,13 +115,6 @@
     "status": "Out",
     "avg_minutes": 0.0,
     "p_play": 0.0,
-    "exp_missing_minutes": 0.0
-   },
-   {
-    "player": "Bassey, Charles",
-    "status": "Questionable",
-    "avg_minutes": 0.0,
-    "p_play": 0.649,
     "exp_missing_minutes": 0.0
    }
   ]
