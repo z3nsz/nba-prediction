@@ -1,8 +1,8 @@
 {
  "id": "espn-401909863",
- "computed_et": "2026-10-25T17:01",
- "final": false,
- "report": "2026-10-25_05_00PM",
+ "computed_et": "2026-10-25T18:01",
+ "final": true,
+ "report": "2026-10-25_06_00PM",
  "cutoff_et": "2026-10-25T18:00",
  "elo_home_win_prob": 0.756,
  "inputs": {
@@ -13,9 +13,9 @@
   "win_pct_last5_diff": 0.0,
   "rest_days_diff": 0.0,
   "back_to_back_diff": 0.0,
-  "exp_missing_minutes_diff": 28.8737,
+  "exp_missing_minutes_diff": 19.9983,
   "starters_out_diff": 1.0,
-  "exp_missing_value_diff": 4.9981,
+  "exp_missing_value_diff": 5.5574,
   "exp_stars_missing_diff": 0.9999
  },
  "home": {
@@ -30,10 +30,10 @@
   "injuries": [
    {
     "player": "Alvarado, Jose",
-    "status": "Questionable",
+    "status": "Out",
     "avg_minutes": 13.5,
-    "p_play": 0.657,
-    "exp_missing_minutes": 4.6
+    "p_play": 0.0,
+    "exp_missing_minutes": 13.5
    }
   ]
  },
@@ -55,10 +55,10 @@
     "exp_missing_minutes": 33.5
    },
    {
-    "player": "Black, Anthony",
-    "status": "Questionable",
+    "player": "Isaac, Jonathan",
+    "status": "Out",
     "avg_minutes": 0.0,
-    "p_play": 0.364,
+    "p_play": 0.0,
     "exp_missing_minutes": 0.0
    },
    {
@@ -76,10 +76,10 @@
     "exp_missing_minutes": 0.0
    },
    {
-    "player": "Isaac, Jonathan",
-    "status": "Out",
+    "player": "Black, Anthony",
+    "status": "Available",
     "avg_minutes": 0.0,
-    "p_play": 0.0,
+    "p_play": 0.782,
     "exp_missing_minutes": 0.0
    }
   ]
