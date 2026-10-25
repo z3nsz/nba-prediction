@@ -1,5 +1,5 @@
 {
- "updated_et": "2026-10-25T01:12",
+ "updated_et": "2026-10-25T13:37",
  "season": "2026-27",
  "model": {
   "description": "Final NBA model (logistic regression, no intercept), retrained on all six seasons",
@@ -929,7 +929,7 @@
    "away": "LAL",
    "p_home": 0.2224,
    "final": false,
-   "report": "2026-10-24_11_45PM",
+   "report": "2026-10-25_01_30PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
@@ -952,9 +952,9 @@
    "tip_off_et": "2026-10-25T18:00",
    "home": "BKN",
    "away": "IND",
-   "p_home": 0.4993,
+   "p_home": 0.4886,
    "final": false,
-   "report": "2026-10-24_11_45PM",
+   "report": "2026-10-25_01_30PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
@@ -965,9 +965,9 @@
     "win_pct_last5_diff": 0.008,
     "rest_days_diff": -0.0362,
     "back_to_back_diff": -0.1956,
-    "exp_missing_minutes_diff": 0.0,
+    "exp_missing_minutes_diff": -0.0166,
     "starters_out_diff": 0.0,
-    "exp_missing_value_diff": 0.0,
+    "exp_missing_value_diff": -0.0261,
     "exp_stars_missing_diff": 0.0
    }
   },
@@ -979,7 +979,7 @@
    "away": "ORL",
    "p_home": 0.754,
    "final": false,
-   "report": "2026-10-24_11_45PM",
+   "report": "2026-10-25_01_30PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
@@ -1004,7 +1004,7 @@
    "away": "TOR",
    "p_home": 0.5821,
    "final": false,
-   "report": "2026-10-24_11_45PM",
+   "report": "2026-10-25_01_30PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
@@ -1029,7 +1029,7 @@
    "away": "LAC",
    "p_home": 0.6668,
    "final": false,
-   "report": "2026-10-24_11_45PM",
+   "report": "2026-10-25_01_30PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
@@ -1052,9 +1052,9 @@
    "tip_off_et": "2026-10-25T19:30",
    "home": "PHI",
    "away": "DET",
-   "p_home": 0.3304,
+   "p_home": 0.3066,
    "final": false,
-   "report": "2026-10-24_11_45PM",
+   "report": "2026-10-25_01_30PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
@@ -1065,9 +1065,9 @@
     "win_pct_last5_diff": -0.0,
     "rest_days_diff": -0.0362,
     "back_to_back_diff": -0.1956,
-    "exp_missing_minutes_diff": 0.0,
-    "starters_out_diff": 0.0,
-    "exp_missing_value_diff": 0.0,
+    "exp_missing_minutes_diff": -0.0357,
+    "starters_out_diff": -0.0303,
+    "exp_missing_value_diff": -0.0436,
     "exp_stars_missing_diff": 0.0
    }
   },
@@ -1079,7 +1079,7 @@
    "away": "MEM",
    "p_home": 0.5978,
    "final": false,
-   "report": "2026-10-24_11_45PM",
+   "report": "2026-10-25_01_30PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
