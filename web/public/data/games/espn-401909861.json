@@ -1,0 +1,87 @@
+{
+ "id": "espn-401909861",
+ "computed_et": "2026-10-25T01:12",
+ "final": false,
+ "report": "2026-10-24_11_45PM",
+ "cutoff_et": "2026-10-25T16:00",
+ "elo_home_win_prob": 0.287,
+ "inputs": {
+  "elo_diff": -258.0247,
+  "home_court": 1.0,
+  "point_diff_last10_diff": -31.5,
+  "win_pct_last10_diff": -0.5,
+  "win_pct_last5_diff": -0.5,
+  "rest_days_diff": -2.0,
+  "back_to_back_diff": 0.0,
+  "exp_missing_minutes_diff": 3.9265,
+  "starters_out_diff": 0.0,
+  "exp_missing_value_diff": 0.6114,
+  "exp_stars_missing_diff": 0.1309
+ },
+ "home": {
+  "team": "UTA",
+  "elo": 1326.8,
+  "win_pct_last10": 0.5,
+  "win_pct_last5": 0.5,
+  "point_diff_last10": -9.5,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Alexander, Trey",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Ingram, Harrison",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.023,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Nurkic, Jusuf",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ },
+ "away": {
+  "team": "LAL",
+  "elo": 1584.8,
+  "win_pct_last10": 1.0,
+  "win_pct_last5": 1.0,
+  "point_diff_last10": 22.0,
+  "rest_days": 4.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Kessler, Walker",
+    "status": "Available",
+    "avg_minutes": 30.0,
+    "p_play": 0.869,
+    "exp_missing_minutes": 3.9
+   },
+   {
+    "player": "Carr, Cameron",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.001,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Thiero, Adou",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ }
+}

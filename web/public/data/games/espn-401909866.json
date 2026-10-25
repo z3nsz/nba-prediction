@@ -1,0 +1,79 @@
+{
+ "id": "espn-401909866",
+ "computed_et": "2026-10-25T01:12",
+ "final": false,
+ "report": "2026-10-24_11_45PM",
+ "cutoff_et": "2026-10-25T18:30",
+ "elo_home_win_prob": 0.458,
+ "inputs": {
+  "elo_diff": -129.4628,
+  "home_court": 1.0,
+  "point_diff_last10_diff": -4.1667,
+  "win_pct_last10_diff": 0.0,
+  "win_pct_last5_diff": 0.0,
+  "rest_days_diff": -1.0,
+  "back_to_back_diff": -1.0,
+  "exp_missing_minutes_diff": 0.0,
+  "starters_out_diff": 0.0,
+  "exp_missing_value_diff": 0.0,
+  "exp_stars_missing_diff": 0.0
+ },
+ "home": {
+  "team": "PHI",
+  "elo": 1541.3,
+  "win_pct_last10": 1.0,
+  "win_pct_last5": 1.0,
+  "point_diff_last10": 8.3,
+  "rest_days": 1.0,
+  "back_to_back": true,
+  "report_known": false,
+  "injuries": []
+ },
+ "away": {
+  "team": "DET",
+  "elo": 1670.8,
+  "win_pct_last10": 1.0,
+  "win_pct_last5": 1.0,
+  "point_diff_last10": 12.5,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Duren, Jalen",
+    "status": "Out",
+    "avg_minutes": 19.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 19.0
+   },
+   {
+    "player": "Thompson, Ausar",
+    "status": "Questionable",
+    "avg_minutes": 26.0,
+    "p_play": 0.455,
+    "exp_missing_minutes": 14.2
+   },
+   {
+    "player": "Harkless, Elijah",
+    "status": "Questionable",
+    "avg_minutes": 0.0,
+    "p_play": 0.509,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Jones, Isaac",
+    "status": "Questionable",
+    "avg_minutes": 0.0,
+    "p_play": 0.507,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Onyenso, Ugonna",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.001,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ }
+}
