@@ -1,8 +1,8 @@
 {
  "id": "espn-401909874",
- "computed_et": "2026-10-26T18:31",
+ "computed_et": "2026-10-26T19:01",
  "final": false,
- "report": "2026-10-26_06_30PM",
+ "report": "2026-10-26_07_00PM",
  "cutoff_et": "2026-10-26T19:30",
  "elo_home_win_prob": 0.638,
  "inputs": {
@@ -43,17 +43,17 @@
     "exp_missing_minutes": 9.0
    },
    {
-    "player": "Copeland, Quadir",
-    "status": "Out",
-    "avg_minutes": 0.0,
-    "p_play": 0.001,
-    "exp_missing_minutes": 0.0
-   },
-   {
     "player": "Phillips, Julian",
     "status": "Out",
     "avg_minutes": 0.0,
     "p_play": 0.025,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Copeland, Quadir",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.001,
     "exp_missing_minutes": 0.0
    }
   ]
@@ -74,6 +74,13 @@
     "avg_minutes": 18.7,
     "p_play": 0.912,
     "exp_missing_minutes": 1.6
+   },
+   {
+    "player": "Dennis, RayJ",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
    },
    {
     "player": "Gilbert, Keshon",
@@ -98,13 +105,6 @@
    },
    {
     "player": "Wilson, Jalen",
-    "status": "Out",
-    "avg_minutes": 0.0,
-    "p_play": 0.0,
-    "exp_missing_minutes": 0.0
-   },
-   {
-    "player": "Dennis, RayJ",
     "status": "Out",
     "avg_minutes": 0.0,
     "p_play": 0.0,

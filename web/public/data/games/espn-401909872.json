@@ -1,8 +1,8 @@
 {
  "id": "espn-401909872",
- "computed_et": "2026-10-26T18:31",
- "final": false,
- "report": "2026-10-26_06_30PM",
+ "computed_et": "2026-10-26T19:01",
+ "final": true,
+ "report": "2026-10-26_07_00PM",
  "cutoff_et": "2026-10-26T19:00",
  "elo_home_win_prob": 0.599,
  "inputs": {
@@ -13,9 +13,9 @@
   "win_pct_last5_diff": -0.6667,
   "rest_days_diff": 1.0,
   "back_to_back_diff": 1.0,
-  "exp_missing_minutes_diff": 54.4175,
-  "starters_out_diff": 0.0,
-  "exp_missing_value_diff": -0.134,
+  "exp_missing_minutes_diff": 74.6765,
+  "starters_out_diff": 1.0,
+  "exp_missing_value_diff": 0.9584,
   "exp_stars_missing_diff": 0.0
  },
  "home": {
@@ -40,18 +40,18 @@
   "report_known": true,
   "injuries": [
    {
+    "player": "Nembhard, Andrew",
+    "status": "Out",
+    "avg_minutes": 32.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 32.0
+   },
+   {
     "player": "Zubac, Ivica",
     "status": "Out",
     "avg_minutes": 21.7,
     "p_play": 0.0,
     "exp_missing_minutes": 21.7
-   },
-   {
-    "player": "Nembhard, Andrew",
-    "status": "Questionable",
-    "avg_minutes": 32.0,
-    "p_play": 0.609,
-    "exp_missing_minutes": 12.5
    },
    {
     "player": "Sheppard, Ben",
@@ -69,10 +69,10 @@
    },
    {
     "player": "Nesmith, Aaron",
-    "status": "Probable",
+    "status": "Available",
     "avg_minutes": 19.5,
-    "p_play": 0.941,
-    "exp_missing_minutes": 1.2
+    "p_play": 0.902,
+    "exp_missing_minutes": 1.9
    },
    {
     "player": "Brown, Kobe",
@@ -80,6 +80,13 @@
     "avg_minutes": 1.0,
     "p_play": 0.443,
     "exp_missing_minutes": 0.6
+   },
+   {
+    "player": "McConnell, T.J.",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
    },
    {
     "player": "Smith, Braden",
@@ -90,13 +97,6 @@
    },
    {
     "player": "Furphy, Johnny",
-    "status": "Out",
-    "avg_minutes": 0.0,
-    "p_play": 0.0,
-    "exp_missing_minutes": 0.0
-   },
-   {
-    "player": "McConnell, T.J.",
     "status": "Out",
     "avg_minutes": 0.0,
     "p_play": 0.0,
