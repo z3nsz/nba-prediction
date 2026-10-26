@@ -1,8 +1,8 @@
 {
  "id": "espn-401909872",
- "computed_et": "2026-10-26T15:52",
+ "computed_et": "2026-10-26T18:01",
  "final": false,
- "report": "2026-10-26_03_45PM",
+ "report": "2026-10-26_06_00PM",
  "cutoff_et": "2026-10-26T19:00",
  "elo_home_win_prob": 0.599,
  "inputs": {
@@ -82,6 +82,13 @@
     "exp_missing_minutes": 0.6
    },
    {
+    "player": "Smith, Braden",
+    "status": "Questionable",
+    "avg_minutes": 0.0,
+    "p_play": 0.509,
+    "exp_missing_minutes": 0.0
+   },
+   {
     "player": "Furphy, Johnny",
     "status": "Out",
     "avg_minutes": 0.0,
@@ -93,13 +100,6 @@
     "status": "Out",
     "avg_minutes": 0.0,
     "p_play": 0.0,
-    "exp_missing_minutes": 0.0
-   },
-   {
-    "player": "Smith, Braden",
-    "status": "Questionable",
-    "avg_minutes": 0.0,
-    "p_play": 0.509,
     "exp_missing_minutes": 0.0
    }
   ]
