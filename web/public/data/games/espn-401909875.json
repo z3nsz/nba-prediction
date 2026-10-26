@@ -1,0 +1,43 @@
+{
+ "id": "espn-401909875",
+ "computed_et": "2026-10-26T02:01",
+ "final": false,
+ "report": "2026-10-25_11_45PM",
+ "cutoff_et": "2026-10-26T20:00",
+ "elo_home_win_prob": 0.584,
+ "inputs": {
+  "elo_diff": -40.9073,
+  "home_court": 1.0,
+  "point_diff_last10_diff": -24.8333,
+  "win_pct_last10_diff": -0.6667,
+  "win_pct_last5_diff": -0.6667,
+  "rest_days_diff": 0.0,
+  "back_to_back_diff": 0.0,
+  "exp_missing_minutes_diff": 0.0,
+  "starters_out_diff": 0.0,
+  "exp_missing_value_diff": 0.0,
+  "exp_stars_missing_diff": 0.0
+ },
+ "home": {
+  "team": "UTA",
+  "elo": 1321.8,
+  "win_pct_last10": 0.333,
+  "win_pct_last5": 0.333,
+  "point_diff_last10": -9.3,
+  "rest_days": 1.0,
+  "back_to_back": true,
+  "report_known": false,
+  "injuries": []
+ },
+ "away": {
+  "team": "MEM",
+  "elo": 1362.7,
+  "win_pct_last10": 1.0,
+  "win_pct_last5": 1.0,
+  "point_diff_last10": 15.5,
+  "rest_days": 1.0,
+  "back_to_back": true,
+  "report_known": false,
+  "injuries": []
+ }
+}

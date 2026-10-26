@@ -1,0 +1,43 @@
+{
+ "id": "espn-401909872",
+ "computed_et": "2026-10-26T02:01",
+ "final": false,
+ "report": "2026-10-25_11_45PM",
+ "cutoff_et": "2026-10-26T19:00",
+ "elo_home_win_prob": 0.599,
+ "inputs": {
+  "elo_diff": -30.3251,
+  "home_court": 1.0,
+  "point_diff_last10_diff": -14.6667,
+  "win_pct_last10_diff": -0.6667,
+  "win_pct_last5_diff": -0.6667,
+  "rest_days_diff": 1.0,
+  "back_to_back_diff": 1.0,
+  "exp_missing_minutes_diff": 0.0,
+  "starters_out_diff": 0.0,
+  "exp_missing_value_diff": 0.0,
+  "exp_stars_missing_diff": 0.0
+ },
+ "home": {
+  "team": "MIL",
+  "elo": 1357.9,
+  "win_pct_last10": 0.0,
+  "win_pct_last5": 0.0,
+  "point_diff_last10": -10.0,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": []
+ },
+ "away": {
+  "team": "IND",
+  "elo": 1388.3,
+  "win_pct_last10": 0.667,
+  "win_pct_last5": 0.667,
+  "point_diff_last10": 4.7,
+  "rest_days": 1.0,
+  "back_to_back": true,
+  "report_known": false,
+  "injuries": []
+ }
+}
