@@ -1,8 +1,8 @@
 {
  "id": "espn-401909869",
- "computed_et": "2026-10-26T02:01",
+ "computed_et": "2026-10-26T15:52",
  "final": false,
- "report": "2026-10-25_11_45PM",
+ "report": "2026-10-26_03_45PM",
  "cutoff_et": "2026-10-26T18:00",
  "elo_home_win_prob": 0.619,
  "inputs": {
@@ -13,10 +13,10 @@
   "win_pct_last5_diff": -0.5,
   "rest_days_diff": 1.0,
   "back_to_back_diff": 1.0,
-  "exp_missing_minutes_diff": 0.0,
+  "exp_missing_minutes_diff": 4.4144,
   "starters_out_diff": 0.0,
-  "exp_missing_value_diff": 0.0,
-  "exp_stars_missing_diff": 0.0
+  "exp_missing_value_diff": 0.9215,
+  "exp_stars_missing_diff": 0.1409
  },
  "home": {
   "team": "CLE",
@@ -59,7 +59,22 @@
   "point_diff_last10": 23.3,
   "rest_days": 1.0,
   "back_to_back": true,
-  "report_known": false,
-  "injuries": []
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Edwards, Anthony",
+    "status": "Questionable",
+    "avg_minutes": 31.3,
+    "p_play": 0.859,
+    "exp_missing_minutes": 4.4
+   },
+   {
+    "player": "DiVincenzo, Donte",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
  }
 }

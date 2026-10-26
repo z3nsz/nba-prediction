@@ -1,8 +1,8 @@
 {
  "id": "espn-401909874",
- "computed_et": "2026-10-26T02:01",
+ "computed_et": "2026-10-26T15:52",
  "final": false,
- "report": "2026-10-25_11_45PM",
+ "report": "2026-10-26_03_45PM",
  "cutoff_et": "2026-10-26T19:30",
  "elo_home_win_prob": 0.638,
  "inputs": {
@@ -13,9 +13,9 @@
   "win_pct_last5_diff": 0.3333,
   "rest_days_diff": 0.0,
   "back_to_back_diff": 0.0,
-  "exp_missing_minutes_diff": -20.1802,
+  "exp_missing_minutes_diff": -30.8631,
   "starters_out_diff": 0.0,
-  "exp_missing_value_diff": 1.9787,
+  "exp_missing_value_diff": 3.4033,
   "exp_stars_missing_diff": 0.0
  },
  "home": {
@@ -30,10 +30,10 @@
   "injuries": [
    {
     "player": "Smart, Marcus",
-    "status": "Questionable",
+    "status": "Out",
     "avg_minutes": 23.5,
-    "p_play": 0.455,
-    "exp_missing_minutes": 12.8
+    "p_play": 0.0,
+    "exp_missing_minutes": 23.5
    },
    {
     "player": "Adams, Steven",

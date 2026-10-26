@@ -1,8 +1,8 @@
 {
  "id": "espn-401909873",
- "computed_et": "2026-10-26T02:01",
+ "computed_et": "2026-10-26T15:52",
  "final": false,
- "report": "2026-10-25_11_45PM",
+ "report": "2026-10-26_03_45PM",
  "cutoff_et": "2026-10-26T19:00",
  "elo_home_win_prob": 0.806,
  "inputs": {
@@ -13,9 +13,9 @@
   "win_pct_last5_diff": 0.5,
   "rest_days_diff": -1.0,
   "back_to_back_diff": -1.0,
-  "exp_missing_minutes_diff": 0.0,
-  "starters_out_diff": 0.0,
-  "exp_missing_value_diff": 0.0,
+  "exp_missing_minutes_diff": -63.0035,
+  "starters_out_diff": -2.0,
+  "exp_missing_value_diff": -5.6175,
   "exp_stars_missing_diff": 0.0
  },
  "home": {
@@ -26,8 +26,44 @@
   "point_diff_last10": 10.3,
   "rest_days": 1.0,
   "back_to_back": true,
-  "report_known": false,
-  "injuries": []
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Williams, Jalen",
+    "status": "Out",
+    "avg_minutes": 31.7,
+    "p_play": 0.0,
+    "exp_missing_minutes": 31.7
+   },
+   {
+    "player": "Holmgren, Chet",
+    "status": "Out",
+    "avg_minutes": 30.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 30.0
+   },
+   {
+    "player": "Wallace, Cason",
+    "status": "Out",
+    "avg_minutes": 16.3,
+    "p_play": 0.0,
+    "exp_missing_minutes": 16.3
+   },
+   {
+    "player": "Topic, Nikola",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Sorber, Thomas",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
  },
  "away": {
   "team": "PHX",
@@ -41,10 +77,10 @@
   "injuries": [
    {
     "player": "Ighodaro, Oso",
-    "status": "Doubtful",
+    "status": "Out",
     "avg_minutes": 15.0,
-    "p_play": 0.02,
-    "exp_missing_minutes": 14.7
+    "p_play": 0.001,
+    "exp_missing_minutes": 15.0
    },
    {
     "player": "Timme, Drew",

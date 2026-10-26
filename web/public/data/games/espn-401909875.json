@@ -1,8 +1,8 @@
 {
  "id": "espn-401909875",
- "computed_et": "2026-10-26T02:01",
+ "computed_et": "2026-10-26T15:52",
  "final": false,
- "report": "2026-10-25_11_45PM",
+ "report": "2026-10-26_03_45PM",
  "cutoff_et": "2026-10-26T20:00",
  "elo_home_win_prob": 0.584,
  "inputs": {
@@ -13,9 +13,9 @@
   "win_pct_last5_diff": -0.6667,
   "rest_days_diff": 0.0,
   "back_to_back_diff": 0.0,
-  "exp_missing_minutes_diff": 0.0,
+  "exp_missing_minutes_diff": -5.9269,
   "starters_out_diff": 0.0,
-  "exp_missing_value_diff": 0.0,
+  "exp_missing_value_diff": -1.0382,
   "exp_stars_missing_diff": 0.0
  },
  "home": {
@@ -26,8 +26,44 @@
   "point_diff_last10": -9.3,
   "rest_days": 1.0,
   "back_to_back": true,
-  "report_known": false,
-  "injuries": []
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Hayes, Jaxson",
+    "status": "Questionable",
+    "avg_minutes": 23.7,
+    "p_play": 0.255,
+    "exp_missing_minutes": 17.6
+   },
+   {
+    "player": "Alexander, Trey",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Bufkin, Kobe",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Ingram, Harrison",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.023,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Nurkic, Jusuf",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
  },
  "away": {
   "team": "MEM",
@@ -37,7 +73,22 @@
   "point_diff_last10": 15.5,
   "rest_days": 1.0,
   "back_to_back": true,
-  "report_known": false,
-  "injuries": []
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Stewart, Isaiah",
+    "status": "Questionable",
+    "avg_minutes": 22.0,
+    "p_play": 0.468,
+    "exp_missing_minutes": 11.7
+   },
+   {
+    "player": "Lopez, Karim",
+    "status": "Questionable",
+    "avg_minutes": 0.0,
+    "p_play": 0.424,
+    "exp_missing_minutes": 0.0
+   }
+  ]
  }
 }

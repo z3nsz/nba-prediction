@@ -1,8 +1,8 @@
 {
  "id": "espn-401909876",
- "computed_et": "2026-10-26T02:01",
+ "computed_et": "2026-10-26T15:52",
  "final": false,
- "report": "2026-10-25_11_45PM",
+ "report": "2026-10-26_03_45PM",
  "cutoff_et": "2026-10-26T21:00",
  "elo_home_win_prob": 0.837,
  "inputs": {
@@ -13,9 +13,9 @@
   "win_pct_last5_diff": 0.5,
   "rest_days_diff": 0.0,
   "back_to_back_diff": 0.0,
-  "exp_missing_minutes_diff": -16.4536,
+  "exp_missing_minutes_diff": -16.8707,
   "starters_out_diff": 0.0,
-  "exp_missing_value_diff": 0.9121,
+  "exp_missing_value_diff": 0.9187,
   "exp_stars_missing_diff": 0.0
  },
  "home": {
@@ -30,10 +30,10 @@
   "injuries": [
    {
     "player": "Diallo, Alpha",
-    "status": "Doubtful",
+    "status": "Out",
     "avg_minutes": 22.0,
-    "p_play": 0.02,
-    "exp_missing_minutes": 21.6
+    "p_play": 0.001,
+    "exp_missing_minutes": 22.0
    },
    {
     "player": "Johnson, Cameron",
