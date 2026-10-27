@@ -1,5 +1,5 @@
 {
- "updated_et": "2026-10-26T19:31",
+ "updated_et": "2026-10-26T20:01",
  "season": "2026-27",
  "model": {
   "description": "Final NBA model (logistic regression, no intercept), retrained on all six seasons",
@@ -1277,9 +1277,9 @@
    "tip_off_et": "2026-10-26T21:00",
    "home": "UTA",
    "away": "MEM",
-   "p_home": 0.4954,
-   "final": false,
-   "report": "2026-10-26_07_30PM",
+   "p_home": 0.4863,
+   "final": true,
+   "report": "2026-10-26_08_00PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
@@ -1290,9 +1290,9 @@
     "win_pct_last5_diff": 0.0107,
     "rest_days_diff": 0.0,
     "back_to_back_diff": 0.0,
-    "exp_missing_minutes_diff": -0.0282,
+    "exp_missing_minutes_diff": -0.0569,
     "starters_out_diff": 0.0,
-    "exp_missing_value_diff": -0.0197,
+    "exp_missing_value_diff": -0.0273,
     "exp_stars_missing_diff": 0.0
    }
   },
@@ -1304,7 +1304,7 @@
    "away": "GSW",
    "p_home": 0.7234,
    "final": false,
-   "report": "2026-10-26_07_30PM",
+   "report": "2026-10-26_08_00PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
