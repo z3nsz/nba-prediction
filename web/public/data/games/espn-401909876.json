@@ -1,8 +1,8 @@
 {
  "id": "espn-401909876",
- "computed_et": "2026-10-26T20:01",
- "final": false,
- "report": "2026-10-26_08_00PM",
+ "computed_et": "2026-10-26T21:01",
+ "final": true,
+ "report": "2026-10-26_09_00PM",
  "cutoff_et": "2026-10-26T21:00",
  "elo_home_win_prob": 0.837,
  "inputs": {
@@ -13,9 +13,9 @@
   "win_pct_last5_diff": 0.5,
   "rest_days_diff": 0.0,
   "back_to_back_diff": 0.0,
-  "exp_missing_minutes_diff": -16.8707,
+  "exp_missing_minutes_diff": -25.6244,
   "starters_out_diff": 0.0,
-  "exp_missing_value_diff": 0.9187,
+  "exp_missing_value_diff": 1.6799,
   "exp_stars_missing_diff": 0.0
  },
  "home": {
@@ -69,25 +69,25 @@
   "report_known": true,
   "injuries": [
    {
+    "player": "Bassey, Charles",
+    "status": "Available",
+    "avg_minutes": 13.0,
+    "p_play": 0.717,
+    "exp_missing_minutes": 3.7
+   },
+   {
     "player": "Santos, Gui",
-    "status": "Questionable",
+    "status": "Available",
     "avg_minutes": 24.0,
-    "p_play": 0.424,
-    "exp_missing_minutes": 13.8
+    "p_play": 0.926,
+    "exp_missing_minutes": 1.8
    },
    {
     "player": "Williams, Brandon",
-    "status": "Probable",
+    "status": "Available",
     "avg_minutes": 21.0,
-    "p_play": 0.941,
-    "exp_missing_minutes": 1.2
-   },
-   {
-    "player": "Bassey, Charles",
-    "status": "Probable",
-    "avg_minutes": 13.0,
-    "p_play": 0.932,
-    "exp_missing_minutes": 0.9
+    "p_play": 0.918,
+    "exp_missing_minutes": 1.7
    },
    {
     "player": "Butler III, Jimmy",
