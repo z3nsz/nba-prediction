@@ -1,8 +1,8 @@
 {
  "id": "espn-401909877",
- "computed_et": "2026-10-27T00:52",
+ "computed_et": "2026-10-27T15:23",
  "final": false,
- "report": "2026-10-26_11_45PM",
+ "report": "2026-10-27_03_15PM",
  "cutoff_et": "2026-10-27T18:30",
  "elo_home_win_prob": 0.936,
  "inputs": {
@@ -13,9 +13,9 @@
   "win_pct_last5_diff": 0.6667,
   "rest_days_diff": -1.0,
   "back_to_back_diff": -1.0,
-  "exp_missing_minutes_diff": 0.0,
+  "exp_missing_minutes_diff": 18.7468,
   "starters_out_diff": 0.0,
-  "exp_missing_value_diff": 0.0,
+  "exp_missing_value_diff": -2.8349,
   "exp_stars_missing_diff": 0.0
  },
  "home": {
@@ -26,8 +26,23 @@
   "point_diff_last10": 10.3,
   "rest_days": 1.0,
   "back_to_back": true,
-  "report_known": false,
-  "injuries": []
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "White, Derrick",
+    "status": "Probable",
+    "avg_minutes": 29.0,
+    "p_play": 0.957,
+    "exp_missing_minutes": 1.2
+   },
+   {
+    "player": "Carter, Devin",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
  },
  "away": {
   "team": "BKN",
