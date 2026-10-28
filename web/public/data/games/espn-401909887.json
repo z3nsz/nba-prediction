@@ -1,8 +1,8 @@
 {
  "id": "espn-401909887",
- "computed_et": "2026-10-28T18:01",
+ "computed_et": "2026-10-28T18:31",
  "final": false,
- "report": "2026-10-28_06_00PM",
+ "report": "2026-10-28_06_30PM",
  "cutoff_et": "2026-10-28T19:00",
  "elo_home_win_prob": 0.289,
  "inputs": {
@@ -61,17 +61,17 @@
     "exp_missing_minutes": 9.0
    },
    {
-    "player": "Copeland, Quadir",
-    "status": "Out",
-    "avg_minutes": 0.0,
-    "p_play": 0.001,
-    "exp_missing_minutes": 0.0
-   },
-   {
     "player": "Phillips, Julian",
     "status": "Out",
     "avg_minutes": 0.0,
     "p_play": 0.024,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Copeland, Quadir",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.001,
     "exp_missing_minutes": 0.0
    }
   ]
