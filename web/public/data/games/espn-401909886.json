@@ -1,8 +1,8 @@
 {
  "id": "espn-401909886",
- "computed_et": "2026-10-28T04:56",
+ "computed_et": "2026-10-28T15:28",
  "final": false,
- "report": "2026-10-27_11_45PM",
+ "report": "2026-10-28_03_15PM",
  "cutoff_et": "2026-10-28T19:00",
  "elo_home_win_prob": 0.327,
  "inputs": {
@@ -13,9 +13,9 @@
   "win_pct_last5_diff": 0.0,
   "rest_days_diff": 1.0,
   "back_to_back_diff": 1.0,
-  "exp_missing_minutes_diff": 0.0,
+  "exp_missing_minutes_diff": 7.127,
   "starters_out_diff": 0.0,
-  "exp_missing_value_diff": 0.0,
+  "exp_missing_value_diff": -0.9331,
   "exp_stars_missing_diff": 0.0
  },
  "home": {
@@ -36,17 +36,17 @@
     "exp_missing_minutes": 6.4
    },
    {
-    "player": "Claxton, Nic",
-    "status": "Out",
-    "avg_minutes": 0.0,
-    "p_play": 0.0,
-    "exp_missing_minutes": 0.0
-   },
-   {
     "player": "Williams, Patrick",
     "status": "Questionable",
     "avg_minutes": 0.0,
     "p_play": 0.505,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Claxton, Nic",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
     "exp_missing_minutes": 0.0
    }
   ]
@@ -59,7 +59,15 @@
   "point_diff_last10": -1.2,
   "rest_days": 1.0,
   "back_to_back": true,
-  "report_known": false,
-  "injuries": []
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Alvarado, Jose",
+    "status": "Out",
+    "avg_minutes": 13.5,
+    "p_play": 0.0,
+    "exp_missing_minutes": 13.5
+   }
+  ]
  }
 }

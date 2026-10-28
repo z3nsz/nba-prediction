@@ -1,8 +1,8 @@
 {
  "id": "espn-401909882",
- "computed_et": "2026-10-28T04:56",
+ "computed_et": "2026-10-28T15:28",
  "final": false,
- "report": "2026-10-27_11_45PM",
+ "report": "2026-10-28_03_15PM",
  "cutoff_et": "2026-10-28T18:00",
  "elo_home_win_prob": 0.905,
  "inputs": {
@@ -70,9 +70,9 @@
    },
    {
     "player": "Dybantsa, AJ",
-    "status": "Questionable",
+    "status": "Available",
     "avg_minutes": 0.0,
-    "p_play": 0.51,
+    "p_play": 0.807,
     "exp_missing_minutes": 0.0
    },
    {

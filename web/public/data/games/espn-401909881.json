@@ -1,8 +1,8 @@
 {
  "id": "espn-401909881",
- "computed_et": "2026-10-28T04:56",
+ "computed_et": "2026-10-28T15:28",
  "final": false,
- "report": "2026-10-27_11_45PM",
+ "report": "2026-10-28_03_15PM",
  "cutoff_et": "2026-10-28T18:00",
  "elo_home_win_prob": 0.795,
  "inputs": {
@@ -13,9 +13,9 @@
   "win_pct_last5_diff": 0.5,
   "rest_days_diff": 0.0,
   "back_to_back_diff": 0.0,
-  "exp_missing_minutes_diff": -13.6166,
+  "exp_missing_minutes_diff": -1.5396,
   "starters_out_diff": 0.0,
-  "exp_missing_value_diff": 0.3243,
+  "exp_missing_value_diff": -0.0392,
   "exp_stars_missing_diff": 0.0
  },
  "home": {
@@ -30,10 +30,10 @@
   "injuries": [
    {
     "player": "Wiggins, Aaron",
-    "status": "Questionable",
+    "status": "Probable",
     "avg_minutes": 27.5,
-    "p_play": 0.444,
-    "exp_missing_minutes": 15.3
+    "p_play": 0.905,
+    "exp_missing_minutes": 2.6
    },
    {
     "player": "Ejiofor, Zuby",
@@ -98,17 +98,17 @@
   "injuries": [
    {
     "player": "Fontecchio, Simone",
-    "status": "Doubtful",
+    "status": "Out",
     "avg_minutes": 3.0,
-    "p_play": 0.016,
+    "p_play": 0.0,
     "exp_missing_minutes": 3.0
    },
    {
     "player": "Larsson, Pelle",
-    "status": "Probable",
+    "status": "Available",
     "avg_minutes": 30.8,
-    "p_play": 0.921,
-    "exp_missing_minutes": 2.4
+    "p_play": 0.943,
+    "exp_missing_minutes": 1.8
    }
   ]
  }
