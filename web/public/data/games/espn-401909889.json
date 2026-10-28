@@ -1,0 +1,108 @@
+{
+ "id": "espn-401909889",
+ "computed_et": "2026-10-28T04:56",
+ "final": false,
+ "report": "2026-10-27_11_45PM",
+ "cutoff_et": "2026-10-28T19:00",
+ "elo_home_win_prob": 0.396,
+ "inputs": {
+  "elo_diff": -172.9924,
+  "home_court": 1.0,
+  "point_diff_last10_diff": 5.3333,
+  "win_pct_last10_diff": -0.3333,
+  "win_pct_last5_diff": -0.3333,
+  "rest_days_diff": 2.0,
+  "back_to_back_diff": 0.0,
+  "exp_missing_minutes_diff": 9.3376,
+  "starters_out_diff": 0.0,
+  "exp_missing_value_diff": -1.065,
+  "exp_stars_missing_diff": 0.0
+ },
+ "home": {
+  "team": "NOP",
+  "elo": 1410.7,
+  "win_pct_last10": 0.0,
+  "win_pct_last5": 0.0,
+  "point_diff_last10": -3.3,
+  "rest_days": 4.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Missi, Yves",
+    "status": "Out",
+    "avg_minutes": 19.5,
+    "p_play": 0.0,
+    "exp_missing_minutes": 19.5
+   },
+   {
+    "player": "Poole, Jordan",
+    "status": "Probable",
+    "avg_minutes": 19.0,
+    "p_play": 0.79,
+    "exp_missing_minutes": 4.0
+   },
+   {
+    "player": "Dia, Malik",
+    "status": "Doubtful",
+    "avg_minutes": 0.0,
+    "p_play": 0.02,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Pierre Jr., Jaron",
+    "status": "Doubtful",
+    "avg_minutes": 0.0,
+    "p_play": 0.02,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Reese, Julian",
+    "status": "Probable",
+    "avg_minutes": 0.0,
+    "p_play": 0.905,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ },
+ "away": {
+  "team": "DEN",
+  "elo": 1583.6,
+  "win_pct_last10": 0.333,
+  "win_pct_last5": 0.333,
+  "point_diff_last10": -8.7,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Diallo, Alpha",
+    "status": "Out",
+    "avg_minutes": 22.0,
+    "p_play": 0.001,
+    "exp_missing_minutes": 22.0
+   },
+   {
+    "player": "Johnson, Cameron",
+    "status": "Doubtful",
+    "avg_minutes": 11.0,
+    "p_play": 0.014,
+    "exp_missing_minutes": 10.8
+   },
+   {
+    "player": "Jones, Spencer",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Strawther, Julian",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ }
+}

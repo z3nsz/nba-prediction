@@ -1,0 +1,143 @@
+{
+ "id": "espn-401909891",
+ "computed_et": "2026-10-28T04:56",
+ "final": false,
+ "report": "2026-10-27_11_45PM",
+ "cutoff_et": "2026-10-28T20:30",
+ "elo_home_win_prob": 0.265,
+ "inputs": {
+  "elo_diff": -277.5795,
+  "home_court": 1.0,
+  "point_diff_last10_diff": -14.0,
+  "win_pct_last10_diff": -0.5,
+  "win_pct_last5_diff": -0.5,
+  "rest_days_diff": 0.0,
+  "back_to_back_diff": 0.0,
+  "exp_missing_minutes_diff": 58.1751,
+  "starters_out_diff": 2.0,
+  "exp_missing_value_diff": 4.542,
+  "exp_stars_missing_diff": 0.0
+ },
+ "home": {
+  "team": "DAL",
+  "elo": 1408.8,
+  "win_pct_last10": 0.5,
+  "win_pct_last5": 0.5,
+  "point_diff_last10": -3.5,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Irving, Kyrie",
+    "status": "Questionable",
+    "avg_minutes": 27.3,
+    "p_play": 0.303,
+    "exp_missing_minutes": 19.0
+   },
+   {
+    "player": "Marshall, Naji",
+    "status": "Questionable",
+    "avg_minutes": 27.7,
+    "p_play": 0.396,
+    "exp_missing_minutes": 16.7
+   },
+   {
+    "player": "de Larrea, Sergio",
+    "status": "Out",
+    "avg_minutes": 11.8,
+    "p_play": 0.001,
+    "exp_missing_minutes": 11.7
+   },
+   {
+    "player": "Biberovic, Tarik",
+    "status": "Doubtful",
+    "avg_minutes": 0.0,
+    "p_play": 0.02,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Aldama, Santi",
+    "status": "Doubtful",
+    "avg_minutes": 0.0,
+    "p_play": 0.007,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Lively II, Dereck",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Martin, Caleb",
+    "status": "Questionable",
+    "avg_minutes": 0.0,
+    "p_play": 0.654,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ },
+ "away": {
+  "team": "OKC",
+  "elo": 1686.3,
+  "win_pct_last10": 1.0,
+  "win_pct_last5": 1.0,
+  "point_diff_last10": 10.5,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Williams, Jalen",
+    "status": "Out",
+    "avg_minutes": 31.7,
+    "p_play": 0.0,
+    "exp_missing_minutes": 31.7
+   },
+   {
+    "player": "Holmgren, Chet",
+    "status": "Out",
+    "avg_minutes": 30.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 30.0
+   },
+   {
+    "player": "Caruso, Alex",
+    "status": "Out",
+    "avg_minutes": 19.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 19.0
+   },
+   {
+    "player": "Wallace, Cason",
+    "status": "Out",
+    "avg_minutes": 16.3,
+    "p_play": 0.0,
+    "exp_missing_minutes": 16.3
+   },
+   {
+    "player": "Mitchell, Ajay",
+    "status": "Questionable",
+    "avg_minutes": 24.8,
+    "p_play": 0.65,
+    "exp_missing_minutes": 8.7
+   },
+   {
+    "player": "Topic, Nikola",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Sorber, Thomas",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ }
+}

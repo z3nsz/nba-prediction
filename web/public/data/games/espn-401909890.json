@@ -1,0 +1,93 @@
+{
+ "id": "espn-401909890",
+ "computed_et": "2026-10-28T04:56",
+ "final": false,
+ "report": "2026-10-27_11_45PM",
+ "cutoff_et": "2026-10-28T20:00",
+ "elo_home_win_prob": 0.187,
+ "inputs": {
+  "elo_diff": -355.6065,
+  "home_court": 1.0,
+  "point_diff_last10_diff": -15.0,
+  "win_pct_last10_diff": -0.25,
+  "win_pct_last5_diff": -0.25,
+  "rest_days_diff": 1.0,
+  "back_to_back_diff": 1.0,
+  "exp_missing_minutes_diff": 0.0,
+  "starters_out_diff": 0.0,
+  "exp_missing_value_diff": 0.0,
+  "exp_stars_missing_diff": 0.0
+ },
+ "home": {
+  "team": "UTA",
+  "elo": 1313.2,
+  "win_pct_last10": 0.25,
+  "win_pct_last5": 0.25,
+  "point_diff_last10": -8.2,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Jackson Jr., Jaren",
+    "status": "Out",
+    "avg_minutes": 26.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 26.0
+   },
+   {
+    "player": "Hayes, Jaxson",
+    "status": "Questionable",
+    "avg_minutes": 23.7,
+    "p_play": 0.255,
+    "exp_missing_minutes": 17.6
+   },
+   {
+    "player": "Markkanen, Lauri",
+    "status": "Questionable",
+    "avg_minutes": 28.5,
+    "p_play": 0.437,
+    "exp_missing_minutes": 16.1
+   },
+   {
+    "player": "Bufkin, Kobe",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Alexander, Trey",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Nurkic, Jusuf",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Ingram, Harrison",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.023,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ },
+ "away": {
+  "team": "SAS",
+  "elo": 1668.8,
+  "win_pct_last10": 0.5,
+  "win_pct_last5": 0.5,
+  "point_diff_last10": 6.8,
+  "rest_days": 1.0,
+  "back_to_back": true,
+  "report_known": false,
+  "injuries": []
+ }
+}

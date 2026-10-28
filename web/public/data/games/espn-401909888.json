@@ -1,0 +1,87 @@
+{
+ "id": "espn-401909888",
+ "computed_et": "2026-10-28T04:56",
+ "final": false,
+ "report": "2026-10-27_11_45PM",
+ "cutoff_et": "2026-10-28T19:00",
+ "elo_home_win_prob": 0.785,
+ "inputs": {
+  "elo_diff": 124.7557,
+  "home_court": 1.0,
+  "point_diff_last10_diff": 20.6667,
+  "win_pct_last10_diff": 0.4167,
+  "win_pct_last5_diff": 0.4167,
+  "rest_days_diff": 0.0,
+  "back_to_back_diff": 0.0,
+  "exp_missing_minutes_diff": -18.0604,
+  "starters_out_diff": -1.0,
+  "exp_missing_value_diff": -6.8488,
+  "exp_stars_missing_diff": -0.5097
+ },
+ "home": {
+  "team": "MIN",
+  "elo": 1595.2,
+  "win_pct_last10": 0.75,
+  "win_pct_last5": 0.75,
+  "point_diff_last10": 17.0,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Edwards, Anthony",
+    "status": "Out",
+    "avg_minutes": 33.8,
+    "p_play": 0.0,
+    "exp_missing_minutes": 33.7
+   },
+   {
+    "player": "DiVincenzo, Donte",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ },
+ "away": {
+  "team": "GSW",
+  "elo": 1470.4,
+  "win_pct_last10": 0.333,
+  "win_pct_last5": 0.333,
+  "point_diff_last10": -3.7,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Lendeborg, Yaxel",
+    "status": "Questionable",
+    "avg_minutes": 32.0,
+    "p_play": 0.51,
+    "exp_missing_minutes": 15.7
+   },
+   {
+    "player": "Butler III, Jimmy",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Moody, Moses",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Porzingis, Kristaps",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ }
+}
