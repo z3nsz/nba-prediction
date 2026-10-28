@@ -1,8 +1,8 @@
 {
  "id": "espn-401909884",
- "computed_et": "2026-10-28T15:28",
- "final": false,
- "report": "2026-10-28_03_15PM",
+ "computed_et": "2026-10-28T18:01",
+ "final": true,
+ "report": "2026-10-28_06_00PM",
  "cutoff_et": "2026-10-28T18:00",
  "elo_home_win_prob": 0.43,
  "inputs": {
@@ -13,10 +13,10 @@
   "win_pct_last5_diff": -0.25,
   "rest_days_diff": -1.0,
   "back_to_back_diff": 0.0,
-  "exp_missing_minutes_diff": -53.4806,
-  "starters_out_diff": 0.0,
-  "exp_missing_value_diff": -1.6051,
-  "exp_stars_missing_diff": -0.2809
+  "exp_missing_minutes_diff": -67.4783,
+  "starters_out_diff": -1.0,
+  "exp_missing_value_diff": -3.0949,
+  "exp_stars_missing_diff": -1.0
  },
  "home": {
   "team": "IND",
@@ -29,18 +29,18 @@
   "report_known": true,
   "injuries": [
    {
+    "player": "Haliburton, Tyrese",
+    "status": "Out",
+    "avg_minutes": 33.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 33.0
+   },
+   {
     "player": "Zubac, Ivica",
     "status": "Out",
     "avg_minutes": 21.7,
     "p_play": 0.0,
     "exp_missing_minutes": 21.7
-   },
-   {
-    "player": "Nembhard, Andrew",
-    "status": "Questionable",
-    "avg_minutes": 32.0,
-    "p_play": 0.609,
-    "exp_missing_minutes": 12.5
    },
    {
     "player": "Sheppard, Ben",
@@ -50,39 +50,39 @@
     "exp_missing_minutes": 12.0
    },
    {
-    "player": "Haliburton, Tyrese",
-    "status": "Questionable",
-    "avg_minutes": 33.0,
-    "p_play": 0.719,
-    "exp_missing_minutes": 9.3
-   },
-   {
     "player": "Toppin, Obi",
-    "status": "Probable",
+    "status": "Available",
     "avg_minutes": 23.2,
-    "p_play": 0.932,
-    "exp_missing_minutes": 1.6
-   },
-   {
-    "player": "Slawson, Jalen",
-    "status": "Probable",
-    "avg_minutes": 9.0,
-    "p_play": 0.836,
-    "exp_missing_minutes": 1.5
+    "p_play": 0.891,
+    "exp_missing_minutes": 2.5
    },
    {
     "player": "Nesmith, Aaron",
-    "status": "Probable",
+    "status": "Available",
     "avg_minutes": 20.0,
-    "p_play": 0.941,
-    "exp_missing_minutes": 1.2
+    "p_play": 0.907,
+    "exp_missing_minutes": 1.9
+   },
+   {
+    "player": "Nembhard, Andrew",
+    "status": "Available",
+    "avg_minutes": 32.0,
+    "p_play": 0.943,
+    "exp_missing_minutes": 1.8
+   },
+   {
+    "player": "Slawson, Jalen",
+    "status": "Available",
+    "avg_minutes": 9.0,
+    "p_play": 0.912,
+    "exp_missing_minutes": 0.8
    },
    {
     "player": "Brown, Kobe",
-    "status": "Probable",
+    "status": "Available",
     "avg_minutes": 0.5,
-    "p_play": 0.691,
-    "exp_missing_minutes": 0.2
+    "p_play": 0.72,
+    "exp_missing_minutes": 0.1
    },
    {
     "player": "Furphy, Johnny",
@@ -100,9 +100,9 @@
    },
    {
     "player": "Smith, Braden",
-    "status": "Probable",
+    "status": "Available",
     "avg_minutes": 0.0,
-    "p_play": 0.905,
+    "p_play": 0.807,
     "exp_missing_minutes": 0.0
    }
   ]

@@ -1,8 +1,8 @@
 {
  "id": "espn-401909892",
- "computed_et": "2026-10-28T15:28",
+ "computed_et": "2026-10-28T18:01",
  "final": false,
- "report": "2026-10-28_03_15PM",
+ "report": "2026-10-28_06_00PM",
  "cutoff_et": "2026-10-28T21:30",
  "elo_home_win_prob": 0.584,
  "inputs": {
@@ -13,10 +13,10 @@
   "win_pct_last5_diff": -0.1667,
   "rest_days_diff": 2.0,
   "back_to_back_diff": 1.0,
-  "exp_missing_minutes_diff": 0.0,
+  "exp_missing_minutes_diff": 35.4417,
   "starters_out_diff": 0.0,
-  "exp_missing_value_diff": 0.0,
-  "exp_stars_missing_diff": 0.0
+  "exp_missing_value_diff": 17.5998,
+  "exp_stars_missing_diff": 1.0
  },
  "home": {
   "team": "LAC",
@@ -43,6 +43,13 @@
     "exp_missing_minutes": 0.0
    },
    {
+    "player": "Miller, Jordan",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
     "player": "Beal, Bradley",
     "status": "Out",
     "avg_minutes": 0.0,
@@ -51,13 +58,6 @@
    },
    {
     "player": "Ingram, Brandon",
-    "status": "Out",
-    "avg_minutes": 0.0,
-    "p_play": 0.0,
-    "exp_missing_minutes": 0.0
-   },
-   {
-    "player": "Miller, Jordan",
     "status": "Out",
     "avg_minutes": 0.0,
     "p_play": 0.0,
@@ -80,7 +80,43 @@
   "point_diff_last10": 8.0,
   "rest_days": 1.0,
   "back_to_back": true,
-  "report_known": false,
-  "injuries": []
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Doncic, Luka",
+    "status": "Out",
+    "avg_minutes": 35.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 35.0
+   },
+   {
+    "player": "Williams, Ziaire",
+    "status": "Out",
+    "avg_minutes": 27.7,
+    "p_play": 0.008,
+    "exp_missing_minutes": 27.4
+   },
+   {
+    "player": "Kessler, Walker",
+    "status": "Available",
+    "avg_minutes": 30.3,
+    "p_play": 0.885,
+    "exp_missing_minutes": 3.5
+   },
+   {
+    "player": "Carr, Cameron",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Thiero, Adou",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
  }
 }
