@@ -1,5 +1,5 @@
 {
- "updated_et": "2026-10-28T20:01",
+ "updated_et": "2026-10-28T20:31",
  "season": "2026-27",
  "model": {
   "description": "Final NBA model (logistic regression, no intercept), retrained on all six seasons",
@@ -1677,9 +1677,9 @@
    "tip_off_et": "2026-10-28T21:30",
    "home": "DAL",
    "away": "OKC",
-   "p_home": 0.3314,
-   "final": false,
-   "report": "2026-10-28_08_00PM",
+   "p_home": 0.326,
+   "final": true,
+   "report": "2026-10-28_08_30PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
@@ -1690,9 +1690,9 @@
     "win_pct_last5_diff": 0.008,
     "rest_days_diff": 0.0,
     "back_to_back_diff": 0.0,
-    "exp_missing_minutes_diff": 0.2266,
+    "exp_missing_minutes_diff": 0.2081,
     "starters_out_diff": 0.0606,
-    "exp_missing_value_diff": 0.0795,
+    "exp_missing_value_diff": 0.0737,
     "exp_stars_missing_diff": 0.0
    }
   },
@@ -1704,7 +1704,7 @@
    "away": "LAL",
    "p_home": 0.7168,
    "final": false,
-   "report": "2026-10-28_08_00PM",
+   "report": "2026-10-28_08_30PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
