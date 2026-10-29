@@ -1,0 +1,79 @@
+{
+ "id": "espn-401909894",
+ "computed_et": "2026-10-29T05:49",
+ "final": false,
+ "report": "2026-10-28_11_45PM",
+ "cutoff_et": "2026-10-29T19:00",
+ "elo_home_win_prob": 0.709,
+ "inputs": {
+  "elo_diff": 54.8177,
+  "home_court": 1.0,
+  "point_diff_last10_diff": 15.25,
+  "win_pct_last10_diff": 0.0,
+  "win_pct_last5_diff": 0.0,
+  "rest_days_diff": -1.0,
+  "back_to_back_diff": -1.0,
+  "exp_missing_minutes_diff": 0.0,
+  "starters_out_diff": 0.0,
+  "exp_missing_value_diff": 0.0,
+  "exp_stars_missing_diff": 0.0
+ },
+ "home": {
+  "team": "NOP",
+  "elo": 1401.5,
+  "win_pct_last10": 0.0,
+  "win_pct_last5": 0.0,
+  "point_diff_last10": -5.8,
+  "rest_days": 1.0,
+  "back_to_back": true,
+  "report_known": false,
+  "injuries": []
+ },
+ "away": {
+  "team": "SAC",
+  "elo": 1346.7,
+  "win_pct_last10": 0.0,
+  "win_pct_last5": 0.0,
+  "point_diff_last10": -21.0,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Murray, Keegan",
+    "status": "Out",
+    "avg_minutes": 28.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 28.0
+   },
+   {
+    "player": "Cardwell, Dylan",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Pedulla, Sean",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Raynaud, Maxime",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Simmons, Ben",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ }
+}

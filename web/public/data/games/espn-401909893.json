@@ -1,0 +1,43 @@
+{
+ "id": "espn-401909893",
+ "computed_et": "2026-10-29T05:49",
+ "final": false,
+ "report": "2026-10-28_11_45PM",
+ "cutoff_et": "2026-10-29T19:00",
+ "elo_home_win_prob": 0.639,
+ "inputs": {
+  "elo_diff": -1.1385,
+  "home_court": 1.0,
+  "point_diff_last10_diff": 3.0,
+  "win_pct_last10_diff": -0.35,
+  "win_pct_last5_diff": -0.35,
+  "rest_days_diff": 0.0,
+  "back_to_back_diff": 0.0,
+  "exp_missing_minutes_diff": 0.0,
+  "starters_out_diff": 0.0,
+  "exp_missing_value_diff": 0.0,
+  "exp_stars_missing_diff": 0.0
+ },
+ "home": {
+  "team": "ATL",
+  "elo": 1586.6,
+  "win_pct_last10": 0.4,
+  "win_pct_last5": 0.4,
+  "point_diff_last10": 5.0,
+  "rest_days": 1.0,
+  "back_to_back": true,
+  "report_known": false,
+  "injuries": []
+ },
+ "away": {
+  "team": "CLE",
+  "elo": 1587.8,
+  "win_pct_last10": 0.75,
+  "win_pct_last5": 0.75,
+  "point_diff_last10": 2.0,
+  "rest_days": 1.0,
+  "back_to_back": true,
+  "report_known": false,
+  "injuries": []
+ }
+}
