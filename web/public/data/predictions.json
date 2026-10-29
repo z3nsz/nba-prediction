@@ -1,5 +1,5 @@
 {
- "updated_et": "2026-10-29T05:49",
+ "updated_et": "2026-10-29T15:32",
  "season": "2026-27",
  "model": {
   "description": "Final NBA model (logistic regression, no intercept), retrained on all six seasons",
@@ -1727,9 +1727,9 @@
    "tip_off_et": "2026-10-29T20:00",
    "home": "ATL",
    "away": "CLE",
-   "p_home": 0.6082,
+   "p_home": 0.6269,
    "final": false,
-   "report": "2026-10-28_11_45PM",
+   "report": "2026-10-29_03_30PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
@@ -1740,9 +1740,9 @@
     "win_pct_last5_diff": 0.0056,
     "rest_days_diff": 0.0,
     "back_to_back_diff": 0.0,
-    "exp_missing_minutes_diff": 0.0,
+    "exp_missing_minutes_diff": 0.0794,
     "starters_out_diff": 0.0,
-    "exp_missing_value_diff": 0.0,
+    "exp_missing_value_diff": -0.0002,
     "exp_stars_missing_diff": 0.0
    }
   },
@@ -1752,9 +1752,9 @@
    "tip_off_et": "2026-10-29T20:00",
    "home": "NOP",
    "away": "SAC",
-   "p_home": 0.614,
+   "p_home": 0.6015,
    "final": false,
-   "report": "2026-10-28_11_45PM",
+   "report": "2026-10-29_03_30PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
@@ -1765,9 +1765,9 @@
     "win_pct_last5_diff": -0.0,
     "rest_days_diff": -0.0362,
     "back_to_back_diff": -0.1956,
-    "exp_missing_minutes_diff": 0.0,
-    "starters_out_diff": 0.0,
-    "exp_missing_value_diff": 0.0,
+    "exp_missing_minutes_diff": -0.0342,
+    "starters_out_diff": 0.0303,
+    "exp_missing_value_diff": -0.0484,
     "exp_stars_missing_diff": 0.0
    }
   },
@@ -1777,9 +1777,9 @@
    "tip_off_et": "2026-10-29T22:00",
    "home": "POR",
    "away": "MEM",
-   "p_home": 0.7738,
+   "p_home": 0.7491,
    "final": false,
-   "report": "2026-10-28_11_45PM",
+   "report": "2026-10-29_03_30PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
@@ -1790,9 +1790,9 @@
     "win_pct_last5_diff": -0.0,
     "rest_days_diff": -0.0362,
     "back_to_back_diff": 0.0,
-    "exp_missing_minutes_diff": -0.0212,
+    "exp_missing_minutes_diff": -0.1057,
     "starters_out_diff": 0.0,
-    "exp_missing_value_diff": -0.0012,
+    "exp_missing_value_diff": -0.0525,
     "exp_stars_missing_diff": 0.0
    }
   }

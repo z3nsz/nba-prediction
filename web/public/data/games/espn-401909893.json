@@ -1,8 +1,8 @@
 {
  "id": "espn-401909893",
- "computed_et": "2026-10-29T05:49",
+ "computed_et": "2026-10-29T15:32",
  "final": false,
- "report": "2026-10-28_11_45PM",
+ "report": "2026-10-29_03_30PM",
  "cutoff_et": "2026-10-29T19:00",
  "elo_home_win_prob": 0.639,
  "inputs": {
@@ -13,9 +13,9 @@
   "win_pct_last5_diff": -0.35,
   "rest_days_diff": 0.0,
   "back_to_back_diff": 0.0,
-  "exp_missing_minutes_diff": 0.0,
+  "exp_missing_minutes_diff": 16.6706,
   "starters_out_diff": 0.0,
-  "exp_missing_value_diff": 0.0,
+  "exp_missing_value_diff": -0.0111,
   "exp_stars_missing_diff": 0.0
  },
  "home": {
@@ -26,8 +26,58 @@
   "point_diff_last10": 5.0,
   "rest_days": 1.0,
   "back_to_back": true,
-  "report_known": false,
-  "injuries": []
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Ejiofor, Zuby",
+    "status": "Questionable",
+    "avg_minutes": 4.5,
+    "p_play": 0.51,
+    "exp_missing_minutes": 2.2
+   },
+   {
+    "player": "Landale, Jock",
+    "status": "Available",
+    "avg_minutes": 18.2,
+    "p_play": 0.926,
+    "exp_missing_minutes": 1.3
+   },
+   {
+    "player": "Dennis, RayJ",
+    "status": "Questionable",
+    "avg_minutes": 0.0,
+    "p_play": 0.373,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Gilbert, Keshon",
+    "status": "Questionable",
+    "avg_minutes": 0.0,
+    "p_play": 0.425,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Gueye, Mouhamed",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Veesaar, Henri",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Wilson, Jalen",
+    "status": "Questionable",
+    "avg_minutes": 0.0,
+    "p_play": 0.51,
+    "exp_missing_minutes": 0.0
+   }
+  ]
  },
  "away": {
   "team": "CLE",
@@ -37,7 +87,36 @@
   "point_diff_last10": 2.0,
   "rest_days": 1.0,
   "back_to_back": true,
-  "report_known": false,
-  "injuries": []
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Tyson, Jaylon",
+    "status": "Questionable",
+    "avg_minutes": 21.5,
+    "p_play": 0.504,
+    "exp_missing_minutes": 10.7
+   },
+   {
+    "player": "Thomas, Meleek",
+    "status": "Questionable",
+    "avg_minutes": 19.5,
+    "p_play": 0.51,
+    "exp_missing_minutes": 9.6
+   },
+   {
+    "player": "Diop, Khalifa",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Tomlin, Nae'Qwan",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
  }
 }
