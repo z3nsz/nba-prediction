@@ -1,5 +1,5 @@
 {
- "updated_et": "2026-10-28T19:01",
+ "updated_et": "2026-10-28T20:01",
  "season": "2026-27",
  "model": {
   "description": "Final NBA model (logistic regression, no intercept), retrained on all six seasons",
@@ -1653,8 +1653,8 @@
    "home": "UTA",
    "away": "SAS",
    "p_home": 0.149,
-   "final": false,
-   "report": "2026-10-28_07_00PM",
+   "final": true,
+   "report": "2026-10-28_08_00PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
@@ -1679,7 +1679,7 @@
    "away": "OKC",
    "p_home": 0.3314,
    "final": false,
-   "report": "2026-10-28_07_00PM",
+   "report": "2026-10-28_08_00PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
@@ -1704,7 +1704,7 @@
    "away": "LAL",
    "p_home": 0.7168,
    "final": false,
-   "report": "2026-10-28_07_00PM",
+   "report": "2026-10-28_08_00PM",
    "home_score": null,
    "away_score": null,
    "contributions": {

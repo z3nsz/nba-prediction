@@ -1,8 +1,8 @@
 {
  "id": "espn-401909891",
- "computed_et": "2026-10-28T19:01",
+ "computed_et": "2026-10-28T20:01",
  "final": false,
- "report": "2026-10-28_07_00PM",
+ "report": "2026-10-28_08_00PM",
  "cutoff_et": "2026-10-28T20:30",
  "elo_home_win_prob": 0.265,
  "inputs": {
@@ -50,6 +50,13 @@
     "exp_missing_minutes": 11.7
    },
    {
+    "player": "Martin, Caleb",
+    "status": "Questionable",
+    "avg_minutes": 0.0,
+    "p_play": 0.654,
+    "exp_missing_minutes": 0.0
+   },
+   {
     "player": "Biberovic, Tarik",
     "status": "Out",
     "avg_minutes": 0.0,
@@ -68,13 +75,6 @@
     "status": "Out",
     "avg_minutes": 0.0,
     "p_play": 0.0,
-    "exp_missing_minutes": 0.0
-   },
-   {
-    "player": "Martin, Caleb",
-    "status": "Questionable",
-    "avg_minutes": 0.0,
-    "p_play": 0.654,
     "exp_missing_minutes": 0.0
    }
   ]
@@ -125,14 +125,14 @@
     "exp_missing_minutes": 8.7
    },
    {
-    "player": "Topic, Nikola",
+    "player": "Sorber, Thomas",
     "status": "Out",
     "avg_minutes": 0.0,
     "p_play": 0.0,
     "exp_missing_minutes": 0.0
    },
    {
-    "player": "Sorber, Thomas",
+    "player": "Topic, Nikola",
     "status": "Out",
     "avg_minutes": 0.0,
     "p_play": 0.0,
