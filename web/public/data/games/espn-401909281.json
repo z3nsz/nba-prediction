@@ -1,0 +1,101 @@
+{
+ "id": "espn-401909281",
+ "computed_et": "2026-10-30T05:53",
+ "final": false,
+ "report": "2026-10-29_11_45PM",
+ "cutoff_et": "2026-10-30T18:30",
+ "elo_home_win_prob": 0.705,
+ "inputs": {
+  "elo_diff": 51.1528,
+  "home_court": 1.0,
+  "point_diff_last10_diff": 27.5,
+  "win_pct_last10_diff": 0.5,
+  "win_pct_last5_diff": 0.5,
+  "rest_days_diff": 0.0,
+  "back_to_back_diff": 0.0,
+  "exp_missing_minutes_diff": 40.8305,
+  "starters_out_diff": 2.0,
+  "exp_missing_value_diff": -3.3443,
+  "exp_stars_missing_diff": 0.9999
+ },
+ "home": {
+  "team": "TOR",
+  "elo": 1558.9,
+  "win_pct_last10": 0.75,
+  "win_pct_last5": 0.75,
+  "point_diff_last10": 15.0,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Leonard, Kawhi",
+    "status": "Out",
+    "avg_minutes": 26.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 26.0
+   },
+   {
+    "player": "Smith, Malachi",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Bittle, Nate",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ },
+ "away": {
+  "team": "ORL",
+  "elo": 1507.8,
+  "win_pct_last10": 0.25,
+  "win_pct_last5": 0.25,
+  "point_diff_last10": -12.5,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Banchero, Paolo",
+    "status": "Out",
+    "avg_minutes": 33.5,
+    "p_play": 0.0,
+    "exp_missing_minutes": 33.5
+   },
+   {
+    "player": "Suggs, Jalen",
+    "status": "Out",
+    "avg_minutes": 33.3,
+    "p_play": 0.0,
+    "exp_missing_minutes": 33.3
+   },
+   {
+    "player": "Isaac, Jonathan",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Nelson, Izaiyah",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Penda, Noah",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ }
+}

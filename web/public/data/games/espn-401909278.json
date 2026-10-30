@@ -1,0 +1,80 @@
+{
+ "id": "espn-401909278",
+ "computed_et": "2026-10-30T05:53",
+ "final": false,
+ "report": "2026-10-29_11_45PM",
+ "cutoff_et": "2026-10-30T18:30",
+ "elo_home_win_prob": 0.904,
+ "inputs": {
+  "elo_diff": 288.8709,
+  "home_court": 1.0,
+  "point_diff_last10_diff": 24.2,
+  "win_pct_last10_diff": 0.55,
+  "win_pct_last5_diff": 0.55,
+  "rest_days_diff": 1.0,
+  "back_to_back_diff": 0.0,
+  "exp_missing_minutes_diff": 14.5907,
+  "starters_out_diff": 0.0,
+  "exp_missing_value_diff": 0.6944,
+  "exp_stars_missing_diff": 0.0
+ },
+ "home": {
+  "team": "BOS",
+  "elo": 1653.4,
+  "win_pct_last10": 0.75,
+  "win_pct_last5": 0.75,
+  "point_diff_last10": 8.0,
+  "rest_days": 3.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Carter, Devin",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ },
+ "away": {
+  "team": "CHI",
+  "elo": 1364.6,
+  "win_pct_last10": 0.2,
+  "win_pct_last5": 0.2,
+  "point_diff_last10": -16.2,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Smith, Jalen",
+    "status": "Questionable",
+    "avg_minutes": 23.4,
+    "p_play": 0.649,
+    "exp_missing_minutes": 8.2
+   },
+   {
+    "player": "Awaka, Tobe",
+    "status": "Questionable",
+    "avg_minutes": 13.0,
+    "p_play": 0.51,
+    "exp_missing_minutes": 6.4
+   },
+   {
+    "player": "Claxton, Nic",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Williams, Patrick",
+    "status": "Questionable",
+    "avg_minutes": 0.0,
+    "p_play": 0.505,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ }
+}

@@ -1,0 +1,115 @@
+{
+ "id": "espn-401909277",
+ "computed_et": "2026-10-30T05:53",
+ "final": false,
+ "report": "2026-10-29_11_45PM",
+ "cutoff_et": "2026-10-30T18:00",
+ "elo_home_win_prob": 0.26,
+ "inputs": {
+  "elo_diff": -281.4089,
+  "home_court": 1.0,
+  "point_diff_last10_diff": 5.0,
+  "win_pct_last10_diff": -0.2,
+  "win_pct_last5_diff": -0.2,
+  "rest_days_diff": 0.0,
+  "back_to_back_diff": 0.0,
+  "exp_missing_minutes_diff": -20.5435,
+  "starters_out_diff": 0.0,
+  "exp_missing_value_diff": -0.7401,
+  "exp_stars_missing_diff": 0.0
+ },
+ "home": {
+  "team": "WAS",
+  "elo": 1293.2,
+  "win_pct_last10": 0.4,
+  "win_pct_last5": 0.4,
+  "point_diff_last10": -2.2,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Champagnie, Justin",
+    "status": "Out",
+    "avg_minutes": 18.5,
+    "p_play": 0.0,
+    "exp_missing_minutes": 18.5
+   },
+   {
+    "player": "Johnson, Tre",
+    "status": "Questionable",
+    "avg_minutes": 22.8,
+    "p_play": 0.425,
+    "exp_missing_minutes": 13.1
+   },
+   {
+    "player": "Vukcevic, Tristan",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Watkins, Jamir",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ },
+ "away": {
+  "team": "CHA",
+  "elo": 1574.6,
+  "win_pct_last10": 0.6,
+  "win_pct_last5": 0.6,
+  "point_diff_last10": -7.2,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Schroder, Dennis",
+    "status": "Questionable",
+    "avg_minutes": 32.6,
+    "p_play": 0.661,
+    "exp_missing_minutes": 11.0
+   },
+   {
+    "player": "Ajayi, Michael",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.001,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Boswell, Kylan",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Knueppel, Kon",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "White, Coby",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Williams, Grant",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ }
+}

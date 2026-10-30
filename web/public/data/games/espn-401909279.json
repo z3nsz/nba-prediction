@@ -1,0 +1,122 @@
+{
+ "id": "espn-401909279",
+ "computed_et": "2026-10-30T05:53",
+ "final": false,
+ "report": "2026-10-29_11_45PM",
+ "cutoff_et": "2026-10-30T18:30",
+ "elo_home_win_prob": 0.161,
+ "inputs": {
+  "elo_diff": -387.3467,
+  "home_court": 1.0,
+  "point_diff_last10_diff": -16.15,
+  "win_pct_last10_diff": -0.8,
+  "win_pct_last5_diff": -0.8,
+  "rest_days_diff": 1.0,
+  "back_to_back_diff": 0.0,
+  "exp_missing_minutes_diff": -5.4183,
+  "starters_out_diff": 0.0,
+  "exp_missing_value_diff": 8.7292,
+  "exp_stars_missing_diff": 0.0
+ },
+ "home": {
+  "team": "BKN",
+  "elo": 1285.5,
+  "win_pct_last10": 0.0,
+  "win_pct_last5": 0.0,
+  "point_diff_last10": -9.8,
+  "rest_days": 3.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Demin, Egor",
+    "status": "Out",
+    "avg_minutes": 21.8,
+    "p_play": 0.0,
+    "exp_missing_minutes": 21.7
+   },
+   {
+    "player": "Powell, Drake",
+    "status": "Questionable",
+    "avg_minutes": 12.0,
+    "p_play": 0.51,
+    "exp_missing_minutes": 5.9
+   },
+   {
+    "player": "Saraf, Ben",
+    "status": "Out",
+    "avg_minutes": 4.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 4.0
+   },
+   {
+    "player": "Jefferson, Joshua",
+    "status": "Out",
+    "avg_minutes": 4.0,
+    "p_play": 0.001,
+    "exp_missing_minutes": 4.0
+   },
+   {
+    "player": "Nelson, Grant",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.001,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Bilodeau, Tyler",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ },
+ "away": {
+  "team": "DET",
+  "elo": 1672.9,
+  "win_pct_last10": 0.8,
+  "win_pct_last5": 0.8,
+  "point_diff_last10": 6.4,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Duren, Jalen",
+    "status": "Out",
+    "avg_minutes": 19.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 19.0
+   },
+   {
+    "player": "Joe, Isaiah",
+    "status": "Questionable",
+    "avg_minutes": 13.7,
+    "p_play": 0.364,
+    "exp_missing_minutes": 8.7
+   },
+   {
+    "player": "Jones, Isaac",
+    "status": "Questionable",
+    "avg_minutes": 3.0,
+    "p_play": 0.569,
+    "exp_missing_minutes": 1.3
+   },
+   {
+    "player": "Harkless, Elijah",
+    "status": "Questionable",
+    "avg_minutes": 3.0,
+    "p_play": 0.591,
+    "exp_missing_minutes": 1.2
+   },
+   {
+    "player": "Onyenso, Ugonna",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ }
+}

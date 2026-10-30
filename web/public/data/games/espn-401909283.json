@@ -1,0 +1,129 @@
+{
+ "id": "espn-401909283",
+ "computed_et": "2026-10-30T05:53",
+ "final": false,
+ "report": "2026-10-29_11_45PM",
+ "cutoff_et": "2026-10-30T19:00",
+ "elo_home_win_prob": 0.37,
+ "inputs": {
+  "elo_diff": -192.5354,
+  "home_court": 1.0,
+  "point_diff_last10_diff": -12.2,
+  "win_pct_last10_diff": -0.4,
+  "win_pct_last5_diff": -0.4,
+  "rest_days_diff": 0.0,
+  "back_to_back_diff": 0.0,
+  "exp_missing_minutes_diff": 28.4514,
+  "starters_out_diff": 0.0,
+  "exp_missing_value_diff": 0.2093,
+  "exp_stars_missing_diff": 0.3548
+ },
+ "home": {
+  "team": "DAL",
+  "elo": 1440.7,
+  "win_pct_last10": 0.6,
+  "win_pct_last5": 0.6,
+  "point_diff_last10": 2.0,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Marshall, Naji",
+    "status": "Questionable",
+    "avg_minutes": 27.7,
+    "p_play": 0.396,
+    "exp_missing_minutes": 16.7
+   },
+   {
+    "player": "de Larrea, Sergio",
+    "status": "Out",
+    "avg_minutes": 11.8,
+    "p_play": 0.001,
+    "exp_missing_minutes": 11.7
+   },
+   {
+    "player": "Martin, Caleb",
+    "status": "Available",
+    "avg_minutes": 14.0,
+    "p_play": 0.984,
+    "exp_missing_minutes": 0.2
+   },
+   {
+    "player": "Aldama, Santi",
+    "status": "Doubtful",
+    "avg_minutes": 0.0,
+    "p_play": 0.007,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Biberovic, Tarik",
+    "status": "Doubtful",
+    "avg_minutes": 0.0,
+    "p_play": 0.02,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Lively II, Dereck",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ },
+ "away": {
+  "team": "HOU",
+  "elo": 1633.2,
+  "win_pct_last10": 1.0,
+  "win_pct_last5": 1.0,
+  "point_diff_last10": 14.2,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Sheppard, Reed",
+    "status": "Out",
+    "avg_minutes": 23.2,
+    "p_play": 0.0,
+    "exp_missing_minutes": 23.2
+   },
+   {
+    "player": "Smart, Marcus",
+    "status": "Questionable",
+    "avg_minutes": 23.5,
+    "p_play": 0.455,
+    "exp_missing_minutes": 12.8
+   },
+   {
+    "player": "Sengun, Alperen",
+    "status": "Questionable",
+    "avg_minutes": 34.0,
+    "p_play": 0.645,
+    "exp_missing_minutes": 12.1
+   },
+   {
+    "player": "Adams, Steven",
+    "status": "Out",
+    "avg_minutes": 9.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 9.0
+   },
+   {
+    "player": "Copeland, Quadir",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.001,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Phillips, Julian",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.024,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ }
+}
