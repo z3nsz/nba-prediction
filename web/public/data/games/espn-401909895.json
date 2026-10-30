@@ -1,8 +1,8 @@
 {
  "id": "espn-401909895",
- "computed_et": "2026-10-29T19:01",
- "final": false,
- "report": "2026-10-29_07_00PM",
+ "computed_et": "2026-10-29T21:01",
+ "final": true,
+ "report": "2026-10-29_09_00PM",
  "cutoff_et": "2026-10-29T21:00",
  "elo_home_win_prob": 0.838,
  "inputs": {
@@ -13,9 +13,9 @@
   "win_pct_last5_diff": 0.0,
   "rest_days_diff": -1.0,
   "back_to_back_diff": 0.0,
-  "exp_missing_minutes_diff": -22.1978,
+  "exp_missing_minutes_diff": -24.9971,
   "starters_out_diff": 0.0,
-  "exp_missing_value_diff": -2.7742,
+  "exp_missing_value_diff": -2.8476,
   "exp_stars_missing_diff": 0.0
  },
  "home": {
@@ -30,17 +30,17 @@
   "injuries": [
    {
     "player": "Williams III, Robert",
-    "status": "Doubtful",
+    "status": "Out",
     "avg_minutes": 18.0,
-    "p_play": 0.014,
-    "exp_missing_minutes": 17.7
+    "p_play": 0.0,
+    "exp_missing_minutes": 18.0
    },
    {
     "player": "Kent, Jayson",
-    "status": "Questionable",
+    "status": "Out",
     "avg_minutes": 7.0,
-    "p_play": 0.364,
-    "exp_missing_minutes": 4.5
+    "p_play": 0.0,
+    "exp_missing_minutes": 7.0
    },
    {
     "player": "Sharpe, Shaedon",
@@ -51,9 +51,9 @@
    },
    {
     "player": "Tonje, John",
-    "status": "Questionable",
+    "status": "Available",
     "avg_minutes": 0.0,
-    "p_play": 0.51,
+    "p_play": 0.449,
     "exp_missing_minutes": 0.0
    },
    {
@@ -65,9 +65,9 @@
    },
    {
     "player": "Youngblood, Chris",
-    "status": "Questionable",
+    "status": "Out",
     "avg_minutes": 0.0,
-    "p_play": 0.364,
+    "p_play": 0.0,
     "exp_missing_minutes": 0.0
    }
   ]
@@ -81,6 +81,28 @@
   "rest_days": 3.0,
   "back_to_back": false,
   "report_known": true,
-  "injuries": []
+  "injuries": [
+   {
+    "player": "Cooper, Carson",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.001,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Mashack, Jahmai",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Small, Javon",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
  }
 }
