@@ -1,8 +1,8 @@
 {
  "id": "espn-401909283",
- "computed_et": "2026-10-30T18:31",
- "final": false,
- "report": "2026-10-30_06_30PM",
+ "computed_et": "2026-10-30T19:01",
+ "final": true,
+ "report": "2026-10-30_07_00PM",
  "cutoff_et": "2026-10-30T19:00",
  "elo_home_win_prob": 0.37,
  "inputs": {
@@ -13,10 +13,10 @@
   "win_pct_last5_diff": -0.4,
   "rest_days_diff": 0.0,
   "back_to_back_diff": 0.0,
-  "exp_missing_minutes_diff": 40.62,
-  "starters_out_diff": 0.0,
-  "exp_missing_value_diff": 0.6053,
-  "exp_stars_missing_diff": 0.3548
+  "exp_missing_minutes_diff": 59.7746,
+  "starters_out_diff": 1.0,
+  "exp_missing_value_diff": 4.6622,
+  "exp_stars_missing_diff": 0.9999
  },
  "home": {
   "team": "DAL",
@@ -37,10 +37,10 @@
    },
    {
     "player": "Marshall, Naji",
-    "status": "Probable",
+    "status": "Available",
     "avg_minutes": 27.7,
-    "p_play": 0.836,
-    "exp_missing_minutes": 4.5
+    "p_play": 0.736,
+    "exp_missing_minutes": 7.3
    },
    {
     "player": "Martin, Caleb",
@@ -51,16 +51,16 @@
    },
    {
     "player": "Aldama, Santi",
-    "status": "Doubtful",
+    "status": "Out",
     "avg_minutes": 0.0,
-    "p_play": 0.007,
+    "p_play": 0.0,
     "exp_missing_minutes": 0.0
    },
    {
     "player": "Biberovic, Tarik",
-    "status": "Doubtful",
+    "status": "Out",
     "avg_minutes": 0.0,
-    "p_play": 0.02,
+    "p_play": 0.0,
     "exp_missing_minutes": 0.0
    },
    {
@@ -83,6 +83,13 @@
   "report_known": true,
   "injuries": [
    {
+    "player": "Sengun, Alperen",
+    "status": "Out",
+    "avg_minutes": 34.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 34.0
+   },
+   {
     "player": "Sheppard, Reed",
     "status": "Out",
     "avg_minutes": 23.2,
@@ -95,13 +102,6 @@
     "avg_minutes": 23.5,
     "p_play": 0.455,
     "exp_missing_minutes": 12.8
-   },
-   {
-    "player": "Sengun, Alperen",
-    "status": "Questionable",
-    "avg_minutes": 34.0,
-    "p_play": 0.645,
-    "exp_missing_minutes": 12.1
    },
    {
     "player": "Adams, Steven",
