@@ -1,8 +1,8 @@
 {
  "id": "espn-401909283",
- "computed_et": "2026-10-30T05:53",
+ "computed_et": "2026-10-30T18:01",
  "final": false,
- "report": "2026-10-29_11_45PM",
+ "report": "2026-10-30_06_00PM",
  "cutoff_et": "2026-10-30T19:00",
  "elo_home_win_prob": 0.37,
  "inputs": {
@@ -13,9 +13,9 @@
   "win_pct_last5_diff": -0.4,
   "rest_days_diff": 0.0,
   "back_to_back_diff": 0.0,
-  "exp_missing_minutes_diff": 28.4514,
+  "exp_missing_minutes_diff": 40.62,
   "starters_out_diff": 0.0,
-  "exp_missing_value_diff": 0.2093,
+  "exp_missing_value_diff": 0.6053,
   "exp_stars_missing_diff": 0.3548
  },
  "home": {
@@ -29,18 +29,18 @@
   "report_known": true,
   "injuries": [
    {
-    "player": "Marshall, Naji",
-    "status": "Questionable",
-    "avg_minutes": 27.7,
-    "p_play": 0.396,
-    "exp_missing_minutes": 16.7
-   },
-   {
     "player": "de Larrea, Sergio",
     "status": "Out",
     "avg_minutes": 11.8,
     "p_play": 0.001,
     "exp_missing_minutes": 11.7
+   },
+   {
+    "player": "Marshall, Naji",
+    "status": "Probable",
+    "avg_minutes": 27.7,
+    "p_play": 0.836,
+    "exp_missing_minutes": 4.5
    },
    {
     "player": "Martin, Caleb",

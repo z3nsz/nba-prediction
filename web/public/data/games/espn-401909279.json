@@ -1,8 +1,8 @@
 {
  "id": "espn-401909279",
- "computed_et": "2026-10-30T05:53",
+ "computed_et": "2026-10-30T18:01",
  "final": false,
- "report": "2026-10-29_11_45PM",
+ "report": "2026-10-30_06_00PM",
  "cutoff_et": "2026-10-30T18:30",
  "elo_home_win_prob": 0.161,
  "inputs": {
@@ -13,9 +13,9 @@
   "win_pct_last5_diff": -0.8,
   "rest_days_diff": 1.0,
   "back_to_back_diff": 0.0,
-  "exp_missing_minutes_diff": -5.4183,
+  "exp_missing_minutes_diff": -0.4264,
   "starters_out_diff": 0.0,
-  "exp_missing_value_diff": 8.7292,
+  "exp_missing_value_diff": 8.4067,
   "exp_stars_missing_diff": 0.0
  },
  "home": {
@@ -36,13 +36,6 @@
     "exp_missing_minutes": 21.7
    },
    {
-    "player": "Powell, Drake",
-    "status": "Questionable",
-    "avg_minutes": 12.0,
-    "p_play": 0.51,
-    "exp_missing_minutes": 5.9
-   },
-   {
     "player": "Saraf, Ben",
     "status": "Out",
     "avg_minutes": 4.0,
@@ -57,17 +50,31 @@
     "exp_missing_minutes": 4.0
    },
    {
-    "player": "Nelson, Grant",
-    "status": "Out",
-    "avg_minutes": 0.0,
-    "p_play": 0.001,
-    "exp_missing_minutes": 0.0
+    "player": "Clowney, Noah",
+    "status": "Available",
+    "avg_minutes": 21.5,
+    "p_play": 0.826,
+    "exp_missing_minutes": 3.7
+   },
+   {
+    "player": "Powell, Drake",
+    "status": "Available",
+    "avg_minutes": 12.0,
+    "p_play": 0.839,
+    "exp_missing_minutes": 1.9
    },
    {
     "player": "Bilodeau, Tyler",
     "status": "Out",
     "avg_minutes": 0.0,
     "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Nelson, Grant",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.001,
     "exp_missing_minutes": 0.0
    }
   ]
@@ -91,24 +98,24 @@
    },
    {
     "player": "Joe, Isaiah",
-    "status": "Questionable",
+    "status": "Out",
     "avg_minutes": 13.7,
-    "p_play": 0.364,
-    "exp_missing_minutes": 8.7
+    "p_play": 0.0,
+    "exp_missing_minutes": 13.7
    },
    {
     "player": "Jones, Isaac",
-    "status": "Questionable",
+    "status": "Available",
     "avg_minutes": 3.0,
-    "p_play": 0.569,
-    "exp_missing_minutes": 1.3
+    "p_play": 0.504,
+    "exp_missing_minutes": 1.5
    },
    {
     "player": "Harkless, Elijah",
-    "status": "Questionable",
+    "status": "Available",
     "avg_minutes": 3.0,
-    "p_play": 0.591,
-    "exp_missing_minutes": 1.2
+    "p_play": 0.719,
+    "exp_missing_minutes": 0.8
    },
    {
     "player": "Onyenso, Ugonna",

@@ -1,8 +1,8 @@
 {
  "id": "espn-401909277",
- "computed_et": "2026-10-30T05:53",
- "final": false,
- "report": "2026-10-29_11_45PM",
+ "computed_et": "2026-10-30T18:01",
+ "final": true,
+ "report": "2026-10-30_06_00PM",
  "cutoff_et": "2026-10-30T18:00",
  "elo_home_win_prob": 0.26,
  "inputs": {
@@ -13,9 +13,9 @@
   "win_pct_last5_diff": -0.2,
   "rest_days_diff": 0.0,
   "back_to_back_diff": 0.0,
-  "exp_missing_minutes_diff": -20.5435,
+  "exp_missing_minutes_diff": -31.1806,
   "starters_out_diff": 0.0,
-  "exp_missing_value_diff": -0.7401,
+  "exp_missing_value_diff": -0.2627,
   "exp_stars_missing_diff": 0.0
  },
  "home": {
@@ -41,6 +41,20 @@
     "avg_minutes": 22.8,
     "p_play": 0.425,
     "exp_missing_minutes": 13.1
+   },
+   {
+    "player": "Beekman, Reece",
+    "status": "Out",
+    "avg_minutes": 1.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 1.0
+   },
+   {
+    "player": "Okpara, Felix",
+    "status": "Out",
+    "avg_minutes": 1.0,
+    "p_play": 0.001,
+    "exp_missing_minutes": 1.0
    },
    {
     "player": "Vukcevic, Tristan",
@@ -70,10 +84,10 @@
   "injuries": [
    {
     "player": "Schroder, Dennis",
-    "status": "Questionable",
+    "status": "Probable",
     "avg_minutes": 32.6,
-    "p_play": 0.661,
-    "exp_missing_minutes": 11.0
+    "p_play": 0.926,
+    "exp_missing_minutes": 2.4
    },
    {
     "player": "Ajayi, Michael",
