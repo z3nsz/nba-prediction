@@ -1,8 +1,8 @@
 {
  "id": "espn-401909898",
- "computed_et": "2026-10-31T17:01",
- "final": false,
- "report": "2026-10-31_05_00PM",
+ "computed_et": "2026-10-31T18:01",
+ "final": true,
+ "report": "2026-10-31_06_00PM",
  "cutoff_et": "2026-10-31T18:00",
  "elo_home_win_prob": 0.383,
  "inputs": {
@@ -13,9 +13,9 @@
   "win_pct_last5_diff": -0.2,
   "rest_days_diff": 0.0,
   "back_to_back_diff": 0.0,
-  "exp_missing_minutes_diff": -29.7834,
-  "starters_out_diff": 0.0,
-  "exp_missing_value_diff": 0.3656,
+  "exp_missing_minutes_diff": -62.0325,
+  "starters_out_diff": -1.0,
+  "exp_missing_value_diff": -3.0365,
   "exp_stars_missing_diff": 0.0
  },
  "home": {
@@ -28,6 +28,13 @@
   "back_to_back": false,
   "report_known": true,
   "injuries": [
+   {
+    "player": "Murray, Dejounte",
+    "status": "Out",
+    "avg_minutes": 32.2,
+    "p_play": 0.0,
+    "exp_missing_minutes": 32.2
+   },
    {
     "player": "Missi, Yves",
     "status": "Out",
@@ -90,14 +97,14 @@
     "exp_missing_minutes": 0.0
    },
    {
-    "player": "Gilbert, Keshon",
+    "player": "Gueye, Mouhamed",
     "status": "Out",
     "avg_minutes": 0.0,
     "p_play": 0.0,
     "exp_missing_minutes": 0.0
    },
    {
-    "player": "Gueye, Mouhamed",
+    "player": "Gilbert, Keshon",
     "status": "Out",
     "avg_minutes": 0.0,
     "p_play": 0.0,
