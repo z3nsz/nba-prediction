@@ -1,8 +1,8 @@
 {
  "id": "espn-401909898",
- "computed_et": "2026-10-31T14:28",
+ "computed_et": "2026-10-31T17:01",
  "final": false,
- "report": "2026-10-31_02_15PM",
+ "report": "2026-10-31_05_00PM",
  "cutoff_et": "2026-10-31T18:00",
  "elo_home_win_prob": 0.383,
  "inputs": {
@@ -13,9 +13,9 @@
   "win_pct_last5_diff": -0.2,
   "rest_days_diff": 0.0,
   "back_to_back_diff": 0.0,
-  "exp_missing_minutes_diff": -29.8678,
+  "exp_missing_minutes_diff": -29.7834,
   "starters_out_diff": 0.0,
-  "exp_missing_value_diff": 0.3666,
+  "exp_missing_value_diff": 0.3656,
   "exp_stars_missing_diff": 0.0
  },
  "home": {
@@ -70,10 +70,10 @@
   "injuries": [
    {
     "player": "Ejiofor, Zuby",
-    "status": "Doubtful",
+    "status": "Out",
     "avg_minutes": 4.5,
-    "p_play": 0.02,
-    "exp_missing_minutes": 4.4
+    "p_play": 0.001,
+    "exp_missing_minutes": 4.5
    },
    {
     "player": "Landale, Jock",
@@ -84,16 +84,16 @@
    },
    {
     "player": "Dennis, RayJ",
-    "status": "Doubtful",
+    "status": "Out",
     "avg_minutes": 0.0,
-    "p_play": 0.009,
+    "p_play": 0.0,
     "exp_missing_minutes": 0.0
    },
    {
     "player": "Gilbert, Keshon",
-    "status": "Doubtful",
+    "status": "Out",
     "avg_minutes": 0.0,
-    "p_play": 0.016,
+    "p_play": 0.0,
     "exp_missing_minutes": 0.0
    },
    {
@@ -112,9 +112,9 @@
    },
    {
     "player": "Wilson, Jalen",
-    "status": "Doubtful",
+    "status": "Out",
     "avg_minutes": 0.0,
-    "p_play": 0.02,
+    "p_play": 0.0,
     "exp_missing_minutes": 0.0
    }
   ]

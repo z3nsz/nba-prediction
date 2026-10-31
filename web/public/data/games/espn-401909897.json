@@ -1,8 +1,8 @@
 {
  "id": "espn-401909897",
- "computed_et": "2026-10-31T14:28",
- "final": false,
- "report": "2026-10-31_02_15PM",
+ "computed_et": "2026-10-31T17:01",
+ "final": true,
+ "report": "2026-10-31_05_00PM",
  "cutoff_et": "2026-10-31T17:00",
  "elo_home_win_prob": 0.651,
  "inputs": {
@@ -111,17 +111,17 @@
     "exp_missing_minutes": 0.0
    },
    {
-    "player": "Fall, Tacko",
-    "status": "Questionable",
-    "avg_minutes": 0.0,
-    "p_play": 0.507,
-    "exp_missing_minutes": 0.0
-   },
-   {
     "player": "Hukporti, Ariel",
     "status": "Out",
     "avg_minutes": 0.0,
     "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Fall, Tacko",
+    "status": "Questionable",
+    "avg_minutes": 0.0,
+    "p_play": 0.507,
     "exp_missing_minutes": 0.0
    }
   ]
