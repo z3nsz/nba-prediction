@@ -1,8 +1,8 @@
 {
  "id": "espn-401909897",
- "computed_et": "2026-10-31T05:30",
+ "computed_et": "2026-10-31T14:28",
  "final": false,
- "report": "2026-10-30_11_45PM",
+ "report": "2026-10-31_02_15PM",
  "cutoff_et": "2026-10-31T17:00",
  "elo_home_win_prob": 0.651,
  "inputs": {
@@ -13,9 +13,9 @@
   "win_pct_last5_diff": -0.4,
   "rest_days_diff": 0.0,
   "back_to_back_diff": 0.0,
-  "exp_missing_minutes_diff": 0.0,
-  "starters_out_diff": 0.0,
-  "exp_missing_value_diff": 0.0,
+  "exp_missing_minutes_diff": 83.9046,
+  "starters_out_diff": 2.0,
+  "exp_missing_value_diff": 12.0302,
   "exp_stars_missing_diff": 0.0
  },
  "home": {
@@ -26,8 +26,44 @@
   "point_diff_last10": -8.7,
   "rest_days": 1.0,
   "back_to_back": true,
-  "report_known": false,
-  "injuries": []
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Ajayi, Michael",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.001,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Boswell, Kylan",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Knueppel, Kon",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "White, Coby",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Williams, Grant",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
  },
  "away": {
   "team": "PHI",
@@ -37,7 +73,57 @@
   "point_diff_last10": 3.7,
   "rest_days": 1.0,
   "back_to_back": true,
-  "report_known": false,
-  "injuries": []
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Embiid, Joel",
+    "status": "Out",
+    "avg_minutes": 35.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 35.0
+   },
+   {
+    "player": "James, LeBron",
+    "status": "Out",
+    "avg_minutes": 33.4,
+    "p_play": 0.0,
+    "exp_missing_minutes": 33.4
+   },
+   {
+    "player": "Brown, Jaylen",
+    "status": "Questionable",
+    "avg_minutes": 36.4,
+    "p_play": 0.654,
+    "exp_missing_minutes": 12.6
+   },
+   {
+    "player": "Walker, Jabari",
+    "status": "Questionable",
+    "avg_minutes": 6.3,
+    "p_play": 0.539,
+    "exp_missing_minutes": 2.9
+   },
+   {
+    "player": "Barlow, Dominick",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Fall, Tacko",
+    "status": "Questionable",
+    "avg_minutes": 0.0,
+    "p_play": 0.507,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Hukporti, Ariel",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
  }
 }
