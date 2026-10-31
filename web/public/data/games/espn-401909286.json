@@ -1,8 +1,8 @@
 {
  "id": "espn-401909286",
- "computed_et": "2026-10-30T19:01",
- "final": false,
- "report": "2026-10-30_07_00PM",
+ "computed_et": "2026-10-30T21:01",
+ "final": true,
+ "report": "2026-10-30_09_00PM",
  "cutoff_et": "2026-10-30T21:00",
  "elo_home_win_prob": 0.556,
  "inputs": {
@@ -13,9 +13,9 @@
   "win_pct_last5_diff": -0.1667,
   "rest_days_diff": 2.0,
   "back_to_back_diff": 0.0,
-  "exp_missing_minutes_diff": 16.7363,
+  "exp_missing_minutes_diff": 22.4726,
   "starters_out_diff": 0.0,
-  "exp_missing_value_diff": -0.071,
+  "exp_missing_value_diff": -0.3749,
   "exp_stars_missing_diff": 0.0
  },
  "home": {
@@ -30,10 +30,10 @@
   "injuries": [
    {
     "player": "Ighodaro, Oso",
-    "status": "Questionable",
+    "status": "Available",
     "avg_minutes": 15.0,
-    "p_play": 0.425,
-    "exp_missing_minutes": 8.6
+    "p_play": 0.807,
+    "exp_missing_minutes": 2.9
    },
    {
     "player": "Timme, Drew",
