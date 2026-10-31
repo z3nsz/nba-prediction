@@ -1,0 +1,129 @@
+{
+ "id": "espn-401909896",
+ "computed_et": "2026-10-31T05:30",
+ "final": false,
+ "report": "2026-10-30_11_45PM",
+ "cutoff_et": "2026-10-31T14:00",
+ "elo_home_win_prob": 0.348,
+ "inputs": {
+  "elo_diff": -208.8129,
+  "home_court": 1.0,
+  "point_diff_last10_diff": -16.8,
+  "win_pct_last10_diff": -0.4667,
+  "win_pct_last5_diff": -0.4667,
+  "rest_days_diff": 1.0,
+  "back_to_back_diff": 0.0,
+  "exp_missing_minutes_diff": 6.0044,
+  "starters_out_diff": 0.0,
+  "exp_missing_value_diff": 0.9026,
+  "exp_stars_missing_diff": 0.0
+ },
+ "home": {
+  "team": "UTA",
+  "elo": 1310.8,
+  "win_pct_last10": 0.2,
+  "win_pct_last5": 0.2,
+  "point_diff_last10": -7.8,
+  "rest_days": 3.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Jackson Jr., Jaren",
+    "status": "Out",
+    "avg_minutes": 26.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 26.0
+   },
+   {
+    "player": "Markkanen, Lauri",
+    "status": "Questionable",
+    "avg_minutes": 28.5,
+    "p_play": 0.409,
+    "exp_missing_minutes": 16.8
+   },
+   {
+    "player": "Bufkin, Kobe",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Alexander, Trey",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Nurkic, Jusuf",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Ingram, Harrison",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.022,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ },
+ "away": {
+  "team": "POR",
+  "elo": 1519.6,
+  "win_pct_last10": 0.667,
+  "win_pct_last5": 0.667,
+  "point_diff_last10": 9.0,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Morant, Ja",
+    "status": "Out",
+    "avg_minutes": 25.7,
+    "p_play": 0.0,
+    "exp_missing_minutes": 25.7
+   },
+   {
+    "player": "Williams III, Robert",
+    "status": "Questionable",
+    "avg_minutes": 18.0,
+    "p_play": 0.379,
+    "exp_missing_minutes": 11.2
+   },
+   {
+    "player": "Kent, Jayson",
+    "status": "Out",
+    "avg_minutes": 7.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 7.0
+   },
+   {
+    "player": "Tonje, John",
+    "status": "Out",
+    "avg_minutes": 5.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 5.0
+   },
+   {
+    "player": "Sharpe, Shaedon",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Youngblood, Chris",
+    "status": "Questionable",
+    "avg_minutes": 0.0,
+    "p_play": 0.364,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ }
+}

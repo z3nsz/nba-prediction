@@ -1,0 +1,86 @@
+{
+ "id": "espn-401909902",
+ "computed_et": "2026-10-31T05:30",
+ "final": false,
+ "report": "2026-10-30_11_45PM",
+ "cutoff_et": "2026-10-31T19:30",
+ "elo_home_win_prob": 0.598,
+ "inputs": {
+  "elo_diff": -30.7716,
+  "home_court": 1.0,
+  "point_diff_last10_diff": 7.4,
+  "win_pct_last10_diff": 0.0333,
+  "win_pct_last5_diff": 0.0,
+  "rest_days_diff": -2.0,
+  "back_to_back_diff": -1.0,
+  "exp_missing_minutes_diff": 0.0,
+  "starters_out_diff": 0.0,
+  "exp_missing_value_diff": 0.0,
+  "exp_stars_missing_diff": 0.0
+ },
+ "home": {
+  "team": "HOU",
+  "elo": 1623.6,
+  "win_pct_last10": 0.833,
+  "win_pct_last5": 0.8,
+  "point_diff_last10": 11.0,
+  "rest_days": 1.0,
+  "back_to_back": true,
+  "report_known": false,
+  "injuries": []
+ },
+ "away": {
+  "team": "OKC",
+  "elo": 1654.4,
+  "win_pct_last10": 0.8,
+  "win_pct_last5": 0.8,
+  "point_diff_last10": 3.6,
+  "rest_days": 3.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Williams, Jalen",
+    "status": "Out",
+    "avg_minutes": 31.7,
+    "p_play": 0.0,
+    "exp_missing_minutes": 31.7
+   },
+   {
+    "player": "Holmgren, Chet",
+    "status": "Out",
+    "avg_minutes": 30.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 30.0
+   },
+   {
+    "player": "Caruso, Alex",
+    "status": "Out",
+    "avg_minutes": 19.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 19.0
+   },
+   {
+    "player": "Wallace, Cason",
+    "status": "Out",
+    "avg_minutes": 16.3,
+    "p_play": 0.0,
+    "exp_missing_minutes": 16.3
+   },
+   {
+    "player": "Sorber, Thomas",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Topic, Nikola",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ }
+}

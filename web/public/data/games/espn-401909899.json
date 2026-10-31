@@ -1,0 +1,101 @@
+{
+ "id": "espn-401909899",
+ "computed_et": "2026-10-31T05:30",
+ "final": false,
+ "report": "2026-10-30_11_45PM",
+ "cutoff_et": "2026-10-31T19:00",
+ "elo_home_win_prob": 0.724,
+ "inputs": {
+  "elo_diff": 67.5084,
+  "home_court": 1.0,
+  "point_diff_last10_diff": 33.0,
+  "win_pct_last10_diff": 1.0,
+  "win_pct_last5_diff": 1.0,
+  "rest_days_diff": 0.0,
+  "back_to_back_diff": 0.0,
+  "exp_missing_minutes_diff": -7.641,
+  "starters_out_diff": 1.0,
+  "exp_missing_value_diff": -7.9779,
+  "exp_stars_missing_diff": -0.55
+ },
+ "home": {
+  "team": "MEM",
+  "elo": 1408.1,
+  "win_pct_last10": 1.0,
+  "win_pct_last5": 1.0,
+  "point_diff_last10": 14.2,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Jerome, Ty",
+    "status": "Questionable",
+    "avg_minutes": 29.5,
+    "p_play": 0.45,
+    "exp_missing_minutes": 16.2
+   },
+   {
+    "player": "Post, Quinten",
+    "status": "Doubtful",
+    "avg_minutes": 13.8,
+    "p_play": 0.02,
+    "exp_missing_minutes": 13.5
+   },
+   {
+    "player": "Pippen Jr., Scotty",
+    "status": "Questionable",
+    "avg_minutes": 16.0,
+    "p_play": 0.629,
+    "exp_missing_minutes": 5.9
+   }
+  ]
+ },
+ "away": {
+  "team": "SAC",
+  "elo": 1340.6,
+  "win_pct_last10": 0.0,
+  "win_pct_last5": 0.0,
+  "point_diff_last10": -18.8,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Murray, Keegan",
+    "status": "Out",
+    "avg_minutes": 28.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 28.0
+   },
+   {
+    "player": "Cardwell, Dylan",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Pedulla, Sean",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Raynaud, Maxime",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Simmons, Ben",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ }
+}

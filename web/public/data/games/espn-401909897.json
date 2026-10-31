@@ -1,0 +1,43 @@
+{
+ "id": "espn-401909897",
+ "computed_et": "2026-10-31T05:30",
+ "final": false,
+ "report": "2026-10-30_11_45PM",
+ "cutoff_et": "2026-10-31T17:00",
+ "elo_home_win_prob": 0.651,
+ "inputs": {
+  "elo_diff": 7.9736,
+  "home_court": 1.0,
+  "point_diff_last10_diff": -12.3333,
+  "win_pct_last10_diff": -0.3333,
+  "win_pct_last5_diff": -0.4,
+  "rest_days_diff": 0.0,
+  "back_to_back_diff": 0.0,
+  "exp_missing_minutes_diff": 0.0,
+  "starters_out_diff": 0.0,
+  "exp_missing_value_diff": 0.0,
+  "exp_stars_missing_diff": 0.0
+ },
+ "home": {
+  "team": "CHA",
+  "elo": 1550.3,
+  "win_pct_last10": 0.5,
+  "win_pct_last5": 0.4,
+  "point_diff_last10": -8.7,
+  "rest_days": 1.0,
+  "back_to_back": true,
+  "report_known": false,
+  "injuries": []
+ },
+ "away": {
+  "team": "PHI",
+  "elo": 1542.3,
+  "win_pct_last10": 0.833,
+  "win_pct_last5": 0.8,
+  "point_diff_last10": 3.7,
+  "rest_days": 1.0,
+  "back_to_back": true,
+  "report_known": false,
+  "injuries": []
+ }
+}

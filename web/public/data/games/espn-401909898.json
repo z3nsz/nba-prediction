@@ -1,0 +1,122 @@
+{
+ "id": "espn-401909898",
+ "computed_et": "2026-10-31T05:30",
+ "final": false,
+ "report": "2026-10-30_11_45PM",
+ "cutoff_et": "2026-10-31T18:00",
+ "elo_home_win_prob": 0.383,
+ "inputs": {
+  "elo_diff": -182.8809,
+  "home_court": 1.0,
+  "point_diff_last10_diff": -6.8667,
+  "win_pct_last10_diff": -0.3,
+  "win_pct_last5_diff": -0.2,
+  "rest_days_diff": 0.0,
+  "back_to_back_diff": 0.0,
+  "exp_missing_minutes_diff": -29.8678,
+  "starters_out_diff": 0.0,
+  "exp_missing_value_diff": 0.3666,
+  "exp_stars_missing_diff": 0.0
+ },
+ "home": {
+  "team": "NOP",
+  "elo": 1407.5,
+  "win_pct_last10": 0.2,
+  "win_pct_last5": 0.2,
+  "point_diff_last10": -2.2,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Missi, Yves",
+    "status": "Out",
+    "avg_minutes": 19.5,
+    "p_play": 0.0,
+    "exp_missing_minutes": 19.5
+   },
+   {
+    "player": "Poole, Jordan",
+    "status": "Out",
+    "avg_minutes": 16.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 16.0
+   },
+   {
+    "player": "Dia, Malik",
+    "status": "Questionable",
+    "avg_minutes": 0.0,
+    "p_play": 0.51,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Pierre Jr., Jaron",
+    "status": "Questionable",
+    "avg_minutes": 0.0,
+    "p_play": 0.51,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ },
+ "away": {
+  "team": "ATL",
+  "elo": 1590.4,
+  "win_pct_last10": 0.5,
+  "win_pct_last5": 0.4,
+  "point_diff_last10": 4.7,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Ejiofor, Zuby",
+    "status": "Doubtful",
+    "avg_minutes": 4.5,
+    "p_play": 0.02,
+    "exp_missing_minutes": 4.4
+   },
+   {
+    "player": "Landale, Jock",
+    "status": "Available",
+    "avg_minutes": 17.7,
+    "p_play": 0.931,
+    "exp_missing_minutes": 1.2
+   },
+   {
+    "player": "Dennis, RayJ",
+    "status": "Doubtful",
+    "avg_minutes": 0.0,
+    "p_play": 0.009,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Gilbert, Keshon",
+    "status": "Doubtful",
+    "avg_minutes": 0.0,
+    "p_play": 0.016,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Gueye, Mouhamed",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Veesaar, Henri",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Wilson, Jalen",
+    "status": "Doubtful",
+    "avg_minutes": 0.0,
+    "p_play": 0.02,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ }
+}
