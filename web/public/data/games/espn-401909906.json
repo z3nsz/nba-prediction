@@ -1,0 +1,87 @@
+{
+ "id": "espn-401909906",
+ "computed_et": "2026-11-01T02:25",
+ "final": false,
+ "report": "2026-10-31_11_45PM",
+ "cutoff_et": "2026-11-01T20:00",
+ "elo_home_win_prob": 0.683,
+ "inputs": {
+  "elo_diff": 33.0761,
+  "home_court": 1.0,
+  "point_diff_last10_diff": -6.0,
+  "win_pct_last10_diff": 0.0,
+  "win_pct_last5_diff": 0.0,
+  "rest_days_diff": 0.0,
+  "back_to_back_diff": 0.0,
+  "exp_missing_minutes_diff": 11.786,
+  "starters_out_diff": 0.0,
+  "exp_missing_value_diff": 7.9249,
+  "exp_stars_missing_diff": 0.0
+ },
+ "home": {
+  "team": "LAL",
+  "elo": 1578.5,
+  "win_pct_last10": 0.6,
+  "win_pct_last5": 0.6,
+  "point_diff_last10": 4.6,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Williams, Ziaire",
+    "status": "Questionable",
+    "avg_minutes": 27.7,
+    "p_play": 0.597,
+    "exp_missing_minutes": 11.2
+   },
+   {
+    "player": "Kessler, Walker",
+    "status": "Available",
+    "avg_minutes": 29.6,
+    "p_play": 0.897,
+    "exp_missing_minutes": 3.1
+   },
+   {
+    "player": "Thiero, Adou",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ },
+ "away": {
+  "team": "TOR",
+  "elo": 1545.4,
+  "win_pct_last10": 0.6,
+  "win_pct_last5": 0.6,
+  "point_diff_last10": 10.6,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Leonard, Kawhi",
+    "status": "Out",
+    "avg_minutes": 26.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 26.0
+   },
+   {
+    "player": "Bittle, Nate",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Smith, Malachi",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ }
+}
