@@ -1,0 +1,122 @@
+{
+ "id": "espn-401909907",
+ "computed_et": "2026-11-02T04:54",
+ "final": false,
+ "report": "2026-11-01_11_45PM",
+ "cutoff_et": "2026-11-02T18:00",
+ "elo_home_win_prob": 0.577,
+ "inputs": {
+  "elo_diff": -46.3863,
+  "home_court": 1.0,
+  "point_diff_last10_diff": 5.5,
+  "win_pct_last10_diff": 0.0,
+  "win_pct_last5_diff": 0.2,
+  "rest_days_diff": 0.0,
+  "back_to_back_diff": 0.0,
+  "exp_missing_minutes_diff": 58.5586,
+  "starters_out_diff": 2.0,
+  "exp_missing_value_diff": 6.1658,
+  "exp_stars_missing_diff": 0.0
+ },
+ "home": {
+  "team": "CLE",
+  "elo": 1595.1,
+  "win_pct_last10": 0.667,
+  "win_pct_last5": 0.8,
+  "point_diff_last10": 5.0,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Tyson, Jaylon",
+    "status": "Out",
+    "avg_minutes": 20.8,
+    "p_play": 0.0,
+    "exp_missing_minutes": 20.8
+   },
+   {
+    "player": "Watson, Peyton",
+    "status": "Questionable",
+    "avg_minutes": 28.3,
+    "p_play": 0.377,
+    "exp_missing_minutes": 17.6
+   },
+   {
+    "player": "Diop, Khalifa",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Tomlin, Nae'Qwan",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Udeh, Jr., Ernest",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ },
+ "away": {
+  "team": "OKC",
+  "elo": 1641.5,
+  "win_pct_last10": 0.667,
+  "win_pct_last5": 0.6,
+  "point_diff_last10": -0.5,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Williams, Jalen",
+    "status": "Out",
+    "avg_minutes": 31.7,
+    "p_play": 0.0,
+    "exp_missing_minutes": 31.7
+   },
+   {
+    "player": "Holmgren, Chet",
+    "status": "Out",
+    "avg_minutes": 30.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 30.0
+   },
+   {
+    "player": "Caruso, Alex",
+    "status": "Out",
+    "avg_minutes": 19.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 19.0
+   },
+   {
+    "player": "Wallace, Cason",
+    "status": "Out",
+    "avg_minutes": 16.3,
+    "p_play": 0.0,
+    "exp_missing_minutes": 16.3
+   },
+   {
+    "player": "Topic, Nikola",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Sorber, Thomas",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ }
+}

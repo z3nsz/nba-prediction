@@ -1,0 +1,51 @@
+{
+ "id": "espn-401909910",
+ "computed_et": "2026-11-02T04:54",
+ "final": false,
+ "report": "2026-11-01_11_45PM",
+ "cutoff_et": "2026-11-02T18:30",
+ "elo_home_win_prob": 0.907,
+ "inputs": {
+  "elo_diff": 295.5731,
+  "home_court": 1.0,
+  "point_diff_last10_diff": 7.1667,
+  "win_pct_last10_diff": 0.1667,
+  "win_pct_last5_diff": 0.2,
+  "rest_days_diff": 2.0,
+  "back_to_back_diff": 1.0,
+  "exp_missing_minutes_diff": 0.0,
+  "starters_out_diff": 0.0,
+  "exp_missing_value_diff": 0.0,
+  "exp_stars_missing_diff": 0.0
+ },
+ "home": {
+  "team": "NYK",
+  "elo": 1593.4,
+  "win_pct_last10": 0.333,
+  "win_pct_last5": 0.4,
+  "point_diff_last10": -0.7,
+  "rest_days": 3.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Alvarado, Jose",
+    "status": "Questionable",
+    "avg_minutes": 13.5,
+    "p_play": 0.658,
+    "exp_missing_minutes": 4.6
+   }
+  ]
+ },
+ "away": {
+  "team": "BKN",
+  "elo": 1297.8,
+  "win_pct_last10": 0.167,
+  "win_pct_last5": 0.2,
+  "point_diff_last10": -7.8,
+  "rest_days": 1.0,
+  "back_to_back": true,
+  "report_known": false,
+  "injuries": []
+ }
+}

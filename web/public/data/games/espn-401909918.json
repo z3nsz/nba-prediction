@@ -1,0 +1,94 @@
+{
+ "id": "espn-401909918",
+ "computed_et": "2026-11-02T04:54",
+ "final": false,
+ "report": "2026-11-01_11_45PM",
+ "cutoff_et": "2026-11-02T20:00",
+ "elo_home_win_prob": 0.729,
+ "inputs": {
+  "elo_diff": 71.6427,
+  "home_court": 1.0,
+  "point_diff_last10_diff": -13.45,
+  "win_pct_last10_diff": -0.15,
+  "win_pct_last5_diff": -0.15,
+  "rest_days_diff": 1.0,
+  "back_to_back_diff": 0.0,
+  "exp_missing_minutes_diff": 26.8791,
+  "starters_out_diff": 0.0,
+  "exp_missing_value_diff": 3.1918,
+  "exp_stars_missing_diff": 0.0
+ },
+ "home": {
+  "team": "DEN",
+  "elo": 1602.5,
+  "win_pct_last10": 0.6,
+  "win_pct_last5": 0.6,
+  "point_diff_last10": -1.2,
+  "rest_days": 3.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Diallo, Alpha",
+    "status": "Questionable",
+    "avg_minutes": 22.0,
+    "p_play": 0.51,
+    "exp_missing_minutes": 10.8
+   },
+   {
+    "player": "Jones, Spencer",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Strawther, Julian",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ },
+ "away": {
+  "team": "POR",
+  "elo": 1530.8,
+  "win_pct_last10": 0.75,
+  "win_pct_last5": 0.75,
+  "point_diff_last10": 12.2,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Morant, Ja",
+    "status": "Out",
+    "avg_minutes": 25.7,
+    "p_play": 0.0,
+    "exp_missing_minutes": 25.7
+   },
+   {
+    "player": "Kent, Jayson",
+    "status": "Out",
+    "avg_minutes": 7.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 7.0
+   },
+   {
+    "player": "Tonje, John",
+    "status": "Out",
+    "avg_minutes": 5.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 5.0
+   },
+   {
+    "player": "Sharpe, Shaedon",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ }
+}

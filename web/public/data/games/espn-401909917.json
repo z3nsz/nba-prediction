@@ -1,0 +1,94 @@
+{
+ "id": "espn-401909917",
+ "computed_et": "2026-11-02T04:54",
+ "final": false,
+ "report": "2026-11-01_11_45PM",
+ "cutoff_et": "2026-11-02T19:30",
+ "elo_home_win_prob": 0.939,
+ "inputs": {
+  "elo_diff": 376.3821,
+  "home_court": 1.0,
+  "point_diff_last10_diff": 17.3333,
+  "win_pct_last10_diff": 0.5,
+  "win_pct_last5_diff": 0.6,
+  "rest_days_diff": 0.0,
+  "back_to_back_diff": 0.0,
+  "exp_missing_minutes_diff": 25.9991,
+  "starters_out_diff": 0.0,
+  "exp_missing_value_diff": 1.1687,
+  "exp_stars_missing_diff": 0.0
+ },
+ "home": {
+  "team": "SAS",
+  "elo": 1676.0,
+  "win_pct_last10": 0.667,
+  "win_pct_last5": 0.8,
+  "point_diff_last10": 7.2,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Harris, Tobias",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Quaintance, Jayden",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ },
+ "away": {
+  "team": "UTA",
+  "elo": 1299.6,
+  "win_pct_last10": 0.167,
+  "win_pct_last5": 0.2,
+  "point_diff_last10": -10.2,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Jackson Jr., Jaren",
+    "status": "Out",
+    "avg_minutes": 26.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 26.0
+   },
+   {
+    "player": "Alexander, Trey",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Bufkin, Kobe",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Ingram, Harrison",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.022,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Nurkic, Jusuf",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ }
+}

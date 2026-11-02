@@ -1,0 +1,129 @@
+{
+ "id": "espn-401909913",
+ "computed_et": "2026-11-02T04:54",
+ "final": false,
+ "report": "2026-11-01_11_45PM",
+ "cutoff_et": "2026-11-02T19:00",
+ "elo_home_win_prob": 0.781,
+ "inputs": {
+  "elo_diff": 120.5351,
+  "home_court": 1.0,
+  "point_diff_last10_diff": 23.7,
+  "win_pct_last10_diff": 0.6667,
+  "win_pct_last5_diff": 0.8,
+  "rest_days_diff": 1.0,
+  "back_to_back_diff": 0.0,
+  "exp_missing_minutes_diff": 4.4751,
+  "starters_out_diff": 1.0,
+  "exp_missing_value_diff": -3.6791,
+  "exp_stars_missing_diff": 0.0
+ },
+ "home": {
+  "team": "DAL",
+  "elo": 1450.3,
+  "win_pct_last10": 0.667,
+  "win_pct_last5": 0.8,
+  "point_diff_last10": 2.5,
+  "rest_days": 3.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Irving, Kyrie",
+    "status": "Questionable",
+    "avg_minutes": 28.8,
+    "p_play": 0.347,
+    "exp_missing_minutes": 18.8
+   },
+   {
+    "player": "de Larrea, Sergio",
+    "status": "Out",
+    "avg_minutes": 11.8,
+    "p_play": 0.001,
+    "exp_missing_minutes": 11.7
+   },
+   {
+    "player": "Martin, Caleb",
+    "status": "Available",
+    "avg_minutes": 19.5,
+    "p_play": 0.984,
+    "exp_missing_minutes": 0.3
+   },
+   {
+    "player": "Aldama, Santi",
+    "status": "Doubtful",
+    "avg_minutes": 0.0,
+    "p_play": 0.007,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Biberovic, Tarik",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Lively II, Dereck",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ },
+ "away": {
+  "team": "SAC",
+  "elo": 1329.7,
+  "win_pct_last10": 0.0,
+  "win_pct_last5": 0.0,
+  "point_diff_last10": -21.2,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Murray, Keegan",
+    "status": "Out",
+    "avg_minutes": 28.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 28.0
+   },
+   {
+    "player": "LaVine, Zach",
+    "status": "Questionable",
+    "avg_minutes": 33.0,
+    "p_play": 0.777,
+    "exp_missing_minutes": 7.3
+   },
+   {
+    "player": "Pedulla, Sean",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Cardwell, Dylan",
+    "status": "Questionable",
+    "avg_minutes": 0.0,
+    "p_play": 0.51,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Raynaud, Maxime",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Simmons, Ben",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ }
+}
