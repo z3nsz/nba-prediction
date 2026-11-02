@@ -1,8 +1,8 @@
 {
  "id": "espn-401909915",
- "computed_et": "2026-11-02T18:01",
+ "computed_et": "2026-11-02T18:31",
  "final": false,
- "report": "2026-11-02_06_00PM",
+ "report": "2026-11-02_06_30PM",
  "cutoff_et": "2026-11-02T19:00",
  "elo_home_win_prob": 0.879,
  "inputs": {
@@ -13,9 +13,9 @@
   "win_pct_last5_diff": 0.2,
   "rest_days_diff": 0.0,
   "back_to_back_diff": 0.0,
-  "exp_missing_minutes_diff": -59.4729,
+  "exp_missing_minutes_diff": -65.702,
   "starters_out_diff": -1.0,
-  "exp_missing_value_diff": -7.9033,
+  "exp_missing_value_diff": -7.6065,
   "exp_stars_missing_diff": -0.9999
  },
  "home": {
@@ -37,10 +37,10 @@
    },
    {
     "player": "Shannon Jr, Terrence",
-    "status": "Questionable",
+    "status": "Out",
     "avg_minutes": 22.0,
-    "p_play": 0.283,
-    "exp_missing_minutes": 15.8
+    "p_play": 0.0,
+    "exp_missing_minutes": 22.0
    },
    {
     "player": "Ball, LaMelo",
