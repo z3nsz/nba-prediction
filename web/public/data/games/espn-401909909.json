@@ -1,8 +1,8 @@
 {
  "id": "espn-401909909",
- "computed_et": "2026-11-02T17:44",
+ "computed_et": "2026-11-02T18:01",
  "final": false,
- "report": "2026-11-02_05_30PM",
+ "report": "2026-11-02_06_00PM",
  "cutoff_et": "2026-11-02T18:30",
  "elo_home_win_prob": 0.342,
  "inputs": {
@@ -13,9 +13,9 @@
   "win_pct_last5_diff": 0.0,
   "rest_days_diff": -1.0,
   "back_to_back_diff": -1.0,
-  "exp_missing_minutes_diff": -122.7187,
-  "starters_out_diff": -3.0,
-  "exp_missing_value_diff": -2.1526,
+  "exp_missing_minutes_diff": -125.6288,
+  "starters_out_diff": -2.0,
+  "exp_missing_value_diff": -2.6798,
   "exp_stars_missing_diff": -1.0
  },
  "home": {
@@ -57,6 +57,13 @@
     "exp_missing_minutes": 23.0
    },
    {
+    "player": "Toppin, Obi",
+    "status": "Out",
+    "avg_minutes": 23.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 23.0
+   },
+   {
     "player": "Zubac, Ivica",
     "status": "Out",
     "avg_minutes": 21.7,
@@ -65,10 +72,10 @@
    },
    {
     "player": "Nance Jr., Larry",
-    "status": "Doubtful",
+    "status": "Out",
     "avg_minutes": 16.3,
-    "p_play": 0.016,
-    "exp_missing_minutes": 16.0
+    "p_play": 0.0,
+    "exp_missing_minutes": 16.3
    },
    {
     "player": "Sheppard, Ben",
@@ -76,13 +83,6 @@
     "avg_minutes": 12.0,
     "p_play": 0.0,
     "exp_missing_minutes": 12.0
-   },
-   {
-    "player": "Toppin, Obi",
-    "status": "Questionable",
-    "avg_minutes": 23.0,
-    "p_play": 0.697,
-    "exp_missing_minutes": 7.0
    },
    {
     "player": "Furphy, Johnny",
@@ -111,18 +111,18 @@
   "report_known": true,
   "injuries": [
    {
+    "player": "Johnson, Jalen",
+    "status": "Out",
+    "avg_minutes": 32.7,
+    "p_play": 0.0,
+    "exp_missing_minutes": 32.7
+   },
+   {
     "player": "Flemings, Kingston",
     "status": "Out",
     "avg_minutes": 20.3,
     "p_play": 0.001,
     "exp_missing_minutes": 20.3
-   },
-   {
-    "player": "Johnson, Jalen",
-    "status": "Questionable",
-    "avg_minutes": 32.7,
-    "p_play": 0.409,
-    "exp_missing_minutes": 19.3
    },
    {
     "player": "Landale, Jock",
