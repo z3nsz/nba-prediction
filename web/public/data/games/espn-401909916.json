@@ -1,8 +1,8 @@
 {
  "id": "espn-401909916",
- "computed_et": "2026-11-02T04:54",
+ "computed_et": "2026-11-02T17:44",
  "final": false,
- "report": "2026-11-01_11_45PM",
+ "report": "2026-11-02_05_30PM",
  "cutoff_et": "2026-11-02T19:30",
  "elo_home_win_prob": 0.602,
  "inputs": {
@@ -13,9 +13,9 @@
   "win_pct_last5_diff": -0.2,
   "rest_days_diff": 1.0,
   "back_to_back_diff": 1.0,
-  "exp_missing_minutes_diff": 0.0,
-  "starters_out_diff": 0.0,
-  "exp_missing_value_diff": 0.0,
+  "exp_missing_minutes_diff": -0.3072,
+  "starters_out_diff": 1.0,
+  "exp_missing_value_diff": 2.8853,
   "exp_stars_missing_diff": 0.0
  },
  "home": {
@@ -28,6 +28,13 @@
   "back_to_back": false,
   "report_known": true,
   "injuries": [
+   {
+    "player": "Capela, Clint",
+    "status": "Out",
+    "avg_minutes": 14.2,
+    "p_play": 0.0,
+    "exp_missing_minutes": 14.2
+   },
    {
     "player": "Adams, Steven",
     "status": "Out",
@@ -43,24 +50,17 @@
     "exp_missing_minutes": 8.1
    },
    {
-    "player": "Capela, Clint",
-    "status": "Questionable",
-    "avg_minutes": 14.2,
-    "p_play": 0.483,
-    "exp_missing_minutes": 7.3
+    "player": "Copeland, Quadir",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
    },
    {
     "player": "Phillips, Julian",
     "status": "Out",
     "avg_minutes": 0.0,
     "p_play": 0.023,
-    "exp_missing_minutes": 0.0
-   },
-   {
-    "player": "Copeland, Quadir",
-    "status": "Out",
-    "avg_minutes": 0.0,
-    "p_play": 0.0,
     "exp_missing_minutes": 0.0
    }
   ]
@@ -73,7 +73,22 @@
   "point_diff_last10": 9.5,
   "rest_days": 1.0,
   "back_to_back": true,
-  "report_known": false,
-  "injuries": []
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "George, Paul",
+    "status": "Out",
+    "avg_minutes": 31.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 31.0
+   },
+   {
+    "player": "Carter, Devin",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
  }
 }

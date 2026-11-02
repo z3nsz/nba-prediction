@@ -1,8 +1,8 @@
 {
  "id": "espn-401909913",
- "computed_et": "2026-11-02T04:54",
+ "computed_et": "2026-11-02T17:44",
  "final": false,
- "report": "2026-11-01_11_45PM",
+ "report": "2026-11-02_05_30PM",
  "cutoff_et": "2026-11-02T19:00",
  "elo_home_win_prob": 0.781,
  "inputs": {
@@ -13,9 +13,9 @@
   "win_pct_last5_diff": 0.8,
   "rest_days_diff": 1.0,
   "back_to_back_diff": 0.0,
-  "exp_missing_minutes_diff": 4.4751,
-  "starters_out_diff": 1.0,
-  "exp_missing_value_diff": -3.6791,
+  "exp_missing_minutes_diff": -5.1101,
+  "starters_out_diff": 0.0,
+  "exp_missing_value_diff": -4.3506,
   "exp_stars_missing_diff": 0.0
  },
  "home": {
@@ -30,10 +30,10 @@
   "injuries": [
    {
     "player": "Irving, Kyrie",
-    "status": "Questionable",
+    "status": "Doubtful",
     "avg_minutes": 28.8,
-    "p_play": 0.347,
-    "exp_missing_minutes": 18.8
+    "p_play": 0.014,
+    "exp_missing_minutes": 28.4
    },
    {
     "player": "de Larrea, Sergio",
@@ -97,17 +97,17 @@
     "exp_missing_minutes": 7.3
    },
    {
-    "player": "Pedulla, Sean",
-    "status": "Out",
-    "avg_minutes": 0.0,
-    "p_play": 0.0,
-    "exp_missing_minutes": 0.0
-   },
-   {
     "player": "Cardwell, Dylan",
     "status": "Questionable",
     "avg_minutes": 0.0,
     "p_play": 0.51,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Pedulla, Sean",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
     "exp_missing_minutes": 0.0
    },
    {

@@ -1,8 +1,8 @@
 {
  "id": "espn-401909915",
- "computed_et": "2026-11-02T04:54",
+ "computed_et": "2026-11-02T17:44",
  "final": false,
- "report": "2026-11-01_11_45PM",
+ "report": "2026-11-02_05_30PM",
  "cutoff_et": "2026-11-02T19:00",
  "elo_home_win_prob": 0.879,
  "inputs": {
@@ -13,9 +13,9 @@
   "win_pct_last5_diff": 0.2,
   "rest_days_diff": 0.0,
   "back_to_back_diff": 0.0,
-  "exp_missing_minutes_diff": -33.7464,
+  "exp_missing_minutes_diff": -59.4729,
   "starters_out_diff": -1.0,
-  "exp_missing_value_diff": -7.7019,
+  "exp_missing_value_diff": -7.9033,
   "exp_stars_missing_diff": -0.9999
  },
  "home": {
@@ -34,6 +34,20 @@
     "avg_minutes": 33.8,
     "p_play": 0.0,
     "exp_missing_minutes": 33.7
+   },
+   {
+    "player": "Shannon Jr, Terrence",
+    "status": "Questionable",
+    "avg_minutes": 22.0,
+    "p_play": 0.283,
+    "exp_missing_minutes": 15.8
+   },
+   {
+    "player": "Ball, LaMelo",
+    "status": "Questionable",
+    "avg_minutes": 25.3,
+    "p_play": 0.606,
+    "exp_missing_minutes": 10.0
    },
    {
     "player": "DiVincenzo, Donte",

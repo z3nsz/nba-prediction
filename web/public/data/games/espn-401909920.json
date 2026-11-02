@@ -1,8 +1,8 @@
 {
  "id": "espn-401909920",
- "computed_et": "2026-11-02T04:54",
+ "computed_et": "2026-11-02T17:44",
  "final": false,
- "report": "2026-11-01_11_45PM",
+ "report": "2026-11-02_05_30PM",
  "cutoff_et": "2026-11-02T21:00",
  "elo_home_win_prob": 0.585,
  "inputs": {
@@ -13,9 +13,9 @@
   "win_pct_last5_diff": -0.2,
   "rest_days_diff": 0.0,
   "back_to_back_diff": 0.0,
-  "exp_missing_minutes_diff": 0.0,
-  "starters_out_diff": 0.0,
-  "exp_missing_value_diff": 0.0,
+  "exp_missing_minutes_diff": -11.6983,
+  "starters_out_diff": -1.0,
+  "exp_missing_value_diff": 13.9437,
   "exp_stars_missing_diff": 0.0
  },
  "home": {
@@ -26,8 +26,51 @@
   "point_diff_last10": -7.2,
   "rest_days": 1.0,
   "back_to_back": true,
-  "report_known": false,
-  "injuries": []
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Hachimura, Rui",
+    "status": "Out",
+    "avg_minutes": 29.2,
+    "p_play": 0.0,
+    "exp_missing_minutes": 29.2
+   },
+   {
+    "player": "Jones Jr., Derrick",
+    "status": "Out",
+    "avg_minutes": 27.6,
+    "p_play": 0.0,
+    "exp_missing_minutes": 27.6
+   },
+   {
+    "player": "Beal, Bradley",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Ingram, Brandon",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Miller, Jordan",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Niederhauser, Yanic Konan",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
  },
  "away": {
   "team": "TOR",
@@ -37,7 +80,43 @@
   "point_diff_last10": 7.8,
   "rest_days": 1.0,
   "back_to_back": true,
-  "report_known": false,
-  "injuries": []
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Leonard, Kawhi",
+    "status": "Out",
+    "avg_minutes": 26.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 26.0
+   },
+   {
+    "player": "Barnes, Scottie",
+    "status": "Questionable",
+    "avg_minutes": 32.8,
+    "p_play": 0.629,
+    "exp_missing_minutes": 12.2
+   },
+   {
+    "player": "Poeltl, Jakob",
+    "status": "Questionable",
+    "avg_minutes": 20.2,
+    "p_play": 0.655,
+    "exp_missing_minutes": 7.0
+   },
+   {
+    "player": "Bittle, Nate",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Smith, Malachi",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
  }
 }

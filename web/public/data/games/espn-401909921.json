@@ -1,8 +1,8 @@
 {
  "id": "espn-401909921",
- "computed_et": "2026-11-02T04:54",
+ "computed_et": "2026-11-02T17:44",
  "final": false,
- "report": "2026-11-01_11_45PM",
+ "report": "2026-11-02_05_30PM",
  "cutoff_et": "2026-11-02T21:00",
  "elo_home_win_prob": 0.738,
  "inputs": {
@@ -13,9 +13,9 @@
   "win_pct_last5_diff": 0.2,
   "rest_days_diff": -2.0,
   "back_to_back_diff": -1.0,
-  "exp_missing_minutes_diff": 0.0,
+  "exp_missing_minutes_diff": -1.9472,
   "starters_out_diff": 0.0,
-  "exp_missing_value_diff": 0.0,
+  "exp_missing_value_diff": -0.4018,
   "exp_stars_missing_diff": 0.0
  },
  "home": {
@@ -26,8 +26,23 @@
   "point_diff_last10": 4.8,
   "rest_days": 1.0,
   "back_to_back": true,
-  "report_known": false,
-  "injuries": []
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Kessler, Walker",
+    "status": "Available",
+    "avg_minutes": 29.8,
+    "p_play": 0.902,
+    "exp_missing_minutes": 2.9
+   },
+   {
+    "player": "Thiero, Adou",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
  },
  "away": {
   "team": "MIA",
@@ -41,23 +56,23 @@
   "injuries": [
    {
     "player": "Hardaway Jr., Tim",
-    "status": "Questionable",
+    "status": "Available",
     "avg_minutes": 18.3,
-    "p_play": 0.57,
-    "exp_missing_minutes": 7.9
-   },
-   {
-    "player": "Goldin, Vladislav",
-    "status": "Out",
-    "avg_minutes": 0.0,
-    "p_play": 0.0,
-    "exp_missing_minutes": 0.0
+    "p_play": 0.947,
+    "exp_missing_minutes": 1.0
    },
    {
     "player": "Donaldson, Tre",
-    "status": "Out",
+    "status": "Available",
     "avg_minutes": 0.0,
-    "p_play": 0.001,
+    "p_play": 0.807,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Goldin, Vladislav",
+    "status": "Available",
+    "avg_minutes": 0.0,
+    "p_play": 0.367,
     "exp_missing_minutes": 0.0
    }
   ]

@@ -1,8 +1,8 @@
 {
  "id": "espn-401909909",
- "computed_et": "2026-11-02T04:54",
+ "computed_et": "2026-11-02T17:44",
  "final": false,
- "report": "2026-11-01_11_45PM",
+ "report": "2026-11-02_05_30PM",
  "cutoff_et": "2026-11-02T18:30",
  "elo_home_win_prob": 0.342,
  "inputs": {
@@ -13,10 +13,10 @@
   "win_pct_last5_diff": 0.0,
   "rest_days_diff": -1.0,
   "back_to_back_diff": -1.0,
-  "exp_missing_minutes_diff": 0.0,
-  "starters_out_diff": 0.0,
-  "exp_missing_value_diff": 0.0,
-  "exp_stars_missing_diff": 0.0
+  "exp_missing_minutes_diff": -122.7187,
+  "starters_out_diff": -3.0,
+  "exp_missing_value_diff": -2.1526,
+  "exp_stars_missing_diff": -1.0
  },
  "home": {
   "team": "IND",
@@ -26,8 +26,79 @@
   "point_diff_last10": -3.9,
   "rest_days": 1.0,
   "back_to_back": true,
-  "report_known": false,
-  "injuries": []
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Haliburton, Tyrese",
+    "status": "Out",
+    "avg_minutes": 33.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 33.0
+   },
+   {
+    "player": "Nembhard, Andrew",
+    "status": "Out",
+    "avg_minutes": 32.7,
+    "p_play": 0.0,
+    "exp_missing_minutes": 32.7
+   },
+   {
+    "player": "Siakam, Pascal",
+    "status": "Out",
+    "avg_minutes": 32.3,
+    "p_play": 0.0,
+    "exp_missing_minutes": 32.3
+   },
+   {
+    "player": "Nesmith, Aaron",
+    "status": "Out",
+    "avg_minutes": 23.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 23.0
+   },
+   {
+    "player": "Zubac, Ivica",
+    "status": "Out",
+    "avg_minutes": 21.7,
+    "p_play": 0.0,
+    "exp_missing_minutes": 21.7
+   },
+   {
+    "player": "Nance Jr., Larry",
+    "status": "Doubtful",
+    "avg_minutes": 16.3,
+    "p_play": 0.016,
+    "exp_missing_minutes": 16.0
+   },
+   {
+    "player": "Sheppard, Ben",
+    "status": "Out",
+    "avg_minutes": 12.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 12.0
+   },
+   {
+    "player": "Toppin, Obi",
+    "status": "Questionable",
+    "avg_minutes": 23.0,
+    "p_play": 0.697,
+    "exp_missing_minutes": 7.0
+   },
+   {
+    "player": "Furphy, Johnny",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "McConnell, T.J.",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
  },
  "away": {
   "team": "ATL",
@@ -61,6 +132,20 @@
     "exp_missing_minutes": 15.3
    },
    {
+    "player": "Gueye, Mouhamed",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Gilbert, Keshon",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
     "player": "Veesaar, Henri",
     "status": "Out",
     "avg_minutes": 0.0,
@@ -69,20 +154,6 @@
    },
    {
     "player": "Wilson, Jalen",
-    "status": "Doubtful",
-    "avg_minutes": 0.0,
-    "p_play": 0.02,
-    "exp_missing_minutes": 0.0
-   },
-   {
-    "player": "Gilbert, Keshon",
-    "status": "Doubtful",
-    "avg_minutes": 0.0,
-    "p_play": 0.016,
-    "exp_missing_minutes": 0.0
-   },
-   {
-    "player": "Gueye, Mouhamed",
     "status": "Out",
     "avg_minutes": 0.0,
     "p_play": 0.0,
