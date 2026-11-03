@@ -1,5 +1,5 @@
 {
- "updated_et": "2026-11-02T22:54",
+ "updated_et": "2026-11-03T06:50",
  "season": "2026-27",
  "model": {
   "description": "Final NBA model (logistic regression, no intercept), retrained on all six seasons",
@@ -14,11 +14,11 @@
   ]
  },
  "record": {
-  "games": 98,
-  "correct": 59,
-  "accuracy": 0.602,
-  "log_loss": 0.6368,
-  "brier": 0.226
+  "games": 104,
+  "correct": 62,
+  "accuracy": 0.5962,
+  "log_loss": 0.6381,
+  "brier": 0.2268
  },
  "games": [
   {
@@ -2555,8 +2555,8 @@
    "p_home": 0.6088,
    "final": true,
    "report": "2026-11-02_07_30PM",
-   "home_score": null,
-   "away_score": null,
+   "home_score": 109,
+   "away_score": 93,
    "contributions": {
     "elo_diff": -0.1393,
     "home_court": 0.2167,
@@ -2580,8 +2580,8 @@
    "p_home": 0.8981,
    "final": true,
    "report": "2026-11-02_07_30PM",
-   "home_score": null,
-   "away_score": null,
+   "home_score": 119,
+   "away_score": 97,
    "contributions": {
     "elo_diff": 1.8424,
     "home_court": 0.2167,
@@ -2605,8 +2605,8 @@
    "p_home": 0.6651,
    "final": true,
    "report": "2026-11-02_08_00PM",
-   "home_score": null,
-   "away_score": null,
+   "home_score": 110,
+   "away_score": 118,
    "contributions": {
     "elo_diff": 0.3507,
     "home_court": 0.2167,
@@ -2630,8 +2630,8 @@
    "p_home": 0.4003,
    "final": true,
    "report": "2026-11-02_09_00PM",
-   "home_score": null,
-   "away_score": null,
+   "home_score": 116,
+   "away_score": 113,
    "contributions": {
     "elo_diff": -0.0727,
     "home_court": 0.2167,
@@ -2655,8 +2655,8 @@
    "p_home": 0.5368,
    "final": true,
    "report": "2026-11-02_09_00PM",
-   "home_score": null,
-   "away_score": null,
+   "home_score": 118,
+   "away_score": 125,
    "contributions": {
     "elo_diff": -0.1982,
     "home_court": 0.2167,
@@ -2680,8 +2680,8 @@
    "p_home": 0.564,
    "final": true,
    "report": "2026-11-02_09_00PM",
-   "home_score": null,
-   "away_score": null,
+   "home_score": 138,
+   "away_score": 117,
    "contributions": {
     "elo_diff": 0.3907,
     "home_court": 0.2167,
