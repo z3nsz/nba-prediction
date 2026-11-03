@@ -1,8 +1,8 @@
 {
  "id": "espn-401909913",
- "computed_et": "2026-11-02T18:31",
- "final": false,
- "report": "2026-11-02_06_30PM",
+ "computed_et": "2026-11-02T19:01",
+ "final": true,
+ "report": "2026-11-02_07_00PM",
  "cutoff_et": "2026-11-02T19:00",
  "elo_home_win_prob": 0.781,
  "inputs": {
@@ -13,9 +13,9 @@
   "win_pct_last5_diff": 0.8,
   "rest_days_diff": 1.0,
   "back_to_back_diff": 0.0,
-  "exp_missing_minutes_diff": -5.1101,
+  "exp_missing_minutes_diff": -12.1807,
   "starters_out_diff": 0.0,
-  "exp_missing_value_diff": -4.3506,
+  "exp_missing_value_diff": -4.7259,
   "exp_stars_missing_diff": 0.0
  },
  "home": {
@@ -30,10 +30,10 @@
   "injuries": [
    {
     "player": "Irving, Kyrie",
-    "status": "Doubtful",
+    "status": "Out",
     "avg_minutes": 28.8,
-    "p_play": 0.014,
-    "exp_missing_minutes": 28.4
+    "p_play": 0.0,
+    "exp_missing_minutes": 28.8
    },
    {
     "player": "de Larrea, Sergio",
@@ -50,21 +50,21 @@
     "exp_missing_minutes": 0.3
    },
    {
-    "player": "Aldama, Santi",
-    "status": "Doubtful",
-    "avg_minutes": 0.0,
-    "p_play": 0.007,
-    "exp_missing_minutes": 0.0
-   },
-   {
-    "player": "Biberovic, Tarik",
+    "player": "Lively II, Dereck",
     "status": "Out",
     "avg_minutes": 0.0,
     "p_play": 0.0,
     "exp_missing_minutes": 0.0
    },
    {
-    "player": "Lively II, Dereck",
+    "player": "Aldama, Santi",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Biberovic, Tarik",
     "status": "Out",
     "avg_minutes": 0.0,
     "p_play": 0.0,
@@ -91,10 +91,17 @@
    },
    {
     "player": "LaVine, Zach",
-    "status": "Questionable",
+    "status": "Available",
     "avg_minutes": 33.0,
-    "p_play": 0.777,
-    "exp_missing_minutes": 7.3
+    "p_play": 0.98,
+    "exp_missing_minutes": 0.7
+   },
+   {
+    "player": "Simmons, Ben",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
    },
    {
     "player": "Cardwell, Dylan",
@@ -112,13 +119,6 @@
    },
    {
     "player": "Raynaud, Maxime",
-    "status": "Out",
-    "avg_minutes": 0.0,
-    "p_play": 0.0,
-    "exp_missing_minutes": 0.0
-   },
-   {
-    "player": "Simmons, Ben",
     "status": "Out",
     "avg_minutes": 0.0,
     "p_play": 0.0,
