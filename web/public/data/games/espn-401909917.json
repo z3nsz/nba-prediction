@@ -1,8 +1,8 @@
 {
  "id": "espn-401909917",
- "computed_et": "2026-11-02T19:01",
- "final": false,
- "report": "2026-11-02_07_00PM",
+ "computed_et": "2026-11-02T19:31",
+ "final": true,
+ "report": "2026-11-02_07_30PM",
  "cutoff_et": "2026-11-02T19:30",
  "elo_home_win_prob": 0.939,
  "inputs": {
@@ -29,14 +29,14 @@
   "report_known": true,
   "injuries": [
    {
-    "player": "Quaintance, Jayden",
+    "player": "Harris, Tobias",
     "status": "Out",
     "avg_minutes": 0.0,
     "p_play": 0.0,
     "exp_missing_minutes": 0.0
    },
    {
-    "player": "Harris, Tobias",
+    "player": "Quaintance, Jayden",
     "status": "Out",
     "avg_minutes": 0.0,
     "p_play": 0.0,
