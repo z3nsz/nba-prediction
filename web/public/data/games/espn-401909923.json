@@ -1,8 +1,8 @@
 {
  "id": "espn-401909923",
- "computed_et": "2026-11-04T15:46",
- "final": false,
- "report": "2026-11-04_03_45PM",
+ "computed_et": "2026-11-04T18:01",
+ "final": true,
+ "report": "2026-11-04_06_00PM",
  "cutoff_et": "2026-11-04T18:00",
  "elo_home_win_prob": 0.318,
  "inputs": {
@@ -13,9 +13,9 @@
   "win_pct_last5_diff": 0.2,
   "rest_days_diff": 0.0,
   "back_to_back_diff": 0.0,
-  "exp_missing_minutes_diff": 0.5604,
-  "starters_out_diff": 0.0,
-  "exp_missing_value_diff": 0.4681,
+  "exp_missing_minutes_diff": 30.6926,
+  "starters_out_diff": 1.0,
+  "exp_missing_value_diff": 2.5559,
   "exp_stars_missing_diff": 0.0
  },
  "home": {
@@ -37,17 +37,17 @@
    },
    {
     "player": "Sarr, Alex",
-    "status": "Questionable",
+    "status": "Available",
     "avg_minutes": 25.5,
-    "p_play": 0.51,
-    "exp_missing_minutes": 12.5
+    "p_play": 0.836,
+    "exp_missing_minutes": 4.2
    },
    {
     "player": "Coulibaly, Bilal",
-    "status": "Questionable",
+    "status": "Available",
     "avg_minutes": 27.3,
-    "p_play": 0.65,
-    "exp_missing_minutes": 9.6
+    "p_play": 0.949,
+    "exp_missing_minutes": 1.4
    },
    {
     "player": "Beekman, Reece",
@@ -58,10 +58,10 @@
    },
    {
     "player": "Gill, Anthony",
-    "status": "Questionable",
+    "status": "Available",
     "avg_minutes": 1.0,
-    "p_play": 0.504,
-    "exp_missing_minutes": 0.5
+    "p_play": 0.752,
+    "exp_missing_minutes": 0.2
    },
    {
     "player": "Vukcevic, Tristan",
@@ -91,10 +91,10 @@
   "injuries": [
    {
     "player": "Johnson, Jalen",
-    "status": "Questionable",
+    "status": "Out",
     "avg_minutes": 32.7,
-    "p_play": 0.409,
-    "exp_missing_minutes": 19.3
+    "p_play": 0.0,
+    "exp_missing_minutes": 32.7
    },
    {
     "player": "Landale, Jock",

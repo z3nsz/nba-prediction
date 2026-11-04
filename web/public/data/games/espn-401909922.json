@@ -1,8 +1,8 @@
 {
  "id": "espn-401909922",
- "computed_et": "2026-11-04T15:46",
- "final": false,
- "report": "2026-11-04_03_45PM",
+ "computed_et": "2026-11-04T18:01",
+ "final": true,
+ "report": "2026-11-04_06_00PM",
  "cutoff_et": "2026-11-04T18:00",
  "elo_home_win_prob": 0.8,
  "inputs": {
