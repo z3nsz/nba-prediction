@@ -1,8 +1,8 @@
 {
  "id": "espn-401909924",
- "computed_et": "2026-11-04T18:01",
- "final": false,
- "report": "2026-11-04_06_00PM",
+ "computed_et": "2026-11-04T18:31",
+ "final": true,
+ "report": "2026-11-04_06_30PM",
  "cutoff_et": "2026-11-04T18:30",
  "elo_home_win_prob": 0.916,
  "inputs": {
@@ -13,9 +13,9 @@
   "win_pct_last5_diff": 0.6,
   "rest_days_diff": 0.0,
   "back_to_back_diff": 0.0,
-  "exp_missing_minutes_diff": -54.1837,
+  "exp_missing_minutes_diff": -39.4786,
   "starters_out_diff": -1.0,
-  "exp_missing_value_diff": -6.3045,
+  "exp_missing_value_diff": -5.9986,
   "exp_stars_missing_diff": -1.0
  },
  "home": {
@@ -37,17 +37,17 @@
    },
    {
     "player": "Pritchard, Payton",
-    "status": "Questionable",
+    "status": "Available",
     "avg_minutes": 28.0,
-    "p_play": 0.355,
-    "exp_missing_minutes": 18.1
+    "p_play": 0.859,
+    "exp_missing_minutes": 4.0
    },
    {
     "player": "Mitchell, Dillon",
-    "status": "Questionable",
+    "status": "Available",
     "avg_minutes": 2.0,
-    "p_play": 0.51,
-    "exp_missing_minutes": 1.0
+    "p_play": 0.807,
+    "exp_missing_minutes": 0.4
    },
    {
     "player": "Carter, Devin",
@@ -58,16 +58,16 @@
    },
    {
     "player": "Cenac Jr., Christopher",
-    "status": "Questionable",
+    "status": "Available",
     "avg_minutes": 0.0,
-    "p_play": 0.51,
+    "p_play": 0.807,
     "exp_missing_minutes": 0.0
    },
    {
     "player": "Williams, Amari",
-    "status": "Questionable",
+    "status": "Out",
     "avg_minutes": 0.0,
-    "p_play": 0.51,
+    "p_play": 0.0,
     "exp_missing_minutes": 0.0
    }
   ]

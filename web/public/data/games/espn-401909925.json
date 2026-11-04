@@ -1,8 +1,8 @@
 {
  "id": "espn-401909925",
- "computed_et": "2026-11-04T18:01",
- "final": false,
- "report": "2026-11-04_06_00PM",
+ "computed_et": "2026-11-04T18:31",
+ "final": true,
+ "report": "2026-11-04_06_30PM",
  "cutoff_et": "2026-11-04T18:30",
  "elo_home_win_prob": 0.329,
  "inputs": {
@@ -13,9 +13,9 @@
   "win_pct_last5_diff": 0.0,
   "rest_days_diff": 0.0,
   "back_to_back_diff": 0.0,
-  "exp_missing_minutes_diff": -30.5999,
+  "exp_missing_minutes_diff": -32.3769,
   "starters_out_diff": 0.0,
-  "exp_missing_value_diff": 4.5049,
+  "exp_missing_value_diff": 4.396,
   "exp_stars_missing_diff": 0.0
  },
  "home": {
@@ -91,10 +91,10 @@
    },
    {
     "player": "White, Coby",
-    "status": "Probable",
+    "status": "Available",
     "avg_minutes": 16.0,
-    "p_play": 0.866,
-    "exp_missing_minutes": 2.1
+    "p_play": 0.977,
+    "exp_missing_minutes": 0.4
    },
    {
     "player": "Boswell, Kylan",

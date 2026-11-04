@@ -1,8 +1,8 @@
 {
  "id": "espn-401909929",
- "computed_et": "2026-11-04T18:01",
+ "computed_et": "2026-11-04T18:31",
  "final": false,
- "report": "2026-11-04_06_00PM",
+ "report": "2026-11-04_06_30PM",
  "cutoff_et": "2026-11-04T19:00",
  "elo_home_win_prob": 0.719,
  "inputs": {
@@ -13,9 +13,9 @@
   "win_pct_last5_diff": 0.0,
   "rest_days_diff": 0.0,
   "back_to_back_diff": 0.0,
-  "exp_missing_minutes_diff": -37.2372,
+  "exp_missing_minutes_diff": -47.2939,
   "starters_out_diff": -1.0,
-  "exp_missing_value_diff": -5.7817,
+  "exp_missing_value_diff": -4.7915,
   "exp_stars_missing_diff": 0.0
  },
  "home": {
@@ -43,18 +43,18 @@
     "exp_missing_minutes": 30.0
    },
    {
+    "player": "Williams, Jaylin",
+    "status": "Out",
+    "avg_minutes": 18.4,
+    "p_play": 0.0,
+    "exp_missing_minutes": 18.4
+   },
+   {
     "player": "Wallace, Cason",
     "status": "Out",
     "avg_minutes": 16.3,
     "p_play": 0.0,
     "exp_missing_minutes": 16.3
-   },
-   {
-    "player": "Williams, Jaylin",
-    "status": "Questionable",
-    "avg_minutes": 18.4,
-    "p_play": 0.546,
-    "exp_missing_minutes": 8.4
    },
    {
     "player": "Topic, Nikola",
@@ -97,7 +97,7 @@
     "exp_missing_minutes": 20.8
    },
    {
-    "player": "Diop, Khalifa",
+    "player": "Udeh, Jr., Ernest",
     "status": "Out",
     "avg_minutes": 0.0,
     "p_play": 0.0,
@@ -111,7 +111,7 @@
     "exp_missing_minutes": 0.0
    },
    {
-    "player": "Udeh, Jr., Ernest",
+    "player": "Diop, Khalifa",
     "status": "Out",
     "avg_minutes": 0.0,
     "p_play": 0.0,
