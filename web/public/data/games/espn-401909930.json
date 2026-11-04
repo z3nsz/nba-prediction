@@ -1,8 +1,8 @@
 {
  "id": "espn-401909930",
- "computed_et": "2026-11-04T02:27",
+ "computed_et": "2026-11-04T15:46",
  "final": false,
- "report": "2026-11-03_11_45PM",
+ "report": "2026-11-04_03_45PM",
  "cutoff_et": "2026-11-04T19:30",
  "elo_home_win_prob": 0.713,
  "inputs": {
@@ -13,9 +13,9 @@
   "win_pct_last5_diff": 0.4,
   "rest_days_diff": 0.0,
   "back_to_back_diff": 0.0,
-  "exp_missing_minutes_diff": 33.1862,
+  "exp_missing_minutes_diff": 32.5793,
   "starters_out_diff": 1.0,
-  "exp_missing_value_diff": 7.0594,
+  "exp_missing_value_diff": 6.6456,
   "exp_stars_missing_diff": 0.9999
  },
  "home": {
@@ -29,18 +29,18 @@
   "report_known": true,
   "injuries": [
    {
+    "player": "Capela, Clint",
+    "status": "Out",
+    "avg_minutes": 14.2,
+    "p_play": 0.0,
+    "exp_missing_minutes": 14.2
+   },
+   {
     "player": "Adams, Steven",
     "status": "Out",
     "avg_minutes": 9.0,
     "p_play": 0.0,
     "exp_missing_minutes": 9.0
-   },
-   {
-    "player": "Capela, Clint",
-    "status": "Questionable",
-    "avg_minutes": 14.2,
-    "p_play": 0.483,
-    "exp_missing_minutes": 7.3
    },
    {
     "player": "Copeland, Quadir",
@@ -77,10 +77,10 @@
    },
    {
     "player": "Shannon Jr, Terrence",
-    "status": "Questionable",
+    "status": "Out",
     "avg_minutes": 22.0,
-    "p_play": 0.283,
-    "exp_missing_minutes": 15.8
+    "p_play": 0.0,
+    "exp_missing_minutes": 22.0
    },
    {
     "player": "DiVincenzo, Donte",

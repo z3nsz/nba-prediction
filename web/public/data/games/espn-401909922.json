@@ -1,8 +1,8 @@
 {
  "id": "espn-401909922",
- "computed_et": "2026-11-04T02:27",
+ "computed_et": "2026-11-04T15:46",
  "final": false,
- "report": "2026-11-03_11_45PM",
+ "report": "2026-11-04_03_45PM",
  "cutoff_et": "2026-11-04T18:00",
  "elo_home_win_prob": 0.8,
  "inputs": {
@@ -13,9 +13,9 @@
   "win_pct_last5_diff": 0.0,
   "rest_days_diff": 0.0,
   "back_to_back_diff": 0.0,
-  "exp_missing_minutes_diff": -35.6143,
+  "exp_missing_minutes_diff": -37.318,
   "starters_out_diff": 0.0,
-  "exp_missing_value_diff": -4.8515,
+  "exp_missing_value_diff": -4.6488,
   "exp_stars_missing_diff": 0.0
  },
  "home": {
@@ -43,18 +43,18 @@
     "exp_missing_minutes": 13.7
    },
    {
-    "player": "Jones, Isaac",
-    "status": "Questionable",
-    "avg_minutes": 4.0,
-    "p_play": 0.569,
-    "exp_missing_minutes": 1.7
+    "player": "Harkless, Elijah",
+    "status": "Out",
+    "avg_minutes": 3.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 3.0
    },
    {
-    "player": "Harkless, Elijah",
-    "status": "Questionable",
-    "avg_minutes": 3.0,
-    "p_play": 0.592,
-    "exp_missing_minutes": 1.2
+    "player": "Jones, Isaac",
+    "status": "Available",
+    "avg_minutes": 4.0,
+    "p_play": 0.586,
+    "exp_missing_minutes": 1.7
    },
    {
     "player": "Onyenso, Ugonna",

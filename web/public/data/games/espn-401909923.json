@@ -1,8 +1,8 @@
 {
  "id": "espn-401909923",
- "computed_et": "2026-11-04T02:27",
+ "computed_et": "2026-11-04T15:46",
  "final": false,
- "report": "2026-11-03_11_45PM",
+ "report": "2026-11-04_03_45PM",
  "cutoff_et": "2026-11-04T18:00",
  "elo_home_win_prob": 0.318,
  "inputs": {
@@ -13,9 +13,9 @@
   "win_pct_last5_diff": 0.2,
   "rest_days_diff": 0.0,
   "back_to_back_diff": 0.0,
-  "exp_missing_minutes_diff": 7.2264,
+  "exp_missing_minutes_diff": 0.5604,
   "starters_out_diff": 0.0,
-  "exp_missing_value_diff": 0.4084,
+  "exp_missing_value_diff": 0.4681,
   "exp_stars_missing_diff": 0.0
  },
  "home": {
@@ -41,6 +41,13 @@
     "avg_minutes": 25.5,
     "p_play": 0.51,
     "exp_missing_minutes": 12.5
+   },
+   {
+    "player": "Coulibaly, Bilal",
+    "status": "Questionable",
+    "avg_minutes": 27.3,
+    "p_play": 0.65,
+    "exp_missing_minutes": 9.6
    },
    {
     "player": "Beekman, Reece",
@@ -98,10 +105,10 @@
    },
    {
     "player": "Dennis, RayJ",
-    "status": "Questionable",
+    "status": "Out",
     "avg_minutes": 8.0,
-    "p_play": 0.361,
-    "exp_missing_minutes": 5.1
+    "p_play": 0.0,
+    "exp_missing_minutes": 8.0
    },
    {
     "player": "Gueye, Mouhamed",
@@ -112,9 +119,9 @@
    },
    {
     "player": "Gilbert, Keshon",
-    "status": "Doubtful",
+    "status": "Out",
     "avg_minutes": 0.0,
-    "p_play": 0.016,
+    "p_play": 0.0,
     "exp_missing_minutes": 0.0
    },
    {
@@ -126,9 +133,9 @@
    },
    {
     "player": "Wilson, Jalen",
-    "status": "Doubtful",
+    "status": "Out",
     "avg_minutes": 0.0,
-    "p_play": 0.02,
+    "p_play": 0.0,
     "exp_missing_minutes": 0.0
    }
   ]
