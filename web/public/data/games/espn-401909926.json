@@ -1,0 +1,66 @@
+{
+ "id": "espn-401909926",
+ "computed_et": "2026-11-04T02:27",
+ "final": false,
+ "report": "2026-11-03_11_45PM",
+ "cutoff_et": "2026-11-04T18:30",
+ "elo_home_win_prob": 0.874,
+ "inputs": {
+  "elo_diff": 236.4887,
+  "home_court": 1.0,
+  "point_diff_last10_diff": 17.5714,
+  "win_pct_last10_diff": 0.2857,
+  "win_pct_last5_diff": 0.6,
+  "rest_days_diff": 0.0,
+  "back_to_back_diff": 0.0,
+  "exp_missing_minutes_diff": -5.1946,
+  "starters_out_diff": 0.0,
+  "exp_missing_value_diff": 0.4021,
+  "exp_stars_missing_diff": 0.0
+ },
+ "home": {
+  "team": "NYK",
+  "elo": 1595.1,
+  "win_pct_last10": 0.429,
+  "win_pct_last5": 0.6,
+  "point_diff_last10": 1.3,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Hart, Josh",
+    "status": "Questionable",
+    "avg_minutes": 31.7,
+    "p_play": 0.775,
+    "exp_missing_minutes": 7.1
+   }
+  ]
+ },
+ "away": {
+  "team": "CHI",
+  "elo": 1358.6,
+  "win_pct_last10": 0.143,
+  "win_pct_last5": 0.0,
+  "point_diff_last10": -16.3,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Smith, Jalen",
+    "status": "Probable",
+    "avg_minutes": 24.6,
+    "p_play": 0.921,
+    "exp_missing_minutes": 1.9
+   },
+   {
+    "player": "Claxton, Nic",
+    "status": "Questionable",
+    "avg_minutes": 0.0,
+    "p_play": 0.555,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ }
+}

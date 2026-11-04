@@ -1,0 +1,94 @@
+{
+ "id": "espn-401909930",
+ "computed_et": "2026-11-04T02:27",
+ "final": false,
+ "report": "2026-11-03_11_45PM",
+ "cutoff_et": "2026-11-04T19:30",
+ "elo_home_win_prob": 0.713,
+ "inputs": {
+  "elo_diff": 58.1931,
+  "home_court": 1.0,
+  "point_diff_last10_diff": 1.5,
+  "win_pct_last10_diff": 0.25,
+  "win_pct_last5_diff": 0.4,
+  "rest_days_diff": 0.0,
+  "back_to_back_diff": 0.0,
+  "exp_missing_minutes_diff": 33.1862,
+  "starters_out_diff": 1.0,
+  "exp_missing_value_diff": 7.0594,
+  "exp_stars_missing_diff": 0.9999
+ },
+ "home": {
+  "team": "HOU",
+  "elo": 1647.1,
+  "win_pct_last10": 0.875,
+  "win_pct_last5": 0.8,
+  "point_diff_last10": 12.9,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Adams, Steven",
+    "status": "Out",
+    "avg_minutes": 9.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 9.0
+   },
+   {
+    "player": "Capela, Clint",
+    "status": "Questionable",
+    "avg_minutes": 14.2,
+    "p_play": 0.483,
+    "exp_missing_minutes": 7.3
+   },
+   {
+    "player": "Copeland, Quadir",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Phillips, Julian",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.022,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ },
+ "away": {
+  "team": "MIN",
+  "elo": 1589.0,
+  "win_pct_last10": 0.625,
+  "win_pct_last5": 0.4,
+  "point_diff_last10": 11.4,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Edwards, Anthony",
+    "status": "Out",
+    "avg_minutes": 33.8,
+    "p_play": 0.0,
+    "exp_missing_minutes": 33.7
+   },
+   {
+    "player": "Shannon Jr, Terrence",
+    "status": "Questionable",
+    "avg_minutes": 22.0,
+    "p_play": 0.283,
+    "exp_missing_minutes": 15.8
+   },
+   {
+    "player": "DiVincenzo, Donte",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ }
+}

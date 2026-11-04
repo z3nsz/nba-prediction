@@ -1,0 +1,101 @@
+{
+ "id": "espn-401909933",
+ "computed_et": "2026-11-04T02:27",
+ "final": false,
+ "report": "2026-11-03_11_45PM",
+ "cutoff_et": "2026-11-04T20:30",
+ "elo_home_win_prob": 0.884,
+ "inputs": {
+  "elo_diff": 252.7491,
+  "home_court": 1.0,
+  "point_diff_last10_diff": 9.2857,
+  "win_pct_last10_diff": 0.1429,
+  "win_pct_last5_diff": 0.4,
+  "rest_days_diff": 0.0,
+  "back_to_back_diff": 0.0,
+  "exp_missing_minutes_diff": 35.9123,
+  "starters_out_diff": 0.0,
+  "exp_missing_value_diff": -3.2702,
+  "exp_stars_missing_diff": 0.0
+ },
+ "home": {
+  "team": "SAS",
+  "elo": 1677.5,
+  "win_pct_last10": 0.714,
+  "win_pct_last5": 1.0,
+  "point_diff_last10": 9.3,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Harris, Tobias",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Quaintance, Jayden",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ },
+ "away": {
+  "team": "DAL",
+  "elo": 1424.7,
+  "win_pct_last10": 0.571,
+  "win_pct_last5": 0.6,
+  "point_diff_last10": 0.0,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Christie, Max",
+    "status": "Out",
+    "avg_minutes": 23.9,
+    "p_play": 0.0,
+    "exp_missing_minutes": 23.9
+   },
+   {
+    "player": "de Larrea, Sergio",
+    "status": "Out",
+    "avg_minutes": 11.8,
+    "p_play": 0.001,
+    "exp_missing_minutes": 11.7
+   },
+   {
+    "player": "Martin, Caleb",
+    "status": "Available",
+    "avg_minutes": 20.0,
+    "p_play": 0.984,
+    "exp_missing_minutes": 0.3
+   },
+   {
+    "player": "Aldama, Santi",
+    "status": "Questionable",
+    "avg_minutes": 0.0,
+    "p_play": 0.655,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Biberovic, Tarik",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Lively II, Dereck",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ }
+}
