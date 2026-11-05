@@ -1,5 +1,5 @@
 {
- "updated_et": "2026-11-04T21:01",
+ "updated_et": "2026-11-04T21:31",
  "season": "2026-27",
  "model": {
   "description": "Final NBA model (logistic regression, no intercept), retrained on all six seasons",
@@ -14,11 +14,11 @@
   ]
  },
  "record": {
-  "games": 104,
-  "correct": 62,
-  "accuracy": 0.5962,
-  "log_loss": 0.6381,
-  "brier": 0.2268
+  "games": 105,
+  "correct": 63,
+  "accuracy": 0.6,
+  "log_loss": 0.6358,
+  "brier": 0.2257
  },
  "games": [
   {
@@ -2730,8 +2730,8 @@
    "p_home": 0.3263,
    "final": true,
    "report": "2026-11-04_06_00PM",
-   "home_score": null,
-   "away_score": null,
+   "home_score": 105,
+   "away_score": 120,
    "contributions": {
     "elo_diff": -1.1365,
     "home_court": 0.2167,
@@ -3027,9 +3027,9 @@
    "tip_off_et": "2026-11-04T22:30",
    "home": "LAC",
    "away": "MIA",
-   "p_home": 0.548,
-   "final": false,
-   "report": "2026-11-04_09_00PM",
+   "p_home": 0.5574,
+   "final": true,
+   "report": "2026-11-04_09_30PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
@@ -3040,9 +3040,9 @@
     "win_pct_last5_diff": 0.0064,
     "rest_days_diff": 0.0,
     "back_to_back_diff": 0.0,
-    "exp_missing_minutes_diff": -0.0422,
+    "exp_missing_minutes_diff": -0.0097,
     "starters_out_diff": 0.0,
-    "exp_missing_value_diff": -0.0048,
+    "exp_missing_value_diff": 0.0005,
     "exp_stars_missing_diff": 0.0004
    }
   }
