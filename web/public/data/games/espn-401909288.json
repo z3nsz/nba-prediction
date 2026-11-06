@@ -1,0 +1,143 @@
+{
+ "id": "espn-401909288",
+ "computed_et": "2026-11-06T03:28",
+ "final": false,
+ "report": "2026-11-05_11_45PM",
+ "cutoff_et": "2026-11-06T18:00",
+ "elo_home_win_prob": 0.427,
+ "inputs": {
+  "elo_diff": -151.0701,
+  "home_court": 1.0,
+  "point_diff_last10_diff": -17.1111,
+  "win_pct_last10_diff": -0.4167,
+  "win_pct_last5_diff": -0.8,
+  "rest_days_diff": 0.0,
+  "back_to_back_diff": 0.0,
+  "exp_missing_minutes_diff": -36.6129,
+  "starters_out_diff": 0.0,
+  "exp_missing_value_diff": 1.5894,
+  "exp_stars_missing_diff": 0.0
+ },
+ "home": {
+  "team": "CHA",
+  "elo": 1504.4,
+  "win_pct_last10": 0.333,
+  "win_pct_last5": 0.0,
+  "point_diff_last10": -11.1,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Diabate, Moussa",
+    "status": "Questionable",
+    "avg_minutes": 28.8,
+    "p_play": 0.455,
+    "exp_missing_minutes": 15.7
+   },
+   {
+    "player": "Anderson, Christian",
+    "status": "Out",
+    "avg_minutes": 10.4,
+    "p_play": 0.001,
+    "exp_missing_minutes": 10.4
+   },
+   {
+    "player": "Schroder, Dennis",
+    "status": "Questionable",
+    "avg_minutes": 30.0,
+    "p_play": 0.661,
+    "exp_missing_minutes": 10.2
+   },
+   {
+    "player": "Steinbach, Hannes",
+    "status": "Out",
+    "avg_minutes": 7.7,
+    "p_play": 0.001,
+    "exp_missing_minutes": 7.7
+   },
+   {
+    "player": "Hall, PJ",
+    "status": "Out",
+    "avg_minutes": 6.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 6.0
+   },
+   {
+    "player": "Knueppel, Kon",
+    "status": "Out",
+    "avg_minutes": 6.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 6.0
+   },
+   {
+    "player": "Ajayi, Michael",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Boswell, Kylan",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Williams, Grant",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ },
+ "away": {
+  "team": "BOS",
+  "elo": 1655.5,
+  "win_pct_last10": 0.75,
+  "win_pct_last5": 0.8,
+  "point_diff_last10": 6.0,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Pritchard, Payton",
+    "status": "Questionable",
+    "avg_minutes": 26.8,
+    "p_play": 0.355,
+    "exp_missing_minutes": 17.3
+   },
+   {
+    "player": "Mitchell, Dillon",
+    "status": "Out",
+    "avg_minutes": 2.0,
+    "p_play": 0.001,
+    "exp_missing_minutes": 2.0
+   },
+   {
+    "player": "Carter, Devin",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Cenac Jr., Christopher",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.001,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Williams, Amari",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ }
+}

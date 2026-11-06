@@ -1,0 +1,101 @@
+{
+ "id": "espn-401909291",
+ "computed_et": "2026-11-06T03:28",
+ "final": false,
+ "report": "2026-11-05_11_45PM",
+ "cutoff_et": "2026-11-06T19:00",
+ "elo_home_win_prob": 0.295,
+ "inputs": {
+  "elo_diff": -251.3797,
+  "home_court": 1.0,
+  "point_diff_last10_diff": 10.6071,
+  "win_pct_last10_diff": -0.0357,
+  "win_pct_last5_diff": 0.0,
+  "rest_days_diff": 0.0,
+  "back_to_back_diff": 0.0,
+  "exp_missing_minutes_diff": 61.7571,
+  "starters_out_diff": 2.0,
+  "exp_missing_value_diff": 1.8256,
+  "exp_stars_missing_diff": 0.0
+ },
+ "home": {
+  "team": "MEM",
+  "elo": 1403.1,
+  "win_pct_last10": 0.714,
+  "win_pct_last5": 0.6,
+  "point_diff_last10": 11.9,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Stewart, Isaiah",
+    "status": "Out",
+    "avg_minutes": 18.7,
+    "p_play": 0.0,
+    "exp_missing_minutes": 18.7
+   },
+   {
+    "player": "Pippen Jr., Scotty",
+    "status": "Out",
+    "avg_minutes": 16.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 16.0
+   }
+  ]
+ },
+ "away": {
+  "team": "OKC",
+  "elo": 1654.5,
+  "win_pct_last10": 0.75,
+  "win_pct_last5": 0.6,
+  "point_diff_last10": 1.2,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Williams, Jalen",
+    "status": "Out",
+    "avg_minutes": 31.7,
+    "p_play": 0.0,
+    "exp_missing_minutes": 31.7
+   },
+   {
+    "player": "Holmgren, Chet",
+    "status": "Out",
+    "avg_minutes": 30.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 30.0
+   },
+   {
+    "player": "Williams, Jaylin",
+    "status": "Out",
+    "avg_minutes": 18.4,
+    "p_play": 0.0,
+    "exp_missing_minutes": 18.4
+   },
+   {
+    "player": "Wallace, Cason",
+    "status": "Out",
+    "avg_minutes": 16.3,
+    "p_play": 0.0,
+    "exp_missing_minutes": 16.3
+   },
+   {
+    "player": "Sorber, Thomas",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Topic, Nikola",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ }
+}

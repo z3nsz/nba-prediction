@@ -1,0 +1,115 @@
+{
+ "id": "espn-401909289",
+ "computed_et": "2026-11-06T03:28",
+ "final": false,
+ "report": "2026-11-05_11_45PM",
+ "cutoff_et": "2026-11-06T18:30",
+ "elo_home_win_prob": 0.654,
+ "inputs": {
+  "elo_diff": 10.4178,
+  "home_court": 1.0,
+  "point_diff_last10_diff": -3.6528,
+  "win_pct_last10_diff": -0.3889,
+  "win_pct_last5_diff": -0.6,
+  "rest_days_diff": 0.0,
+  "back_to_back_diff": 0.0,
+  "exp_missing_minutes_diff": -41.7818,
+  "starters_out_diff": 0.0,
+  "exp_missing_value_diff": -1.6502,
+  "exp_stars_missing_diff": 0.0
+ },
+ "home": {
+  "team": "CLE",
+  "elo": 1582.1,
+  "win_pct_last10": 0.5,
+  "win_pct_last5": 0.4,
+  "point_diff_last10": 2.1,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Tyson, Jaylon",
+    "status": "Out",
+    "avg_minutes": 20.8,
+    "p_play": 0.0,
+    "exp_missing_minutes": 20.8
+   },
+   {
+    "player": "Watson, Peyton",
+    "status": "Questionable",
+    "avg_minutes": 28.3,
+    "p_play": 0.36,
+    "exp_missing_minutes": 18.1
+   },
+   {
+    "player": "Allen, Jarrett",
+    "status": "Questionable",
+    "avg_minutes": 25.1,
+    "p_play": 0.662,
+    "exp_missing_minutes": 8.5
+   },
+   {
+    "player": "Proctor, Tyrese",
+    "status": "Questionable",
+    "avg_minutes": 14.4,
+    "p_play": 0.425,
+    "exp_missing_minutes": 8.3
+   },
+   {
+    "player": "Diop, Khalifa",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Tomlin, Nae'Qwan",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Udeh, Jr., Ernest",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ },
+ "away": {
+  "team": "PHI",
+  "elo": 1571.7,
+  "win_pct_last10": 0.889,
+  "win_pct_last5": 1.0,
+  "point_diff_last10": 5.8,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Bona, Adem",
+    "status": "Doubtful",
+    "avg_minutes": 14.2,
+    "p_play": 0.02,
+    "exp_missing_minutes": 13.9
+   },
+   {
+    "player": "Barlow, Dominick",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Hukporti, Ariel",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ }
+}
