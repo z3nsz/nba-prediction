@@ -1,8 +1,8 @@
 {
  "id": "espn-401909287",
- "computed_et": "2026-11-06T15:23",
- "final": false,
- "report": "2026-11-06_03_15PM",
+ "computed_et": "2026-11-06T18:01",
+ "final": true,
+ "report": "2026-11-06_06_00PM",
  "cutoff_et": "2026-11-06T18:00",
  "elo_home_win_prob": 0.881,
  "inputs": {
@@ -13,10 +13,10 @@
   "win_pct_last5_diff": 0.2,
   "rest_days_diff": 0.0,
   "back_to_back_diff": 0.0,
-  "exp_missing_minutes_diff": -23.066,
+  "exp_missing_minutes_diff": -12.3725,
   "starters_out_diff": 0.0,
-  "exp_missing_value_diff": 0.1686,
-  "exp_stars_missing_diff": 0.1868
+  "exp_missing_value_diff": 3.3268,
+  "exp_stars_missing_diff": 1.0
  },
  "home": {
   "team": "ATL",
@@ -30,10 +30,10 @@
   "injuries": [
    {
     "player": "Johnson, Jalen",
-    "status": "Questionable",
+    "status": "Out",
     "avg_minutes": 32.7,
-    "p_play": 0.409,
-    "exp_missing_minutes": 19.3
+    "p_play": 0.0,
+    "exp_missing_minutes": 32.7
    },
    {
     "player": "Landale, Jock",
@@ -51,10 +51,10 @@
    },
    {
     "player": "Dennis, RayJ",
-    "status": "Questionable",
+    "status": "Out",
     "avg_minutes": 8.0,
-    "p_play": 0.361,
-    "exp_missing_minutes": 5.1
+    "p_play": 0.0,
+    "exp_missing_minutes": 8.0
    },
    {
     "player": "Gueye, Mouhamed",
@@ -79,9 +79,9 @@
    },
    {
     "player": "Wilson, Jalen",
-    "status": "Questionable",
+    "status": "Available",
     "avg_minutes": 0.0,
-    "p_play": 0.425,
+    "p_play": 0.862,
     "exp_missing_minutes": 0.0
    }
   ]
@@ -97,6 +97,13 @@
   "report_known": true,
   "injuries": [
    {
+    "player": "Davis, Anthony",
+    "status": "Out",
+    "avg_minutes": 33.1,
+    "p_play": 0.0,
+    "exp_missing_minutes": 33.1
+   },
+   {
     "player": "Champagnie, Justin",
     "status": "Out",
     "avg_minutes": 18.5,
@@ -104,17 +111,10 @@
     "exp_missing_minutes": 18.5
    },
    {
-    "player": "Davis, Anthony",
-    "status": "Questionable",
-    "avg_minutes": 33.1,
-    "p_play": 0.813,
-    "exp_missing_minutes": 6.2
-   },
-   {
     "player": "Okpara, Felix",
-    "status": "Doubtful",
+    "status": "Out",
     "avg_minutes": 2.0,
-    "p_play": 0.02,
+    "p_play": 0.001,
     "exp_missing_minutes": 2.0
    },
    {

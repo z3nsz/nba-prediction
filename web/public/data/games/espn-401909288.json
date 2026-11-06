@@ -1,8 +1,8 @@
 {
  "id": "espn-401909288",
- "computed_et": "2026-11-06T15:23",
- "final": false,
- "report": "2026-11-06_03_15PM",
+ "computed_et": "2026-11-06T18:01",
+ "final": true,
+ "report": "2026-11-06_06_00PM",
  "cutoff_et": "2026-11-06T18:00",
  "elo_home_win_prob": 0.427,
  "inputs": {
@@ -71,14 +71,14 @@
     "exp_missing_minutes": 1.5
    },
    {
-    "player": "Ajayi, Michael",
+    "player": "Boswell, Kylan",
     "status": "Out",
     "avg_minutes": 0.0,
     "p_play": 0.0,
     "exp_missing_minutes": 0.0
    },
    {
-    "player": "Boswell, Kylan",
+    "player": "Ajayi, Michael",
     "status": "Out",
     "avg_minutes": 0.0,
     "p_play": 0.0,
