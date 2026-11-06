@@ -1,8 +1,8 @@
 {
  "id": "espn-401909936",
- "computed_et": "2026-11-05T16:02",
- "final": false,
- "report": "2026-11-05_04_00PM",
+ "computed_et": "2026-11-05T20:01",
+ "final": true,
+ "report": "2026-11-05_08_00PM",
  "cutoff_et": "2026-11-05T20:00",
  "elo_home_win_prob": 0.656,
  "inputs": {
@@ -41,6 +41,13 @@
     "avg_minutes": 7.5,
     "p_play": 0.001,
     "exp_missing_minutes": 7.5
+   },
+   {
+    "player": "Timme, Drew",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
    },
    {
     "player": "Williams, Mark",
