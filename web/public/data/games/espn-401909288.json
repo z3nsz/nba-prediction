@@ -1,8 +1,8 @@
 {
  "id": "espn-401909288",
- "computed_et": "2026-11-06T03:28",
+ "computed_et": "2026-11-06T15:23",
  "final": false,
- "report": "2026-11-05_11_45PM",
+ "report": "2026-11-06_03_15PM",
  "cutoff_et": "2026-11-06T18:00",
  "elo_home_win_prob": 0.427,
  "inputs": {
@@ -13,9 +13,9 @@
   "win_pct_last5_diff": -0.8,
   "rest_days_diff": 0.0,
   "back_to_back_diff": 0.0,
-  "exp_missing_minutes_diff": -36.6129,
-  "starters_out_diff": 0.0,
-  "exp_missing_value_diff": 1.5894,
+  "exp_missing_minutes_diff": -67.21,
+  "starters_out_diff": -2.0,
+  "exp_missing_value_diff": 2.2381,
   "exp_stars_missing_diff": 0.0
  },
  "home": {
@@ -29,32 +29,18 @@
   "report_known": true,
   "injuries": [
    {
-    "player": "Diabate, Moussa",
-    "status": "Questionable",
-    "avg_minutes": 28.8,
-    "p_play": 0.455,
-    "exp_missing_minutes": 15.7
-   },
-   {
-    "player": "Anderson, Christian",
-    "status": "Out",
-    "avg_minutes": 10.4,
-    "p_play": 0.001,
-    "exp_missing_minutes": 10.4
-   },
-   {
     "player": "Schroder, Dennis",
-    "status": "Questionable",
+    "status": "Out",
     "avg_minutes": 30.0,
-    "p_play": 0.661,
-    "exp_missing_minutes": 10.2
+    "p_play": 0.016,
+    "exp_missing_minutes": 29.5
    },
    {
-    "player": "Steinbach, Hannes",
+    "player": "Diabate, Moussa",
     "status": "Out",
-    "avg_minutes": 7.7,
-    "p_play": 0.001,
-    "exp_missing_minutes": 7.7
+    "avg_minutes": 28.8,
+    "p_play": 0.022,
+    "exp_missing_minutes": 28.1
    },
    {
     "player": "Hall, PJ",
@@ -69,6 +55,20 @@
     "avg_minutes": 6.0,
     "p_play": 0.0,
     "exp_missing_minutes": 6.0
+   },
+   {
+    "player": "Anderson, Christian",
+    "status": "Available",
+    "avg_minutes": 10.4,
+    "p_play": 0.839,
+    "exp_missing_minutes": 1.7
+   },
+   {
+    "player": "Steinbach, Hannes",
+    "status": "Available",
+    "avg_minutes": 7.7,
+    "p_play": 0.807,
+    "exp_missing_minutes": 1.5
    },
    {
     "player": "Ajayi, Michael",
@@ -105,10 +105,10 @@
   "injuries": [
    {
     "player": "Pritchard, Payton",
-    "status": "Questionable",
+    "status": "Available",
     "avg_minutes": 26.8,
-    "p_play": 0.355,
-    "exp_missing_minutes": 17.3
+    "p_play": 0.865,
+    "exp_missing_minutes": 3.6
    },
    {
     "player": "Mitchell, Dillon",

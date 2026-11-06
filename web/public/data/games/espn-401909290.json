@@ -1,8 +1,8 @@
 {
  "id": "espn-401909290",
- "computed_et": "2026-11-06T03:28",
+ "computed_et": "2026-11-06T15:23",
  "final": false,
- "report": "2026-11-05_11_45PM",
+ "report": "2026-11-06_03_15PM",
  "cutoff_et": "2026-11-06T19:00",
  "elo_home_win_prob": 0.789,
  "inputs": {
@@ -13,9 +13,9 @@
   "win_pct_last5_diff": 0.6,
   "rest_days_diff": 0.0,
   "back_to_back_diff": 0.0,
-  "exp_missing_minutes_diff": 11.6739,
+  "exp_missing_minutes_diff": 9.2959,
   "starters_out_diff": 0.0,
-  "exp_missing_value_diff": 1.6537,
+  "exp_missing_value_diff": 1.4776,
   "exp_stars_missing_diff": 0.0
  },
  "home": {
@@ -34,6 +34,13 @@
     "avg_minutes": 11.8,
     "p_play": 0.0,
     "exp_missing_minutes": 11.7
+   },
+   {
+    "player": "Irving, Kyrie",
+    "status": "Probable",
+    "avg_minutes": 30.0,
+    "p_play": 0.921,
+    "exp_missing_minutes": 2.4
    },
    {
     "player": "Christie, Max",

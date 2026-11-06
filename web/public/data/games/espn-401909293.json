@@ -1,8 +1,8 @@
 {
  "id": "espn-401909293",
- "computed_et": "2026-11-06T03:28",
+ "computed_et": "2026-11-06T15:23",
  "final": false,
- "report": "2026-11-05_11_45PM",
+ "report": "2026-11-06_03_15PM",
  "cutoff_et": "2026-11-06T19:00",
  "elo_home_win_prob": 0.405,
  "inputs": {
@@ -13,9 +13,9 @@
   "win_pct_last5_diff": 0.2,
   "rest_days_diff": 0.0,
   "back_to_back_diff": 0.0,
-  "exp_missing_minutes_diff": 27.0326,
+  "exp_missing_minutes_diff": 28.8357,
   "starters_out_diff": 1.0,
-  "exp_missing_value_diff": 6.5076,
+  "exp_missing_value_diff": 6.0714,
   "exp_stars_missing_diff": 0.9999
  },
  "home": {
@@ -37,30 +37,30 @@
    },
    {
     "player": "Murphy III, Trey",
-    "status": "Probable",
+    "status": "Available",
     "avg_minutes": 33.0,
-    "p_play": 0.932,
-    "exp_missing_minutes": 2.2
+    "p_play": 0.826,
+    "exp_missing_minutes": 5.8
    },
    {
     "player": "Reese, Julian",
-    "status": "Probable",
+    "status": "Available",
     "avg_minutes": 3.0,
-    "p_play": 0.754,
-    "exp_missing_minutes": 0.7
+    "p_play": 0.448,
+    "exp_missing_minutes": 1.7
    },
    {
     "player": "Dia, Malik",
-    "status": "Doubtful",
+    "status": "Out",
     "avg_minutes": 0.0,
-    "p_play": 0.02,
+    "p_play": 0.0,
     "exp_missing_minutes": 0.0
    },
    {
     "player": "Pierre Jr., Jaron",
-    "status": "Doubtful",
+    "status": "Out",
     "avg_minutes": 0.0,
-    "p_play": 0.02,
+    "p_play": 0.0,
     "exp_missing_minutes": 0.0
    }
   ]
@@ -84,10 +84,10 @@
    },
    {
     "player": "Shannon Jr, Terrence",
-    "status": "Questionable",
+    "status": "Out",
     "avg_minutes": 22.0,
-    "p_play": 0.283,
-    "exp_missing_minutes": 15.8
+    "p_play": 0.0,
+    "exp_missing_minutes": 22.0
    },
    {
     "player": "DiVincenzo, Donte",
