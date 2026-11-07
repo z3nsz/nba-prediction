@@ -1,5 +1,5 @@
 {
- "updated_et": "2026-11-06T18:31",
+ "updated_et": "2026-11-06T19:01",
  "season": "2026-27",
  "model": {
   "description": "Final NBA model (logistic regression, no intercept), retrained on all six seasons",
@@ -3178,8 +3178,8 @@
    "home": "DAL",
    "away": "UTA",
    "p_home": 0.7046,
-   "final": false,
-   "report": "2026-11-06_06_30PM",
+   "final": true,
+   "report": "2026-11-06_07_00PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
@@ -3203,8 +3203,8 @@
    "home": "MEM",
    "away": "OKC",
    "p_home": 0.3871,
-   "final": false,
-   "report": "2026-11-06_06_30PM",
+   "final": true,
+   "report": "2026-11-06_07_00PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
@@ -3227,9 +3227,9 @@
    "tip_off_et": "2026-11-06T20:00",
    "home": "MIL",
    "away": "TOR",
-   "p_home": 0.3995,
-   "final": false,
-   "report": "2026-11-06_06_30PM",
+   "p_home": 0.4837,
+   "final": true,
+   "report": "2026-11-06_07_00PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
@@ -3240,9 +3240,9 @@
     "win_pct_last5_diff": 0.0032,
     "rest_days_diff": 0.0,
     "back_to_back_diff": 0.0,
-    "exp_missing_minutes_diff": 0.2216,
-    "starters_out_diff": 0.0,
-    "exp_missing_value_diff": 0.1836,
+    "exp_missing_minutes_diff": 0.4197,
+    "starters_out_diff": 0.0606,
+    "exp_missing_value_diff": 0.267,
     "exp_stars_missing_diff": 0.0
    }
   },
@@ -3253,8 +3253,8 @@
    "home": "NOP",
    "away": "MIN",
    "p_home": 0.4211,
-   "final": false,
-   "report": "2026-11-06_06_30PM",
+   "final": true,
+   "report": "2026-11-06_07_00PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
@@ -3279,7 +3279,7 @@
    "away": "POR",
    "p_home": 0.6373,
    "final": false,
-   "report": "2026-11-06_06_30PM",
+   "report": "2026-11-06_07_00PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
@@ -3304,7 +3304,7 @@
    "away": "SAS",
    "p_home": 0.177,
    "final": false,
-   "report": "2026-11-06_06_30PM",
+   "report": "2026-11-06_07_00PM",
    "home_score": null,
    "away_score": null,
    "contributions": {

@@ -1,8 +1,8 @@
 {
  "id": "espn-401909292",
- "computed_et": "2026-11-06T18:31",
- "final": false,
- "report": "2026-11-06_06_30PM",
+ "computed_et": "2026-11-06T19:01",
+ "final": true,
+ "report": "2026-11-06_07_00PM",
  "cutoff_et": "2026-11-06T19:00",
  "elo_home_win_prob": 0.355,
  "inputs": {
@@ -13,9 +13,9 @@
   "win_pct_last5_diff": -0.2,
   "rest_days_diff": 0.0,
   "back_to_back_diff": 0.0,
-  "exp_missing_minutes_diff": 46.5416,
-  "starters_out_diff": 0.0,
-  "exp_missing_value_diff": 9.6981,
+  "exp_missing_minutes_diff": 88.151,
+  "starters_out_diff": 2.0,
+  "exp_missing_value_diff": 14.1039,
   "exp_stars_missing_diff": 0.0
  },
  "home": {
@@ -43,14 +43,14 @@
     "exp_missing_minutes": 0.0
    },
    {
-    "player": "Nance, Pete",
+    "player": "Ryan, Cormac",
     "status": "Out",
     "avg_minutes": 0.0,
     "p_play": 0.0,
     "exp_missing_minutes": 0.0
    },
    {
-    "player": "Ryan, Cormac",
+    "player": "Nance, Pete",
     "status": "Out",
     "avg_minutes": 0.0,
     "p_play": 0.0,
@@ -69,6 +69,20 @@
   "report_known": true,
   "injuries": [
    {
+    "player": "Barnes, Scottie",
+    "status": "Out",
+    "avg_minutes": 33.4,
+    "p_play": 0.0,
+    "exp_missing_minutes": 33.4
+   },
+   {
+    "player": "Quickley, Immanuel",
+    "status": "Out",
+    "avg_minutes": 31.8,
+    "p_play": 0.0,
+    "exp_missing_minutes": 31.7
+   },
+   {
     "player": "Leonard, Kawhi",
     "status": "Out",
     "avg_minutes": 26.0,
@@ -76,32 +90,18 @@
     "exp_missing_minutes": 26.0
    },
    {
-    "player": "Barnes, Scottie",
-    "status": "Questionable",
-    "avg_minutes": 33.4,
-    "p_play": 0.658,
-    "exp_missing_minutes": 11.4
-   },
-   {
-    "player": "Quickley, Immanuel",
-    "status": "Questionable",
-    "avg_minutes": 31.8,
-    "p_play": 0.682,
-    "exp_missing_minutes": 10.1
+    "player": "Poeltl, Jakob",
+    "status": "Available",
+    "avg_minutes": 20.0,
+    "p_play": 0.949,
+    "exp_missing_minutes": 1.0
    },
    {
     "player": "Anderson, Kyle",
-    "status": "Questionable",
+    "status": "Available",
     "avg_minutes": 6.2,
-    "p_play": 0.604,
-    "exp_missing_minutes": 2.4
-   },
-   {
-    "player": "Poeltl, Jakob",
-    "status": "Probable",
-    "avg_minutes": 20.0,
-    "p_play": 0.921,
-    "exp_missing_minutes": 1.6
+    "p_play": 0.836,
+    "exp_missing_minutes": 1.0
    },
    {
     "player": "Bittle, Nate",
