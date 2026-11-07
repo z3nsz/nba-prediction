@@ -1,5 +1,5 @@
 {
- "updated_et": "2026-11-07T01:31",
+ "updated_et": "2026-11-07T13:41",
  "season": "2026-27",
  "model": {
   "description": "Final NBA model (logistic regression, no intercept), retrained on all six seasons",
@@ -3329,7 +3329,7 @@
    "away": "DEN",
    "p_home": 0.1939,
    "final": false,
-   "report": "2026-11-06_11_45PM",
+   "report": "2026-11-07_01_30PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
@@ -3352,9 +3352,9 @@
    "tip_off_et": "2026-11-07T19:30",
    "home": "ATL",
    "away": "BKN",
-   "p_home": 0.77,
+   "p_home": 0.764,
    "final": false,
-   "report": "2026-11-06_11_45PM",
+   "report": "2026-11-07_01_30PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
@@ -3365,9 +3365,9 @@
     "win_pct_last5_diff": -0.0064,
     "rest_days_diff": -0.0724,
     "back_to_back_diff": -0.1956,
-    "exp_missing_minutes_diff": 0.0,
+    "exp_missing_minutes_diff": 0.0411,
     "starters_out_diff": 0.0,
-    "exp_missing_value_diff": 0.0,
+    "exp_missing_value_diff": -0.0745,
     "exp_stars_missing_diff": 0.0
    }
   },
@@ -3377,9 +3377,9 @@
    "tip_off_et": "2026-11-07T20:00",
    "home": "CLE",
    "away": "NYK",
-   "p_home": 0.4739,
+   "p_home": 0.4088,
    "final": false,
-   "report": "2026-11-06_11_45PM",
+   "report": "2026-11-07_01_30PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
@@ -3390,9 +3390,9 @@
     "win_pct_last5_diff": 0.0064,
     "rest_days_diff": -0.0724,
     "back_to_back_diff": -0.1956,
-    "exp_missing_minutes_diff": 0.0,
-    "starters_out_diff": 0.0,
-    "exp_missing_value_diff": 0.0,
+    "exp_missing_minutes_diff": -0.2253,
+    "starters_out_diff": 0.0303,
+    "exp_missing_value_diff": -0.0693,
     "exp_stars_missing_diff": 0.0
    }
   },
@@ -3404,7 +3404,7 @@
    "away": "WAS",
    "p_home": 0.8537,
    "final": false,
-   "report": "2026-11-06_11_45PM",
+   "report": "2026-11-07_01_30PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
@@ -3429,7 +3429,7 @@
    "away": "ORL",
    "p_home": 0.6797,
    "final": false,
-   "report": "2026-11-06_11_45PM",
+   "report": "2026-11-07_01_30PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
@@ -3454,7 +3454,7 @@
    "away": "HOU",
    "p_home": 0.411,
    "final": false,
-   "report": "2026-11-06_11_45PM",
+   "report": "2026-11-07_01_30PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
@@ -3479,7 +3479,7 @@
    "away": "SAS",
    "p_home": 0.4118,
    "final": false,
-   "report": "2026-11-06_11_45PM",
+   "report": "2026-11-07_01_30PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
