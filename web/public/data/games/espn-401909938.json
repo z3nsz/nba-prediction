@@ -1,8 +1,8 @@
 {
  "id": "espn-401909938",
- "computed_et": "2026-11-07T13:41",
- "final": false,
- "report": "2026-11-07_01_30PM",
+ "computed_et": "2026-11-07T16:01",
+ "final": true,
+ "report": "2026-11-07_04_00PM",
  "cutoff_et": "2026-11-07T16:00",
  "elo_home_win_prob": 0.204,
  "inputs": {
@@ -13,9 +13,9 @@
   "win_pct_last5_diff": -0.4,
   "rest_days_diff": 0.0,
   "back_to_back_diff": 0.0,
-  "exp_missing_minutes_diff": -57.6335,
+  "exp_missing_minutes_diff": -43.6303,
   "starters_out_diff": -1.0,
-  "exp_missing_value_diff": -0.2248,
+  "exp_missing_value_diff": -1.1206,
   "exp_stars_missing_diff": -1.0
  },
  "home": {
@@ -36,18 +36,18 @@
     "exp_missing_minutes": 33.0
    },
    {
-    "player": "Oubre Jr., Kelly",
-    "status": "Questionable",
-    "avg_minutes": 23.3,
-    "p_play": 0.372,
-    "exp_missing_minutes": 14.6
-   },
-   {
     "player": "Sheppard, Ben",
     "status": "Out",
     "avg_minutes": 12.0,
     "p_play": 0.0,
     "exp_missing_minutes": 12.0
+   },
+   {
+    "player": "Oubre Jr., Kelly",
+    "status": "Available",
+    "avg_minutes": 23.3,
+    "p_play": 0.973,
+    "exp_missing_minutes": 0.6
    },
    {
     "player": "Furphy, Johnny",
@@ -58,9 +58,9 @@
    },
    {
     "player": "McConnell, T.J.",
-    "status": "Questionable",
+    "status": "Available",
     "avg_minutes": 0.0,
-    "p_play": 0.645,
+    "p_play": 0.852,
     "exp_missing_minutes": 0.0
    }
   ]

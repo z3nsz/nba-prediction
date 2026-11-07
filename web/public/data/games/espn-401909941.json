@@ -1,8 +1,8 @@
 {
  "id": "espn-401909941",
- "computed_et": "2026-11-07T13:41",
+ "computed_et": "2026-11-07T16:01",
  "final": false,
- "report": "2026-11-07_01_30PM",
+ "report": "2026-11-07_04_00PM",
  "cutoff_et": "2026-11-07T19:00",
  "elo_home_win_prob": 0.925,
  "inputs": {
@@ -13,10 +13,10 @@
   "win_pct_last5_diff": 0.2,
   "rest_days_diff": 0.0,
   "back_to_back_diff": 0.0,
-  "exp_missing_minutes_diff": 0.0,
-  "starters_out_diff": 0.0,
-  "exp_missing_value_diff": 0.0,
-  "exp_stars_missing_diff": 0.0
+  "exp_missing_minutes_diff": -68.7378,
+  "starters_out_diff": -2.0,
+  "exp_missing_value_diff": -0.8726,
+  "exp_stars_missing_diff": 0.1868
  },
  "home": {
   "team": "OKC",
@@ -26,8 +26,51 @@
   "point_diff_last10": 4.6,
   "rest_days": 1.0,
   "back_to_back": true,
-  "report_known": false,
-  "injuries": []
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Williams, Jalen",
+    "status": "Out",
+    "avg_minutes": 31.7,
+    "p_play": 0.0,
+    "exp_missing_minutes": 31.7
+   },
+   {
+    "player": "Holmgren, Chet",
+    "status": "Out",
+    "avg_minutes": 30.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 30.0
+   },
+   {
+    "player": "Williams, Jaylin",
+    "status": "Out",
+    "avg_minutes": 18.4,
+    "p_play": 0.0,
+    "exp_missing_minutes": 18.4
+   },
+   {
+    "player": "Wallace, Cason",
+    "status": "Out",
+    "avg_minutes": 16.3,
+    "p_play": 0.0,
+    "exp_missing_minutes": 16.3
+   },
+   {
+    "player": "Topic, Nikola",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Sorber, Thomas",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
  },
  "away": {
   "team": "WAS",
@@ -37,7 +80,50 @@
   "point_diff_last10": -0.9,
   "rest_days": 1.0,
   "back_to_back": true,
-  "report_known": false,
-  "injuries": []
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Champagnie, Justin",
+    "status": "Out",
+    "avg_minutes": 18.5,
+    "p_play": 0.0,
+    "exp_missing_minutes": 18.5
+   },
+   {
+    "player": "Davis, Anthony",
+    "status": "Questionable",
+    "avg_minutes": 33.1,
+    "p_play": 0.813,
+    "exp_missing_minutes": 6.2
+   },
+   {
+    "player": "Okpara, Felix",
+    "status": "Out",
+    "avg_minutes": 2.0,
+    "p_play": 0.001,
+    "exp_missing_minutes": 2.0
+   },
+   {
+    "player": "Beekman, Reece",
+    "status": "Out",
+    "avg_minutes": 1.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 1.0
+   },
+   {
+    "player": "Vukcevic, Tristan",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Watkins, Jamir",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
  }
 }
