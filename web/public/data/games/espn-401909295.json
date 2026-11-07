@@ -1,8 +1,8 @@
 {
  "id": "espn-401909295",
- "computed_et": "2026-11-06T19:01",
- "final": false,
- "report": "2026-11-06_07_00PM",
+ "computed_et": "2026-11-06T21:01",
+ "final": true,
+ "report": "2026-11-06_09_00PM",
  "cutoff_et": "2026-11-06T21:00",
  "elo_home_win_prob": 0.21,
  "inputs": {
@@ -13,9 +13,9 @@
   "win_pct_last5_diff": -0.8,
   "rest_days_diff": 0.0,
   "back_to_back_diff": 0.0,
-  "exp_missing_minutes_diff": -41.9437,
-  "starters_out_diff": -1.0,
-  "exp_missing_value_diff": 4.4076,
+  "exp_missing_minutes_diff": -57.1431,
+  "starters_out_diff": -2.0,
+  "exp_missing_value_diff": 5.7216,
   "exp_stars_missing_diff": 0.0
  },
  "home": {
@@ -29,18 +29,18 @@
   "report_known": true,
   "injuries": [
    {
+    "player": "Hunter, De'Andre",
+    "status": "Out",
+    "avg_minutes": 32.1,
+    "p_play": 0.0,
+    "exp_missing_minutes": 32.1
+   },
+   {
     "player": "Murray, Keegan",
     "status": "Out",
     "avg_minutes": 28.0,
     "p_play": 0.0,
     "exp_missing_minutes": 28.0
-   },
-   {
-    "player": "Hunter, De'Andre",
-    "status": "Questionable",
-    "avg_minutes": 32.1,
-    "p_play": 0.473,
-    "exp_missing_minutes": 16.9
    },
    {
     "player": "Pedulla, Sean",
