@@ -1,8 +1,8 @@
 {
  "id": "espn-401909943",
- "computed_et": "2026-11-07T19:01",
- "final": false,
- "report": "2026-11-07_07_00PM",
+ "computed_et": "2026-11-07T21:20",
+ "final": true,
+ "report": "2026-11-07_08_00PM",
  "cutoff_et": "2026-11-07T20:00",
  "elo_home_win_prob": 0.471,
  "inputs": {
@@ -13,9 +13,9 @@
   "win_pct_last5_diff": -0.4,
   "rest_days_diff": -1.0,
   "back_to_back_diff": 0.0,
-  "exp_missing_minutes_diff": 2.2231,
+  "exp_missing_minutes_diff": 3.5317,
   "starters_out_diff": 0.0,
-  "exp_missing_value_diff": 0.5645,
+  "exp_missing_value_diff": 0.3336,
   "exp_stars_missing_diff": 0.0
  },
  "home": {
@@ -30,17 +30,24 @@
   "injuries": [
    {
     "player": "Goodwin, Jordan",
-    "status": "Doubtful",
+    "status": "Out",
     "avg_minutes": 18.8,
-    "p_play": 0.016,
-    "exp_missing_minutes": 18.5
+    "p_play": 0.0,
+    "exp_missing_minutes": 18.8
    },
    {
     "player": "Fleming, Rasheer",
-    "status": "Questionable",
+    "status": "Available",
     "avg_minutes": 7.5,
-    "p_play": 0.592,
-    "exp_missing_minutes": 3.1
+    "p_play": 0.807,
+    "exp_missing_minutes": 1.4
+   },
+   {
+    "player": "Timme, Drew",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
    },
    {
     "player": "Williams, Mark",
