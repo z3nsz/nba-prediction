@@ -1,0 +1,101 @@
+{
+ "id": "espn-401909947",
+ "computed_et": "2026-11-08T04:26",
+ "final": false,
+ "report": "2026-11-07_11_45PM",
+ "cutoff_et": "2026-11-08T18:00",
+ "elo_home_win_prob": 0.919,
+ "inputs": {
+  "elo_diff": 320.8178,
+  "home_court": 1.0,
+  "point_diff_last10_diff": 22.0333,
+  "win_pct_last10_diff": 0.5889,
+  "win_pct_last5_diff": 0.8,
+  "rest_days_diff": 0.0,
+  "back_to_back_diff": 0.0,
+  "exp_missing_minutes_diff": 1.3324,
+  "starters_out_diff": -1.0,
+  "exp_missing_value_diff": -5.1222,
+  "exp_stars_missing_diff": -0.9999
+ },
+ "home": {
+  "team": "MIN",
+  "elo": 1611.8,
+  "win_pct_last10": 0.7,
+  "win_pct_last5": 0.8,
+  "point_diff_last10": 10.7,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Edwards, Anthony",
+    "status": "Out",
+    "avg_minutes": 33.8,
+    "p_play": 0.0,
+    "exp_missing_minutes": 33.7
+   },
+   {
+    "player": "Beringer, Joan",
+    "status": "Questionable",
+    "avg_minutes": 16.5,
+    "p_play": 0.51,
+    "exp_missing_minutes": 8.1
+   },
+   {
+    "player": "DiVincenzo, Donte",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ },
+ "away": {
+  "team": "UTA",
+  "elo": 1291.0,
+  "win_pct_last10": 0.111,
+  "win_pct_last5": 0.0,
+  "point_diff_last10": -11.3,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Jackson Jr., Jaren",
+    "status": "Out",
+    "avg_minutes": 26.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 26.0
+   },
+   {
+    "player": "Markkanen, Lauri",
+    "status": "Questionable",
+    "avg_minutes": 30.9,
+    "p_play": 0.444,
+    "exp_missing_minutes": 17.2
+   },
+   {
+    "player": "Alexander, Trey",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Ingram, Harrison",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.022,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Nurkic, Jusuf",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ }
+}

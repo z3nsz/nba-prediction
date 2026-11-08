@@ -1,5 +1,5 @@
 {
- "updated_et": "2026-11-07T21:20",
+ "updated_et": "2026-11-08T04:26",
  "season": "2026-27",
  "model": {
   "description": "Final NBA model (logistic regression, no intercept), retrained on all six seasons",
@@ -14,11 +14,11 @@
   ]
  },
  "record": {
-  "games": 130,
-  "correct": 82,
-  "accuracy": 0.6308,
-  "log_loss": 0.6194,
-  "brier": 0.2179
+  "games": 136,
+  "correct": 87,
+  "accuracy": 0.6397,
+  "log_loss": 0.6111,
+  "brier": 0.2141
  },
  "games": [
   {
@@ -3355,8 +3355,8 @@
    "p_home": 0.7574,
    "final": true,
    "report": "2026-11-07_06_30PM",
-   "home_score": null,
-   "away_score": null,
+   "home_score": 124,
+   "away_score": 121,
    "contributions": {
     "elo_diff": 1.3168,
     "home_court": 0.2167,
@@ -3380,8 +3380,8 @@
    "p_home": 0.4088,
    "final": true,
    "report": "2026-11-07_07_00PM",
-   "home_score": null,
-   "away_score": null,
+   "home_score": 97,
+   "away_score": 109,
    "contributions": {
     "elo_diff": -0.0266,
     "home_court": 0.2167,
@@ -3405,8 +3405,8 @@
    "p_home": 0.8382,
    "final": true,
    "report": "2026-11-07_07_00PM",
-   "home_score": null,
-   "away_score": null,
+   "home_score": 114,
+   "away_score": 75,
    "contributions": {
     "elo_diff": 1.6476,
     "home_court": 0.2167,
@@ -3430,8 +3430,8 @@
    "p_home": 0.7357,
    "final": true,
    "report": "2026-11-07_07_30PM",
-   "home_score": null,
-   "away_score": null,
+   "home_score": 126,
+   "away_score": 119,
    "contributions": {
     "elo_diff": 0.1919,
     "home_court": 0.2167,
@@ -3455,8 +3455,8 @@
    "p_home": 0.4085,
    "final": true,
    "report": "2026-11-07_08_00PM",
-   "home_score": null,
-   "away_score": null,
+   "home_score": 102,
+   "away_score": 99,
    "contributions": {
     "elo_diff": -0.5879,
     "home_court": 0.2167,
@@ -3480,8 +3480,8 @@
    "p_home": 0.3322,
    "final": true,
    "report": "2026-11-07_09_00PM",
-   "home_score": null,
-   "away_score": null,
+   "home_score": 103,
+   "away_score": 125,
    "contributions": {
     "elo_diff": -0.6146,
     "home_court": 0.2167,
@@ -3493,6 +3493,181 @@
     "exp_missing_minutes_diff": -0.2627,
     "starters_out_diff": 0.0,
     "exp_missing_value_diff": -0.0789,
+    "exp_stars_missing_diff": 0.0
+   }
+  },
+  {
+   "id": "espn-401909945",
+   "date": "2026-11-08",
+   "tip_off_et": "2026-11-08T15:30",
+   "home": "CHI",
+   "away": "PHI",
+   "p_home": 0.3168,
+   "final": false,
+   "report": "2026-11-07_11_45PM",
+   "home_score": null,
+   "away_score": null,
+   "contributions": {
+    "elo_diff": -1.0065,
+    "home_court": 0.2167,
+    "point_diff_last10_diff": -0.2875,
+    "win_pct_last10_diff": 0.3498,
+    "win_pct_last5_diff": 0.0128,
+    "rest_days_diff": 0.0724,
+    "back_to_back_diff": 0.0,
+    "exp_missing_minutes_diff": -0.0906,
+    "starters_out_diff": 0.0,
+    "exp_missing_value_diff": -0.0355,
+    "exp_stars_missing_diff": 0.0
+   }
+  },
+  {
+   "id": "espn-401909946",
+   "date": "2026-11-08",
+   "tip_off_et": "2026-11-08T18:00",
+   "home": "DET",
+   "away": "LAL",
+   "p_home": 0.634,
+   "final": false,
+   "report": "2026-11-07_11_45PM",
+   "home_score": null,
+   "away_score": null,
+   "contributions": {
+    "elo_diff": 0.3896,
+    "home_court": 0.2167,
+    "point_diff_last10_diff": 0.0236,
+    "win_pct_last10_diff": 0.0144,
+    "win_pct_last5_diff": 0.0032,
+    "rest_days_diff": 0.0724,
+    "back_to_back_diff": 0.0,
+    "exp_missing_minutes_diff": -0.1335,
+    "starters_out_diff": 0.0,
+    "exp_missing_value_diff": -0.0424,
+    "exp_stars_missing_diff": 0.0054
+   }
+  },
+  {
+   "id": "espn-401909947",
+   "date": "2026-11-08",
+   "tip_off_et": "2026-11-08T19:00",
+   "home": "MIN",
+   "away": "UTA",
+   "p_home": 0.8339,
+   "final": false,
+   "report": "2026-11-07_11_45PM",
+   "home_score": null,
+   "away_score": null,
+   "contributions": {
+    "elo_diff": 1.5704,
+    "home_court": 0.2167,
+    "point_diff_last10_diff": 0.3045,
+    "win_pct_last10_diff": -0.3051,
+    "win_pct_last5_diff": -0.0128,
+    "rest_days_diff": 0.0,
+    "back_to_back_diff": 0.0,
+    "exp_missing_minutes_diff": 0.0063,
+    "starters_out_diff": -0.0303,
+    "exp_missing_value_diff": -0.097,
+    "exp_stars_missing_diff": -0.039
+   }
+  },
+  {
+   "id": "espn-401909948",
+   "date": "2026-11-08",
+   "tip_off_et": "2026-11-08T19:30",
+   "home": "DAL",
+   "away": "BKN",
+   "p_home": 0.7204,
+   "final": false,
+   "report": "2026-11-07_11_45PM",
+   "home_score": null,
+   "away_score": null,
+   "contributions": {
+    "elo_diff": 0.5756,
+    "home_court": 0.2167,
+    "point_diff_last10_diff": 0.0983,
+    "win_pct_last10_diff": -0.1727,
+    "win_pct_last5_diff": -0.0032,
+    "rest_days_diff": 0.0362,
+    "back_to_back_diff": 0.1956,
+    "exp_missing_minutes_diff": 0.0,
+    "starters_out_diff": 0.0,
+    "exp_missing_value_diff": 0.0,
+    "exp_stars_missing_diff": 0.0
+   }
+  },
+  {
+   "id": "espn-401909949",
+   "date": "2026-11-08",
+   "tip_off_et": "2026-11-08T20:00",
+   "home": "MIL",
+   "away": "BOS",
+   "p_home": 0.191,
+   "final": false,
+   "report": "2026-11-07_11_45PM",
+   "home_score": null,
+   "away_score": null,
+   "contributions": {
+    "elo_diff": -1.6984,
+    "home_court": 0.2167,
+    "point_diff_last10_diff": -0.3056,
+    "win_pct_last10_diff": 0.3454,
+    "win_pct_last5_diff": 0.0128,
+    "rest_days_diff": 0.0,
+    "back_to_back_diff": 0.0,
+    "exp_missing_minutes_diff": -0.0143,
+    "starters_out_diff": 0.0,
+    "exp_missing_value_diff": -0.0003,
+    "exp_stars_missing_diff": 0.0
+   }
+  },
+  {
+   "id": "espn-401909950",
+   "date": "2026-11-08",
+   "tip_off_et": "2026-11-08T21:00",
+   "home": "LAC",
+   "away": "NOP",
+   "p_home": 0.645,
+   "final": false,
+   "report": "2026-11-07_11_45PM",
+   "home_score": null,
+   "away_score": null,
+   "contributions": {
+    "elo_diff": 0.2527,
+    "home_court": 0.2167,
+    "point_diff_last10_diff": -0.1068,
+    "win_pct_last10_diff": 0.1563,
+    "win_pct_last5_diff": 0.0128,
+    "rest_days_diff": 0.0724,
+    "back_to_back_diff": 0.0,
+    "exp_missing_minutes_diff": -0.0031,
+    "starters_out_diff": 0.0,
+    "exp_missing_value_diff": -0.0039,
+    "exp_stars_missing_diff": 0.0
+   }
+  },
+  {
+   "id": "espn-401909951",
+   "date": "2026-11-08",
+   "tip_off_et": "2026-11-08T21:00",
+   "home": "SAC",
+   "away": "MIA",
+   "p_home": 0.3499,
+   "final": false,
+   "report": "2026-11-07_11_45PM",
+   "home_score": null,
+   "away_score": null,
+   "contributions": {
+    "elo_diff": -0.7193,
+    "home_court": 0.2167,
+    "point_diff_last10_diff": -0.115,
+    "win_pct_last10_diff": 0.108,
+    "win_pct_last5_diff": 0.0064,
+    "rest_days_diff": -0.0362,
+    "back_to_back_diff": 0.0,
+    "exp_missing_minutes_diff": -0.1332,
+    "starters_out_diff": 0.0,
+    "exp_missing_value_diff": 0.0529,
     "exp_stars_missing_diff": 0.0
    }
   }

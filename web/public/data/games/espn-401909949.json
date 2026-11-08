@@ -1,0 +1,101 @@
+{
+ "id": "espn-401909949",
+ "computed_et": "2026-11-08T04:26",
+ "final": false,
+ "report": "2026-11-07_11_45PM",
+ "cutoff_et": "2026-11-08T19:00",
+ "elo_home_win_prob": 0.194,
+ "inputs": {
+  "elo_diff": -346.9607,
+  "home_court": 1.0,
+  "point_diff_last10_diff": -22.1111,
+  "win_pct_last10_diff": -0.6667,
+  "win_pct_last5_diff": -0.8,
+  "rest_days_diff": 0.0,
+  "back_to_back_diff": 0.0,
+  "exp_missing_minutes_diff": -2.9979,
+  "starters_out_diff": 0.0,
+  "exp_missing_value_diff": -0.0132,
+  "exp_stars_missing_diff": 0.0
+ },
+ "home": {
+  "team": "MIL",
+  "elo": 1330.3,
+  "win_pct_last10": 0.111,
+  "win_pct_last5": 0.0,
+  "point_diff_last10": -12.4,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Markovic, Bogoljub",
+    "status": "Out",
+    "avg_minutes": 5.0,
+    "p_play": 0.001,
+    "exp_missing_minutes": 5.0
+   },
+   {
+    "player": "Jones, Kam",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Nance, Pete",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Ryan, Cormac",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ },
+ "away": {
+  "team": "BOS",
+  "elo": 1677.2,
+  "win_pct_last10": 0.778,
+  "win_pct_last5": 0.8,
+  "point_diff_last10": 9.7,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Mitchell, Dillon",
+    "status": "Out",
+    "avg_minutes": 2.0,
+    "p_play": 0.001,
+    "exp_missing_minutes": 2.0
+   },
+   {
+    "player": "Carter, Devin",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Cenac Jr., Christopher",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.001,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Williams, Amari",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ }
+}
