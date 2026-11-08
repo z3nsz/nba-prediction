@@ -1,8 +1,8 @@
 {
  "id": "espn-401909951",
- "computed_et": "2026-11-08T17:01",
+ "computed_et": "2026-11-08T18:01",
  "final": false,
- "report": "2026-11-08_05_00PM",
+ "report": "2026-11-08_06_00PM",
  "cutoff_et": "2026-11-08T20:00",
  "elo_home_win_prob": 0.433,
  "inputs": {
@@ -13,9 +13,9 @@
   "win_pct_last5_diff": -0.4,
   "rest_days_diff": -1.0,
   "back_to_back_diff": 0.0,
-  "exp_missing_minutes_diff": -18.8414,
+  "exp_missing_minutes_diff": -27.0174,
   "starters_out_diff": 0.0,
-  "exp_missing_value_diff": 1.8395,
+  "exp_missing_value_diff": 1.1103,
   "exp_stars_missing_diff": 0.0
  },
  "home": {
@@ -36,6 +36,13 @@
     "exp_missing_minutes": 17.2
    },
    {
+    "player": "Sabonis, Domantas",
+    "status": "Questionable",
+    "avg_minutes": 35.1,
+    "p_play": 0.767,
+    "exp_missing_minutes": 8.2
+   },
+   {
     "player": "Murray, Keegan",
     "status": "Available",
     "avg_minutes": 28.0,
@@ -43,14 +50,14 @@
     "exp_missing_minutes": 1.6
    },
    {
-    "player": "Raynaud, Maxime",
+    "player": "Pedulla, Sean",
     "status": "Out",
     "avg_minutes": 0.0,
     "p_play": 0.0,
     "exp_missing_minutes": 0.0
    },
    {
-    "player": "Pedulla, Sean",
+    "player": "Raynaud, Maxime",
     "status": "Out",
     "avg_minutes": 0.0,
     "p_play": 0.0,

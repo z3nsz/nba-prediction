@@ -1,5 +1,5 @@
 {
- "updated_et": "2026-11-08T17:01",
+ "updated_et": "2026-11-08T18:01",
  "season": "2026-27",
  "model": {
   "description": "Final NBA model (logistic regression, no intercept), retrained on all six seasons",
@@ -14,11 +14,11 @@
   ]
  },
  "record": {
-  "games": 136,
-  "correct": 87,
-  "accuracy": 0.6397,
-  "log_loss": 0.6111,
-  "brier": 0.2141
+  "games": 137,
+  "correct": 88,
+  "accuracy": 0.6423,
+  "log_loss": 0.609,
+  "brier": 0.213
  },
  "games": [
   {
@@ -3505,8 +3505,8 @@
    "p_home": 0.2735,
    "final": true,
    "report": "2026-11-08_02_30PM",
-   "home_score": null,
-   "away_score": null,
+   "home_score": 121,
+   "away_score": 127,
    "contributions": {
     "elo_diff": -1.0065,
     "home_court": 0.2167,
@@ -3553,8 +3553,8 @@
    "home": "MIN",
    "away": "UTA",
    "p_home": 0.8531,
-   "final": false,
-   "report": "2026-11-08_05_00PM",
+   "final": true,
+   "report": "2026-11-08_06_00PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
@@ -3579,7 +3579,7 @@
    "away": "BKN",
    "p_home": 0.747,
    "final": false,
-   "report": "2026-11-08_05_00PM",
+   "report": "2026-11-08_06_00PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
@@ -3604,7 +3604,7 @@
    "away": "BOS",
    "p_home": 0.1947,
    "final": false,
-   "report": "2026-11-08_05_00PM",
+   "report": "2026-11-08_06_00PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
@@ -3629,7 +3629,7 @@
    "away": "NOP",
    "p_home": 0.645,
    "final": false,
-   "report": "2026-11-08_05_00PM",
+   "report": "2026-11-08_06_00PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
@@ -3652,9 +3652,9 @@
    "tip_off_et": "2026-11-08T21:00",
    "home": "SAC",
    "away": "MIA",
-   "p_home": 0.3557,
+   "p_home": 0.3437,
    "final": false,
-   "report": "2026-11-08_05_00PM",
+   "report": "2026-11-08_06_00PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
@@ -3665,9 +3665,9 @@
     "win_pct_last5_diff": 0.0064,
     "rest_days_diff": -0.0362,
     "back_to_back_diff": 0.0,
-    "exp_missing_minutes_diff": -0.0897,
+    "exp_missing_minutes_diff": -0.1286,
     "starters_out_diff": 0.0,
-    "exp_missing_value_diff": 0.0348,
+    "exp_missing_value_diff": 0.021,
     "exp_stars_missing_diff": 0.0
    }
   }
