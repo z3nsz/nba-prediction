@@ -1,8 +1,8 @@
 {
  "id": "espn-401909949",
- "computed_et": "2026-11-08T18:31",
- "final": false,
- "report": "2026-11-08_06_30PM",
+ "computed_et": "2026-11-08T19:01",
+ "final": true,
+ "report": "2026-11-08_07_00PM",
  "cutoff_et": "2026-11-08T19:00",
  "elo_home_win_prob": 0.194,
  "inputs": {
@@ -13,9 +13,9 @@
   "win_pct_last5_diff": -0.8,
   "rest_days_diff": 0.0,
   "back_to_back_diff": 0.0,
-  "exp_missing_minutes_diff": -1.1639,
+  "exp_missing_minutes_diff": -3.4046,
   "starters_out_diff": 0.0,
-  "exp_missing_value_diff": 0.7895,
+  "exp_missing_value_diff": 1.135,
   "exp_stars_missing_diff": 0.0
  },
  "home": {
@@ -29,18 +29,18 @@
   "report_known": true,
   "injuries": [
    {
+    "player": "Trent Jr., Gary",
+    "status": "Out",
+    "avg_minutes": 6.5,
+    "p_play": 0.0,
+    "exp_missing_minutes": 6.5
+   },
+   {
     "player": "Markovic, Bogoljub",
     "status": "Out",
     "avg_minutes": 5.0,
     "p_play": 0.001,
     "exp_missing_minutes": 5.0
-   },
-   {
-    "player": "Trent Jr., Gary",
-    "status": "Questionable",
-    "avg_minutes": 6.5,
-    "p_play": 0.345,
-    "exp_missing_minutes": 4.3
    },
    {
     "player": "Jones, Kam",
