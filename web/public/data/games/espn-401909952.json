@@ -1,8 +1,8 @@
 {
  "id": "espn-401909952",
- "computed_et": "2026-11-09T05:18",
- "final": false,
- "report": "2026-11-08_11_45PM",
+ "computed_et": "2026-11-09T18:23",
+ "final": true,
+ "report": "2026-11-09_06_00PM",
  "cutoff_et": "2026-11-09T18:00",
  "elo_home_win_prob": 0.596,
  "inputs": {
@@ -13,9 +13,9 @@
   "win_pct_last5_diff": -0.2,
   "rest_days_diff": 1.0,
   "back_to_back_diff": 1.0,
-  "exp_missing_minutes_diff": 0.0,
-  "starters_out_diff": 0.0,
-  "exp_missing_value_diff": 0.0,
+  "exp_missing_minutes_diff": 44.1217,
+  "starters_out_diff": 1.0,
+  "exp_missing_value_diff": 4.0151,
   "exp_stars_missing_diff": 0.0
  },
  "home": {
@@ -36,18 +36,18 @@
     "exp_missing_minutes": 11.0
    },
    {
-    "player": "Landale, Jock",
-    "status": "Questionable",
-    "avg_minutes": 15.3,
-    "p_play": 0.546,
-    "exp_missing_minutes": 6.9
+    "player": "Dennis, RayJ",
+    "status": "Out",
+    "avg_minutes": 8.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 8.0
    },
    {
-    "player": "Dennis, RayJ",
-    "status": "Questionable",
-    "avg_minutes": 8.0,
-    "p_play": 0.361,
-    "exp_missing_minutes": 5.1
+    "player": "Landale, Jock",
+    "status": "Available",
+    "avg_minutes": 15.3,
+    "p_play": 0.935,
+    "exp_missing_minutes": 1.0
    },
    {
     "player": "Gueye, Mouhamed",
@@ -72,9 +72,9 @@
    },
    {
     "player": "Wilson, Jalen",
-    "status": "Questionable",
+    "status": "Out",
     "avg_minutes": 0.0,
-    "p_play": 0.425,
+    "p_play": 0.0,
     "exp_missing_minutes": 0.0
    }
   ]
@@ -87,7 +87,29 @@
   "point_diff_last10": 7.4,
   "rest_days": 1.0,
   "back_to_back": true,
-  "report_known": false,
-  "injuries": []
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Reaves, Austin",
+    "status": "Out",
+    "avg_minutes": 36.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 36.0
+   },
+   {
+    "player": "Grimes, Quentin",
+    "status": "Out",
+    "avg_minutes": 25.6,
+    "p_play": 0.0,
+    "exp_missing_minutes": 25.6
+   },
+   {
+    "player": "Kessler, Walker",
+    "status": "Available",
+    "avg_minutes": 30.6,
+    "p_play": 0.918,
+    "exp_missing_minutes": 2.5
+   }
+  ]
  }
 }

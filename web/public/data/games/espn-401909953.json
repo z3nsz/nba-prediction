@@ -1,8 +1,8 @@
 {
  "id": "espn-401909953",
- "computed_et": "2026-11-09T05:18",
- "final": false,
- "report": "2026-11-08_11_45PM",
+ "computed_et": "2026-11-09T18:23",
+ "final": true,
+ "report": "2026-11-09_06_00PM",
  "cutoff_et": "2026-11-09T18:00",
  "elo_home_win_prob": 0.507,
  "inputs": {
@@ -13,9 +13,9 @@
   "win_pct_last5_diff": -0.4,
   "rest_days_diff": 1.0,
   "back_to_back_diff": 0.0,
-  "exp_missing_minutes_diff": -35.1744,
-  "starters_out_diff": -2.0,
-  "exp_missing_value_diff": 1.2876,
+  "exp_missing_minutes_diff": -43.6181,
+  "starters_out_diff": -3.0,
+  "exp_missing_value_diff": 1.0002,
   "exp_stars_missing_diff": 0.0
  },
  "home": {
@@ -44,17 +44,10 @@
    },
    {
     "player": "Diabate, Moussa",
-    "status": "Questionable",
-    "avg_minutes": 28.8,
-    "p_play": 0.455,
-    "exp_missing_minutes": 15.7
-   },
-   {
-    "player": "Hall, PJ",
     "status": "Out",
-    "avg_minutes": 6.0,
-    "p_play": 0.0,
-    "exp_missing_minutes": 6.0
+    "avg_minutes": 28.8,
+    "p_play": 0.022,
+    "exp_missing_minutes": 28.1
    },
    {
     "player": "Knueppel, Kon",
@@ -64,7 +57,21 @@
     "exp_missing_minutes": 6.0
    },
    {
+    "player": "Hall, PJ",
+    "status": "Available",
+    "avg_minutes": 6.0,
+    "p_play": 0.67,
+    "exp_missing_minutes": 2.0
+   },
+   {
     "player": "Ajayi, Michael",
+    "status": "Available",
+    "avg_minutes": 0.0,
+    "p_play": 0.806,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Boswell, Kylan",
     "status": "Out",
     "avg_minutes": 0.0,
     "p_play": 0.0,
@@ -72,13 +79,6 @@
    },
    {
     "player": "Williams, Grant",
-    "status": "Out",
-    "avg_minutes": 0.0,
-    "p_play": 0.0,
-    "exp_missing_minutes": 0.0
-   },
-   {
-    "player": "Boswell, Kylan",
     "status": "Out",
     "avg_minutes": 0.0,
     "p_play": 0.0,

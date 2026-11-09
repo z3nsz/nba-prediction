@@ -1,8 +1,8 @@
 {
  "id": "espn-401909955",
- "computed_et": "2026-11-09T05:18",
+ "computed_et": "2026-11-09T18:23",
  "final": false,
- "report": "2026-11-08_11_45PM",
+ "report": "2026-11-09_06_15PM",
  "cutoff_et": "2026-11-09T18:30",
  "elo_home_win_prob": 0.817,
  "inputs": {
@@ -13,9 +13,9 @@
   "win_pct_last5_diff": 0.0,
   "rest_days_diff": 0.0,
   "back_to_back_diff": 0.0,
-  "exp_missing_minutes_diff": -9.1786,
-  "starters_out_diff": 0.0,
-  "exp_missing_value_diff": -8.622,
+  "exp_missing_minutes_diff": -75.01,
+  "starters_out_diff": -2.0,
+  "exp_missing_value_diff": -13.0758,
   "exp_stars_missing_diff": 0.0
  },
  "home": {
@@ -29,6 +29,20 @@
   "report_known": true,
   "injuries": [
    {
+    "player": "Barnes, Scottie",
+    "status": "Out",
+    "avg_minutes": 33.4,
+    "p_play": 0.0,
+    "exp_missing_minutes": 33.4
+   },
+   {
+    "player": "Quickley, Immanuel",
+    "status": "Out",
+    "avg_minutes": 31.8,
+    "p_play": 0.0,
+    "exp_missing_minutes": 31.7
+   },
+   {
     "player": "Leonard, Kawhi",
     "status": "Out",
     "avg_minutes": 26.0,
@@ -36,18 +50,11 @@
     "exp_missing_minutes": 26.0
    },
    {
-    "player": "Barnes, Scottie",
-    "status": "Questionable",
-    "avg_minutes": 33.4,
-    "p_play": 0.658,
-    "exp_missing_minutes": 11.4
-   },
-   {
-    "player": "Quickley, Immanuel",
-    "status": "Questionable",
-    "avg_minutes": 31.8,
-    "p_play": 0.682,
-    "exp_missing_minutes": 10.1
+    "player": "Murray-Boyles, Collin",
+    "status": "Out",
+    "avg_minutes": 22.2,
+    "p_play": 0.0,
+    "exp_missing_minutes": 22.2
    },
    {
     "player": "Bittle, Nate",
@@ -58,16 +65,16 @@
    },
    {
     "player": "McCullar Jr., Kevin",
-    "status": "Out",
+    "status": "Available",
     "avg_minutes": 0.0,
-    "p_play": 0.0,
+    "p_play": 0.754,
     "exp_missing_minutes": 0.0
    },
    {
     "player": "Smith, Malachi",
-    "status": "Out",
+    "status": "Available",
     "avg_minutes": 0.0,
-    "p_play": 0.0,
+    "p_play": 0.806,
     "exp_missing_minutes": 0.0
    }
   ]

@@ -1,8 +1,8 @@
 {
  "id": "espn-401909959",
- "computed_et": "2026-11-09T05:18",
+ "computed_et": "2026-11-09T18:23",
  "final": false,
- "report": "2026-11-08_11_45PM",
+ "report": "2026-11-09_06_15PM",
  "cutoff_et": "2026-11-09T21:00",
  "elo_home_win_prob": 0.76,
  "inputs": {
@@ -13,10 +13,10 @@
   "win_pct_last5_diff": 0.4,
   "rest_days_diff": 1.0,
   "back_to_back_diff": 1.0,
-  "exp_missing_minutes_diff": 0.0,
-  "starters_out_diff": 0.0,
-  "exp_missing_value_diff": 0.0,
-  "exp_stars_missing_diff": 0.0
+  "exp_missing_minutes_diff": 76.8822,
+  "starters_out_diff": 2.0,
+  "exp_missing_value_diff": 9.7353,
+  "exp_stars_missing_diff": 1.0
  },
  "home": {
   "team": "GSW",
@@ -36,6 +36,13 @@
     "exp_missing_minutes": 18.7
    },
    {
+    "player": "Payton II, Gary",
+    "status": "Questionable",
+    "avg_minutes": 13.7,
+    "p_play": 0.57,
+    "exp_missing_minutes": 5.9
+   },
+   {
     "player": "Santos, Gui",
     "status": "Probable",
     "avg_minutes": 18.8,
@@ -43,7 +50,7 @@
     "exp_missing_minutes": 1.8
    },
    {
-    "player": "Butler III, Jimmy",
+    "player": "Porzingis, Kristaps",
     "status": "Out",
     "avg_minutes": 0.0,
     "p_play": 0.0,
@@ -57,7 +64,7 @@
     "exp_missing_minutes": 0.0
    },
    {
-    "player": "Porzingis, Kristaps",
+    "player": "Butler III, Jimmy",
     "status": "Out",
     "avg_minutes": 0.0,
     "p_play": 0.0,
@@ -73,7 +80,50 @@
   "point_diff_last10": -0.3,
   "rest_days": 1.0,
   "back_to_back": true,
-  "report_known": false,
-  "injuries": []
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Williamson, Zion",
+    "status": "Out",
+    "avg_minutes": 33.1,
+    "p_play": 0.0,
+    "exp_missing_minutes": 33.1
+   },
+   {
+    "player": "Murphy III, Trey",
+    "status": "Out",
+    "avg_minutes": 32.8,
+    "p_play": 0.0,
+    "exp_missing_minutes": 32.8
+   },
+   {
+    "player": "Missi, Yves",
+    "status": "Out",
+    "avg_minutes": 19.5,
+    "p_play": 0.0,
+    "exp_missing_minutes": 19.5
+   },
+   {
+    "player": "Watford, Trendon",
+    "status": "Out",
+    "avg_minutes": 17.8,
+    "p_play": 0.0,
+    "exp_missing_minutes": 17.8
+   },
+   {
+    "player": "Dia, Malik",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Pierre Jr., Jaron",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
  }
 }

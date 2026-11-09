@@ -1232,66 +1232,89 @@ espn-401909951,2026-11-08,SAC,"Pedulla, Sean",Out,2026-11-08_08_00PM,True
 espn-401909951,2026-11-08,SAC,"Raynaud, Maxime",Out,2026-11-08_08_00PM,True
 espn-401909951,2026-11-08,SAC,"Sabonis, Domantas",Out,2026-11-08_08_00PM,True
 espn-401909951,2026-11-08,SAC,"Simmons, Ben",Out,2026-11-08_08_00PM,True
-espn-401909952,2026-11-09,ATL,"Dennis, RayJ",Questionable,2026-11-08_11_45PM,False
-espn-401909952,2026-11-09,ATL,"Gilbert, Keshon",Out,2026-11-08_11_45PM,False
-espn-401909952,2026-11-09,ATL,"Gueye, Mouhamed",Out,2026-11-08_11_45PM,False
-espn-401909952,2026-11-09,ATL,"Landale, Jock",Questionable,2026-11-08_11_45PM,False
-espn-401909952,2026-11-09,ATL,"Newell, Asa",Out,2026-11-08_11_45PM,False
-espn-401909952,2026-11-09,ATL,"Veesaar, Henri",Out,2026-11-08_11_45PM,False
-espn-401909952,2026-11-09,ATL,"Wilson, Jalen",Questionable,2026-11-08_11_45PM,False
-espn-401909953,2026-11-09,CLE,"Allen, Jarrett",Questionable,2026-11-08_11_45PM,False
-espn-401909953,2026-11-09,CLE,"Diop, Khalifa",Out,2026-11-08_11_45PM,False
-espn-401909953,2026-11-09,CLE,"Merrill, Sam",Out,2026-11-08_11_45PM,False
-espn-401909953,2026-11-09,CLE,"Tomlin, Nae'Qwan",Out,2026-11-08_11_45PM,False
-espn-401909953,2026-11-09,CLE,"Tyson, Jaylon",Out,2026-11-08_11_45PM,False
-espn-401909953,2026-11-09,CLE,"Udeh, Jr., Ernest",Out,2026-11-08_11_45PM,False
-espn-401909953,2026-11-09,CHA,"Ajayi, Michael",Out,2026-11-08_11_45PM,False
-espn-401909953,2026-11-09,CHA,"Boswell, Kylan",Out,2026-11-08_11_45PM,False
-espn-401909953,2026-11-09,CHA,"Diabate, Moussa",Questionable,2026-11-08_11_45PM,False
-espn-401909953,2026-11-09,CHA,"Hall, PJ",Out,2026-11-08_11_45PM,False
-espn-401909953,2026-11-09,CHA,"Knueppel, Kon",Out,2026-11-08_11_45PM,False
-espn-401909953,2026-11-09,CHA,"Miller, Brandon",Out,2026-11-08_11_45PM,False
-espn-401909953,2026-11-09,CHA,"Schroder, Dennis",Out,2026-11-08_11_45PM,False
-espn-401909953,2026-11-09,CHA,"Williams, Grant",Out,2026-11-08_11_45PM,False
-espn-401909954,2026-11-09,WAS,"Beekman, Reece",Out,2026-11-08_11_45PM,False
-espn-401909954,2026-11-09,WAS,"Champagnie, Justin",Out,2026-11-08_11_45PM,False
-espn-401909954,2026-11-09,WAS,"Davis, Anthony",Questionable,2026-11-08_11_45PM,False
-espn-401909954,2026-11-09,WAS,"Vukcevic, Tristan",Out,2026-11-08_11_45PM,False
-espn-401909954,2026-11-09,WAS,"Watkins, Jamir",Out,2026-11-08_11_45PM,False
-espn-401909955,2026-11-09,MEM,"Lopez, Karim",Out,2026-11-08_11_45PM,False
-espn-401909955,2026-11-09,MEM,"Pippen Jr., Scotty",Out,2026-11-08_11_45PM,False
-espn-401909955,2026-11-09,MEM,"Saunders, Richie",Out,2026-11-08_11_45PM,False
-espn-401909955,2026-11-09,MEM,"Stewart, Isaiah",Out,2026-11-08_11_45PM,False
-espn-401909955,2026-11-09,TOR,"Barnes, Scottie",Questionable,2026-11-08_11_45PM,False
-espn-401909955,2026-11-09,TOR,"Bittle, Nate",Out,2026-11-08_11_45PM,False
-espn-401909955,2026-11-09,TOR,"Leonard, Kawhi",Out,2026-11-08_11_45PM,False
-espn-401909955,2026-11-09,TOR,"McCullar Jr., Kevin",Out,2026-11-08_11_45PM,False
-espn-401909955,2026-11-09,TOR,"Quickley, Immanuel",Questionable,2026-11-08_11_45PM,False
-espn-401909955,2026-11-09,TOR,"Smith, Malachi",Out,2026-11-08_11_45PM,False
-espn-401909956,2026-11-09,IND,"Furphy, Johnny",Out,2026-11-08_11_45PM,False
-espn-401909956,2026-11-09,IND,"Haliburton, Tyrese",Out,2026-11-08_11_45PM,False
-espn-401909956,2026-11-09,IND,"McConnell, T.J.",Questionable,2026-11-08_11_45PM,False
-espn-401909956,2026-11-09,IND,"Sheppard, Ben",Out,2026-11-08_11_45PM,False
-espn-401909957,2026-11-09,DEN,"Braun, Christian",Questionable,2026-11-08_11_45PM,False
-espn-401909957,2026-11-09,DEN,"DeRozan, DeMar",Questionable,2026-11-08_11_45PM,False
-espn-401909957,2026-11-09,DEN,"Gordon, Aaron",Questionable,2026-11-08_11_45PM,False
-espn-401909957,2026-11-09,DEN,"Johnson, Cameron",Questionable,2026-11-08_11_45PM,False
-espn-401909957,2026-11-09,DEN,"Jokic, Nikola",Questionable,2026-11-08_11_45PM,False
-espn-401909957,2026-11-09,DEN,"Murray, Jamal",Questionable,2026-11-08_11_45PM,False
-espn-401909957,2026-11-09,DEN,"Strawther, Julian",Out,2026-11-08_11_45PM,False
-espn-401909957,2026-11-09,HOU,"Adams, Steven",Out,2026-11-08_11_45PM,False
-espn-401909957,2026-11-09,HOU,"Capela, Clint",Out,2026-11-08_11_45PM,False
-espn-401909957,2026-11-09,HOU,"Copeland, Quadir",Out,2026-11-08_11_45PM,False
-espn-401909957,2026-11-09,HOU,"Phillips, Julian",Out,2026-11-08_11_45PM,False
-espn-401909958,2026-11-09,SAS,"Brown, Maliq",Out,2026-11-08_11_45PM,False
-espn-401909958,2026-11-09,SAS,"Gillespie, Ja'Kobi",Out,2026-11-08_11_45PM,False
-espn-401909958,2026-11-09,SAS,"Harris, Tobias",Out,2026-11-08_11_45PM,False
-espn-401909958,2026-11-09,SAS,"Quaintance, Jayden",Out,2026-11-08_11_45PM,False
-espn-401909958,2026-11-09,SAS,"Vassell, Devin",Questionable,2026-11-08_11_45PM,False
-espn-401909958,2026-11-09,PHX,"Goodwin, Jordan",Questionable,2026-11-08_11_45PM,False
-espn-401909958,2026-11-09,PHX,"Williams, Mark",Out,2026-11-08_11_45PM,False
-espn-401909959,2026-11-09,GSW,"Butler III, Jimmy",Out,2026-11-08_11_45PM,False
-espn-401909959,2026-11-09,GSW,"Moody, Moses",Out,2026-11-08_11_45PM,False
-espn-401909959,2026-11-09,GSW,"Porzingis, Kristaps",Out,2026-11-08_11_45PM,False
-espn-401909959,2026-11-09,GSW,"Richard, Will",Out,2026-11-08_11_45PM,False
-espn-401909959,2026-11-09,GSW,"Santos, Gui",Probable,2026-11-08_11_45PM,False
+espn-401909952,2026-11-09,LAL,"Grimes, Quentin",Out,2026-11-09_06_00PM,True
+espn-401909952,2026-11-09,LAL,"Kessler, Walker",Available,2026-11-09_06_00PM,True
+espn-401909952,2026-11-09,LAL,"Reaves, Austin",Out,2026-11-09_06_00PM,True
+espn-401909952,2026-11-09,ATL,"Dennis, RayJ",Out,2026-11-09_06_00PM,True
+espn-401909952,2026-11-09,ATL,"Gilbert, Keshon",Out,2026-11-09_06_00PM,True
+espn-401909952,2026-11-09,ATL,"Gueye, Mouhamed",Out,2026-11-09_06_00PM,True
+espn-401909952,2026-11-09,ATL,"Landale, Jock",Available,2026-11-09_06_00PM,True
+espn-401909952,2026-11-09,ATL,"Newell, Asa",Out,2026-11-09_06_00PM,True
+espn-401909952,2026-11-09,ATL,"Veesaar, Henri",Out,2026-11-09_06_00PM,True
+espn-401909952,2026-11-09,ATL,"Wilson, Jalen",Out,2026-11-09_06_00PM,True
+espn-401909953,2026-11-09,CLE,"Allen, Jarrett",Questionable,2026-11-09_06_00PM,True
+espn-401909953,2026-11-09,CLE,"Diop, Khalifa",Out,2026-11-09_06_00PM,True
+espn-401909953,2026-11-09,CLE,"Merrill, Sam",Out,2026-11-09_06_00PM,True
+espn-401909953,2026-11-09,CLE,"Tomlin, Nae'Qwan",Out,2026-11-09_06_00PM,True
+espn-401909953,2026-11-09,CLE,"Tyson, Jaylon",Out,2026-11-09_06_00PM,True
+espn-401909953,2026-11-09,CLE,"Udeh, Jr., Ernest",Out,2026-11-09_06_00PM,True
+espn-401909953,2026-11-09,CHA,"Ajayi, Michael",Available,2026-11-09_06_00PM,True
+espn-401909953,2026-11-09,CHA,"Boswell, Kylan",Out,2026-11-09_06_00PM,True
+espn-401909953,2026-11-09,CHA,"Diabate, Moussa",Out,2026-11-09_06_00PM,True
+espn-401909953,2026-11-09,CHA,"Hall, PJ",Available,2026-11-09_06_00PM,True
+espn-401909953,2026-11-09,CHA,"Knueppel, Kon",Out,2026-11-09_06_00PM,True
+espn-401909953,2026-11-09,CHA,"Miller, Brandon",Out,2026-11-09_06_00PM,True
+espn-401909953,2026-11-09,CHA,"Schroder, Dennis",Out,2026-11-09_06_00PM,True
+espn-401909953,2026-11-09,CHA,"Williams, Grant",Out,2026-11-09_06_00PM,True
+espn-401909954,2026-11-09,WAS,"Beekman, Reece",Out,2026-11-09_06_00PM,True
+espn-401909954,2026-11-09,WAS,"Champagnie, Justin",Out,2026-11-09_06_00PM,True
+espn-401909954,2026-11-09,WAS,"Coulibaly, Bilal",Out,2026-11-09_06_00PM,True
+espn-401909954,2026-11-09,WAS,"Davis, Anthony",Available,2026-11-09_06_00PM,True
+espn-401909954,2026-11-09,WAS,"Vukcevic, Tristan",Out,2026-11-09_06_00PM,True
+espn-401909954,2026-11-09,WAS,"Watkins, Jamir",Out,2026-11-09_06_00PM,True
+espn-401909954,2026-11-09,DET,"Duren, Jalen",Out,2026-11-09_06_00PM,True
+espn-401909954,2026-11-09,DET,"Harkless, Elijah",Out,2026-11-09_06_00PM,True
+espn-401909954,2026-11-09,DET,"Joe, Isaiah",Out,2026-11-09_06_00PM,True
+espn-401909954,2026-11-09,DET,"Jones, Isaac",Available,2026-11-09_06_00PM,True
+espn-401909954,2026-11-09,DET,"Onyenso, Ugonna",Out,2026-11-09_06_00PM,True
+espn-401909955,2026-11-09,MEM,"Lopez, Karim",Out,2026-11-09_06_15PM,False
+espn-401909955,2026-11-09,MEM,"Pippen Jr., Scotty",Out,2026-11-09_06_15PM,False
+espn-401909955,2026-11-09,MEM,"Saunders, Richie",Out,2026-11-09_06_15PM,False
+espn-401909955,2026-11-09,MEM,"Stewart, Isaiah",Out,2026-11-09_06_15PM,False
+espn-401909955,2026-11-09,TOR,"Barnes, Scottie",Out,2026-11-09_06_15PM,False
+espn-401909955,2026-11-09,TOR,"Bittle, Nate",Out,2026-11-09_06_15PM,False
+espn-401909955,2026-11-09,TOR,"Leonard, Kawhi",Out,2026-11-09_06_15PM,False
+espn-401909955,2026-11-09,TOR,"McCullar Jr., Kevin",Available,2026-11-09_06_15PM,False
+espn-401909955,2026-11-09,TOR,"Murray-Boyles, Collin",Out,2026-11-09_06_15PM,False
+espn-401909955,2026-11-09,TOR,"Quickley, Immanuel",Out,2026-11-09_06_15PM,False
+espn-401909955,2026-11-09,TOR,"Smith, Malachi",Available,2026-11-09_06_15PM,False
+espn-401909956,2026-11-09,IND,"Furphy, Johnny",Out,2026-11-09_06_15PM,False
+espn-401909956,2026-11-09,IND,"Haliburton, Tyrese",Out,2026-11-09_06_15PM,False
+espn-401909956,2026-11-09,IND,"McConnell, T.J.",Questionable,2026-11-09_06_15PM,False
+espn-401909956,2026-11-09,IND,"Sheppard, Ben",Out,2026-11-09_06_15PM,False
+espn-401909956,2026-11-09,DAL,"Biberovic, Tarik",Out,2026-11-09_06_15PM,False
+espn-401909956,2026-11-09,DAL,"de Larrea, Sergio",Out,2026-11-09_06_15PM,False
+espn-401909956,2026-11-09,DAL,"Johnson Jr., Morez",Questionable,2026-11-09_06_15PM,False
+espn-401909956,2026-11-09,DAL,"Lively II, Dereck",Out,2026-11-09_06_15PM,False
+espn-401909956,2026-11-09,DAL,"Martin, Caleb",Available,2026-11-09_06_15PM,False
+espn-401909957,2026-11-09,DEN,"Braun, Christian",Probable,2026-11-09_06_15PM,False
+espn-401909957,2026-11-09,DEN,"DeRozan, DeMar",Probable,2026-11-09_06_15PM,False
+espn-401909957,2026-11-09,DEN,"Gordon, Aaron",Probable,2026-11-09_06_15PM,False
+espn-401909957,2026-11-09,DEN,"Johnson, Cameron",Probable,2026-11-09_06_15PM,False
+espn-401909957,2026-11-09,DEN,"Jokic, Nikola",Probable,2026-11-09_06_15PM,False
+espn-401909957,2026-11-09,DEN,"Murray, Jamal",Probable,2026-11-09_06_15PM,False
+espn-401909957,2026-11-09,DEN,"Strawther, Julian",Out,2026-11-09_06_15PM,False
+espn-401909957,2026-11-09,HOU,"Adams, Steven",Out,2026-11-09_06_15PM,False
+espn-401909957,2026-11-09,HOU,"Capela, Clint",Out,2026-11-09_06_15PM,False
+espn-401909957,2026-11-09,HOU,"Copeland, Quadir",Out,2026-11-09_06_15PM,False
+espn-401909957,2026-11-09,HOU,"Phillips, Julian",Out,2026-11-09_06_15PM,False
+espn-401909957,2026-11-09,HOU,"Tshiebwe, Oscar",Out,2026-11-09_06_15PM,False
+espn-401909958,2026-11-09,SAS,"Brown, Maliq",Out,2026-11-09_06_15PM,False
+espn-401909958,2026-11-09,SAS,"Gillespie, Ja'Kobi",Out,2026-11-09_06_15PM,False
+espn-401909958,2026-11-09,SAS,"Harris, Tobias",Out,2026-11-09_06_15PM,False
+espn-401909958,2026-11-09,SAS,"Quaintance, Jayden",Out,2026-11-09_06_15PM,False
+espn-401909958,2026-11-09,SAS,"Vassell, Devin",Out,2026-11-09_06_15PM,False
+espn-401909958,2026-11-09,PHX,"Goodwin, Jordan",Questionable,2026-11-09_06_15PM,False
+espn-401909958,2026-11-09,PHX,"Williams, Mark",Out,2026-11-09_06_15PM,False
+espn-401909959,2026-11-09,NOP,"Dia, Malik",Out,2026-11-09_06_15PM,False
+espn-401909959,2026-11-09,NOP,"Missi, Yves",Out,2026-11-09_06_15PM,False
+espn-401909959,2026-11-09,NOP,"Murphy III, Trey",Out,2026-11-09_06_15PM,False
+espn-401909959,2026-11-09,NOP,"Pierre Jr., Jaron",Out,2026-11-09_06_15PM,False
+espn-401909959,2026-11-09,NOP,"Watford, Trendon",Out,2026-11-09_06_15PM,False
+espn-401909959,2026-11-09,NOP,"Williamson, Zion",Out,2026-11-09_06_15PM,False
+espn-401909959,2026-11-09,GSW,"Butler III, Jimmy",Out,2026-11-09_06_15PM,False
+espn-401909959,2026-11-09,GSW,"Moody, Moses",Out,2026-11-09_06_15PM,False
+espn-401909959,2026-11-09,GSW,"Payton II, Gary",Questionable,2026-11-09_06_15PM,False
+espn-401909959,2026-11-09,GSW,"Porzingis, Kristaps",Out,2026-11-09_06_15PM,False
+espn-401909959,2026-11-09,GSW,"Richard, Will",Out,2026-11-09_06_15PM,False
+espn-401909959,2026-11-09,GSW,"Santos, Gui",Probable,2026-11-09_06_15PM,False

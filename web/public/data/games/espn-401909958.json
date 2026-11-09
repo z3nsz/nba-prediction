@@ -1,8 +1,8 @@
 {
  "id": "espn-401909958",
- "computed_et": "2026-11-09T05:18",
+ "computed_et": "2026-11-09T18:23",
  "final": false,
- "report": "2026-11-08_11_45PM",
+ "report": "2026-11-09_06_15PM",
  "cutoff_et": "2026-11-09T20:00",
  "elo_home_win_prob": 0.383,
  "inputs": {
@@ -13,9 +13,9 @@
   "win_pct_last5_diff": -0.6,
   "rest_days_diff": 0.0,
   "back_to_back_diff": 0.0,
-  "exp_missing_minutes_diff": 9.1634,
-  "starters_out_diff": 0.0,
-  "exp_missing_value_diff": -0.3833,
+  "exp_missing_minutes_diff": 26.8216,
+  "starters_out_diff": 1.0,
+  "exp_missing_value_diff": -0.986,
   "exp_stars_missing_diff": 0.0
  },
  "home": {
@@ -56,10 +56,10 @@
   "injuries": [
    {
     "player": "Vassell, Devin",
-    "status": "Questionable",
+    "status": "Out",
     "avg_minutes": 30.4,
-    "p_play": 0.581,
-    "exp_missing_minutes": 12.7
+    "p_play": 0.0,
+    "exp_missing_minutes": 30.4
    },
    {
     "player": "Gillespie, Ja'Kobi",
