@@ -1,0 +1,94 @@
+{
+ "id": "espn-401909958",
+ "computed_et": "2026-11-09T05:18",
+ "final": false,
+ "report": "2026-11-08_11_45PM",
+ "cutoff_et": "2026-11-09T20:00",
+ "elo_home_win_prob": 0.383,
+ "inputs": {
+  "elo_diff": -182.7879,
+  "home_court": 1.0,
+  "point_diff_last10_diff": -16.55,
+  "win_pct_last10_diff": -0.425,
+  "win_pct_last5_diff": -0.6,
+  "rest_days_diff": 0.0,
+  "back_to_back_diff": 0.0,
+  "exp_missing_minutes_diff": 9.1634,
+  "starters_out_diff": 0.0,
+  "exp_missing_value_diff": -0.3833,
+  "exp_stars_missing_diff": 0.0
+ },
+ "home": {
+  "team": "PHX",
+  "elo": 1516.1,
+  "win_pct_last10": 0.375,
+  "win_pct_last5": 0.4,
+  "point_diff_last10": -6.2,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Goodwin, Jordan",
+    "status": "Questionable",
+    "avg_minutes": 18.8,
+    "p_play": 0.65,
+    "exp_missing_minutes": 6.6
+   },
+   {
+    "player": "Williams, Mark",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ },
+ "away": {
+  "team": "SAS",
+  "elo": 1698.9,
+  "win_pct_last10": 0.8,
+  "win_pct_last5": 1.0,
+  "point_diff_last10": 10.3,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Vassell, Devin",
+    "status": "Questionable",
+    "avg_minutes": 30.4,
+    "p_play": 0.581,
+    "exp_missing_minutes": 12.7
+   },
+   {
+    "player": "Gillespie, Ja'Kobi",
+    "status": "Out",
+    "avg_minutes": 2.0,
+    "p_play": 0.001,
+    "exp_missing_minutes": 2.0
+   },
+   {
+    "player": "Brown, Maliq",
+    "status": "Out",
+    "avg_minutes": 1.0,
+    "p_play": 0.001,
+    "exp_missing_minutes": 1.0
+   },
+   {
+    "player": "Harris, Tobias",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Quaintance, Jayden",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ }
+}

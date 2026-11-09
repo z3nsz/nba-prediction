@@ -1,0 +1,143 @@
+{
+ "id": "espn-401909953",
+ "computed_et": "2026-11-09T05:18",
+ "final": false,
+ "report": "2026-11-08_11_45PM",
+ "cutoff_et": "2026-11-09T18:00",
+ "elo_home_win_prob": 0.507,
+ "inputs": {
+  "elo_diff": -95.423,
+  "home_court": 1.0,
+  "point_diff_last10_diff": -16.8,
+  "win_pct_last10_diff": -0.2,
+  "win_pct_last5_diff": -0.4,
+  "rest_days_diff": 1.0,
+  "back_to_back_diff": 0.0,
+  "exp_missing_minutes_diff": -35.1744,
+  "starters_out_diff": -2.0,
+  "exp_missing_value_diff": 1.2876,
+  "exp_stars_missing_diff": 0.0
+ },
+ "home": {
+  "team": "CHA",
+  "elo": 1482.6,
+  "win_pct_last10": 0.3,
+  "win_pct_last5": 0.0,
+  "point_diff_last10": -13.9,
+  "rest_days": 3.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Miller, Brandon",
+    "status": "Out",
+    "avg_minutes": 31.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 31.0
+   },
+   {
+    "player": "Schroder, Dennis",
+    "status": "Out",
+    "avg_minutes": 30.0,
+    "p_play": 0.015,
+    "exp_missing_minutes": 29.5
+   },
+   {
+    "player": "Diabate, Moussa",
+    "status": "Questionable",
+    "avg_minutes": 28.8,
+    "p_play": 0.455,
+    "exp_missing_minutes": 15.7
+   },
+   {
+    "player": "Hall, PJ",
+    "status": "Out",
+    "avg_minutes": 6.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 6.0
+   },
+   {
+    "player": "Knueppel, Kon",
+    "status": "Out",
+    "avg_minutes": 6.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 6.0
+   },
+   {
+    "player": "Ajayi, Michael",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Williams, Grant",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Boswell, Kylan",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ },
+ "away": {
+  "team": "CLE",
+  "elo": 1578.1,
+  "win_pct_last10": 0.5,
+  "win_pct_last5": 0.4,
+  "point_diff_last10": 2.9,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Merrill, Sam",
+    "status": "Out",
+    "avg_minutes": 23.1,
+    "p_play": 0.0,
+    "exp_missing_minutes": 23.1
+   },
+   {
+    "player": "Tyson, Jaylon",
+    "status": "Out",
+    "avg_minutes": 20.8,
+    "p_play": 0.0,
+    "exp_missing_minutes": 20.8
+   },
+   {
+    "player": "Allen, Jarrett",
+    "status": "Questionable",
+    "avg_minutes": 25.1,
+    "p_play": 0.637,
+    "exp_missing_minutes": 9.1
+   },
+   {
+    "player": "Diop, Khalifa",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Tomlin, Nae'Qwan",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Udeh, Jr., Ernest",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ }
+}

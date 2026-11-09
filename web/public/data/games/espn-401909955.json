@@ -1,0 +1,115 @@
+{
+ "id": "espn-401909955",
+ "computed_et": "2026-11-09T05:18",
+ "final": false,
+ "report": "2026-11-08_11_45PM",
+ "cutoff_et": "2026-11-09T18:30",
+ "elo_home_win_prob": 0.817,
+ "inputs": {
+  "elo_diff": 159.4648,
+  "home_court": 1.0,
+  "point_diff_last10_diff": -1.0556,
+  "win_pct_last10_diff": -0.0694,
+  "win_pct_last5_diff": 0.0,
+  "rest_days_diff": 0.0,
+  "back_to_back_diff": 0.0,
+  "exp_missing_minutes_diff": -9.1786,
+  "starters_out_diff": 0.0,
+  "exp_missing_value_diff": -8.622,
+  "exp_stars_missing_diff": 0.0
+ },
+ "home": {
+  "team": "TOR",
+  "elo": 1550.8,
+  "win_pct_last10": 0.556,
+  "win_pct_last5": 0.4,
+  "point_diff_last10": 5.4,
+  "rest_days": 3.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Leonard, Kawhi",
+    "status": "Out",
+    "avg_minutes": 26.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 26.0
+   },
+   {
+    "player": "Barnes, Scottie",
+    "status": "Questionable",
+    "avg_minutes": 33.4,
+    "p_play": 0.658,
+    "exp_missing_minutes": 11.4
+   },
+   {
+    "player": "Quickley, Immanuel",
+    "status": "Questionable",
+    "avg_minutes": 31.8,
+    "p_play": 0.682,
+    "exp_missing_minutes": 10.1
+   },
+   {
+    "player": "Bittle, Nate",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "McCullar Jr., Kevin",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Smith, Malachi",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ },
+ "away": {
+  "team": "MEM",
+  "elo": 1391.3,
+  "win_pct_last10": 0.625,
+  "win_pct_last5": 0.4,
+  "point_diff_last10": 6.5,
+  "rest_days": 3.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Stewart, Isaiah",
+    "status": "Out",
+    "avg_minutes": 18.7,
+    "p_play": 0.0,
+    "exp_missing_minutes": 18.7
+   },
+   {
+    "player": "Pippen Jr., Scotty",
+    "status": "Out",
+    "avg_minutes": 16.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 16.0
+   },
+   {
+    "player": "Lopez, Karim",
+    "status": "Out",
+    "avg_minutes": 3.7,
+    "p_play": 0.001,
+    "exp_missing_minutes": 3.7
+   },
+   {
+    "player": "Saunders, Richie",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.001,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ }
+}

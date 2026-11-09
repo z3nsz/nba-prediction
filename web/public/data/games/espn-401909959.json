@@ -1,0 +1,79 @@
+{
+ "id": "espn-401909959",
+ "computed_et": "2026-11-09T05:18",
+ "final": false,
+ "report": "2026-11-08_11_45PM",
+ "cutoff_et": "2026-11-09T21:00",
+ "elo_home_win_prob": 0.76,
+ "inputs": {
+  "elo_diff": 100.645,
+  "home_court": 1.0,
+  "point_diff_last10_diff": 6.1889,
+  "win_pct_last10_diff": 0.3778,
+  "win_pct_last5_diff": 0.4,
+  "rest_days_diff": 1.0,
+  "back_to_back_diff": 1.0,
+  "exp_missing_minutes_diff": 0.0,
+  "starters_out_diff": 0.0,
+  "exp_missing_value_diff": 0.0,
+  "exp_stars_missing_diff": 0.0
+ },
+ "home": {
+  "team": "GSW",
+  "elo": 1526.3,
+  "win_pct_last10": 0.778,
+  "win_pct_last5": 1.0,
+  "point_diff_last10": 5.9,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Richard, Will",
+    "status": "Out",
+    "avg_minutes": 18.7,
+    "p_play": 0.0,
+    "exp_missing_minutes": 18.7
+   },
+   {
+    "player": "Santos, Gui",
+    "status": "Probable",
+    "avg_minutes": 18.8,
+    "p_play": 0.905,
+    "exp_missing_minutes": 1.8
+   },
+   {
+    "player": "Butler III, Jimmy",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Moody, Moses",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Porzingis, Kristaps",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ },
+ "away": {
+  "team": "NOP",
+  "elo": 1425.6,
+  "win_pct_last10": 0.4,
+  "win_pct_last5": 0.6,
+  "point_diff_last10": -0.3,
+  "rest_days": 1.0,
+  "back_to_back": true,
+  "report_known": false,
+  "injuries": []
+ }
+}

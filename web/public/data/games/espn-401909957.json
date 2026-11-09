@@ -1,0 +1,122 @@
+{
+ "id": "espn-401909957",
+ "computed_et": "2026-11-09T05:18",
+ "final": false,
+ "report": "2026-11-08_11_45PM",
+ "cutoff_et": "2026-11-09T19:30",
+ "elo_home_win_prob": 0.671,
+ "inputs": {
+  "elo_diff": 24.0979,
+  "home_court": 1.0,
+  "point_diff_last10_diff": 6.875,
+  "win_pct_last10_diff": 0.075,
+  "win_pct_last5_diff": -0.4,
+  "rest_days_diff": 0.0,
+  "back_to_back_diff": 0.0,
+  "exp_missing_minutes_diff": 68.6424,
+  "starters_out_diff": 0.0,
+  "exp_missing_value_diff": 8.3349,
+  "exp_stars_missing_diff": 0.9654
+ },
+ "home": {
+  "team": "HOU",
+  "elo": 1624.2,
+  "win_pct_last10": 0.7,
+  "win_pct_last5": 0.4,
+  "point_diff_last10": 9.0,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Capela, Clint",
+    "status": "Out",
+    "avg_minutes": 14.2,
+    "p_play": 0.0,
+    "exp_missing_minutes": 14.2
+   },
+   {
+    "player": "Adams, Steven",
+    "status": "Out",
+    "avg_minutes": 9.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 9.0
+   },
+   {
+    "player": "Copeland, Quadir",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Phillips, Julian",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.021,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ },
+ "away": {
+  "team": "DEN",
+  "elo": 1600.1,
+  "win_pct_last10": 0.625,
+  "win_pct_last5": 0.8,
+  "point_diff_last10": 2.1,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Murray, Jamal",
+    "status": "Questionable",
+    "avg_minutes": 36.5,
+    "p_play": 0.464,
+    "exp_missing_minutes": 19.6
+   },
+   {
+    "player": "Braun, Christian",
+    "status": "Questionable",
+    "avg_minutes": 34.2,
+    "p_play": 0.463,
+    "exp_missing_minutes": 18.4
+   },
+   {
+    "player": "Gordon, Aaron",
+    "status": "Questionable",
+    "avg_minutes": 29.1,
+    "p_play": 0.449,
+    "exp_missing_minutes": 16.0
+   },
+   {
+    "player": "Jokic, Nikola",
+    "status": "Questionable",
+    "avg_minutes": 35.9,
+    "p_play": 0.571,
+    "exp_missing_minutes": 15.4
+   },
+   {
+    "player": "DeRozan, DeMar",
+    "status": "Questionable",
+    "avg_minutes": 24.7,
+    "p_play": 0.444,
+    "exp_missing_minutes": 13.7
+   },
+   {
+    "player": "Johnson, Cameron",
+    "status": "Questionable",
+    "avg_minutes": 27.6,
+    "p_play": 0.687,
+    "exp_missing_minutes": 8.7
+   },
+   {
+    "player": "Strawther, Julian",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ }
+}
