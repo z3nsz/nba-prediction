@@ -1,8 +1,8 @@
 {
  "id": "espn-401909960",
- "computed_et": "2026-11-10T15:46",
- "final": false,
- "report": "2026-11-10_03_45PM",
+ "computed_et": "2026-11-10T18:31",
+ "final": true,
+ "report": "2026-11-10_06_30PM",
  "cutoff_et": "2026-11-10T18:30",
  "elo_home_win_prob": 0.904,
  "inputs": {
@@ -13,9 +13,9 @@
   "win_pct_last5_diff": 0.8,
   "rest_days_diff": 1.0,
   "back_to_back_diff": 0.0,
-  "exp_missing_minutes_diff": -6.0186,
-  "starters_out_diff": -1.0,
-  "exp_missing_value_diff": 3.8551,
+  "exp_missing_minutes_diff": -0.4901,
+  "starters_out_diff": 0.0,
+  "exp_missing_value_diff": 5.0362,
   "exp_stars_missing_diff": 0.0
  },
  "home": {
@@ -30,10 +30,10 @@
   "injuries": [
    {
     "player": "Hart, Josh",
-    "status": "Doubtful",
+    "status": "Out",
     "avg_minutes": 31.7,
-    "p_play": 0.014,
-    "exp_missing_minutes": 31.3
+    "p_play": 0.0,
+    "exp_missing_minutes": 31.7
    }
   ]
  },
@@ -49,17 +49,17 @@
   "injuries": [
    {
     "player": "Herro, Tyler",
-    "status": "Questionable",
+    "status": "Out",
     "avg_minutes": 30.7,
-    "p_play": 0.501,
-    "exp_missing_minutes": 15.3
+    "p_play": 0.0,
+    "exp_missing_minutes": 30.7
    },
    {
     "player": "Ware, Kel'el",
-    "status": "Questionable",
+    "status": "Available",
     "avg_minutes": 17.3,
-    "p_play": 0.425,
-    "exp_missing_minutes": 9.9
+    "p_play": 0.97,
+    "exp_missing_minutes": 0.5
    }
   ]
  }
