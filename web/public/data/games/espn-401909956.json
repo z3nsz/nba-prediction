@@ -1,8 +1,8 @@
 {
  "id": "espn-401909956",
- "computed_et": "2026-11-09T18:31",
- "final": false,
- "report": "2026-11-09_06_30PM",
+ "computed_et": "2026-11-09T19:01",
+ "final": true,
+ "report": "2026-11-09_07_00PM",
  "cutoff_et": "2026-11-09T19:00",
  "elo_home_win_prob": 0.74,
  "inputs": {
@@ -13,9 +13,9 @@
   "win_pct_last5_diff": 0.4,
   "rest_days_diff": -1.0,
   "back_to_back_diff": -1.0,
-  "exp_missing_minutes_diff": 27.7943,
+  "exp_missing_minutes_diff": 17.1616,
   "starters_out_diff": 1.0,
-  "exp_missing_value_diff": 1.9849,
+  "exp_missing_value_diff": 1.7198,
   "exp_stars_missing_diff": 1.0
  },
  "home": {
@@ -29,18 +29,18 @@
   "report_known": true,
   "injuries": [
    {
+    "player": "Johnson Jr., Morez",
+    "status": "Out",
+    "avg_minutes": 17.1,
+    "p_play": 0.001,
+    "exp_missing_minutes": 17.1
+   },
+   {
     "player": "de Larrea, Sergio",
     "status": "Out",
     "avg_minutes": 11.8,
     "p_play": 0.0,
     "exp_missing_minutes": 11.7
-   },
-   {
-    "player": "Johnson Jr., Morez",
-    "status": "Questionable",
-    "avg_minutes": 17.1,
-    "p_play": 0.51,
-    "exp_missing_minutes": 8.4
    },
    {
     "player": "Martin, Caleb",
@@ -91,10 +91,10 @@
    },
    {
     "player": "McConnell, T.J.",
-    "status": "Questionable",
+    "status": "Available",
     "avg_minutes": 9.0,
-    "p_play": 0.645,
-    "exp_missing_minutes": 3.2
+    "p_play": 0.859,
+    "exp_missing_minutes": 1.3
    },
    {
     "player": "Furphy, Johnny",
