@@ -1,8 +1,8 @@
 {
  "id": "espn-401909964",
- "computed_et": "2026-11-10T08:25",
+ "computed_et": "2026-11-10T15:46",
  "final": false,
- "report": "2026-11-09_11_45PM",
+ "report": "2026-11-10_03_45PM",
  "cutoff_et": "2026-11-10T21:00",
  "elo_home_win_prob": 0.442,
  "inputs": {
@@ -13,9 +13,9 @@
   "win_pct_last5_diff": 0.0,
   "rest_days_diff": -1.0,
   "back_to_back_diff": 0.0,
-  "exp_missing_minutes_diff": 34.6875,
+  "exp_missing_minutes_diff": 66.1393,
   "starters_out_diff": 2.0,
-  "exp_missing_value_diff": 5.9868,
+  "exp_missing_value_diff": 4.5044,
   "exp_stars_missing_diff": 0.9999
  },
  "home": {
@@ -36,18 +36,18 @@
     "exp_missing_minutes": 14.2
    },
    {
-    "player": "Murray, Keegan",
-    "status": "Questionable",
-    "avg_minutes": 25.5,
-    "p_play": 0.617,
-    "exp_missing_minutes": 9.8
+    "player": "Sabonis, Domantas",
+    "status": "Available",
+    "avg_minutes": 35.1,
+    "p_play": 0.926,
+    "exp_missing_minutes": 2.6
    },
    {
-    "player": "Sabonis, Domantas",
-    "status": "Questionable",
-    "avg_minutes": 35.1,
-    "p_play": 0.767,
-    "exp_missing_minutes": 8.2
+    "player": "Murray, Keegan",
+    "status": "Available",
+    "avg_minutes": 25.5,
+    "p_play": 0.946,
+    "exp_missing_minutes": 1.4
    },
    {
     "player": "Pedulla, Sean",
@@ -95,6 +95,13 @@
     "avg_minutes": 33.3,
     "p_play": 0.0,
     "exp_missing_minutes": 33.3
+   },
+   {
+    "player": "da Silva, Tristan",
+    "status": "Questionable",
+    "avg_minutes": 30.4,
+    "p_play": 0.425,
+    "exp_missing_minutes": 17.5
    },
    {
     "player": "Isaac, Jonathan",
