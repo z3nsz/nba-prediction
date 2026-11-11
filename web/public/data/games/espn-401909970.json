@@ -1,8 +1,8 @@
 {
  "id": "espn-401909970",
- "computed_et": "2026-11-11T16:18",
+ "computed_et": "2026-11-11T18:01",
  "final": false,
- "report": "2026-11-11_04_15PM",
+ "report": "2026-11-11_06_00PM",
  "cutoff_et": "2026-11-11T19:00",
  "elo_home_win_prob": 0.396,
  "inputs": {
@@ -13,9 +13,9 @@
   "win_pct_last5_diff": -0.2,
   "rest_days_diff": 0.0,
   "back_to_back_diff": 0.0,
-  "exp_missing_minutes_diff": -42.5661,
+  "exp_missing_minutes_diff": -38.1326,
   "starters_out_diff": 0.0,
-  "exp_missing_value_diff": 0.2242,
+  "exp_missing_value_diff": -0.0374,
   "exp_stars_missing_diff": 0.0
  },
  "home": {
@@ -51,17 +51,17 @@
    },
    {
     "player": "Lopez, Karim",
-    "status": "Out",
+    "status": "Available",
     "avg_minutes": 3.7,
-    "p_play": 0.001,
-    "exp_missing_minutes": 3.7
+    "p_play": 0.806,
+    "exp_missing_minutes": 0.7
    },
    {
     "player": "Mashack, Jahmai",
-    "status": "Questionable",
+    "status": "Available",
     "avg_minutes": 4.0,
-    "p_play": 0.555,
-    "exp_missing_minutes": 1.8
+    "p_play": 0.925,
+    "exp_missing_minutes": 0.3
    },
    {
     "player": "Saunders, Richie",
