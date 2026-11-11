@@ -1,8 +1,8 @@
 {
  "id": "espn-401909963",
- "computed_et": "2026-11-10T19:01",
- "final": false,
- "report": "2026-11-10_07_00PM",
+ "computed_et": "2026-11-10T20:01",
+ "final": true,
+ "report": "2026-11-10_08_00PM",
  "cutoff_et": "2026-11-10T20:00",
  "elo_home_win_prob": 0.35,
  "inputs": {
@@ -13,10 +13,10 @@
   "win_pct_last5_diff": -0.6,
   "rest_days_diff": 0.0,
   "back_to_back_diff": 0.0,
-  "exp_missing_minutes_diff": -87.5243,
+  "exp_missing_minutes_diff": -88.6491,
   "starters_out_diff": -2.0,
-  "exp_missing_value_diff": -8.33,
-  "exp_stars_missing_diff": 0.044
+  "exp_missing_value_diff": -8.7615,
+  "exp_stars_missing_diff": 0.0098
  },
  "home": {
   "team": "UTA",
@@ -50,10 +50,10 @@
     "exp_missing_minutes": 26.0
    },
    {
-    "player": "Bufkin, Kobe",
-    "status": "Questionable",
+    "player": "Ingram, Harrison",
+    "status": "Available",
     "avg_minutes": 0.0,
-    "p_play": 0.51,
+    "p_play": 0.559,
     "exp_missing_minutes": 0.0
    },
    {
@@ -64,17 +64,17 @@
     "exp_missing_minutes": 0.0
    },
    {
-    "player": "Ingram, Harrison",
-    "status": "Questionable",
-    "avg_minutes": 0.0,
-    "p_play": 0.355,
-    "exp_missing_minutes": 0.0
-   },
-   {
     "player": "Nurkic, Jusuf",
     "status": "Out",
     "avg_minutes": 0.0,
     "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Bufkin, Kobe",
+    "status": "Available",
+    "avg_minutes": 0.0,
+    "p_play": 0.503,
     "exp_missing_minutes": 0.0
    }
   ]
@@ -91,10 +91,10 @@
   "injuries": [
    {
     "player": "Antetokounmpo, Giannis",
-    "status": "Probable",
+    "status": "Available",
     "avg_minutes": 32.9,
-    "p_play": 0.956,
-    "exp_missing_minutes": 1.4
+    "p_play": 0.99,
+    "exp_missing_minutes": 0.3
    }
   ]
  }

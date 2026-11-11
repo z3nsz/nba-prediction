@@ -1,5 +1,5 @@
 {
- "updated_et": "2026-11-10T19:01",
+ "updated_et": "2026-11-10T20:01",
  "season": "2026-27",
  "model": {
   "description": "Final NBA model (logistic regression, no intercept), retrained on all six seasons",
@@ -3927,9 +3927,9 @@
    "tip_off_et": "2026-11-10T21:00",
    "home": "PHX",
    "away": "LAC",
-   "p_home": 0.4865,
-   "final": false,
-   "report": "2026-11-10_07_00PM",
+   "p_home": 0.4876,
+   "final": true,
+   "report": "2026-11-10_08_00PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
@@ -3940,9 +3940,9 @@
     "win_pct_last5_diff": -0.0032,
     "rest_days_diff": -0.0362,
     "back_to_back_diff": -0.1956,
-    "exp_missing_minutes_diff": 0.0358,
+    "exp_missing_minutes_diff": 0.0476,
     "starters_out_diff": 0.0,
-    "exp_missing_value_diff": -0.0086,
+    "exp_missing_value_diff": -0.0161,
     "exp_stars_missing_diff": 0.0
    }
   },
@@ -3952,9 +3952,9 @@
    "tip_off_et": "2026-11-10T21:00",
    "home": "UTA",
    "away": "MIA",
-   "p_home": 0.2049,
-   "final": false,
-   "report": "2026-11-10_07_00PM",
+   "p_home": 0.2025,
+   "final": true,
+   "report": "2026-11-10_08_00PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
@@ -3965,10 +3965,10 @@
     "win_pct_last5_diff": 0.0096,
     "rest_days_diff": 0.0,
     "back_to_back_diff": 0.0,
-    "exp_missing_minutes_diff": -0.4167,
+    "exp_missing_minutes_diff": -0.4221,
     "starters_out_diff": -0.0606,
-    "exp_missing_value_diff": -0.1577,
-    "exp_stars_missing_diff": 0.0017
+    "exp_missing_value_diff": -0.1659,
+    "exp_stars_missing_diff": 0.0004
    }
   },
   {
@@ -3979,7 +3979,7 @@
    "away": "ORL",
    "p_home": 0.4963,
    "final": false,
-   "report": "2026-11-10_07_00PM",
+   "report": "2026-11-10_08_00PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
@@ -4004,7 +4004,7 @@
    "away": "OKC",
    "p_home": 0.486,
    "final": false,
-   "report": "2026-11-10_07_00PM",
+   "report": "2026-11-10_08_00PM",
    "home_score": null,
    "away_score": null,
    "contributions": {

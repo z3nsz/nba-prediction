@@ -1,8 +1,8 @@
 {
  "id": "espn-401909962",
- "computed_et": "2026-11-10T19:01",
- "final": false,
- "report": "2026-11-10_07_00PM",
+ "computed_et": "2026-11-10T20:01",
+ "final": true,
+ "report": "2026-11-10_08_00PM",
  "cutoff_et": "2026-11-10T20:00",
  "elo_home_win_prob": 0.653,
  "inputs": {
@@ -13,9 +13,9 @@
   "win_pct_last5_diff": 0.2,
   "rest_days_diff": -1.0,
   "back_to_back_diff": -1.0,
-  "exp_missing_minutes_diff": 7.5294,
+  "exp_missing_minutes_diff": 9.996,
   "starters_out_diff": 0.0,
-  "exp_missing_value_diff": -0.4562,
+  "exp_missing_value_diff": -0.8482,
   "exp_stars_missing_diff": 0.0
  },
  "home": {
@@ -48,6 +48,13 @@
   "report_known": true,
   "injuries": [
    {
+    "player": "Christie, Cam",
+    "status": "Out",
+    "avg_minutes": 5.8,
+    "p_play": 0.0,
+    "exp_missing_minutes": 5.8
+   },
+   {
     "player": "Martinelli, Nick",
     "status": "Out",
     "avg_minutes": 4.2,
@@ -55,21 +62,14 @@
     "exp_missing_minutes": 4.2
    },
    {
-    "player": "Christie, Cam",
-    "status": "Questionable",
-    "avg_minutes": 5.8,
-    "p_play": 0.425,
-    "exp_missing_minutes": 3.3
-   },
-   {
-    "player": "Beal, Bradley",
+    "player": "Ingram, Brandon",
     "status": "Out",
     "avg_minutes": 0.0,
     "p_play": 0.0,
     "exp_missing_minutes": 0.0
    },
    {
-    "player": "Ingram, Brandon",
+    "player": "Beal, Bradley",
     "status": "Out",
     "avg_minutes": 0.0,
     "p_play": 0.0,
