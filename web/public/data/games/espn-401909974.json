@@ -1,0 +1,115 @@
+{
+ "id": "espn-401909974",
+ "computed_et": "2026-11-11T03:18",
+ "final": false,
+ "report": "2026-11-10_11_45PM",
+ "cutoff_et": "2026-11-11T20:30",
+ "elo_home_win_prob": 0.75,
+ "inputs": {
+  "elo_diff": 90.755,
+  "home_court": 1.0,
+  "point_diff_last10_diff": -2.2,
+  "win_pct_last10_diff": -0.1,
+  "win_pct_last5_diff": -0.4,
+  "rest_days_diff": 0.0,
+  "back_to_back_diff": 0.0,
+  "exp_missing_minutes_diff": 13.7914,
+  "starters_out_diff": 0.0,
+  "exp_missing_value_diff": 0.9457,
+  "exp_stars_missing_diff": 0.0
+ },
+ "home": {
+  "team": "HOU",
+  "elo": 1630.4,
+  "win_pct_last10": 0.7,
+  "win_pct_last5": 0.6,
+  "point_diff_last10": 8.2,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Capela, Clint",
+    "status": "Out",
+    "avg_minutes": 14.2,
+    "p_play": 0.0,
+    "exp_missing_minutes": 14.2
+   },
+   {
+    "player": "Adams, Steven",
+    "status": "Out",
+    "avg_minutes": 9.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 9.0
+   },
+   {
+    "player": "Copeland, Quadir",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Phillips, Julian",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.021,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ },
+ "away": {
+  "team": "GSW",
+  "elo": 1539.6,
+  "win_pct_last10": 0.8,
+  "win_pct_last5": 1.0,
+  "point_diff_last10": 10.4,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Williams, Brandon",
+    "status": "Out",
+    "avg_minutes": 17.0,
+    "p_play": 0.014,
+    "exp_missing_minutes": 16.8
+   },
+   {
+    "player": "Payton II, Gary",
+    "status": "Out",
+    "avg_minutes": 13.7,
+    "p_play": 0.0,
+    "exp_missing_minutes": 13.7
+   },
+   {
+    "player": "Richard, Will",
+    "status": "Questionable",
+    "avg_minutes": 18.7,
+    "p_play": 0.65,
+    "exp_missing_minutes": 6.5
+   },
+   {
+    "player": "Butler III, Jimmy",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Moody, Moses",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Porzingis, Kristaps",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ }
+}

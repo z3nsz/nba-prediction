@@ -1,0 +1,86 @@
+{
+ "id": "espn-401909968",
+ "computed_et": "2026-11-11T03:18",
+ "final": false,
+ "report": "2026-11-10_11_45PM",
+ "cutoff_et": "2026-11-11T18:00",
+ "elo_home_win_prob": 0.391,
+ "inputs": {
+  "elo_diff": -177.0995,
+  "home_court": 1.0,
+  "point_diff_last10_diff": -10.4,
+  "win_pct_last10_diff": -0.4,
+  "win_pct_last5_diff": -0.4,
+  "rest_days_diff": 1.0,
+  "back_to_back_diff": 1.0,
+  "exp_missing_minutes_diff": 0.0,
+  "starters_out_diff": 0.0,
+  "exp_missing_value_diff": 0.0,
+  "exp_stars_missing_diff": 0.0
+ },
+ "home": {
+  "team": "TOR",
+  "elo": 1521.8,
+  "win_pct_last10": 0.5,
+  "win_pct_last5": 0.4,
+  "point_diff_last10": 3.3,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Barnes, Scottie",
+    "status": "Out",
+    "avg_minutes": 33.4,
+    "p_play": 0.0,
+    "exp_missing_minutes": 33.4
+   },
+   {
+    "player": "Leonard, Kawhi",
+    "status": "Out",
+    "avg_minutes": 26.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 26.0
+   },
+   {
+    "player": "Murray-Boyles, Collin",
+    "status": "Questionable",
+    "avg_minutes": 22.2,
+    "p_play": 0.507,
+    "exp_missing_minutes": 10.9
+   },
+   {
+    "player": "Quickley, Immanuel",
+    "status": "Questionable",
+    "avg_minutes": 31.8,
+    "p_play": 0.682,
+    "exp_missing_minutes": 10.1
+   },
+   {
+    "player": "Jackson-Davis, Trayce",
+    "status": "Questionable",
+    "avg_minutes": 7.4,
+    "p_play": 0.506,
+    "exp_missing_minutes": 3.7
+   },
+   {
+    "player": "Bittle, Nate",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ },
+ "away": {
+  "team": "BOS",
+  "elo": 1698.9,
+  "win_pct_last10": 0.9,
+  "win_pct_last5": 0.8,
+  "point_diff_last10": 13.7,
+  "rest_days": 1.0,
+  "back_to_back": true,
+  "report_known": false,
+  "injuries": []
+ }
+}
