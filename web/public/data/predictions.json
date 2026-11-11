@@ -1,5 +1,5 @@
 {
- "updated_et": "2026-11-11T03:18",
+ "updated_et": "2026-11-11T16:18",
  "season": "2026-27",
  "model": {
   "description": "Final NBA model (logistic regression, no intercept), retrained on all six seasons",
@@ -4029,7 +4029,7 @@
    "away": "WAS",
    "p_home": 0.5556,
    "final": false,
-   "report": "2026-11-10_11_45PM",
+   "report": "2026-11-11_04_15PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
@@ -4052,9 +4052,9 @@
    "tip_off_et": "2026-11-11T19:00",
    "home": "NYK",
    "away": "CLE",
-   "p_home": 0.5643,
+   "p_home": 0.5754,
    "final": false,
-   "report": "2026-11-10_11_45PM",
+   "report": "2026-11-11_04_15PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
@@ -4065,10 +4065,10 @@
     "win_pct_last5_diff": -0.0096,
     "rest_days_diff": -0.0362,
     "back_to_back_diff": -0.1956,
-    "exp_missing_minutes_diff": 0.0,
+    "exp_missing_minutes_diff": 0.1138,
     "starters_out_diff": 0.0,
-    "exp_missing_value_diff": 0.0,
-    "exp_stars_missing_diff": 0.0
+    "exp_missing_value_diff": -0.0582,
+    "exp_stars_missing_diff": -0.0104
    }
   },
   {
@@ -4077,9 +4077,9 @@
    "tip_off_et": "2026-11-11T19:00",
    "home": "TOR",
    "away": "BOS",
-   "p_home": 0.4138,
+   "p_home": 0.3086,
    "final": false,
-   "report": "2026-11-10_11_45PM",
+   "report": "2026-11-11_04_15PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
@@ -4090,9 +4090,9 @@
     "win_pct_last5_diff": 0.0064,
     "rest_days_diff": 0.0362,
     "back_to_back_diff": 0.1956,
-    "exp_missing_minutes_diff": 0.0,
+    "exp_missing_minutes_diff": -0.2749,
     "starters_out_diff": 0.0,
-    "exp_missing_value_diff": 0.0,
+    "exp_missing_value_diff": -0.1833,
     "exp_stars_missing_diff": 0.0
    }
   },
@@ -4102,9 +4102,9 @@
    "tip_off_et": "2026-11-11T20:00",
    "home": "CHI",
    "away": "SAS",
-   "p_home": 0.1621,
+   "p_home": 0.1489,
    "final": false,
-   "report": "2026-11-10_11_45PM",
+   "report": "2026-11-11_04_15PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
@@ -4115,9 +4115,9 @@
     "win_pct_last5_diff": 0.016,
     "rest_days_diff": 0.0362,
     "back_to_back_diff": 0.0,
-    "exp_missing_minutes_diff": -0.0798,
+    "exp_missing_minutes_diff": -0.1797,
     "starters_out_diff": 0.0,
-    "exp_missing_value_diff": -0.0342,
+    "exp_missing_value_diff": -0.0353,
     "exp_stars_missing_diff": 0.0
    }
   },
@@ -4129,7 +4129,7 @@
    "away": "DEN",
    "p_home": 0.3117,
    "final": false,
-   "report": "2026-11-10_11_45PM",
+   "report": "2026-11-11_04_15PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
@@ -4152,9 +4152,9 @@
    "tip_off_et": "2026-11-11T20:00",
    "home": "MIL",
    "away": "LAL",
-   "p_home": 0.1934,
+   "p_home": 0.1794,
    "final": false,
-   "report": "2026-11-10_11_45PM",
+   "report": "2026-11-11_04_15PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
@@ -4165,9 +4165,9 @@
     "win_pct_last5_diff": 0.016,
     "rest_days_diff": -0.0362,
     "back_to_back_diff": -0.1956,
-    "exp_missing_minutes_diff": 0.0,
+    "exp_missing_minutes_diff": -0.0685,
     "starters_out_diff": 0.0,
-    "exp_missing_value_diff": 0.0,
+    "exp_missing_value_diff": -0.0235,
     "exp_stars_missing_diff": 0.0
    }
   },
@@ -4177,9 +4177,9 @@
    "tip_off_et": "2026-11-11T20:00",
    "home": "NOP",
    "away": "BKN",
-   "p_home": 0.6372,
+   "p_home": 0.5992,
    "final": false,
-   "report": "2026-11-10_11_45PM",
+   "report": "2026-11-11_04_15PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
@@ -4190,9 +4190,9 @@
     "win_pct_last5_diff": -0.0,
     "rest_days_diff": -0.0362,
     "back_to_back_diff": 0.0,
-    "exp_missing_minutes_diff": -0.0889,
-    "starters_out_diff": 0.0,
-    "exp_missing_value_diff": -0.0236,
+    "exp_missing_minutes_diff": -0.1917,
+    "starters_out_diff": -0.0303,
+    "exp_missing_value_diff": -0.0516,
     "exp_stars_missing_diff": 0.0
    }
   },
@@ -4202,9 +4202,9 @@
    "tip_off_et": "2026-11-11T21:00",
    "home": "UTA",
    "away": "ORL",
-   "p_home": 0.3329,
+   "p_home": 0.3528,
    "final": false,
-   "report": "2026-11-10_11_45PM",
+   "report": "2026-11-11_04_15PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
@@ -4215,10 +4215,10 @@
     "win_pct_last5_diff": 0.0032,
     "rest_days_diff": 0.0,
     "back_to_back_diff": 0.0,
-    "exp_missing_minutes_diff": 0.0,
-    "starters_out_diff": 0.0,
-    "exp_missing_value_diff": 0.0,
-    "exp_stars_missing_diff": 0.0
+    "exp_missing_minutes_diff": 0.1144,
+    "starters_out_diff": 0.0303,
+    "exp_missing_value_diff": -0.0952,
+    "exp_stars_missing_diff": 0.039
    }
   },
   {
@@ -4227,9 +4227,9 @@
    "tip_off_et": "2026-11-11T21:30",
    "home": "HOU",
    "away": "GSW",
-   "p_home": 0.684,
+   "p_home": 0.6813,
    "final": false,
-   "report": "2026-11-10_11_45PM",
+   "report": "2026-11-11_04_15PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
@@ -4240,9 +4240,9 @@
     "win_pct_last5_diff": 0.0064,
     "rest_days_diff": 0.0,
     "back_to_back_diff": 0.0,
-    "exp_missing_minutes_diff": 0.0657,
+    "exp_missing_minutes_diff": 0.043,
     "starters_out_diff": 0.0,
-    "exp_missing_value_diff": 0.0179,
+    "exp_missing_value_diff": 0.0279,
     "exp_stars_missing_diff": 0.0
    }
   },
@@ -4252,9 +4252,9 @@
    "tip_off_et": "2026-11-11T22:00",
    "home": "POR",
    "away": "OKC",
-   "p_home": 0.4546,
+   "p_home": 0.5781,
    "final": false,
-   "report": "2026-11-10_11_45PM",
+   "report": "2026-11-11_04_15PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
@@ -4265,9 +4265,9 @@
     "win_pct_last5_diff": 0.0032,
     "rest_days_diff": 0.0,
     "back_to_back_diff": 0.0,
-    "exp_missing_minutes_diff": 0.0,
-    "starters_out_diff": 0.0,
-    "exp_missing_value_diff": 0.0,
+    "exp_missing_minutes_diff": 0.3485,
+    "starters_out_diff": 0.0606,
+    "exp_missing_value_diff": 0.0877,
     "exp_stars_missing_diff": 0.0
    }
   }
