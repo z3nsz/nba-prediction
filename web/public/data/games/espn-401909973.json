@@ -1,8 +1,8 @@
 {
  "id": "espn-401909973",
- "computed_et": "2026-11-11T19:01",
- "final": false,
- "report": "2026-11-11_07_00PM",
+ "computed_et": "2026-11-11T20:01",
+ "final": true,
+ "report": "2026-11-11_08_00PM",
  "cutoff_et": "2026-11-11T20:00",
  "elo_home_win_prob": 0.359,
  "inputs": {
@@ -111,14 +111,14 @@
     "exp_missing_minutes": 0.0
    },
    {
-    "player": "Penda, Noah",
+    "player": "Nelson, Izaiyah",
     "status": "Out",
     "avg_minutes": 0.0,
     "p_play": 0.0,
     "exp_missing_minutes": 0.0
    },
    {
-    "player": "Nelson, Izaiyah",
+    "player": "Penda, Noah",
     "status": "Out",
     "avg_minutes": 0.0,
     "p_play": 0.0,
