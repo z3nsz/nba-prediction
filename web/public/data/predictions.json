@@ -1,5 +1,5 @@
 {
- "updated_et": "2026-11-11T20:31",
+ "updated_et": "2026-11-11T21:01",
  "season": "2026-27",
  "model": {
   "description": "Final NBA model (logistic regression, no intercept), retrained on all six seasons",
@@ -4253,8 +4253,8 @@
    "home": "POR",
    "away": "OKC",
    "p_home": 0.5781,
-   "final": false,
-   "report": "2026-11-11_08_30PM",
+   "final": true,
+   "report": "2026-11-11_09_00PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
