@@ -1,8 +1,8 @@
 {
  "id": "espn-401909298",
- "computed_et": "2026-11-13T04:27",
+ "computed_et": "2026-11-13T15:51",
  "final": false,
- "report": "2026-11-12_11_45PM",
+ "report": "2026-11-13_03_45PM",
  "cutoff_et": "2026-11-13T19:00",
  "elo_home_win_prob": 0.53,
  "inputs": {
@@ -13,10 +13,10 @@
   "win_pct_last5_diff": 0.2,
   "rest_days_diff": 1.0,
   "back_to_back_diff": 0.0,
-  "exp_missing_minutes_diff": 25.7829,
-  "starters_out_diff": 1.0,
-  "exp_missing_value_diff": 3.0015,
-  "exp_stars_missing_diff": -0.044
+  "exp_missing_minutes_diff": 24.8421,
+  "starters_out_diff": 0.0,
+  "exp_missing_value_diff": 3.4429,
+  "exp_stars_missing_diff": -0.0097
  },
  "home": {
   "team": "MIA",
@@ -30,24 +30,24 @@
   "injuries": [
    {
     "player": "Larsson, Pelle",
-    "status": "Questionable",
+    "status": "Doubtful",
     "avg_minutes": 29.5,
-    "p_play": 0.426,
-    "exp_missing_minutes": 17.0
+    "p_play": 0.02,
+    "exp_missing_minutes": 29.0
    },
    {
     "player": "Thompson, Klay",
-    "status": "Questionable",
+    "status": "Probable",
     "avg_minutes": 24.7,
-    "p_play": 0.555,
-    "exp_missing_minutes": 11.0
+    "p_play": 0.957,
+    "exp_missing_minutes": 1.1
    },
    {
     "player": "Antetokounmpo, Giannis",
-    "status": "Probable",
+    "status": "Available",
     "avg_minutes": 32.7,
-    "p_play": 0.956,
-    "exp_missing_minutes": 1.4
+    "p_play": 0.99,
+    "exp_missing_minutes": 0.3
    },
    {
     "player": "Goldin, Vladislav",

@@ -1,8 +1,8 @@
 {
  "id": "espn-401909299",
- "computed_et": "2026-11-13T04:27",
+ "computed_et": "2026-11-13T15:51",
  "final": false,
- "report": "2026-11-12_11_45PM",
+ "report": "2026-11-13_03_45PM",
  "cutoff_et": "2026-11-13T19:00",
  "elo_home_win_prob": 0.332,
  "inputs": {
@@ -13,9 +13,9 @@
   "win_pct_last5_diff": -0.8,
   "rest_days_diff": -2.0,
   "back_to_back_diff": 0.0,
-  "exp_missing_minutes_diff": -33.9074,
+  "exp_missing_minutes_diff": -40.6168,
   "starters_out_diff": -1.0,
-  "exp_missing_value_diff": -3.3536,
+  "exp_missing_value_diff": -3.316,
   "exp_stars_missing_diff": 0.0
  },
  "home": {
@@ -48,6 +48,13 @@
     "avg_minutes": 10.0,
     "p_play": 0.001,
     "exp_missing_minutes": 10.0
+   },
+   {
+    "player": "Sellers, Jaylin",
+    "status": "Out",
+    "avg_minutes": 7.8,
+    "p_play": 0.143,
+    "exp_missing_minutes": 6.7
    },
    {
     "player": "Swain, Dailyn",
@@ -97,6 +104,13 @@
     "exp_missing_minutes": 0.9
    },
    {
+    "player": "Gilbert, Keshon",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
     "player": "Gueye, Mouhamed",
     "status": "Out",
     "avg_minutes": 0.0,
@@ -104,7 +118,7 @@
     "exp_missing_minutes": 0.0
    },
    {
-    "player": "Gilbert, Keshon",
+    "player": "Wilson, Jalen",
     "status": "Out",
     "avg_minutes": 0.0,
     "p_play": 0.0,
@@ -115,13 +129,6 @@
     "status": "Out",
     "avg_minutes": 0.0,
     "p_play": 0.0,
-    "exp_missing_minutes": 0.0
-   },
-   {
-    "player": "Wilson, Jalen",
-    "status": "Doubtful",
-    "avg_minutes": 0.0,
-    "p_play": 0.02,
     "exp_missing_minutes": 0.0
    }
   ]
