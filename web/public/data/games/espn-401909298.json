@@ -1,0 +1,108 @@
+{
+ "id": "espn-401909298",
+ "computed_et": "2026-11-13T04:27",
+ "final": false,
+ "report": "2026-11-12_11_45PM",
+ "cutoff_et": "2026-11-13T19:00",
+ "elo_home_win_prob": 0.53,
+ "inputs": {
+  "elo_diff": -79.3118,
+  "home_court": 1.0,
+  "point_diff_last10_diff": -5.1,
+  "win_pct_last10_diff": 0.0,
+  "win_pct_last5_diff": 0.2,
+  "rest_days_diff": 1.0,
+  "back_to_back_diff": 0.0,
+  "exp_missing_minutes_diff": 25.7829,
+  "starters_out_diff": 1.0,
+  "exp_missing_value_diff": 3.0015,
+  "exp_stars_missing_diff": -0.044
+ },
+ "home": {
+  "team": "MIA",
+  "elo": 1501.9,
+  "win_pct_last10": 0.5,
+  "win_pct_last5": 0.6,
+  "point_diff_last10": -2.2,
+  "rest_days": 3.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Larsson, Pelle",
+    "status": "Questionable",
+    "avg_minutes": 29.5,
+    "p_play": 0.426,
+    "exp_missing_minutes": 17.0
+   },
+   {
+    "player": "Thompson, Klay",
+    "status": "Questionable",
+    "avg_minutes": 24.7,
+    "p_play": 0.555,
+    "exp_missing_minutes": 11.0
+   },
+   {
+    "player": "Antetokounmpo, Giannis",
+    "status": "Probable",
+    "avg_minutes": 32.7,
+    "p_play": 0.956,
+    "exp_missing_minutes": 1.4
+   },
+   {
+    "player": "Goldin, Vladislav",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ },
+ "away": {
+  "team": "CLE",
+  "elo": 1581.2,
+  "win_pct_last10": 0.5,
+  "win_pct_last5": 0.4,
+  "point_diff_last10": 2.9,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Mobley, Evan",
+    "status": "Out",
+    "avg_minutes": 32.1,
+    "p_play": 0.0,
+    "exp_missing_minutes": 32.1
+   },
+   {
+    "player": "Merrill, Sam",
+    "status": "Out",
+    "avg_minutes": 23.1,
+    "p_play": 0.0,
+    "exp_missing_minutes": 23.1
+   },
+   {
+    "player": "Diop, Khalifa",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Tomlin, Nae'Qwan",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Udeh, Jr., Ernest",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ }
+}

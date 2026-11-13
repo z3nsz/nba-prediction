@@ -1,0 +1,115 @@
+{
+ "id": "espn-401909303",
+ "computed_et": "2026-11-13T04:27",
+ "final": false,
+ "report": "2026-11-12_11_45PM",
+ "cutoff_et": "2026-11-13T21:00",
+ "elo_home_win_prob": 0.309,
+ "inputs": {
+  "elo_diff": -239.8127,
+  "home_court": 1.0,
+  "point_diff_last10_diff": -20.4,
+  "win_pct_last10_diff": -0.6,
+  "win_pct_last5_diff": -0.4,
+  "rest_days_diff": 1.0,
+  "back_to_back_diff": 0.0,
+  "exp_missing_minutes_diff": 17.5187,
+  "starters_out_diff": 0.0,
+  "exp_missing_value_diff": 2.9111,
+  "exp_stars_missing_diff": 0.0
+ },
+ "home": {
+  "team": "SAC",
+  "elo": 1329.9,
+  "win_pct_last10": 0.1,
+  "win_pct_last5": 0.2,
+  "point_diff_last10": -13.2,
+  "rest_days": 3.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Mogbo, Jonathan",
+    "status": "Out",
+    "avg_minutes": 14.2,
+    "p_play": 0.0,
+    "exp_missing_minutes": 14.2
+   },
+   {
+    "player": "Karaban, Alex",
+    "status": "Out",
+    "avg_minutes": 9.8,
+    "p_play": 0.001,
+    "exp_missing_minutes": 9.8
+   },
+   {
+    "player": "Achiuwa, Precious",
+    "status": "Questionable",
+    "avg_minutes": 26.4,
+    "p_play": 0.66,
+    "exp_missing_minutes": 9.0
+   },
+   {
+    "player": "Pedulla, Sean",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Raynaud, Maxime",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Simmons, Ben",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ },
+ "away": {
+  "team": "POR",
+  "elo": 1569.7,
+  "win_pct_last10": 0.7,
+  "win_pct_last5": 0.6,
+  "point_diff_last10": 7.2,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Morant, Ja",
+    "status": "Out",
+    "avg_minutes": 25.7,
+    "p_play": 0.0,
+    "exp_missing_minutes": 25.7
+   },
+   {
+    "player": "Youngblood, Chris",
+    "status": "Out",
+    "avg_minutes": 13.5,
+    "p_play": 0.0,
+    "exp_missing_minutes": 13.5
+   },
+   {
+    "player": "Krejci, Vit",
+    "status": "Out",
+    "avg_minutes": 11.3,
+    "p_play": 0.0,
+    "exp_missing_minutes": 11.3
+   },
+   {
+    "player": "Sharpe, Shaedon",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ }
+}

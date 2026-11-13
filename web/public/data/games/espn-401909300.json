@@ -1,0 +1,136 @@
+{
+ "id": "espn-401909300",
+ "computed_et": "2026-11-13T04:27",
+ "final": false,
+ "report": "2026-11-12_11_45PM",
+ "cutoff_et": "2026-11-13T19:00",
+ "elo_home_win_prob": 0.575,
+ "inputs": {
+  "elo_diff": -47.3265,
+  "home_court": 1.0,
+  "point_diff_last10_diff": -14.7,
+  "win_pct_last10_diff": -0.2,
+  "win_pct_last5_diff": 0.0,
+  "rest_days_diff": 0.0,
+  "back_to_back_diff": 0.0,
+  "exp_missing_minutes_diff": -42.9442,
+  "starters_out_diff": -1.0,
+  "exp_missing_value_diff": 0.1917,
+  "exp_stars_missing_diff": 0.0
+ },
+ "home": {
+  "team": "NOP",
+  "elo": 1367.7,
+  "win_pct_last10": 0.4,
+  "win_pct_last5": 0.2,
+  "point_diff_last10": -8.4,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Murphy III, Trey",
+    "status": "Doubtful",
+    "avg_minutes": 32.8,
+    "p_play": 0.014,
+    "exp_missing_minutes": 32.3
+   },
+   {
+    "player": "Missi, Yves",
+    "status": "Doubtful",
+    "avg_minutes": 19.5,
+    "p_play": 0.02,
+    "exp_missing_minutes": 19.1
+   },
+   {
+    "player": "Watford, Trendon",
+    "status": "Out",
+    "avg_minutes": 17.8,
+    "p_play": 0.0,
+    "exp_missing_minutes": 17.8
+   },
+   {
+    "player": "Mathurin, Bennedict",
+    "status": "Doubtful",
+    "avg_minutes": 15.7,
+    "p_play": 0.016,
+    "exp_missing_minutes": 15.5
+   },
+   {
+    "player": "McGowens, Bryce",
+    "status": "Doubtful",
+    "avg_minutes": 10.6,
+    "p_play": 0.02,
+    "exp_missing_minutes": 10.4
+   },
+   {
+    "player": "Pierre Jr., Jaron",
+    "status": "Questionable",
+    "avg_minutes": 7.0,
+    "p_play": 0.426,
+    "exp_missing_minutes": 4.0
+   },
+   {
+    "player": "Dia, Malik",
+    "status": "Questionable",
+    "avg_minutes": 0.0,
+    "p_play": 0.426,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ },
+ "away": {
+  "team": "MEM",
+  "elo": 1415.1,
+  "win_pct_last10": 0.6,
+  "win_pct_last5": 0.2,
+  "point_diff_last10": 6.3,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Edey, Zach",
+    "status": "Out",
+    "avg_minutes": 20.7,
+    "p_play": 0.0,
+    "exp_missing_minutes": 20.7
+   },
+   {
+    "player": "Pippen Jr., Scotty",
+    "status": "Out",
+    "avg_minutes": 16.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 16.0
+   },
+   {
+    "player": "Post, Quinten",
+    "status": "Out",
+    "avg_minutes": 11.9,
+    "p_play": 0.0,
+    "exp_missing_minutes": 11.9
+   },
+   {
+    "player": "Mashack, Jahmai",
+    "status": "Out",
+    "avg_minutes": 4.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 4.0
+   },
+   {
+    "player": "Lopez, Karim",
+    "status": "Out",
+    "avg_minutes": 3.7,
+    "p_play": 0.001,
+    "exp_missing_minutes": 3.7
+   },
+   {
+    "player": "Saunders, Richie",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.001,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ }
+}

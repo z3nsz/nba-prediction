@@ -1,0 +1,129 @@
+{
+ "id": "espn-401909299",
+ "computed_et": "2026-11-13T04:27",
+ "final": false,
+ "report": "2026-11-12_11_45PM",
+ "cutoff_et": "2026-11-13T19:00",
+ "elo_home_win_prob": 0.332,
+ "inputs": {
+  "elo_diff": -221.2319,
+  "home_court": 1.0,
+  "point_diff_last10_diff": -12.6,
+  "win_pct_last10_diff": -0.4,
+  "win_pct_last5_diff": -0.8,
+  "rest_days_diff": -2.0,
+  "back_to_back_diff": 0.0,
+  "exp_missing_minutes_diff": -33.9074,
+  "starters_out_diff": -1.0,
+  "exp_missing_value_diff": -3.3536,
+  "exp_stars_missing_diff": 0.0
+ },
+ "home": {
+  "team": "CHI",
+  "elo": 1347.1,
+  "win_pct_last10": 0.1,
+  "win_pct_last5": 0.0,
+  "point_diff_last10": -15.5,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Wilson, Caleb",
+    "status": "Out",
+    "avg_minutes": 30.7,
+    "p_play": 0.001,
+    "exp_missing_minutes": 30.7
+   },
+   {
+    "player": "Powell, Norman",
+    "status": "Questionable",
+    "avg_minutes": 28.9,
+    "p_play": 0.462,
+    "exp_missing_minutes": 15.5
+   },
+   {
+    "player": "Awaka, Tobe",
+    "status": "Out",
+    "avg_minutes": 10.0,
+    "p_play": 0.001,
+    "exp_missing_minutes": 10.0
+   },
+   {
+    "player": "Swain, Dailyn",
+    "status": "Questionable",
+    "avg_minutes": 9.5,
+    "p_play": 0.426,
+    "exp_missing_minutes": 5.5
+   }
+  ]
+ },
+ "away": {
+  "team": "ATL",
+  "elo": 1568.4,
+  "win_pct_last10": 0.5,
+  "win_pct_last5": 0.8,
+  "point_diff_last10": -2.9,
+  "rest_days": 4.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Newell, Asa",
+    "status": "Out",
+    "avg_minutes": 11.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 11.0
+   },
+   {
+    "player": "Flemings, Kingston",
+    "status": "Questionable",
+    "avg_minutes": 21.9,
+    "p_play": 0.511,
+    "exp_missing_minutes": 10.7
+   },
+   {
+    "player": "Dennis, RayJ",
+    "status": "Questionable",
+    "avg_minutes": 8.0,
+    "p_play": 0.361,
+    "exp_missing_minutes": 5.1
+   },
+   {
+    "player": "Landale, Jock",
+    "status": "Available",
+    "avg_minutes": 15.1,
+    "p_play": 0.939,
+    "exp_missing_minutes": 0.9
+   },
+   {
+    "player": "Gueye, Mouhamed",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Gilbert, Keshon",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Veesaar, Henri",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Wilson, Jalen",
+    "status": "Doubtful",
+    "avg_minutes": 0.0,
+    "p_play": 0.02,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ }
+}

@@ -1,0 +1,129 @@
+{
+ "id": "espn-401909304",
+ "computed_et": "2026-11-13T04:27",
+ "final": false,
+ "report": "2026-11-12_11_45PM",
+ "cutoff_et": "2026-11-13T21:30",
+ "elo_home_win_prob": 0.414,
+ "inputs": {
+  "elo_diff": -160.6021,
+  "home_court": 1.0,
+  "point_diff_last10_diff": -8.2667,
+  "win_pct_last10_diff": -0.3778,
+  "win_pct_last5_diff": -0.4,
+  "rest_days_diff": 1.0,
+  "back_to_back_diff": 0.0,
+  "exp_missing_minutes_diff": 101.7594,
+  "starters_out_diff": 2.0,
+  "exp_missing_value_diff": 3.8255,
+  "exp_stars_missing_diff": 0.0
+ },
+ "home": {
+  "team": "LAC",
+  "elo": 1480.5,
+  "win_pct_last10": 0.222,
+  "win_pct_last5": 0.2,
+  "point_diff_last10": -5.7,
+  "rest_days": 3.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Martinelli, Nick",
+    "status": "Out",
+    "avg_minutes": 4.2,
+    "p_play": 0.001,
+    "exp_missing_minutes": 4.2
+   },
+   {
+    "player": "Beal, Bradley",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Ingram, Brandon",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Miller, Jordan",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Niederhauser, Yanic Konan",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ },
+ "away": {
+  "team": "OKC",
+  "elo": 1641.1,
+  "win_pct_last10": 0.6,
+  "win_pct_last5": 0.6,
+  "point_diff_last10": 2.6,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Williams, Jalen",
+    "status": "Out",
+    "avg_minutes": 31.7,
+    "p_play": 0.0,
+    "exp_missing_minutes": 31.7
+   },
+   {
+    "player": "Holmgren, Chet",
+    "status": "Out",
+    "avg_minutes": 30.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 30.0
+   },
+   {
+    "player": "Williams, Jaylin",
+    "status": "Out",
+    "avg_minutes": 18.4,
+    "p_play": 0.0,
+    "exp_missing_minutes": 18.4
+   },
+   {
+    "player": "Wallace, Cason",
+    "status": "Out",
+    "avg_minutes": 16.3,
+    "p_play": 0.0,
+    "exp_missing_minutes": 16.3
+   },
+   {
+    "player": "Mitchell, Ajay",
+    "status": "Questionable",
+    "avg_minutes": 27.3,
+    "p_play": 0.65,
+    "exp_missing_minutes": 9.5
+   },
+   {
+    "player": "Sorber, Thomas",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Topic, Nikola",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ }
+}
