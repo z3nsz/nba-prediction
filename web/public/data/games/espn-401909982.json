@@ -1,8 +1,8 @@
 {
  "id": "espn-401909982",
- "computed_et": "2026-11-14T02:58",
+ "computed_et": "2026-11-14T14:03",
  "final": false,
- "report": "2026-11-13_11_45PM",
+ "report": "2026-11-14_02_00PM",
  "cutoff_et": "2026-11-14T19:00",
  "elo_home_win_prob": 0.414,
  "inputs": {
@@ -13,10 +13,10 @@
   "win_pct_last5_diff": 0.2,
   "rest_days_diff": -1.0,
   "back_to_back_diff": -1.0,
-  "exp_missing_minutes_diff": 0.0,
-  "starters_out_diff": 0.0,
-  "exp_missing_value_diff": 0.0,
-  "exp_stars_missing_diff": 0.0
+  "exp_missing_minutes_diff": 11.9626,
+  "starters_out_diff": -1.0,
+  "exp_missing_value_diff": 4.6927,
+  "exp_stars_missing_diff": -0.044
  },
  "home": {
   "team": "MIA",
@@ -26,8 +26,37 @@
   "point_diff_last10": 0.7,
   "rest_days": 1.0,
   "back_to_back": true,
-  "report_known": false,
-  "injuries": []
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Larsson, Pelle",
+    "status": "Doubtful",
+    "avg_minutes": 29.5,
+    "p_play": 0.02,
+    "exp_missing_minutes": 29.0
+   },
+   {
+    "player": "Antetokounmpo, Giannis",
+    "status": "Probable",
+    "avg_minutes": 32.6,
+    "p_play": 0.956,
+    "exp_missing_minutes": 1.4
+   },
+   {
+    "player": "Thompson, Klay",
+    "status": "Probable",
+    "avg_minutes": 24.7,
+    "p_play": 0.957,
+    "exp_missing_minutes": 1.1
+   },
+   {
+    "player": "Goldin, Vladislav",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
  },
  "away": {
   "team": "DET",
@@ -69,17 +98,17 @@
    },
    {
     "player": "Jones, Isaac",
-    "status": "Questionable",
+    "status": "Available",
     "avg_minutes": 3.5,
-    "p_play": 0.569,
-    "exp_missing_minutes": 1.5
+    "p_play": 0.502,
+    "exp_missing_minutes": 1.7
    },
    {
     "player": "Harkless, Elijah",
-    "status": "Questionable",
+    "status": "Available",
     "avg_minutes": 3.0,
-    "p_play": 0.592,
-    "exp_missing_minutes": 1.2
+    "p_play": 0.559,
+    "exp_missing_minutes": 1.3
    },
    {
     "player": "Onyenso, Ugonna",
