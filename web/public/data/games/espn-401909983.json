@@ -1,8 +1,8 @@
 {
  "id": "espn-401909983",
- "computed_et": "2026-11-14T18:01",
+ "computed_et": "2026-11-14T18:31",
  "final": false,
- "report": "2026-11-14_06_00PM",
+ "report": "2026-11-14_06_30PM",
  "cutoff_et": "2026-11-14T19:00",
  "elo_home_win_prob": 0.756,
  "inputs": {
@@ -13,9 +13,9 @@
   "win_pct_last5_diff": 0.0,
   "rest_days_diff": -2.0,
   "back_to_back_diff": -1.0,
-  "exp_missing_minutes_diff": -62.7097,
+  "exp_missing_minutes_diff": -46.507,
   "starters_out_diff": -1.0,
-  "exp_missing_value_diff": -9.2831,
+  "exp_missing_value_diff": -7.4757,
   "exp_stars_missing_diff": -1.0
  },
  "home": {
@@ -83,6 +83,13 @@
   "report_known": true,
   "injuries": [
    {
+    "player": "Porter Jr., Michael",
+    "status": "Questionable",
+    "avg_minutes": 32.5,
+    "p_play": 0.502,
+    "exp_missing_minutes": 16.2
+   },
+   {
     "player": "Saraf, Ben",
     "status": "Out",
     "avg_minutes": 4.0,
@@ -111,14 +118,14 @@
     "exp_missing_minutes": 2.1
    },
    {
-    "player": "Bilodeau, Tyler",
+    "player": "Nelson, Grant",
     "status": "Out",
     "avg_minutes": 0.0,
     "p_play": 0.0,
     "exp_missing_minutes": 0.0
    },
    {
-    "player": "Nelson, Grant",
+    "player": "Bilodeau, Tyler",
     "status": "Out",
     "avg_minutes": 0.0,
     "p_play": 0.0,
