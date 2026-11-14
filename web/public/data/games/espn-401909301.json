@@ -1,8 +1,8 @@
 {
  "id": "espn-401909301",
- "computed_et": "2026-11-13T19:01",
- "final": false,
- "report": "2026-11-13_07_00PM",
+ "computed_et": "2026-11-13T19:31",
+ "final": true,
+ "report": "2026-11-13_07_30PM",
  "cutoff_et": "2026-11-13T19:30",
  "elo_home_win_prob": 0.933,
  "inputs": {
@@ -90,13 +90,6 @@
     "exp_missing_minutes": 26.0
    },
    {
-    "player": "Ingram, Harrison",
-    "status": "Out",
-    "avg_minutes": 0.0,
-    "p_play": 0.022,
-    "exp_missing_minutes": 0.0
-   },
-   {
     "player": "Bufkin, Kobe",
     "status": "Out",
     "avg_minutes": 0.0,
@@ -108,6 +101,13 @@
     "status": "Out",
     "avg_minutes": 0.0,
     "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Ingram, Harrison",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.022,
     "exp_missing_minutes": 0.0
    },
    {
