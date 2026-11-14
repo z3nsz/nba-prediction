@@ -1,5 +1,5 @@
 {
- "updated_et": "2026-11-13T21:31",
+ "updated_et": "2026-11-14T02:58",
  "season": "2026-27",
  "model": {
   "description": "Final NBA model (logistic regression, no intercept), retrained on all six seasons",
@@ -14,11 +14,11 @@
   ]
  },
  "record": {
-  "games": 172,
-  "correct": 114,
-  "accuracy": 0.6628,
-  "log_loss": 0.5859,
-  "brier": 0.2023
+  "games": 180,
+  "correct": 119,
+  "accuracy": 0.6611,
+  "log_loss": 0.5904,
+  "brier": 0.2042
  },
  "games": [
   {
@@ -4380,8 +4380,8 @@
    "p_home": 0.2193,
    "final": true,
    "report": "2026-11-13_06_00PM",
-   "home_score": null,
-   "away_score": null,
+   "home_score": 106,
+   "away_score": 104,
    "contributions": {
     "elo_diff": -1.1916,
     "home_court": 0.2167,
@@ -4430,8 +4430,8 @@
    "p_home": 0.4693,
    "final": true,
    "report": "2026-11-13_07_00PM",
-   "home_score": null,
-   "away_score": null,
+   "home_score": 133,
+   "away_score": 121,
    "contributions": {
     "elo_diff": -0.3882,
     "home_court": 0.2167,
@@ -4455,8 +4455,8 @@
    "p_home": 0.2296,
    "final": true,
    "report": "2026-11-13_07_00PM",
-   "home_score": null,
-   "away_score": null,
+   "home_score": 125,
+   "away_score": 117,
    "contributions": {
     "elo_diff": -1.0829,
     "home_court": 0.2167,
@@ -4480,8 +4480,8 @@
    "p_home": 0.3812,
    "final": true,
    "report": "2026-11-13_07_00PM",
-   "home_score": null,
-   "away_score": null,
+   "home_score": 111,
+   "away_score": 142,
    "contributions": {
     "elo_diff": -0.2317,
     "home_court": 0.2167,
@@ -4505,8 +4505,8 @@
    "p_home": 0.8924,
    "final": true,
    "report": "2026-11-13_07_30PM",
-   "home_score": null,
-   "away_score": null,
+   "home_score": 125,
+   "away_score": 118,
    "contributions": {
     "elo_diff": 1.7554,
     "home_court": 0.2167,
@@ -4530,8 +4530,8 @@
    "p_home": 0.7897,
    "final": true,
    "report": "2026-11-13_08_30PM",
-   "home_score": null,
-   "away_score": null,
+   "home_score": 123,
+   "away_score": 85,
    "contributions": {
     "elo_diff": 0.8771,
     "home_court": 0.2167,
@@ -4555,8 +4555,8 @@
    "p_home": 0.3042,
    "final": true,
    "report": "2026-11-13_09_00PM",
-   "home_score": null,
-   "away_score": null,
+   "home_score": 107,
+   "away_score": 120,
    "contributions": {
     "elo_diff": -1.1739,
     "home_court": 0.2167,
@@ -4580,8 +4580,8 @@
    "p_home": 0.5715,
    "final": true,
    "report": "2026-11-13_09_30PM",
-   "home_score": null,
-   "away_score": null,
+   "home_score": 113,
+   "away_score": 112,
    "contributions": {
     "elo_diff": -0.7862,
     "home_court": 0.2167,
@@ -4593,6 +4593,131 @@
     "exp_missing_minutes_diff": 0.5689,
     "starters_out_diff": 0.0606,
     "exp_missing_value_diff": 0.1038,
+    "exp_stars_missing_diff": 0.0
+   }
+  },
+  {
+   "id": "espn-401909980",
+   "date": "2026-11-14",
+   "tip_off_et": "2026-11-14T19:00",
+   "home": "NOP",
+   "away": "DEN",
+   "p_home": 0.2027,
+   "final": false,
+   "report": "2026-11-13_11_45PM",
+   "home_score": null,
+   "away_score": null,
+   "contributions": {
+    "elo_diff": -1.2644,
+    "home_court": 0.2167,
+    "point_diff_last10_diff": -0.1672,
+    "win_pct_last10_diff": 0.1036,
+    "win_pct_last5_diff": 0.0096,
+    "rest_days_diff": -0.0724,
+    "back_to_back_diff": -0.1956,
+    "exp_missing_minutes_diff": 0.0,
+    "starters_out_diff": 0.0,
+    "exp_missing_value_diff": 0.0,
+    "exp_stars_missing_diff": 0.0
+   }
+  },
+  {
+   "id": "espn-401909981",
+   "date": "2026-11-14",
+   "tip_off_et": "2026-11-14T19:30",
+   "home": "CLE",
+   "away": "DAL",
+   "p_home": 0.6828,
+   "final": false,
+   "report": "2026-11-13_11_45PM",
+   "home_score": null,
+   "away_score": null,
+   "contributions": {
+    "elo_diff": 0.6734,
+    "home_court": 0.2167,
+    "point_diff_last10_diff": 0.0014,
+    "win_pct_last10_diff": 0.1036,
+    "win_pct_last5_diff": 0.0032,
+    "rest_days_diff": -0.0362,
+    "back_to_back_diff": -0.1956,
+    "exp_missing_minutes_diff": 0.0,
+    "starters_out_diff": 0.0,
+    "exp_missing_value_diff": 0.0,
+    "exp_stars_missing_diff": 0.0
+   }
+  },
+  {
+   "id": "espn-401909982",
+   "date": "2026-11-14",
+   "tip_off_et": "2026-11-14T20:00",
+   "home": "MIA",
+   "away": "DET",
+   "p_home": 0.3002,
+   "final": false,
+   "report": "2026-11-13_11_45PM",
+   "home_score": null,
+   "away_score": null,
+   "contributions": {
+    "elo_diff": -0.7832,
+    "home_court": 0.2167,
+    "point_diff_last10_diff": -0.0968,
+    "win_pct_last10_diff": 0.0518,
+    "win_pct_last5_diff": -0.0032,
+    "rest_days_diff": -0.0362,
+    "back_to_back_diff": -0.1956,
+    "exp_missing_minutes_diff": 0.0,
+    "starters_out_diff": 0.0,
+    "exp_missing_value_diff": 0.0,
+    "exp_stars_missing_diff": 0.0
+   }
+  },
+  {
+   "id": "espn-401909983",
+   "date": "2026-11-14",
+   "tip_off_et": "2026-11-14T20:00",
+   "home": "MEM",
+   "away": "BKN",
+   "p_home": 0.6073,
+   "final": false,
+   "report": "2026-11-13_11_45PM",
+   "home_score": null,
+   "away_score": null,
+   "contributions": {
+    "elo_diff": 0.4726,
+    "home_court": 0.2167,
+    "point_diff_last10_diff": 0.17,
+    "win_pct_last10_diff": -0.1555,
+    "win_pct_last5_diff": -0.0,
+    "rest_days_diff": -0.0724,
+    "back_to_back_diff": -0.1956,
+    "exp_missing_minutes_diff": 0.0,
+    "starters_out_diff": 0.0,
+    "exp_missing_value_diff": 0.0,
+    "exp_stars_missing_diff": 0.0
+   }
+  },
+  {
+   "id": "espn-401909984",
+   "date": "2026-11-14",
+   "tip_off_et": "2026-11-14T20:00",
+   "home": "MIN",
+   "away": "CHI",
+   "p_home": 0.8523,
+   "final": false,
+   "report": "2026-11-13_11_45PM",
+   "home_score": null,
+   "away_score": null,
+   "contributions": {
+    "elo_diff": 1.2746,
+    "home_court": 0.2167,
+    "point_diff_last10_diff": 0.3013,
+    "win_pct_last10_diff": -0.2591,
+    "win_pct_last5_diff": -0.0128,
+    "rest_days_diff": 0.0362,
+    "back_to_back_diff": 0.1956,
+    "exp_missing_minutes_diff": 0.0,
+    "starters_out_diff": 0.0,
+    "exp_missing_value_diff": 0.0,
     "exp_stars_missing_diff": 0.0
    }
   }
