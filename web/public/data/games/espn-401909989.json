@@ -1,8 +1,8 @@
 {
  "id": "espn-401909989",
- "computed_et": "2026-11-15T16:01",
- "final": false,
- "report": "2026-11-15_04_00PM",
+ "computed_et": "2026-11-15T17:01",
+ "final": true,
+ "report": "2026-11-15_05_00PM",
  "cutoff_et": "2026-11-15T17:00",
  "elo_home_win_prob": 0.896,
  "inputs": {
@@ -13,9 +13,9 @@
   "win_pct_last5_diff": 0.4,
   "rest_days_diff": 3.0,
   "back_to_back_diff": 1.0,
-  "exp_missing_minutes_diff": 56.5607,
-  "starters_out_diff": 0.0,
-  "exp_missing_value_diff": -0.518,
+  "exp_missing_minutes_diff": 67.6865,
+  "starters_out_diff": 1.0,
+  "exp_missing_value_diff": 0.4332,
   "exp_stars_missing_diff": 0.0
  },
  "home": {
@@ -30,30 +30,30 @@
   "injuries": [
    {
     "player": "Mitchell, Dillon",
-    "status": "Questionable",
+    "status": "Available",
     "avg_minutes": 2.0,
-    "p_play": 0.511,
-    "exp_missing_minutes": 1.0
+    "p_play": 0.576,
+    "exp_missing_minutes": 0.8
    },
    {
-    "player": "Williams, Amari",
-    "status": "Questionable",
+    "player": "Carter, Devin",
+    "status": "Available",
     "avg_minutes": 0.0,
-    "p_play": 0.511,
+    "p_play": 0.836,
     "exp_missing_minutes": 0.0
    },
    {
     "player": "Cenac Jr., Christopher",
-    "status": "Questionable",
+    "status": "Available",
     "avg_minutes": 0.0,
-    "p_play": 0.511,
+    "p_play": 0.576,
     "exp_missing_minutes": 0.0
    },
    {
-    "player": "Carter, Devin",
-    "status": "Questionable",
+    "player": "Williams, Amari",
+    "status": "Available",
     "avg_minutes": 0.0,
-    "p_play": 0.511,
+    "p_play": 0.472,
     "exp_missing_minutes": 0.0
    }
   ]
@@ -70,17 +70,17 @@
   "injuries": [
    {
     "player": "Irving, Kyrie",
-    "status": "Questionable",
+    "status": "Out",
     "avg_minutes": 30.8,
-    "p_play": 0.347,
-    "exp_missing_minutes": 20.1
+    "p_play": 0.0,
+    "exp_missing_minutes": 30.8
    },
    {
     "player": "Christie, Max",
-    "status": "Doubtful",
+    "status": "Out",
     "avg_minutes": 18.6,
-    "p_play": 0.016,
-    "exp_missing_minutes": 18.3
+    "p_play": 0.0,
+    "exp_missing_minutes": 18.6
    },
    {
     "player": "de Larrea, Sergio",
@@ -111,14 +111,14 @@
     "exp_missing_minutes": 0.3
    },
    {
-    "player": "Biberovic, Tarik",
+    "player": "Lively II, Dereck",
     "status": "Out",
     "avg_minutes": 0.0,
     "p_play": 0.0,
     "exp_missing_minutes": 0.0
    },
    {
-    "player": "Lively II, Dereck",
+    "player": "Biberovic, Tarik",
     "status": "Out",
     "avg_minutes": 0.0,
     "p_play": 0.0,
