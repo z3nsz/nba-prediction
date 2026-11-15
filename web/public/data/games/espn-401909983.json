@@ -1,8 +1,8 @@
 {
  "id": "espn-401909983",
- "computed_et": "2026-11-14T18:31",
- "final": false,
- "report": "2026-11-14_06_30PM",
+ "computed_et": "2026-11-14T19:01",
+ "final": true,
+ "report": "2026-11-14_07_00PM",
  "cutoff_et": "2026-11-14T19:00",
  "elo_home_win_prob": 0.756,
  "inputs": {
@@ -13,9 +13,9 @@
   "win_pct_last5_diff": 0.0,
   "rest_days_diff": -2.0,
   "back_to_back_diff": -1.0,
-  "exp_missing_minutes_diff": -46.507,
+  "exp_missing_minutes_diff": -40.072,
   "starters_out_diff": -1.0,
-  "exp_missing_value_diff": -7.4757,
+  "exp_missing_value_diff": -7.7516,
   "exp_stars_missing_diff": -1.0
  },
  "home": {
@@ -90,6 +90,20 @@
     "exp_missing_minutes": 16.2
    },
    {
+    "player": "Traore, Nolan",
+    "status": "Available",
+    "avg_minutes": 22.1,
+    "p_play": 0.719,
+    "exp_missing_minutes": 6.2
+   },
+   {
+    "player": "Brown Jr., Mikel",
+    "status": "Available",
+    "avg_minutes": 23.3,
+    "p_play": 0.806,
+    "exp_missing_minutes": 4.5
+   },
+   {
     "player": "Saraf, Ben",
     "status": "Out",
     "avg_minutes": 4.0,
@@ -102,20 +116,6 @@
     "avg_minutes": 4.0,
     "p_play": 0.0,
     "exp_missing_minutes": 4.0
-   },
-   {
-    "player": "Brown Jr., Mikel",
-    "status": "Probable",
-    "avg_minutes": 23.3,
-    "p_play": 0.905,
-    "exp_missing_minutes": 2.2
-   },
-   {
-    "player": "Traore, Nolan",
-    "status": "Probable",
-    "avg_minutes": 22.1,
-    "p_play": 0.905,
-    "exp_missing_minutes": 2.1
    },
    {
     "player": "Nelson, Grant",
