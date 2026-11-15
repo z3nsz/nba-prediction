@@ -1,8 +1,8 @@
 {
  "id": "espn-401909991",
- "computed_et": "2026-11-15T04:51",
+ "computed_et": "2026-11-15T14:42",
  "final": false,
- "report": "2026-11-14_11_45PM",
+ "report": "2026-11-15_02_30PM",
  "cutoff_et": "2026-11-15T18:00",
  "elo_home_win_prob": 0.221,
  "inputs": {
@@ -13,9 +13,9 @@
   "win_pct_last5_diff": -0.6,
   "rest_days_diff": 1.0,
   "back_to_back_diff": 0.0,
-  "exp_missing_minutes_diff": 12.1291,
+  "exp_missing_minutes_diff": 28.3759,
   "starters_out_diff": 1.0,
-  "exp_missing_value_diff": -1.2129,
+  "exp_missing_value_diff": -1.4617,
   "exp_stars_missing_diff": 0.0
  },
  "home": {
@@ -36,13 +36,6 @@
     "exp_missing_minutes": 18.5
    },
    {
-    "player": "Sarr, Alex",
-    "status": "Questionable",
-    "avg_minutes": 27.3,
-    "p_play": 0.511,
-    "exp_missing_minutes": 13.4
-   },
-   {
     "player": "Johnson, Tre",
     "status": "Questionable",
     "avg_minutes": 23.6,
@@ -50,11 +43,18 @@
     "exp_missing_minutes": 11.6
    },
    {
+    "player": "Sarr, Alex",
+    "status": "Available",
+    "avg_minutes": 27.3,
+    "p_play": 0.849,
+    "exp_missing_minutes": 4.1
+   },
+   {
     "player": "Carrington, Bub",
-    "status": "Questionable",
+    "status": "Available",
     "avg_minutes": 18.3,
-    "p_play": 0.511,
-    "exp_missing_minutes": 9.0
+    "p_play": 0.839,
+    "exp_missing_minutes": 3.0
    },
    {
     "player": "Beekman, Reece",
@@ -119,10 +119,10 @@
    },
    {
     "player": "Adams, Steven",
-    "status": "Probable",
+    "status": "Available",
     "avg_minutes": 9.0,
-    "p_play": 0.932,
-    "exp_missing_minutes": 0.6
+    "p_play": 0.821,
+    "exp_missing_minutes": 1.6
    },
    {
     "player": "Phillips, Julian",

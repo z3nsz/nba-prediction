@@ -1,8 +1,8 @@
 {
  "id": "espn-401909988",
- "computed_et": "2026-11-15T04:51",
+ "computed_et": "2026-11-15T14:42",
  "final": false,
- "report": "2026-11-14_11_45PM",
+ "report": "2026-11-15_02_30PM",
  "cutoff_et": "2026-11-15T16:00",
  "elo_home_win_prob": 0.119,
  "inputs": {
@@ -13,9 +13,9 @@
   "win_pct_last5_diff": -1.0,
   "rest_days_diff": 0.0,
   "back_to_back_diff": 0.0,
-  "exp_missing_minutes_diff": -77.8724,
+  "exp_missing_minutes_diff": -61.6806,
   "starters_out_diff": -1.0,
-  "exp_missing_value_diff": -5.7606,
+  "exp_missing_value_diff": -4.4436,
   "exp_stars_missing_diff": 0.0
  },
  "home": {
@@ -57,13 +57,6 @@
     "exp_missing_minutes": 0.0
    },
    {
-    "player": "Bufkin, Kobe",
-    "status": "Out",
-    "avg_minutes": 0.0,
-    "p_play": 0.0,
-    "exp_missing_minutes": 0.0
-   },
-   {
     "player": "Nurkic, Jusuf",
     "status": "Out",
     "avg_minutes": 0.0,
@@ -72,6 +65,13 @@
    },
    {
     "player": "Alexander, Trey",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Bufkin, Kobe",
     "status": "Out",
     "avg_minutes": 0.0,
     "p_play": 0.0,
@@ -89,6 +89,13 @@
   "back_to_back": false,
   "report_known": true,
   "injuries": [
+   {
+    "player": "Fox, De'Aaron",
+    "status": "Questionable",
+    "avg_minutes": 28.8,
+    "p_play": 0.437,
+    "exp_missing_minutes": 16.2
+   },
    {
     "player": "Gillespie, Ja'Kobi",
     "status": "Out",
