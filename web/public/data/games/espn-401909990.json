@@ -1,0 +1,79 @@
+{
+ "id": "espn-401909990",
+ "computed_et": "2026-11-15T04:51",
+ "final": false,
+ "report": "2026-11-14_11_45PM",
+ "cutoff_et": "2026-11-15T17:00",
+ "elo_home_win_prob": 0.52,
+ "inputs": {
+  "elo_diff": -86.2159,
+  "home_court": 1.0,
+  "point_diff_last10_diff": -11.9,
+  "win_pct_last10_diff": -0.3,
+  "win_pct_last5_diff": -0.4,
+  "rest_days_diff": 1.0,
+  "back_to_back_diff": 0.0,
+  "exp_missing_minutes_diff": -38.9167,
+  "starters_out_diff": 0.0,
+  "exp_missing_value_diff": -9.0528,
+  "exp_stars_missing_diff": 0.0
+ },
+ "home": {
+  "team": "TOR",
+  "elo": 1510.3,
+  "win_pct_last10": 0.3,
+  "win_pct_last5": 0.2,
+  "point_diff_last10": -3.6,
+  "rest_days": 3.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Leonard, Kawhi",
+    "status": "Out",
+    "avg_minutes": 26.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 26.0
+   },
+   {
+    "player": "Barnes, Scottie",
+    "status": "Questionable",
+    "avg_minutes": 33.4,
+    "p_play": 0.658,
+    "exp_missing_minutes": 11.4
+   },
+   {
+    "player": "Smith, Malachi",
+    "status": "Out",
+    "avg_minutes": 1.5,
+    "p_play": 0.0,
+    "exp_missing_minutes": 1.5
+   },
+   {
+    "player": "McCullar Jr., Kevin",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Bittle, Nate",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ },
+ "away": {
+  "team": "NYK",
+  "elo": 1596.5,
+  "win_pct_last10": 0.6,
+  "win_pct_last5": 0.6,
+  "point_diff_last10": 8.3,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": []
+ }
+}

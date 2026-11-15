@@ -1,0 +1,72 @@
+{
+ "id": "espn-401909989",
+ "computed_et": "2026-11-15T04:51",
+ "final": false,
+ "report": "2026-11-14_11_45PM",
+ "cutoff_et": "2026-11-15T17:00",
+ "elo_home_win_prob": 0.896,
+ "inputs": {
+  "elo_diff": 274.7763,
+  "home_court": 1.0,
+  "point_diff_last10_diff": 11.8,
+  "win_pct_last10_diff": 0.3,
+  "win_pct_last5_diff": 0.4,
+  "rest_days_diff": 3.0,
+  "back_to_back_diff": 1.0,
+  "exp_missing_minutes_diff": 0.0,
+  "starters_out_diff": 0.0,
+  "exp_missing_value_diff": 0.0,
+  "exp_stars_missing_diff": 0.0
+ },
+ "home": {
+  "team": "BOS",
+  "elo": 1704.1,
+  "win_pct_last10": 0.9,
+  "win_pct_last5": 1.0,
+  "point_diff_last10": 13.8,
+  "rest_days": 4.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Mitchell, Dillon",
+    "status": "Questionable",
+    "avg_minutes": 2.0,
+    "p_play": 0.511,
+    "exp_missing_minutes": 1.0
+   },
+   {
+    "player": "Carter, Devin",
+    "status": "Questionable",
+    "avg_minutes": 0.0,
+    "p_play": 0.511,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Cenac Jr., Christopher",
+    "status": "Questionable",
+    "avg_minutes": 0.0,
+    "p_play": 0.511,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Williams, Amari",
+    "status": "Questionable",
+    "avg_minutes": 0.0,
+    "p_play": 0.511,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ },
+ "away": {
+  "team": "DAL",
+  "elo": 1429.3,
+  "win_pct_last10": 0.6,
+  "win_pct_last5": 0.6,
+  "point_diff_last10": 2.0,
+  "rest_days": 1.0,
+  "back_to_back": true,
+  "report_known": false,
+  "injuries": []
+ }
+}
