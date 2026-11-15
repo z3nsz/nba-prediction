@@ -1,5 +1,5 @@
 {
- "updated_et": "2026-11-15T15:31",
+ "updated_et": "2026-11-15T16:01",
  "season": "2026-27",
  "model": {
   "description": "Final NBA model (logistic regression, no intercept), retrained on all six seasons",
@@ -4803,8 +4803,8 @@
    "home": "UTA",
    "away": "SAS",
    "p_home": 0.1054,
-   "final": false,
-   "report": "2026-11-15_03_30PM",
+   "final": true,
+   "report": "2026-11-15_04_00PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
@@ -4829,7 +4829,7 @@
    "away": "DAL",
    "p_home": 0.8935,
    "final": false,
-   "report": "2026-11-15_03_30PM",
+   "report": "2026-11-15_04_00PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
@@ -4854,7 +4854,7 @@
    "away": "NYK",
    "p_home": 0.3709,
    "final": false,
-   "report": "2026-11-15_03_30PM",
+   "report": "2026-11-15_04_00PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
@@ -4879,7 +4879,7 @@
    "away": "HOU",
    "p_home": 0.2443,
    "final": false,
-   "report": "2026-11-15_03_30PM",
+   "report": "2026-11-15_04_00PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
@@ -4904,7 +4904,7 @@
    "away": "ATL",
    "p_home": 0.2942,
    "final": false,
-   "report": "2026-11-15_03_30PM",
+   "report": "2026-11-15_04_00PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
@@ -4929,7 +4929,7 @@
    "away": "OKC",
    "p_home": 0.3229,
    "final": false,
-   "report": "2026-11-15_03_30PM",
+   "report": "2026-11-15_04_00PM",
    "home_score": null,
    "away_score": null,
    "contributions": {

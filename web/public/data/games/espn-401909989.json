@@ -1,8 +1,8 @@
 {
  "id": "espn-401909989",
- "computed_et": "2026-11-15T15:31",
+ "computed_et": "2026-11-15T16:01",
  "final": false,
- "report": "2026-11-15_03_30PM",
+ "report": "2026-11-15_04_00PM",
  "cutoff_et": "2026-11-15T17:00",
  "elo_home_win_prob": 0.896,
  "inputs": {
@@ -36,7 +36,7 @@
     "exp_missing_minutes": 1.0
    },
    {
-    "player": "Carter, Devin",
+    "player": "Williams, Amari",
     "status": "Questionable",
     "avg_minutes": 0.0,
     "p_play": 0.511,
@@ -50,7 +50,7 @@
     "exp_missing_minutes": 0.0
    },
    {
-    "player": "Williams, Amari",
+    "player": "Carter, Devin",
     "status": "Questionable",
     "avg_minutes": 0.0,
     "p_play": 0.511,
