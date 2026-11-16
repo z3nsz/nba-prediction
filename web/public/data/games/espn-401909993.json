@@ -1,8 +1,8 @@
 {
  "id": "espn-401909993",
- "computed_et": "2026-11-15T19:01",
- "final": false,
- "report": "2026-11-15_07_00PM",
+ "computed_et": "2026-11-15T20:01",
+ "final": true,
+ "report": "2026-11-15_08_00PM",
  "cutoff_et": "2026-11-15T20:00",
  "elo_home_win_prob": 0.227,
  "inputs": {
@@ -13,9 +13,9 @@
   "win_pct_last5_diff": -0.4,
   "rest_days_diff": 0.0,
   "back_to_back_diff": 0.0,
-  "exp_missing_minutes_diff": 81.3058,
-  "starters_out_diff": 2.0,
-  "exp_missing_value_diff": 5.5216,
+  "exp_missing_minutes_diff": 8.8116,
+  "starters_out_diff": 1.0,
+  "exp_missing_value_diff": 4.9083,
   "exp_stars_missing_diff": 0.0
  },
  "home": {
@@ -29,18 +29,32 @@
   "report_known": true,
   "injuries": [
    {
+    "player": "LaVine, Zach",
+    "status": "Out",
+    "avg_minutes": 32.5,
+    "p_play": 0.0,
+    "exp_missing_minutes": 32.5
+   },
+   {
+    "player": "Achiuwa, Precious",
+    "status": "Out",
+    "avg_minutes": 26.4,
+    "p_play": 0.0,
+    "exp_missing_minutes": 26.4
+   },
+   {
+    "player": "Hunter, De'Andre",
+    "status": "Questionable",
+    "avg_minutes": 33.2,
+    "p_play": 0.473,
+    "exp_missing_minutes": 17.5
+   },
+   {
     "player": "Mogbo, Jonathan",
     "status": "Out",
     "avg_minutes": 14.2,
     "p_play": 0.0,
     "exp_missing_minutes": 14.2
-   },
-   {
-    "player": "Achiuwa, Precious",
-    "status": "Questionable",
-    "avg_minutes": 26.4,
-    "p_play": 0.66,
-    "exp_missing_minutes": 9.0
    },
    {
     "player": "Murray, Keegan",
@@ -112,10 +126,10 @@
    },
    {
     "player": "Mitchell, Ajay",
-    "status": "Questionable",
+    "status": "Available",
     "avg_minutes": 27.3,
-    "p_play": 0.65,
-    "exp_missing_minutes": 9.5
+    "p_play": 0.839,
+    "exp_missing_minutes": 4.4
    },
    {
     "player": "Sorber, Thomas",
