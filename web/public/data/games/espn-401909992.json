@@ -1,8 +1,8 @@
 {
  "id": "espn-401909992",
- "computed_et": "2026-11-15T18:01",
- "final": false,
- "report": "2026-11-15_06_00PM",
+ "computed_et": "2026-11-15T19:01",
+ "final": true,
+ "report": "2026-11-15_07_00PM",
  "cutoff_et": "2026-11-15T19:00",
  "elo_home_win_prob": 0.308,
  "inputs": {
@@ -13,9 +13,9 @@
   "win_pct_last5_diff": -0.6,
   "rest_days_diff": 0.0,
   "back_to_back_diff": 0.0,
-  "exp_missing_minutes_diff": 3.7133,
+  "exp_missing_minutes_diff": 3.4507,
   "starters_out_diff": 0.0,
-  "exp_missing_value_diff": 1.04,
+  "exp_missing_value_diff": 1.3432,
   "exp_stars_missing_diff": 0.0
  },
  "home": {
@@ -30,10 +30,10 @@
   "injuries": [
    {
     "player": "Rollins, Ryan",
-    "status": "Questionable",
+    "status": "Out",
     "avg_minutes": 23.8,
-    "p_play": 0.365,
-    "exp_missing_minutes": 15.2
+    "p_play": 0.0,
+    "exp_missing_minutes": 23.8
    },
    {
     "player": "Dieng, Ousmane",
@@ -90,6 +90,13 @@
     "exp_missing_minutes": 21.5
    },
    {
+    "player": "Landale, Jock",
+    "status": "Out",
+    "avg_minutes": 15.4,
+    "p_play": 0.0,
+    "exp_missing_minutes": 15.4
+   },
+   {
     "player": "Newell, Asa",
     "status": "Out",
     "avg_minutes": 11.0,
@@ -97,21 +104,14 @@
     "exp_missing_minutes": 11.0
    },
    {
-    "player": "Landale, Jock",
-    "status": "Questionable",
-    "avg_minutes": 15.4,
-    "p_play": 0.546,
-    "exp_missing_minutes": 7.0
-   },
-   {
-    "player": "Gilbert, Keshon",
+    "player": "Gueye, Mouhamed",
     "status": "Out",
     "avg_minutes": 0.0,
     "p_play": 0.0,
     "exp_missing_minutes": 0.0
    },
    {
-    "player": "Gueye, Mouhamed",
+    "player": "Gilbert, Keshon",
     "status": "Out",
     "avg_minutes": 0.0,
     "p_play": 0.0,
@@ -126,9 +126,9 @@
    },
    {
     "player": "Wilson, Jalen",
-    "status": "Doubtful",
+    "status": "Out",
     "avg_minutes": 0.0,
-    "p_play": 0.02,
+    "p_play": 0.0,
     "exp_missing_minutes": 0.0
    }
   ]
