@@ -1,0 +1,65 @@
+{
+ "id": "espn-401909998",
+ "computed_et": "2026-11-16T01:11",
+ "final": false,
+ "report": "2026-11-15_11_45PM",
+ "cutoff_et": "2026-11-16T18:30",
+ "elo_home_win_prob": 0.486,
+ "inputs": {
+  "elo_diff": -109.8885,
+  "home_court": 1.0,
+  "point_diff_last10_diff": -7.1,
+  "win_pct_last10_diff": 0.0,
+  "win_pct_last5_diff": 0.0,
+  "rest_days_diff": 1.0,
+  "back_to_back_diff": 1.0,
+  "exp_missing_minutes_diff": 0.0,
+  "starters_out_diff": 0.0,
+  "exp_missing_value_diff": 0.0,
+  "exp_stars_missing_diff": 0.0
+ },
+ "home": {
+  "team": "MIA",
+  "elo": 1532.8,
+  "win_pct_last10": 0.7,
+  "win_pct_last5": 0.8,
+  "point_diff_last10": 3.2,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Larsson, Pelle",
+    "status": "Questionable",
+    "avg_minutes": 29.5,
+    "p_play": 0.425,
+    "exp_missing_minutes": 17.0
+   },
+   {
+    "player": "Thompson, Klay",
+    "status": "Available",
+    "avg_minutes": 24.3,
+    "p_play": 0.956,
+    "exp_missing_minutes": 1.1
+   },
+   {
+    "player": "Goldin, Vladislav",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ },
+ "away": {
+  "team": "HOU",
+  "elo": 1642.7,
+  "win_pct_last10": 0.7,
+  "win_pct_last5": 0.8,
+  "point_diff_last10": 10.3,
+  "rest_days": 1.0,
+  "back_to_back": true,
+  "report_known": false,
+  "injuries": []
+ }
+}
