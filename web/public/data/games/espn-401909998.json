@@ -1,8 +1,8 @@
 {
  "id": "espn-401909998",
- "computed_et": "2026-11-16T11:20",
- "final": false,
- "report": "2026-11-16_11_15AM",
+ "computed_et": "2026-11-16T19:27",
+ "final": true,
+ "report": "2026-11-16_06_30PM",
  "cutoff_et": "2026-11-16T18:30",
  "elo_home_win_prob": 0.486,
  "inputs": {
@@ -13,9 +13,9 @@
   "win_pct_last5_diff": 0.0,
   "rest_days_diff": 1.0,
   "back_to_back_diff": 1.0,
-  "exp_missing_minutes_diff": 0.0,
-  "starters_out_diff": 0.0,
-  "exp_missing_value_diff": 0.0,
+  "exp_missing_minutes_diff": 21.0935,
+  "starters_out_diff": -1.0,
+  "exp_missing_value_diff": 1.157,
   "exp_stars_missing_diff": 0.0
  },
  "home": {
@@ -30,10 +30,17 @@
   "injuries": [
    {
     "player": "Larsson, Pelle",
-    "status": "Questionable",
+    "status": "Out",
     "avg_minutes": 29.5,
-    "p_play": 0.425,
-    "exp_missing_minutes": 17.0
+    "p_play": 0.0,
+    "exp_missing_minutes": 29.5
+   },
+   {
+    "player": "Jovic, Nikola",
+    "status": "Out",
+    "avg_minutes": 12.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 12.0
    },
    {
     "player": "Thompson, Klay",
@@ -59,7 +66,50 @@
   "point_diff_last10": 10.3,
   "rest_days": 1.0,
   "back_to_back": true,
-  "report_known": false,
-  "injuries": []
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Smart, Marcus",
+    "status": "Out",
+    "avg_minutes": 21.3,
+    "p_play": 0.0,
+    "exp_missing_minutes": 21.3
+   },
+   {
+    "player": "Thompson, Amen",
+    "status": "Questionable",
+    "avg_minutes": 33.3,
+    "p_play": 0.468,
+    "exp_missing_minutes": 17.7
+   },
+   {
+    "player": "Capela, Clint",
+    "status": "Out",
+    "avg_minutes": 14.2,
+    "p_play": 0.0,
+    "exp_missing_minutes": 14.2
+   },
+   {
+    "player": "Adams, Steven",
+    "status": "Out",
+    "avg_minutes": 10.5,
+    "p_play": 0.0,
+    "exp_missing_minutes": 10.5
+   },
+   {
+    "player": "Copeland, Quadir",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Phillips, Julian",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.02,
+    "exp_missing_minutes": 0.0
+   }
+  ]
  }
 }

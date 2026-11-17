@@ -1,8 +1,8 @@
 {
  "id": "espn-401910001",
- "computed_et": "2026-11-16T11:20",
+ "computed_et": "2026-11-16T19:27",
  "final": false,
- "report": "2026-11-16_11_15AM",
+ "report": "2026-11-16_07_15PM",
  "cutoff_et": "2026-11-16T20:00",
  "elo_home_win_prob": 0.754,
  "inputs": {
@@ -13,9 +13,9 @@
   "win_pct_last5_diff": 0.2,
   "rest_days_diff": 1.0,
   "back_to_back_diff": 1.0,
-  "exp_missing_minutes_diff": 0.0,
+  "exp_missing_minutes_diff": -2.4619,
   "starters_out_diff": 0.0,
-  "exp_missing_value_diff": 0.0,
+  "exp_missing_value_diff": -0.5135,
   "exp_stars_missing_diff": 0.0
  },
  "home": {
@@ -66,7 +66,22 @@
   "point_diff_last10": -2.4,
   "rest_days": 1.0,
   "back_to_back": true,
-  "report_known": false,
-  "injuries": []
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Dunn, Ryan",
+    "status": "Questionable",
+    "avg_minutes": 17.5,
+    "p_play": 0.365,
+    "exp_missing_minutes": 11.1
+   },
+   {
+    "player": "Williams, Mark",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
  }
 }
