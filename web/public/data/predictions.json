@@ -1,5 +1,5 @@
 {
- "updated_et": "2026-11-16T19:27",
+ "updated_et": "2026-11-16T20:01",
  "season": "2026-27",
  "model": {
   "description": "Final NBA model (logistic regression, no intercept), retrained on all six seasons",
@@ -5127,9 +5127,9 @@
    "tip_off_et": "2026-11-16T21:00",
    "home": "DEN",
    "away": "PHX",
-   "p_home": 0.6919,
-   "final": false,
-   "report": "2026-11-16_07_15PM",
+   "p_home": 0.6853,
+   "final": true,
+   "report": "2026-11-16_08_00PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
@@ -5140,9 +5140,9 @@
     "win_pct_last5_diff": -0.0032,
     "rest_days_diff": 0.0362,
     "back_to_back_diff": 0.1956,
-    "exp_missing_minutes_diff": -0.0117,
+    "exp_missing_minutes_diff": -0.0566,
     "starters_out_diff": 0.0,
-    "exp_missing_value_diff": -0.0097,
+    "exp_missing_value_diff": 0.0046,
     "exp_stars_missing_diff": 0.0
    }
   }
