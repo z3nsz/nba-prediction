@@ -1,8 +1,8 @@
 {
  "id": "espn-401910012",
- "computed_et": "2026-11-18T07:56",
+ "computed_et": "2026-11-18T16:50",
  "final": false,
- "report": "2026-11-17_11_45PM",
+ "report": "2026-11-18_04_45PM",
  "cutoff_et": "2026-11-18T18:30",
  "elo_home_win_prob": 0.847,
  "inputs": {
@@ -13,9 +13,9 @@
   "win_pct_last5_diff": 0.0,
   "rest_days_diff": -1.0,
   "back_to_back_diff": -1.0,
-  "exp_missing_minutes_diff": 0.0,
-  "starters_out_diff": 0.0,
-  "exp_missing_value_diff": 0.0,
+  "exp_missing_minutes_diff": -58.0261,
+  "starters_out_diff": -1.0,
+  "exp_missing_value_diff": -12.2345,
   "exp_stars_missing_diff": 0.0
  },
  "home": {
@@ -26,8 +26,51 @@
   "point_diff_last10": -5.6,
   "rest_days": 1.0,
   "back_to_back": true,
-  "report_known": false,
-  "injuries": []
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Barnes, Scottie",
+    "status": "Out",
+    "avg_minutes": 33.7,
+    "p_play": 0.0,
+    "exp_missing_minutes": 33.7
+   },
+   {
+    "player": "Leonard, Kawhi",
+    "status": "Out",
+    "avg_minutes": 26.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 26.0
+   },
+   {
+    "player": "Barrett, RJ",
+    "status": "Questionable",
+    "avg_minutes": 34.1,
+    "p_play": 0.45,
+    "exp_missing_minutes": 18.7
+   },
+   {
+    "player": "Smith, Malachi",
+    "status": "Available",
+    "avg_minutes": 1.5,
+    "p_play": 0.838,
+    "exp_missing_minutes": 0.2
+   },
+   {
+    "player": "Bittle, Nate",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "McCullar Jr., Kevin",
+    "status": "Available",
+    "avg_minutes": 0.0,
+    "p_play": 0.67,
+    "exp_missing_minutes": 0.0
+   }
+  ]
  },
  "away": {
   "team": "WAS",
@@ -61,14 +104,14 @@
     "exp_missing_minutes": 1.0
    },
    {
-    "player": "Watkins, Jamir",
+    "player": "Vukcevic, Tristan",
     "status": "Out",
     "avg_minutes": 0.0,
     "p_play": 0.0,
     "exp_missing_minutes": 0.0
    },
    {
-    "player": "Vukcevic, Tristan",
+    "player": "Watkins, Jamir",
     "status": "Out",
     "avg_minutes": 0.0,
     "p_play": 0.0,

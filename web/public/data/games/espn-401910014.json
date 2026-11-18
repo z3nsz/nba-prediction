@@ -1,8 +1,8 @@
 {
  "id": "espn-401910014",
- "computed_et": "2026-11-18T07:56",
+ "computed_et": "2026-11-18T16:50",
  "final": false,
- "report": "2026-11-17_11_45PM",
+ "report": "2026-11-18_04_45PM",
  "cutoff_et": "2026-11-18T19:00",
  "elo_home_win_prob": 0.742,
  "inputs": {
@@ -104,13 +104,6 @@
     "exp_missing_minutes": 11.0
    },
    {
-    "player": "Castro, Rafael",
-    "status": "Doubtful",
-    "avg_minutes": 0.0,
-    "p_play": 0.02,
-    "exp_missing_minutes": 0.0
-   },
-   {
     "player": "Gueye, Mouhamed",
     "status": "Out",
     "avg_minutes": 0.0,
@@ -122,6 +115,13 @@
     "status": "Out",
     "avg_minutes": 0.0,
     "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Castro, Rafael",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.001,
     "exp_missing_minutes": 0.0
    }
   ]
