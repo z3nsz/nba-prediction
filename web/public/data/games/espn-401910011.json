@@ -1,0 +1,115 @@
+{
+ "id": "espn-401910011",
+ "computed_et": "2026-11-18T07:56",
+ "final": false,
+ "report": "2026-11-17_11_45PM",
+ "cutoff_et": "2026-11-18T18:30",
+ "elo_home_win_prob": 0.566,
+ "inputs": {
+  "elo_diff": -53.555,
+  "home_court": 1.0,
+  "point_diff_last10_diff": 5.8,
+  "win_pct_last10_diff": 0.1,
+  "win_pct_last5_diff": -0.2,
+  "rest_days_diff": 0.0,
+  "back_to_back_diff": 0.0,
+  "exp_missing_minutes_diff": 34.7543,
+  "starters_out_diff": 1.0,
+  "exp_missing_value_diff": 2.0651,
+  "exp_stars_missing_diff": 0.0
+ },
+ "home": {
+  "team": "BKN",
+  "elo": 1331.6,
+  "win_pct_last10": 0.3,
+  "win_pct_last5": 0.2,
+  "point_diff_last10": -4.9,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Powell, Drake",
+    "status": "Out",
+    "avg_minutes": 7.2,
+    "p_play": 0.0,
+    "exp_missing_minutes": 7.2
+   },
+   {
+    "player": "Saraf, Ben",
+    "status": "Out",
+    "avg_minutes": 4.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 4.0
+   },
+   {
+    "player": "Jefferson, Joshua",
+    "status": "Out",
+    "avg_minutes": 4.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 4.0
+   },
+   {
+    "player": "Bilodeau, Tyler",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Nelson, Grant",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ },
+ "away": {
+  "team": "CHI",
+  "elo": 1385.2,
+  "win_pct_last10": 0.2,
+  "win_pct_last5": 0.4,
+  "point_diff_last10": -10.7,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Wilson, Caleb",
+    "status": "Out",
+    "avg_minutes": 30.7,
+    "p_play": 0.001,
+    "exp_missing_minutes": 30.7
+   },
+   {
+    "player": "Awaka, Tobe",
+    "status": "Out",
+    "avg_minutes": 10.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 10.0
+   },
+   {
+    "player": "Sellers, Jaylin",
+    "status": "Out",
+    "avg_minutes": 7.8,
+    "p_play": 0.1,
+    "exp_missing_minutes": 7.0
+   },
+   {
+    "player": "Williams, Patrick",
+    "status": "Probable",
+    "avg_minutes": 22.7,
+    "p_play": 0.902,
+    "exp_missing_minutes": 2.2
+   },
+   {
+    "player": "Robinson, Orlando",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ }
+}

@@ -1,0 +1,101 @@
+{
+ "id": "espn-401910010",
+ "computed_et": "2026-11-18T07:56",
+ "final": false,
+ "report": "2026-11-17_11_45PM",
+ "cutoff_et": "2026-11-18T18:00",
+ "elo_home_win_prob": 0.58,
+ "inputs": {
+  "elo_diff": -44.1643,
+  "home_court": 1.0,
+  "point_diff_last10_diff": -4.8,
+  "win_pct_last10_diff": -0.3,
+  "win_pct_last5_diff": 0.0,
+  "rest_days_diff": 0.0,
+  "back_to_back_diff": 0.0,
+  "exp_missing_minutes_diff": 15.4343,
+  "starters_out_diff": 0.0,
+  "exp_missing_value_diff": -1.8406,
+  "exp_stars_missing_diff": -0.9999
+ },
+ "home": {
+  "team": "ORL",
+  "elo": 1520.1,
+  "win_pct_last10": 0.5,
+  "win_pct_last5": 0.8,
+  "point_diff_last10": -2.3,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Banchero, Paolo",
+    "status": "Out",
+    "avg_minutes": 33.5,
+    "p_play": 0.0,
+    "exp_missing_minutes": 33.5
+   },
+   {
+    "player": "Isaac, Jonathan",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Penda, Noah",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Nelson, Izaiyah",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ },
+ "away": {
+  "team": "PHI",
+  "elo": 1564.2,
+  "win_pct_last10": 0.8,
+  "win_pct_last5": 0.8,
+  "point_diff_last10": 2.5,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Brown, Jaylen",
+    "status": "Out",
+    "avg_minutes": 34.7,
+    "p_play": 0.0,
+    "exp_missing_minutes": 34.7
+   },
+   {
+    "player": "Bona, Adem",
+    "status": "Out",
+    "avg_minutes": 14.2,
+    "p_play": 0.0,
+    "exp_missing_minutes": 14.2
+   },
+   {
+    "player": "Barlow, Dominick",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Hukporti, Ariel",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ }
+}

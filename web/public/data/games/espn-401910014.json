@@ -1,0 +1,129 @@
+{
+ "id": "espn-401910014",
+ "computed_et": "2026-11-18T07:56",
+ "final": false,
+ "report": "2026-11-17_11_45PM",
+ "cutoff_et": "2026-11-18T19:00",
+ "elo_home_win_prob": 0.742,
+ "inputs": {
+  "elo_diff": 83.2855,
+  "home_court": 1.0,
+  "point_diff_last10_diff": 4.2,
+  "win_pct_last10_diff": -0.1,
+  "win_pct_last5_diff": -0.2,
+  "rest_days_diff": 0.0,
+  "back_to_back_diff": 0.0,
+  "exp_missing_minutes_diff": -12.0776,
+  "starters_out_diff": -2.0,
+  "exp_missing_value_diff": -3.8483,
+  "exp_stars_missing_diff": 0.0
+ },
+ "home": {
+  "team": "OKC",
+  "elo": 1642.9,
+  "win_pct_last10": 0.5,
+  "win_pct_last5": 0.4,
+  "point_diff_last10": 2.9,
+  "rest_days": 3.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Williams, Jalen",
+    "status": "Out",
+    "avg_minutes": 31.7,
+    "p_play": 0.0,
+    "exp_missing_minutes": 31.7
+   },
+   {
+    "player": "Holmgren, Chet",
+    "status": "Out",
+    "avg_minutes": 30.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 30.0
+   },
+   {
+    "player": "Wallace, Cason",
+    "status": "Out",
+    "avg_minutes": 16.3,
+    "p_play": 0.0,
+    "exp_missing_minutes": 16.3
+   },
+   {
+    "player": "Williams, Jaylin",
+    "status": "Questionable",
+    "avg_minutes": 18.4,
+    "p_play": 0.546,
+    "exp_missing_minutes": 8.4
+   },
+   {
+    "player": "Sorber, Thomas",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ },
+ "away": {
+  "team": "ATL",
+  "elo": 1559.6,
+  "win_pct_last10": 0.6,
+  "win_pct_last5": 0.6,
+  "point_diff_last10": -1.3,
+  "rest_days": 3.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "McCollum, CJ",
+    "status": "Out",
+    "avg_minutes": 26.4,
+    "p_play": 0.0,
+    "exp_missing_minutes": 26.4
+   },
+   {
+    "player": "Flemings, Kingston",
+    "status": "Out",
+    "avg_minutes": 21.5,
+    "p_play": 0.001,
+    "exp_missing_minutes": 21.5
+   },
+   {
+    "player": "Landale, Jock",
+    "status": "Out",
+    "avg_minutes": 15.4,
+    "p_play": 0.0,
+    "exp_missing_minutes": 15.4
+   },
+   {
+    "player": "Newell, Asa",
+    "status": "Out",
+    "avg_minutes": 11.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 11.0
+   },
+   {
+    "player": "Castro, Rafael",
+    "status": "Doubtful",
+    "avg_minutes": 0.0,
+    "p_play": 0.02,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Gueye, Mouhamed",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Veesaar, Henri",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ }
+}

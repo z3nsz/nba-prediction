@@ -1,0 +1,79 @@
+{
+ "id": "espn-401910012",
+ "computed_et": "2026-11-18T07:56",
+ "final": false,
+ "report": "2026-11-17_11_45PM",
+ "cutoff_et": "2026-11-18T18:30",
+ "elo_home_win_prob": 0.847,
+ "inputs": {
+  "elo_diff": 197.4063,
+  "home_court": 1.0,
+  "point_diff_last10_diff": 5.2,
+  "win_pct_last10_diff": 0.0,
+  "win_pct_last5_diff": 0.0,
+  "rest_days_diff": -1.0,
+  "back_to_back_diff": -1.0,
+  "exp_missing_minutes_diff": 0.0,
+  "starters_out_diff": 0.0,
+  "exp_missing_value_diff": 0.0,
+  "exp_stars_missing_diff": 0.0
+ },
+ "home": {
+  "team": "TOR",
+  "elo": 1493.9,
+  "win_pct_last10": 0.2,
+  "win_pct_last5": 0.0,
+  "point_diff_last10": -5.6,
+  "rest_days": 1.0,
+  "back_to_back": true,
+  "report_known": false,
+  "injuries": []
+ },
+ "away": {
+  "team": "WAS",
+  "elo": 1296.5,
+  "win_pct_last10": 0.2,
+  "win_pct_last5": 0.0,
+  "point_diff_last10": -10.8,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Champagnie, Justin",
+    "status": "Out",
+    "avg_minutes": 18.5,
+    "p_play": 0.0,
+    "exp_missing_minutes": 18.5
+   },
+   {
+    "player": "Okpara, Felix",
+    "status": "Questionable",
+    "avg_minutes": 2.0,
+    "p_play": 0.425,
+    "exp_missing_minutes": 1.1
+   },
+   {
+    "player": "Beekman, Reece",
+    "status": "Out",
+    "avg_minutes": 1.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 1.0
+   },
+   {
+    "player": "Watkins, Jamir",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Vukcevic, Tristan",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ }
+}

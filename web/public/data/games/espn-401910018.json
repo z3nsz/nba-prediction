@@ -1,0 +1,94 @@
+{
+ "id": "espn-401910018",
+ "computed_et": "2026-11-18T07:56",
+ "final": false,
+ "report": "2026-11-17_11_45PM",
+ "cutoff_et": "2026-11-18T21:00",
+ "elo_home_win_prob": 0.342,
+ "inputs": {
+  "elo_diff": -213.6586,
+  "home_court": 1.0,
+  "point_diff_last10_diff": -13.0,
+  "win_pct_last10_diff": -0.4,
+  "win_pct_last5_diff": -0.6,
+  "rest_days_diff": 1.0,
+  "back_to_back_diff": 0.0,
+  "exp_missing_minutes_diff": -41.1216,
+  "starters_out_diff": 0.0,
+  "exp_missing_value_diff": 2.825,
+  "exp_stars_missing_diff": 0.0
+ },
+ "home": {
+  "team": "SAC",
+  "elo": 1316.3,
+  "win_pct_last10": 0.1,
+  "win_pct_last5": 0.0,
+  "point_diff_last10": -13.1,
+  "rest_days": 3.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Hunter, De'Andre",
+    "status": "Questionable",
+    "avg_minutes": 33.2,
+    "p_play": 0.46,
+    "exp_missing_minutes": 17.9
+   },
+   {
+    "player": "Mogbo, Jonathan",
+    "status": "Out",
+    "avg_minutes": 14.2,
+    "p_play": 0.0,
+    "exp_missing_minutes": 14.2
+   },
+   {
+    "player": "Achiuwa, Precious",
+    "status": "Questionable",
+    "avg_minutes": 26.4,
+    "p_play": 0.66,
+    "exp_missing_minutes": 9.0
+   },
+   {
+    "player": "Raynaud, Maxime",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Pedulla, Sean",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Simmons, Ben",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ },
+ "away": {
+  "team": "PHX",
+  "elo": 1529.9,
+  "win_pct_last10": 0.5,
+  "win_pct_last5": 0.6,
+  "point_diff_last10": -0.1,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Williams, Mark",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ }
+}

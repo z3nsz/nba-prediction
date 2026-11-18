@@ -1,0 +1,122 @@
+{
+ "id": "espn-401910009",
+ "computed_et": "2026-11-18T07:56",
+ "final": false,
+ "report": "2026-11-17_11_45PM",
+ "cutoff_et": "2026-11-18T18:00",
+ "elo_home_win_prob": 0.875,
+ "inputs": {
+  "elo_diff": 238.6078,
+  "home_court": 1.0,
+  "point_diff_last10_diff": 22.2,
+  "win_pct_last10_diff": 0.8,
+  "win_pct_last5_diff": 1.0,
+  "rest_days_diff": -1.0,
+  "back_to_back_diff": 0.0,
+  "exp_missing_minutes_diff": 10.4635,
+  "starters_out_diff": 0.0,
+  "exp_missing_value_diff": -1.9255,
+  "exp_stars_missing_diff": 0.0
+ },
+ "home": {
+  "team": "MIA",
+  "elo": 1548.6,
+  "win_pct_last10": 0.8,
+  "win_pct_last5": 1.0,
+  "point_diff_last10": 5.4,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Gardner, Myron",
+    "status": "Questionable",
+    "avg_minutes": 9.9,
+    "p_play": 0.511,
+    "exp_missing_minutes": 4.8
+   },
+   {
+    "player": "Adebayo, Bam",
+    "status": "Probable",
+    "avg_minutes": 32.5,
+    "p_play": 0.947,
+    "exp_missing_minutes": 1.7
+   },
+   {
+    "player": "Larsson, Pelle",
+    "status": "Available",
+    "avg_minutes": 29.5,
+    "p_play": 0.944,
+    "exp_missing_minutes": 1.7
+   },
+   {
+    "player": "Thompson, Klay",
+    "status": "Available",
+    "avg_minutes": 24.2,
+    "p_play": 0.958,
+    "exp_missing_minutes": 1.0
+   },
+   {
+    "player": "Jovic, Nikola",
+    "status": "Probable",
+    "avg_minutes": 12.0,
+    "p_play": 0.921,
+    "exp_missing_minutes": 0.9
+   },
+   {
+    "player": "Goldin, Vladislav",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ },
+ "away": {
+  "team": "MIL",
+  "elo": 1310.0,
+  "win_pct_last10": 0.0,
+  "win_pct_last5": 0.0,
+  "point_diff_last10": -16.8,
+  "rest_days": 3.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Dieng, Ousmane",
+    "status": "Out",
+    "avg_minutes": 12.3,
+    "p_play": 0.0,
+    "exp_missing_minutes": 12.3
+   },
+   {
+    "player": "Markovic, Bogoljub",
+    "status": "Out",
+    "avg_minutes": 4.3,
+    "p_play": 0.001,
+    "exp_missing_minutes": 4.3
+   },
+   {
+    "player": "Nance, Pete",
+    "status": "Out",
+    "avg_minutes": 4.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 4.0
+   },
+   {
+    "player": "Jones, Kam",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Ryan, Cormac",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ }
+}
