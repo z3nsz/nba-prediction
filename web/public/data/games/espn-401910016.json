@@ -1,8 +1,8 @@
 {
  "id": "espn-401910016",
- "computed_et": "2026-11-18T16:50",
+ "computed_et": "2026-11-18T18:01",
  "final": false,
- "report": "2026-11-18_04_45PM",
+ "report": "2026-11-18_06_00PM",
  "cutoff_et": "2026-11-18T19:00",
  "elo_home_win_prob": 0.528,
  "inputs": {
@@ -132,14 +132,14 @@
     "exp_missing_minutes": 0.0
    },
    {
-    "player": "Moody, Moses",
+    "player": "Porzingis, Kristaps",
     "status": "Out",
     "avg_minutes": 0.0,
     "p_play": 0.0,
     "exp_missing_minutes": 0.0
    },
    {
-    "player": "Porzingis, Kristaps",
+    "player": "Moody, Moses",
     "status": "Out",
     "avg_minutes": 0.0,
     "p_play": 0.0,
