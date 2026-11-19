@@ -1,0 +1,100 @@
+{
+ "id": "espn-401910020",
+ "computed_et": "2026-11-19T07:04",
+ "final": false,
+ "report": "2026-11-18_11_45PM",
+ "cutoff_et": "2026-11-19T19:00",
+ "elo_home_win_prob": 0.285,
+ "inputs": {
+  "elo_diff": -260.1691,
+  "home_court": 1.0,
+  "point_diff_last10_diff": -19.2,
+  "win_pct_last10_diff": -0.6,
+  "win_pct_last5_diff": -0.6,
+  "rest_days_diff": -1.0,
+  "back_to_back_diff": -1.0,
+  "exp_missing_minutes_diff": 0.0,
+  "starters_out_diff": 0.0,
+  "exp_missing_value_diff": 0.0,
+  "exp_stars_missing_diff": 0.0
+ },
+ "home": {
+  "team": "MIL",
+  "elo": 1308.3,
+  "win_pct_last10": 0.0,
+  "win_pct_last5": 0.0,
+  "point_diff_last10": -14.3,
+  "rest_days": 1.0,
+  "back_to_back": true,
+  "report_known": false,
+  "injuries": []
+ },
+ "away": {
+  "team": "POR",
+  "elo": 1568.5,
+  "win_pct_last10": 0.6,
+  "win_pct_last5": 0.6,
+  "point_diff_last10": 4.9,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Morant, Ja",
+    "status": "Out",
+    "avg_minutes": 25.7,
+    "p_play": 0.0,
+    "exp_missing_minutes": 25.7
+   },
+   {
+    "player": "Williams III, Robert",
+    "status": "Out",
+    "avg_minutes": 16.1,
+    "p_play": 0.0,
+    "exp_missing_minutes": 16.1
+   },
+   {
+    "player": "Youngblood, Chris",
+    "status": "Out",
+    "avg_minutes": 13.5,
+    "p_play": 0.0,
+    "exp_missing_minutes": 13.5
+   },
+   {
+    "player": "Camara, Toumani",
+    "status": "Questionable",
+    "avg_minutes": 29.3,
+    "p_play": 0.555,
+    "exp_missing_minutes": 13.0
+   },
+   {
+    "player": "Krejci, Vit",
+    "status": "Out",
+    "avg_minutes": 11.3,
+    "p_play": 0.0,
+    "exp_missing_minutes": 11.3
+   },
+   {
+    "player": "Avdija, Deni",
+    "status": "Questionable",
+    "avg_minutes": 32.1,
+    "p_play": 0.685,
+    "exp_missing_minutes": 10.1
+   },
+   {
+    "player": "Carlson, Branden",
+    "status": "Available",
+    "avg_minutes": 9.4,
+    "p_play": 0.652,
+    "exp_missing_minutes": 3.3
+   },
+   {
+    "player": "Sharpe, Shaedon",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ }
+}
