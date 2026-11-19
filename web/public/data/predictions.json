@@ -1,5 +1,5 @@
 {
- "updated_et": "2026-11-18T18:31",
+ "updated_et": "2026-11-18T19:01",
  "season": "2026-27",
  "model": {
   "description": "Final NBA model (logistic regression, no intercept), retrained on all six seasons",
@@ -5428,8 +5428,8 @@
    "home": "NOP",
    "away": "DET",
    "p_home": 0.2563,
-   "final": false,
-   "report": "2026-11-18_06_30PM",
+   "final": true,
+   "report": "2026-11-18_07_00PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
@@ -5452,9 +5452,9 @@
    "tip_off_et": "2026-11-18T20:00",
    "home": "OKC",
    "away": "ATL",
-   "p_home": 0.6333,
-   "final": false,
-   "report": "2026-11-18_06_30PM",
+   "p_home": 0.634,
+   "final": true,
+   "report": "2026-11-18_07_00PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
@@ -5465,9 +5465,9 @@
     "win_pct_last5_diff": 0.0032,
     "rest_days_diff": 0.0,
     "back_to_back_diff": 0.0,
-    "exp_missing_minutes_diff": -0.0575,
+    "exp_missing_minutes_diff": -0.0526,
     "starters_out_diff": -0.0606,
-    "exp_missing_value_diff": -0.0728,
+    "exp_missing_value_diff": -0.0748,
     "exp_stars_missing_diff": 0.0
    }
   },
@@ -5477,9 +5477,9 @@
    "tip_off_et": "2026-11-18T20:00",
    "home": "DAL",
    "away": "GSW",
-   "p_home": 0.5702,
-   "final": false,
-   "report": "2026-11-18_06_30PM",
+   "p_home": 0.5602,
+   "final": true,
+   "report": "2026-11-18_07_00PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
@@ -5490,9 +5490,9 @@
     "win_pct_last5_diff": -0.0,
     "rest_days_diff": 0.0362,
     "back_to_back_diff": 0.0,
-    "exp_missing_minutes_diff": 0.1701,
+    "exp_missing_minutes_diff": 0.1362,
     "starters_out_diff": 0.0,
-    "exp_missing_value_diff": 0.2081,
+    "exp_missing_value_diff": 0.2012,
     "exp_stars_missing_diff": 0.039
    }
   },
@@ -5504,7 +5504,7 @@
    "away": "BOS",
    "p_home": 0.4061,
    "final": false,
-   "report": "2026-11-18_06_30PM",
+   "report": "2026-11-18_07_00PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
@@ -5529,7 +5529,7 @@
    "away": "UTA",
    "p_home": 0.8557,
    "final": false,
-   "report": "2026-11-18_06_30PM",
+   "report": "2026-11-18_07_00PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
@@ -5554,7 +5554,7 @@
    "away": "PHX",
    "p_home": 0.3077,
    "final": false,
-   "report": "2026-11-18_06_30PM",
+   "report": "2026-11-18_07_00PM",
    "home_score": null,
    "away_score": null,
    "contributions": {

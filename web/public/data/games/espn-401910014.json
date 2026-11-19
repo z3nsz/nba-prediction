@@ -1,8 +1,8 @@
 {
  "id": "espn-401910014",
- "computed_et": "2026-11-18T18:31",
- "final": false,
- "report": "2026-11-18_06_30PM",
+ "computed_et": "2026-11-18T19:01",
+ "final": true,
+ "report": "2026-11-18_07_00PM",
  "cutoff_et": "2026-11-18T19:00",
  "elo_home_win_prob": 0.742,
  "inputs": {
@@ -13,9 +13,9 @@
   "win_pct_last5_diff": -0.2,
   "rest_days_diff": 0.0,
   "back_to_back_diff": 0.0,
-  "exp_missing_minutes_diff": -12.0776,
+  "exp_missing_minutes_diff": -11.0454,
   "starters_out_diff": -2.0,
-  "exp_missing_value_diff": -3.8483,
+  "exp_missing_value_diff": -3.95,
   "exp_stars_missing_diff": 0.0
  },
  "home": {
@@ -51,10 +51,10 @@
    },
    {
     "player": "Williams, Jaylin",
-    "status": "Questionable",
+    "status": "Available",
     "avg_minutes": 18.4,
-    "p_play": 0.546,
-    "exp_missing_minutes": 8.4
+    "p_play": 0.602,
+    "exp_missing_minutes": 7.3
    },
    {
     "player": "Sorber, Thomas",
