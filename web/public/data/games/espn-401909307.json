@@ -1,0 +1,129 @@
+{
+ "id": "espn-401909307",
+ "computed_et": "2026-11-20T06:26",
+ "final": false,
+ "report": "2026-11-19_11_45PM",
+ "cutoff_et": "2026-11-20T18:30",
+ "elo_home_win_prob": 0.854,
+ "inputs": {
+  "elo_diff": 207.0832,
+  "home_court": 1.0,
+  "point_diff_last10_diff": 5.1,
+  "win_pct_last10_diff": 0.1,
+  "win_pct_last5_diff": 0.2,
+  "rest_days_diff": 0.0,
+  "back_to_back_diff": 0.0,
+  "exp_missing_minutes_diff": -8.2605,
+  "starters_out_diff": 0.0,
+  "exp_missing_value_diff": 0.2112,
+  "exp_stars_missing_diff": 1.0
+ },
+ "home": {
+  "team": "CLE",
+  "elo": 1566.4,
+  "win_pct_last10": 0.4,
+  "win_pct_last5": 0.6,
+  "point_diff_last10": 0.1,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Mobley, Evan",
+    "status": "Out",
+    "avg_minutes": 32.1,
+    "p_play": 0.0,
+    "exp_missing_minutes": 32.1
+   },
+   {
+    "player": "Tyson, Jaylon",
+    "status": "Out",
+    "avg_minutes": 23.9,
+    "p_play": 0.0,
+    "exp_missing_minutes": 23.9
+   },
+   {
+    "player": "Watson, Peyton",
+    "status": "Questionable",
+    "avg_minutes": 27.5,
+    "p_play": 0.389,
+    "exp_missing_minutes": 16.8
+   },
+   {
+    "player": "Diop, Khalifa",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Tomlin, Nae'Qwan",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Udeh Jr., Ernest",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ },
+ "away": {
+  "team": "IND",
+  "elo": 1359.3,
+  "win_pct_last10": 0.3,
+  "win_pct_last5": 0.4,
+  "point_diff_last10": -5.0,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Haliburton, Tyrese",
+    "status": "Out",
+    "avg_minutes": 33.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 33.0
+   },
+   {
+    "player": "Nembhard, Andrew",
+    "status": "Questionable",
+    "avg_minutes": 33.4,
+    "p_play": 0.593,
+    "exp_missing_minutes": 13.6
+   },
+   {
+    "player": "Sheppard, Ben",
+    "status": "Out",
+    "avg_minutes": 12.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 12.0
+   },
+   {
+    "player": "Smith, Braden",
+    "status": "Questionable",
+    "avg_minutes": 13.8,
+    "p_play": 0.65,
+    "exp_missing_minutes": 4.8
+   },
+   {
+    "player": "McConnell, T.J.",
+    "status": "Probable",
+    "avg_minutes": 14.2,
+    "p_play": 0.921,
+    "exp_missing_minutes": 1.1
+   },
+   {
+    "player": "Furphy, Johnny",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ }
+}

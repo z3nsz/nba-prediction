@@ -1,0 +1,136 @@
+{
+ "id": "espn-401909308",
+ "computed_et": "2026-11-20T06:26",
+ "final": false,
+ "report": "2026-11-19_11_45PM",
+ "cutoff_et": "2026-11-20T18:30",
+ "elo_home_win_prob": 0.847,
+ "inputs": {
+  "elo_diff": 197.0822,
+  "home_court": 1.0,
+  "point_diff_last10_diff": 11.9,
+  "win_pct_last10_diff": 0.5,
+  "win_pct_last5_diff": 0.8,
+  "rest_days_diff": 0.0,
+  "back_to_back_diff": 0.0,
+  "exp_missing_minutes_diff": 8.8336,
+  "starters_out_diff": 0.0,
+  "exp_missing_value_diff": 5.5955,
+  "exp_stars_missing_diff": -0.0825
+ },
+ "home": {
+  "team": "DET",
+  "elo": 1676.9,
+  "win_pct_last10": 0.7,
+  "win_pct_last5": 0.8,
+  "point_diff_last10": 6.6,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Robinson, Duncan",
+    "status": "Out",
+    "avg_minutes": 30.6,
+    "p_play": 0.0,
+    "exp_missing_minutes": 30.6
+   },
+   {
+    "player": "Duren, Jalen",
+    "status": "Out",
+    "avg_minutes": 19.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 19.0
+   },
+   {
+    "player": "Holland II, Ronald",
+    "status": "Out",
+    "avg_minutes": 15.9,
+    "p_play": 0.0,
+    "exp_missing_minutes": 15.9
+   },
+   {
+    "player": "Prince, Taurean",
+    "status": "Out",
+    "avg_minutes": 7.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 7.0
+   },
+   {
+    "player": "Okorie, Ebuka",
+    "status": "Out",
+    "avg_minutes": 4.2,
+    "p_play": 0.0,
+    "exp_missing_minutes": 4.2
+   },
+   {
+    "player": "Cunningham, Cade",
+    "status": "Probable",
+    "avg_minutes": 35.0,
+    "p_play": 0.917,
+    "exp_missing_minutes": 2.9
+   },
+   {
+    "player": "Onyenso, Ugonna",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ },
+ "away": {
+  "team": "TOR",
+  "elo": 1479.8,
+  "win_pct_last10": 0.2,
+  "win_pct_last5": 0.0,
+  "point_diff_last10": -5.3,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Barrett, RJ",
+    "status": "Out",
+    "avg_minutes": 34.1,
+    "p_play": 0.0,
+    "exp_missing_minutes": 34.1
+   },
+   {
+    "player": "Leonard, Kawhi",
+    "status": "Out",
+    "avg_minutes": 26.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 26.0
+   },
+   {
+    "player": "Murray-Boyles, Collin",
+    "status": "Out",
+    "avg_minutes": 23.6,
+    "p_play": 0.0,
+    "exp_missing_minutes": 23.6
+   },
+   {
+    "player": "Bradley, Jaden",
+    "status": "Out",
+    "avg_minutes": 4.8,
+    "p_play": 0.001,
+    "exp_missing_minutes": 4.8
+   },
+   {
+    "player": "Bittle, Nate",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "McCullar Jr., Kevin",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ }
+}
