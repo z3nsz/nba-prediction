@@ -1,8 +1,8 @@
 {
  "id": "espn-401909305",
- "computed_et": "2026-11-20T16:46",
- "final": false,
- "report": "2026-11-20_04_45PM",
+ "computed_et": "2026-11-20T18:01",
+ "final": true,
+ "report": "2026-11-20_06_00PM",
  "cutoff_et": "2026-11-20T18:00",
  "elo_home_win_prob": 0.749,
  "inputs": {
@@ -13,9 +13,9 @@
   "win_pct_last5_diff": 0.4,
   "rest_days_diff": -1.0,
   "back_to_back_diff": 0.0,
-  "exp_missing_minutes_diff": 15.4303,
+  "exp_missing_minutes_diff": 6.8618,
   "starters_out_diff": 1.0,
-  "exp_missing_value_diff": -2.5443,
+  "exp_missing_value_diff": -2.4664,
   "exp_stars_missing_diff": 0.0
  },
  "home": {
@@ -36,6 +36,13 @@
     "exp_missing_minutes": 26.4
    },
    {
+    "player": "Flemings, Kingston",
+    "status": "Out",
+    "avg_minutes": 21.5,
+    "p_play": 0.001,
+    "exp_missing_minutes": 21.5
+   },
+   {
     "player": "Landale, Jock",
     "status": "Out",
     "avg_minutes": 15.4,
@@ -50,18 +57,11 @@
     "exp_missing_minutes": 11.0
    },
    {
-    "player": "Flemings, Kingston",
-    "status": "Questionable",
-    "avg_minutes": 21.5,
-    "p_play": 0.511,
-    "exp_missing_minutes": 10.5
-   },
-   {
     "player": "Dennis, RayJ",
-    "status": "Questionable",
+    "status": "Available",
     "avg_minutes": 9.3,
-    "p_play": 0.361,
-    "exp_missing_minutes": 6.0
+    "p_play": 0.618,
+    "exp_missing_minutes": 3.6
    },
    {
     "player": "Gueye, Mouhamed",
@@ -72,9 +72,9 @@
    },
    {
     "player": "Castro, Rafael",
-    "status": "Questionable",
+    "status": "Out",
     "avg_minutes": 0.0,
-    "p_play": 0.511,
+    "p_play": 0.001,
     "exp_missing_minutes": 0.0
    },
    {
@@ -86,9 +86,9 @@
    },
    {
     "player": "Wilson, Jalen",
-    "status": "Questionable",
+    "status": "Available",
     "avg_minutes": 0.0,
-    "p_play": 0.425,
+    "p_play": 0.67,
     "exp_missing_minutes": 0.0
    }
   ]
