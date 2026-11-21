@@ -1,0 +1,72 @@
+{
+ "id": "espn-401910028",
+ "computed_et": "2026-11-21T06:41",
+ "final": false,
+ "report": "2026-11-20_11_45PM",
+ "cutoff_et": "2026-11-21T21:00",
+ "elo_home_win_prob": 0.172,
+ "inputs": {
+  "elo_diff": -373.1094,
+  "home_court": 1.0,
+  "point_diff_last10_diff": -22.6,
+  "win_pct_last10_diff": -0.6,
+  "win_pct_last5_diff": -0.6,
+  "rest_days_diff": -2.0,
+  "back_to_back_diff": -1.0,
+  "exp_missing_minutes_diff": 0.0,
+  "starters_out_diff": 0.0,
+  "exp_missing_value_diff": 0.0,
+  "exp_stars_missing_diff": 0.0
+ },
+ "home": {
+  "team": "SAC",
+  "elo": 1305.0,
+  "win_pct_last10": 0.1,
+  "win_pct_last5": 0.0,
+  "point_diff_last10": -11.5,
+  "rest_days": 1.0,
+  "back_to_back": true,
+  "report_known": false,
+  "injuries": []
+ },
+ "away": {
+  "team": "BOS",
+  "elo": 1678.1,
+  "win_pct_last10": 0.7,
+  "win_pct_last5": 0.6,
+  "point_diff_last10": 11.1,
+  "rest_days": 3.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Tatum, Jayson",
+    "status": "Questionable",
+    "avg_minutes": 34.1,
+    "p_play": 0.571,
+    "exp_missing_minutes": 14.6
+   },
+   {
+    "player": "White, Derrick",
+    "status": "Questionable",
+    "avg_minutes": 29.9,
+    "p_play": 0.569,
+    "exp_missing_minutes": 12.9
+   },
+   {
+    "player": "Mitchell, Dillon",
+    "status": "Out",
+    "avg_minutes": 2.0,
+    "p_play": 0.001,
+    "exp_missing_minutes": 2.0
+   },
+   {
+    "player": "Williams, Amari",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ }
+}
