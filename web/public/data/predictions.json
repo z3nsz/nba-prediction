@@ -1,5 +1,5 @@
 {
- "updated_et": "2026-11-20T20:31",
+ "updated_et": "2026-11-20T21:01",
  "season": "2026-27",
  "model": {
   "description": "Final NBA model (logistic regression, no intercept), retrained on all six seasons",
@@ -5852,9 +5852,9 @@
    "tip_off_et": "2026-11-20T22:00",
    "home": "DEN",
    "away": "HOU",
-   "p_home": 0.5209,
-   "final": false,
-   "report": "2026-11-20_08_30PM",
+   "p_home": 0.4954,
+   "final": true,
+   "report": "2026-11-20_09_00PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
@@ -5865,10 +5865,10 @@
     "win_pct_last5_diff": 0.0032,
     "rest_days_diff": 0.0,
     "back_to_back_diff": 0.0,
-    "exp_missing_minutes_diff": 0.057,
+    "exp_missing_minutes_diff": -0.0017,
     "starters_out_diff": 0.0,
-    "exp_missing_value_diff": 0.0582,
-    "exp_stars_missing_diff": 0.0138
+    "exp_missing_value_diff": 0.0253,
+    "exp_stars_missing_diff": 0.0034
    }
   },
   {
@@ -5877,9 +5877,9 @@
    "tip_off_et": "2026-11-20T22:00",
    "home": "LAL",
    "away": "SAC",
-   "p_home": 0.8113,
-   "final": false,
-   "report": "2026-11-20_08_30PM",
+   "p_home": 0.8032,
+   "final": true,
+   "report": "2026-11-20_09_00PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
@@ -5890,9 +5890,9 @@
     "win_pct_last5_diff": -0.0128,
     "rest_days_diff": 0.0,
     "back_to_back_diff": 0.0,
-    "exp_missing_minutes_diff": 0.0905,
+    "exp_missing_minutes_diff": 0.0108,
     "starters_out_diff": -0.0303,
-    "exp_missing_value_diff": -0.1522,
+    "exp_missing_value_diff": -0.1243,
     "exp_stars_missing_diff": 0.0
    }
   }

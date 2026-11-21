@@ -1,8 +1,8 @@
 {
  "id": "espn-401909313",
- "computed_et": "2026-11-20T20:31",
- "final": false,
- "report": "2026-11-20_08_30PM",
+ "computed_et": "2026-11-20T21:01",
+ "final": true,
+ "report": "2026-11-20_09_00PM",
  "cutoff_et": "2026-11-20T21:00",
  "elo_home_win_prob": 0.911,
  "inputs": {
@@ -13,9 +13,9 @@
   "win_pct_last5_diff": 0.8,
   "rest_days_diff": 0.0,
   "back_to_back_diff": 0.0,
-  "exp_missing_minutes_diff": 19.0018,
+  "exp_missing_minutes_diff": 2.27,
   "starters_out_diff": -1.0,
-  "exp_missing_value_diff": -8.0412,
+  "exp_missing_value_diff": -6.5678,
   "exp_stars_missing_diff": 0.0
  },
  "home": {
@@ -62,18 +62,18 @@
     "exp_missing_minutes": 24.7
    },
    {
-    "player": "Hunter, De'Andre",
-    "status": "Questionable",
-    "avg_minutes": 33.4,
-    "p_play": 0.46,
-    "exp_missing_minutes": 18.0
-   },
-   {
     "player": "Mogbo, Jonathan",
     "status": "Out",
     "avg_minutes": 14.2,
     "p_play": 0.0,
     "exp_missing_minutes": 14.2
+   },
+   {
+    "player": "Hunter, De'Andre",
+    "status": "Available",
+    "avg_minutes": 33.4,
+    "p_play": 0.961,
+    "exp_missing_minutes": 1.3
    },
    {
     "player": "Pedulla, Sean",

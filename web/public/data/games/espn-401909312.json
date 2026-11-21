@@ -1,8 +1,8 @@
 {
  "id": "espn-401909312",
- "computed_et": "2026-11-20T20:31",
- "final": false,
- "report": "2026-11-20_08_30PM",
+ "computed_et": "2026-11-20T21:01",
+ "final": true,
+ "report": "2026-11-20_09_00PM",
  "cutoff_et": "2026-11-20T21:00",
  "elo_home_win_prob": 0.579,
  "inputs": {
@@ -13,10 +13,10 @@
   "win_pct_last5_diff": -0.2,
   "rest_days_diff": 0.0,
   "back_to_back_diff": 0.0,
-  "exp_missing_minutes_diff": 11.9729,
+  "exp_missing_minutes_diff": -0.3518,
   "starters_out_diff": 0.0,
-  "exp_missing_value_diff": 3.0737,
-  "exp_stars_missing_diff": 0.3546
+  "exp_missing_value_diff": 1.3386,
+  "exp_stars_missing_diff": 0.088
  },
  "home": {
   "team": "DEN",
@@ -76,25 +76,25 @@
     "exp_missing_minutes": 14.2
    },
    {
-    "player": "Sengun, Alperen",
-    "status": "Questionable",
-    "avg_minutes": 32.8,
-    "p_play": 0.645,
-    "exp_missing_minutes": 11.6
-   },
-   {
-    "player": "Adams, Steven",
-    "status": "Questionable",
-    "avg_minutes": 12.3,
-    "p_play": 0.546,
-    "exp_missing_minutes": 5.6
-   },
-   {
     "player": "Thornton, Bruce",
     "status": "Out",
     "avg_minutes": 3.8,
     "p_play": 0.001,
     "exp_missing_minutes": 3.8
+   },
+   {
+    "player": "Sengun, Alperen",
+    "status": "Available",
+    "avg_minutes": 32.8,
+    "p_play": 0.912,
+    "exp_missing_minutes": 2.9
+   },
+   {
+    "player": "Adams, Steven",
+    "status": "Available",
+    "avg_minutes": 12.3,
+    "p_play": 0.836,
+    "exp_missing_minutes": 2.0
    },
    {
     "player": "Phillips, Julian",
