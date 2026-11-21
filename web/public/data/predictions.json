@@ -1,5 +1,5 @@
 {
- "updated_et": "2026-11-21T06:41",
+ "updated_et": "2026-11-21T15:28",
  "season": "2026-27",
  "model": {
   "description": "Final NBA model (logistic regression, no intercept), retrained on all six seasons",
@@ -5903,8 +5903,8 @@
    "home": "PHI",
    "away": "MIL",
    "p_home": 0.7019,
-   "final": false,
-   "report": "2026-11-20_11_45PM",
+   "final": true,
+   "report": "2026-11-21_12_00PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
@@ -5927,9 +5927,9 @@
    "tip_off_et": "2026-11-21T19:30",
    "home": "NYK",
    "away": "POR",
-   "p_home": 0.6741,
+   "p_home": 0.6365,
    "final": false,
-   "report": "2026-11-20_11_45PM",
+   "report": "2026-11-21_03_15PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
@@ -5940,10 +5940,10 @@
     "win_pct_last5_diff": -0.0,
     "rest_days_diff": 0.0,
     "back_to_back_diff": 0.0,
-    "exp_missing_minutes_diff": 0.1742,
-    "starters_out_diff": 0.0,
-    "exp_missing_value_diff": 0.0753,
-    "exp_stars_missing_diff": 0.0131
+    "exp_missing_minutes_diff": 0.0763,
+    "starters_out_diff": -0.0303,
+    "exp_missing_value_diff": 0.0476,
+    "exp_stars_missing_diff": 0.0027
    }
   },
   {
@@ -5952,9 +5952,9 @@
    "tip_off_et": "2026-11-21T20:00",
    "home": "DAL",
    "away": "LAC",
-   "p_home": 0.5214,
+   "p_home": 0.4971,
    "final": false,
-   "report": "2026-11-20_11_45PM",
+   "report": "2026-11-21_03_15PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
@@ -5965,9 +5965,9 @@
     "win_pct_last5_diff": -0.0,
     "rest_days_diff": 0.0362,
     "back_to_back_diff": 0.0,
-    "exp_missing_minutes_diff": -0.1463,
-    "starters_out_diff": 0.0,
-    "exp_missing_value_diff": 0.0204,
+    "exp_missing_minutes_diff": -0.2262,
+    "starters_out_diff": -0.0303,
+    "exp_missing_value_diff": 0.0334,
     "exp_stars_missing_diff": 0.0
    }
   },
@@ -5977,9 +5977,9 @@
    "tip_off_et": "2026-11-21T20:00",
    "home": "MIN",
    "away": "MEM",
-   "p_home": 0.7041,
+   "p_home": 0.7114,
    "final": false,
-   "report": "2026-11-20_11_45PM",
+   "report": "2026-11-21_03_15PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
@@ -5990,10 +5990,10 @@
     "win_pct_last5_diff": 0.0064,
     "rest_days_diff": 0.0,
     "back_to_back_diff": 0.0,
-    "exp_missing_minutes_diff": 0.2675,
+    "exp_missing_minutes_diff": 0.2774,
     "starters_out_diff": 0.0,
-    "exp_missing_value_diff": -0.057,
-    "exp_stars_missing_diff": -0.0353
+    "exp_missing_value_diff": -0.0364,
+    "exp_stars_missing_diff": -0.0304
    }
   },
   {
@@ -6002,9 +6002,9 @@
    "tip_off_et": "2026-11-21T20:00",
    "home": "SAS",
    "away": "NOP",
-   "p_home": 0.8987,
+   "p_home": 0.9289,
    "final": false,
-   "report": "2026-11-20_11_45PM",
+   "report": "2026-11-21_03_15PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
@@ -6015,9 +6015,9 @@
     "win_pct_last5_diff": -0.0096,
     "rest_days_diff": 0.0362,
     "back_to_back_diff": 0.1956,
-    "exp_missing_minutes_diff": 0.0,
-    "starters_out_diff": 0.0,
-    "exp_missing_value_diff": 0.0,
+    "exp_missing_minutes_diff": 0.3922,
+    "starters_out_diff": 0.0303,
+    "exp_missing_value_diff": -0.0349,
     "exp_stars_missing_diff": 0.0
    }
   },
@@ -6029,7 +6029,7 @@
    "away": "BOS",
    "p_home": 0.1336,
    "final": false,
-   "report": "2026-11-20_11_45PM",
+   "report": "2026-11-21_03_15PM",
    "home_score": null,
    "away_score": null,
    "contributions": {

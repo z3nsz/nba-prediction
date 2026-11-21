@@ -1,8 +1,8 @@
 {
  "id": "espn-401910026",
- "computed_et": "2026-11-21T06:41",
+ "computed_et": "2026-11-21T15:28",
  "final": false,
- "report": "2026-11-20_11_45PM",
+ "report": "2026-11-21_03_15PM",
  "cutoff_et": "2026-11-21T19:00",
  "elo_home_win_prob": 0.768,
  "inputs": {
@@ -13,10 +13,10 @@
   "win_pct_last5_diff": -0.4,
   "rest_days_diff": 0.0,
   "back_to_back_diff": 0.0,
-  "exp_missing_minutes_diff": 56.1793,
+  "exp_missing_minutes_diff": 58.2628,
   "starters_out_diff": 0.0,
-  "exp_missing_value_diff": -3.0099,
-  "exp_stars_missing_diff": -0.9047
+  "exp_missing_value_diff": -1.9224,
+  "exp_stars_missing_diff": -0.7814
  },
  "home": {
   "team": "MIN",
@@ -55,6 +55,13 @@
     "avg_minutes": 2.0,
     "p_play": 0.0,
     "exp_missing_minutes": 2.0
+   },
+   {
+    "player": "Evans, Isaiah",
+    "status": "Questionable",
+    "avg_minutes": 3.4,
+    "p_play": 0.511,
+    "exp_missing_minutes": 1.7
    },
    {
     "player": "DiVincenzo, Donte",
@@ -112,10 +119,10 @@
    },
    {
     "player": "Jerome, Ty",
-    "status": "Probable",
+    "status": "Available",
     "avg_minutes": 30.5,
-    "p_play": 0.905,
-    "exp_missing_minutes": 2.9
+    "p_play": 0.781,
+    "exp_missing_minutes": 6.7
    },
    {
     "player": "Saunders, Richie",
