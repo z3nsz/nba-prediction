@@ -1,8 +1,8 @@
 {
  "id": "espn-401910030",
- "computed_et": "2026-11-22T02:57",
+ "computed_et": "2026-11-22T15:40",
  "final": false,
- "report": "2026-11-21_11_45PM",
+ "report": "2026-11-22_03_30PM",
  "cutoff_et": "2026-11-22T17:00",
  "elo_home_win_prob": 0.526,
  "inputs": {
@@ -13,9 +13,9 @@
   "win_pct_last5_diff": 0.6,
   "rest_days_diff": 2.0,
   "back_to_back_diff": 0.0,
-  "exp_missing_minutes_diff": 126.841,
+  "exp_missing_minutes_diff": 127.7665,
   "starters_out_diff": 2.0,
-  "exp_missing_value_diff": 1.1292,
+  "exp_missing_value_diff": 1.143,
   "exp_stars_missing_diff": 0.1085
  },
  "home": {
@@ -37,10 +37,10 @@
    },
    {
     "player": "Johnson, Keshad",
-    "status": "Out",
+    "status": "Available",
     "avg_minutes": 2.0,
-    "p_play": 0.0,
-    "exp_missing_minutes": 2.0
+    "p_play": 0.463,
+    "exp_missing_minutes": 1.1
    },
    {
     "player": "Gardner, Myron",

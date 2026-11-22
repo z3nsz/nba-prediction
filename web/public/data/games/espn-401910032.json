@@ -1,8 +1,8 @@
 {
  "id": "espn-401910032",
- "computed_et": "2026-11-22T02:57",
+ "computed_et": "2026-11-22T15:40",
  "final": false,
- "report": "2026-11-21_11_45PM",
+ "report": "2026-11-22_03_30PM",
  "cutoff_et": "2026-11-22T18:00",
  "elo_home_win_prob": 0.363,
  "inputs": {
@@ -13,9 +13,9 @@
   "win_pct_last5_diff": -0.2,
   "rest_days_diff": 0.0,
   "back_to_back_diff": 0.0,
-  "exp_missing_minutes_diff": -50.4625,
-  "starters_out_diff": -1.0,
-  "exp_missing_value_diff": -3.0615,
+  "exp_missing_minutes_diff": -71.8609,
+  "starters_out_diff": -2.0,
+  "exp_missing_value_diff": -4.9005,
   "exp_stars_missing_diff": 0.0
  },
  "home": {
@@ -37,24 +37,17 @@
    },
    {
     "player": "Powell, Norman",
-    "status": "Questionable",
-    "avg_minutes": 29.5,
-    "p_play": 0.483,
-    "exp_missing_minutes": 15.3
-   },
-   {
-    "player": "Awaka, Tobe",
     "status": "Out",
-    "avg_minutes": 10.0,
+    "avg_minutes": 29.5,
     "p_play": 0.0,
-    "exp_missing_minutes": 10.0
+    "exp_missing_minutes": 29.5
    },
    {
-    "player": "Smith, Jalen",
-    "status": "Questionable",
-    "avg_minutes": 24.6,
-    "p_play": 0.657,
-    "exp_missing_minutes": 8.4
+    "player": "Claxton, Nic",
+    "status": "Out",
+    "avg_minutes": 20.7,
+    "p_play": 0.0,
+    "exp_missing_minutes": 20.7
    },
    {
     "player": "Sellers, Jaylin",
@@ -64,6 +57,13 @@
     "exp_missing_minutes": 7.2
    },
    {
+    "player": "Awaka, Tobe",
+    "status": "Available",
+    "avg_minutes": 10.0,
+    "p_play": 0.703,
+    "exp_missing_minutes": 3.0
+   },
+   {
     "player": "Williams, Patrick",
     "status": "Probable",
     "avg_minutes": 21.5,
@@ -71,10 +71,17 @@
     "exp_missing_minutes": 2.1
    },
    {
+    "player": "Smith, Jalen",
+    "status": "Probable",
+    "avg_minutes": 24.6,
+    "p_play": 0.921,
+    "exp_missing_minutes": 2.0
+   },
+   {
     "player": "Robinson, Orlando",
-    "status": "Out",
+    "status": "Available",
     "avg_minutes": 0.0,
-    "p_play": 0.0,
+    "p_play": 0.581,
     "exp_missing_minutes": 0.0
    }
   ]

@@ -1,8 +1,8 @@
 {
  "id": "espn-401910029",
- "computed_et": "2026-11-22T02:57",
- "final": false,
- "report": "2026-11-21_11_45PM",
+ "computed_et": "2026-11-22T15:40",
+ "final": true,
+ "report": "2026-11-22_02_30PM",
  "cutoff_et": "2026-11-22T14:30",
  "elo_home_win_prob": 0.519,
  "inputs": {
@@ -13,9 +13,9 @@
   "win_pct_last5_diff": 0.0,
   "rest_days_diff": 0.0,
   "back_to_back_diff": 0.0,
-  "exp_missing_minutes_diff": 1.3507,
+  "exp_missing_minutes_diff": 8.5465,
   "starters_out_diff": 1.0,
-  "exp_missing_value_diff": 4.4284,
+  "exp_missing_value_diff": 3.7867,
   "exp_stars_missing_diff": 0.0799
  },
  "home": {
@@ -50,25 +50,18 @@
     "exp_missing_minutes": 11.0
    },
    {
-    "player": "Flemings, Kingston",
-    "status": "Questionable",
-    "avg_minutes": 21.5,
-    "p_play": 0.511,
-    "exp_missing_minutes": 10.5
-   },
-   {
     "player": "Dennis, RayJ",
-    "status": "Questionable",
+    "status": "Available",
     "avg_minutes": 10.2,
-    "p_play": 0.361,
-    "exp_missing_minutes": 6.5
+    "p_play": 0.645,
+    "exp_missing_minutes": 3.6
    },
    {
-    "player": "Castro, Rafael",
-    "status": "Questionable",
-    "avg_minutes": 0.0,
-    "p_play": 0.511,
-    "exp_missing_minutes": 0.0
+    "player": "Flemings, Kingston",
+    "status": "Available",
+    "avg_minutes": 21.5,
+    "p_play": 0.839,
+    "exp_missing_minutes": 3.5
    },
    {
     "player": "Gueye, Mouhamed",
@@ -85,10 +78,17 @@
     "exp_missing_minutes": 0.0
    },
    {
-    "player": "Wilson, Jalen",
-    "status": "Questionable",
+    "player": "Castro, Rafael",
+    "status": "Out",
     "avg_minutes": 0.0,
-    "p_play": 0.426,
+    "p_play": 0.001,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Wilson, Jalen",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
     "exp_missing_minutes": 0.0
    }
   ]
@@ -125,13 +125,6 @@
     "exp_missing_minutes": 7.0
    },
    {
-    "player": "Holland II, Ronald",
-    "status": "Questionable",
-    "avg_minutes": 15.9,
-    "p_play": 0.592,
-    "exp_missing_minutes": 6.5
-   },
-   {
     "player": "Okorie, Ebuka",
     "status": "Out",
     "avg_minutes": 4.2,
@@ -147,10 +140,17 @@
    },
    {
     "player": "Jones, Isaac",
-    "status": "Questionable",
+    "status": "Out",
     "avg_minutes": 2.7,
-    "p_play": 0.569,
-    "exp_missing_minutes": 1.1
+    "p_play": 0.0,
+    "exp_missing_minutes": 2.7
+   },
+   {
+    "player": "Holland II, Ronald",
+    "status": "Available",
+    "avg_minutes": 15.9,
+    "p_play": 0.862,
+    "exp_missing_minutes": 2.2
    },
    {
     "player": "Onyenso, Ugonna",

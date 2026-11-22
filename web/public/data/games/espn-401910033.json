@@ -1,8 +1,8 @@
 {
  "id": "espn-401910033",
- "computed_et": "2026-11-22T02:57",
+ "computed_et": "2026-11-22T15:40",
  "final": false,
- "report": "2026-11-21_11_45PM",
+ "report": "2026-11-22_03_30PM",
  "cutoff_et": "2026-11-22T18:00",
  "elo_home_win_prob": 0.491,
  "inputs": {
@@ -13,9 +13,9 @@
   "win_pct_last5_diff": 0.0,
   "rest_days_diff": 1.0,
   "back_to_back_diff": 1.0,
-  "exp_missing_minutes_diff": 0.0,
+  "exp_missing_minutes_diff": -2.9243,
   "starters_out_diff": 0.0,
-  "exp_missing_value_diff": 0.0,
+  "exp_missing_value_diff": -7.0048,
   "exp_stars_missing_diff": 0.0
  },
  "home": {
@@ -43,7 +43,21 @@
     "exp_missing_minutes": 26.0
    },
    {
+    "player": "Ingram, Harrison",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.021,
+    "exp_missing_minutes": 0.0
+   },
+   {
     "player": "Bufkin, Kobe",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Nurkic, Jusuf",
     "status": "Out",
     "avg_minutes": 0.0,
     "p_play": 0.0,
@@ -54,20 +68,6 @@
     "status": "Out",
     "avg_minutes": 0.0,
     "p_play": 0.001,
-    "exp_missing_minutes": 0.0
-   },
-   {
-    "player": "Ingram, Harrison",
-    "status": "Out",
-    "avg_minutes": 0.0,
-    "p_play": 0.021,
-    "exp_missing_minutes": 0.0
-   },
-   {
-    "player": "Nurkic, Jusuf",
-    "status": "Out",
-    "avg_minutes": 0.0,
-    "p_play": 0.0,
     "exp_missing_minutes": 0.0
    }
   ]
@@ -80,7 +80,57 @@
   "point_diff_last10": -1.8,
   "rest_days": 1.0,
   "back_to_back": true,
-  "report_known": false,
-  "injuries": []
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Washington, P.J.",
+    "status": "Doubtful",
+    "avg_minutes": 30.9,
+    "p_play": 0.069,
+    "exp_missing_minutes": 28.8
+   },
+   {
+    "player": "de Larrea, Sergio",
+    "status": "Out",
+    "avg_minutes": 11.8,
+    "p_play": 0.0,
+    "exp_missing_minutes": 11.7
+   },
+   {
+    "player": "Clayton Jr., Walter",
+    "status": "Questionable",
+    "avg_minutes": 18.4,
+    "p_play": 0.54,
+    "exp_missing_minutes": 8.5
+   },
+   {
+    "player": "Lawal, Tobi",
+    "status": "Out",
+    "avg_minutes": 4.6,
+    "p_play": 0.001,
+    "exp_missing_minutes": 4.6
+   },
+   {
+    "player": "Martin, Caleb",
+    "status": "Available",
+    "avg_minutes": 21.4,
+    "p_play": 0.986,
+    "exp_missing_minutes": 0.3
+   },
+   {
+    "player": "Biberovic, Tarik",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Lively II, Dereck",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
  }
 }
