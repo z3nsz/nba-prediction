@@ -1,8 +1,8 @@
 {
  "id": "espn-401910032",
- "computed_et": "2026-11-22T15:40",
+ "computed_et": "2026-11-22T17:01",
  "final": false,
- "report": "2026-11-22_03_30PM",
+ "report": "2026-11-22_05_00PM",
  "cutoff_et": "2026-11-22T18:00",
  "elo_home_win_prob": 0.363,
  "inputs": {
@@ -13,9 +13,9 @@
   "win_pct_last5_diff": -0.2,
   "rest_days_diff": 0.0,
   "back_to_back_diff": 0.0,
-  "exp_missing_minutes_diff": -71.8609,
+  "exp_missing_minutes_diff": -65.8597,
   "starters_out_diff": -2.0,
-  "exp_missing_value_diff": -4.9005,
+  "exp_missing_value_diff": -5.0952,
   "exp_stars_missing_diff": 0.0
  },
  "home": {
@@ -50,13 +50,6 @@
     "exp_missing_minutes": 20.7
    },
    {
-    "player": "Sellers, Jaylin",
-    "status": "Out",
-    "avg_minutes": 7.8,
-    "p_play": 0.084,
-    "exp_missing_minutes": 7.2
-   },
-   {
     "player": "Awaka, Tobe",
     "status": "Available",
     "avg_minutes": 10.0,
@@ -64,18 +57,25 @@
     "exp_missing_minutes": 3.0
    },
    {
-    "player": "Williams, Patrick",
-    "status": "Probable",
-    "avg_minutes": 21.5,
-    "p_play": 0.902,
-    "exp_missing_minutes": 2.1
+    "player": "Smith, Jalen",
+    "status": "Available",
+    "avg_minutes": 24.6,
+    "p_play": 0.898,
+    "exp_missing_minutes": 2.5
    },
    {
-    "player": "Smith, Jalen",
-    "status": "Probable",
-    "avg_minutes": 24.6,
-    "p_play": 0.921,
-    "exp_missing_minutes": 2.0
+    "player": "Sellers, Jaylin",
+    "status": "Available",
+    "avg_minutes": 7.8,
+    "p_play": 0.807,
+    "exp_missing_minutes": 1.5
+   },
+   {
+    "player": "Williams, Patrick",
+    "status": "Available",
+    "avg_minutes": 21.5,
+    "p_play": 0.943,
+    "exp_missing_minutes": 1.2
    },
    {
     "player": "Robinson, Orlando",
