@@ -1,0 +1,164 @@
+{
+ "id": "espn-401910029",
+ "computed_et": "2026-11-22T02:57",
+ "final": false,
+ "report": "2026-11-21_11_45PM",
+ "cutoff_et": "2026-11-22T14:30",
+ "elo_home_win_prob": 0.519,
+ "inputs": {
+  "elo_diff": -87.0551,
+  "home_court": 1.0,
+  "point_diff_last10_diff": -4.0,
+  "win_pct_last10_diff": 0.1,
+  "win_pct_last5_diff": 0.0,
+  "rest_days_diff": 0.0,
+  "back_to_back_diff": 0.0,
+  "exp_missing_minutes_diff": 1.3507,
+  "starters_out_diff": 1.0,
+  "exp_missing_value_diff": 4.4284,
+  "exp_stars_missing_diff": 0.0799
+ },
+ "home": {
+  "team": "ATL",
+  "elo": 1577.4,
+  "win_pct_last10": 0.7,
+  "win_pct_last5": 0.6,
+  "point_diff_last10": 1.5,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "McCollum, CJ",
+    "status": "Out",
+    "avg_minutes": 26.4,
+    "p_play": 0.0,
+    "exp_missing_minutes": 26.4
+   },
+   {
+    "player": "Landale, Jock",
+    "status": "Out",
+    "avg_minutes": 15.4,
+    "p_play": 0.0,
+    "exp_missing_minutes": 15.4
+   },
+   {
+    "player": "Newell, Asa",
+    "status": "Out",
+    "avg_minutes": 11.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 11.0
+   },
+   {
+    "player": "Flemings, Kingston",
+    "status": "Questionable",
+    "avg_minutes": 21.5,
+    "p_play": 0.511,
+    "exp_missing_minutes": 10.5
+   },
+   {
+    "player": "Dennis, RayJ",
+    "status": "Questionable",
+    "avg_minutes": 10.2,
+    "p_play": 0.361,
+    "exp_missing_minutes": 6.5
+   },
+   {
+    "player": "Castro, Rafael",
+    "status": "Questionable",
+    "avg_minutes": 0.0,
+    "p_play": 0.511,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Gueye, Mouhamed",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Veesaar, Henri",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Wilson, Jalen",
+    "status": "Questionable",
+    "avg_minutes": 0.0,
+    "p_play": 0.426,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ },
+ "away": {
+  "team": "DET",
+  "elo": 1664.5,
+  "win_pct_last10": 0.6,
+  "win_pct_last5": 0.6,
+  "point_diff_last10": 5.5,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Robinson, Duncan",
+    "status": "Out",
+    "avg_minutes": 30.6,
+    "p_play": 0.0,
+    "exp_missing_minutes": 30.6
+   },
+   {
+    "player": "Duren, Jalen",
+    "status": "Out",
+    "avg_minutes": 19.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 19.0
+   },
+   {
+    "player": "Prince, Taurean",
+    "status": "Out",
+    "avg_minutes": 7.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 7.0
+   },
+   {
+    "player": "Holland II, Ronald",
+    "status": "Questionable",
+    "avg_minutes": 15.9,
+    "p_play": 0.592,
+    "exp_missing_minutes": 6.5
+   },
+   {
+    "player": "Okorie, Ebuka",
+    "status": "Out",
+    "avg_minutes": 4.2,
+    "p_play": 0.0,
+    "exp_missing_minutes": 4.2
+   },
+   {
+    "player": "Cunningham, Cade",
+    "status": "Probable",
+    "avg_minutes": 35.1,
+    "p_play": 0.92,
+    "exp_missing_minutes": 2.8
+   },
+   {
+    "player": "Jones, Isaac",
+    "status": "Questionable",
+    "avg_minutes": 2.7,
+    "p_play": 0.569,
+    "exp_missing_minutes": 1.1
+   },
+   {
+    "player": "Onyenso, Ugonna",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ }
+}
