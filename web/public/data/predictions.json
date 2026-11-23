@@ -1,5 +1,5 @@
 {
- "updated_et": "2026-11-22T19:01",
+ "updated_et": "2026-11-22T19:31",
  "season": "2026-27",
  "model": {
   "description": "Final NBA model (logistic regression, no intercept), retrained on all six seasons",
@@ -6203,8 +6203,8 @@
    "home": "GSW",
    "away": "BOS",
    "p_home": 0.331,
-   "final": false,
-   "report": "2026-11-22_07_00PM",
+   "final": true,
+   "report": "2026-11-22_07_30PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
