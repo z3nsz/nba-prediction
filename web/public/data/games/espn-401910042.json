@@ -1,0 +1,122 @@
+{
+ "id": "espn-401910042",
+ "computed_et": "2026-11-23T04:43",
+ "final": false,
+ "report": "2026-11-22_11_45PM",
+ "cutoff_et": "2026-11-23T19:00",
+ "elo_home_win_prob": 0.365,
+ "inputs": {
+  "elo_diff": -196.2685,
+  "home_court": 1.0,
+  "point_diff_last10_diff": -20.7,
+  "win_pct_last10_diff": -0.6,
+  "win_pct_last5_diff": -0.6,
+  "rest_days_diff": -1.0,
+  "back_to_back_diff": 0.0,
+  "exp_missing_minutes_diff": -65.8375,
+  "starters_out_diff": -1.0,
+  "exp_missing_value_diff": -0.978,
+  "exp_stars_missing_diff": -0.0679
+ },
+ "home": {
+  "team": "NOP",
+  "elo": 1351.5,
+  "win_pct_last10": 0.1,
+  "win_pct_last5": 0.2,
+  "point_diff_last10": -16.7,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Murray, Dejounte",
+    "status": "Out",
+    "avg_minutes": 31.4,
+    "p_play": 0.0,
+    "exp_missing_minutes": 31.4
+   },
+   {
+    "player": "Watford, Trendon",
+    "status": "Out",
+    "avg_minutes": 17.8,
+    "p_play": 0.0,
+    "exp_missing_minutes": 17.8
+   },
+   {
+    "player": "Mathurin, Bennedict",
+    "status": "Out",
+    "avg_minutes": 15.2,
+    "p_play": 0.0,
+    "exp_missing_minutes": 15.2
+   },
+   {
+    "player": "Dia, Malik",
+    "status": "Questionable",
+    "avg_minutes": 4.5,
+    "p_play": 0.426,
+    "exp_missing_minutes": 2.6
+   },
+   {
+    "player": "Reese, Julian",
+    "status": "Questionable",
+    "avg_minutes": 5.2,
+    "p_play": 0.511,
+    "exp_missing_minutes": 2.5
+   },
+   {
+    "player": "Williamson, Zion",
+    "status": "Probable",
+    "avg_minutes": 32.4,
+    "p_play": 0.932,
+    "exp_missing_minutes": 2.2
+   },
+   {
+    "player": "Murphy III, Trey",
+    "status": "Probable",
+    "avg_minutes": 32.4,
+    "p_play": 0.932,
+    "exp_missing_minutes": 2.2
+   },
+   {
+    "player": "Pierre Jr., Jaron",
+    "status": "Probable",
+    "avg_minutes": 14.1,
+    "p_play": 0.921,
+    "exp_missing_minutes": 1.1
+   },
+   {
+    "player": "McGowens, Bryce",
+    "status": "Probable",
+    "avg_minutes": 10.6,
+    "p_play": 0.905,
+    "exp_missing_minutes": 1.0
+   }
+  ]
+ },
+ "away": {
+  "team": "PHX",
+  "elo": 1547.8,
+  "win_pct_last10": 0.7,
+  "win_pct_last5": 0.8,
+  "point_diff_last10": 4.0,
+  "rest_days": 3.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Dunn, Ryan",
+    "status": "Questionable",
+    "avg_minutes": 16.3,
+    "p_play": 0.365,
+    "exp_missing_minutes": 10.3
+   },
+   {
+    "player": "Williams, Mark",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ }
+}

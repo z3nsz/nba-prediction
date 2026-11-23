@@ -1,0 +1,115 @@
+{
+ "id": "espn-401910045",
+ "computed_et": "2026-11-23T04:43",
+ "final": false,
+ "report": "2026-11-22_11_45PM",
+ "cutoff_et": "2026-11-23T21:00",
+ "elo_home_win_prob": 0.155,
+ "inputs": {
+  "elo_diff": -394.6173,
+  "home_court": 1.0,
+  "point_diff_last10_diff": -22.1,
+  "win_pct_last10_diff": -0.7,
+  "win_pct_last5_diff": -0.6,
+  "rest_days_diff": 0.0,
+  "back_to_back_diff": 0.0,
+  "exp_missing_minutes_diff": 46.9308,
+  "starters_out_diff": 1.0,
+  "exp_missing_value_diff": 8.4761,
+  "exp_stars_missing_diff": 0.2866
+ },
+ "home": {
+  "team": "SAC",
+  "elo": 1313.6,
+  "win_pct_last10": 0.2,
+  "win_pct_last5": 0.2,
+  "point_diff_last10": -8.3,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Mogbo, Jonathan",
+    "status": "Out",
+    "avg_minutes": 14.2,
+    "p_play": 0.0,
+    "exp_missing_minutes": 14.2
+   },
+   {
+    "player": "Raynaud, Maxime",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Pedulla, Sean",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Simmons, Ben",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ },
+ "away": {
+  "team": "SAS",
+  "elo": 1708.2,
+  "win_pct_last10": 0.9,
+  "win_pct_last5": 0.8,
+  "point_diff_last10": 13.8,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Harper, Dylan",
+    "status": "Out",
+    "avg_minutes": 31.8,
+    "p_play": 0.0,
+    "exp_missing_minutes": 31.8
+   },
+   {
+    "player": "Fox, De'Aaron",
+    "status": "Questionable",
+    "avg_minutes": 29.1,
+    "p_play": 0.437,
+    "exp_missing_minutes": 16.4
+   },
+   {
+    "player": "Wembanyama, Victor",
+    "status": "Questionable",
+    "avg_minutes": 30.3,
+    "p_play": 0.713,
+    "exp_missing_minutes": 8.7
+   },
+   {
+    "player": "McLaughlin, Jordan",
+    "status": "Questionable",
+    "avg_minutes": 10.3,
+    "p_play": 0.585,
+    "exp_missing_minutes": 4.3
+   },
+   {
+    "player": "Harris, Tobias",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Quaintance, Jayden",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ }
+}
