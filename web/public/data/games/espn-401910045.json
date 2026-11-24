@@ -1,8 +1,8 @@
 {
  "id": "espn-401910045",
- "computed_et": "2026-11-23T20:37",
- "final": false,
- "report": "2026-11-23_08_30PM",
+ "computed_et": "2026-11-23T21:01",
+ "final": true,
+ "report": "2026-11-23_09_00PM",
  "cutoff_et": "2026-11-23T21:00",
  "elo_home_win_prob": 0.155,
  "inputs": {
@@ -36,14 +36,14 @@
     "exp_missing_minutes": 14.2
    },
    {
-    "player": "Raynaud, Maxime",
+    "player": "Pedulla, Sean",
     "status": "Out",
     "avg_minutes": 0.0,
     "p_play": 0.0,
     "exp_missing_minutes": 0.0
    },
    {
-    "player": "Pedulla, Sean",
+    "player": "Raynaud, Maxime",
     "status": "Out",
     "avg_minutes": 0.0,
     "p_play": 0.0,
