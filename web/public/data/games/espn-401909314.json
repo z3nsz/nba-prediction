@@ -1,0 +1,129 @@
+{
+ "id": "espn-401909314",
+ "computed_et": "2026-11-24T06:36",
+ "final": false,
+ "report": "2026-11-23_11_45PM",
+ "cutoff_et": "2026-11-24T18:00",
+ "elo_home_win_prob": 0.411,
+ "inputs": {
+  "elo_diff": -162.2626,
+  "home_court": 1.0,
+  "point_diff_last10_diff": -4.1,
+  "win_pct_last10_diff": 0.0,
+  "win_pct_last5_diff": 0.2,
+  "rest_days_diff": 0.0,
+  "back_to_back_diff": 0.0,
+  "exp_missing_minutes_diff": 27.6302,
+  "starters_out_diff": 0.0,
+  "exp_missing_value_diff": 0.4423,
+  "exp_stars_missing_diff": -0.9226
+ },
+ "home": {
+  "team": "ORL",
+  "elo": 1492.4,
+  "win_pct_last10": 0.5,
+  "win_pct_last5": 0.6,
+  "point_diff_last10": -1.2,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Banchero, Paolo",
+    "status": "Out",
+    "avg_minutes": 33.5,
+    "p_play": 0.0,
+    "exp_missing_minutes": 33.5
+   },
+   {
+    "player": "Castleton, Colin",
+    "status": "Out",
+    "avg_minutes": 3.5,
+    "p_play": 0.0,
+    "exp_missing_minutes": 3.5
+   },
+   {
+    "player": "Isaac, Jonathan",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Nelson, Izaiyah",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Penda, Noah",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ },
+ "away": {
+  "team": "DET",
+  "elo": 1654.6,
+  "win_pct_last10": 0.5,
+  "win_pct_last5": 0.4,
+  "point_diff_last10": 2.9,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Robinson, Duncan",
+    "status": "Out",
+    "avg_minutes": 30.6,
+    "p_play": 0.0,
+    "exp_missing_minutes": 30.6
+   },
+   {
+    "player": "Duren, Jalen",
+    "status": "Out",
+    "avg_minutes": 19.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 19.0
+   },
+   {
+    "player": "Prince, Taurean",
+    "status": "Out",
+    "avg_minutes": 7.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 7.0
+   },
+   {
+    "player": "Okorie, Ebuka",
+    "status": "Out",
+    "avg_minutes": 4.2,
+    "p_play": 0.0,
+    "exp_missing_minutes": 4.2
+   },
+   {
+    "player": "Cunningham, Cade",
+    "status": "Probable",
+    "avg_minutes": 34.9,
+    "p_play": 0.923,
+    "exp_missing_minutes": 2.7
+   },
+   {
+    "player": "Jones, Isaac",
+    "status": "Questionable",
+    "avg_minutes": 2.7,
+    "p_play": 0.569,
+    "exp_missing_minutes": 1.1
+   },
+   {
+    "player": "Onyenso, Ugonna",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ }
+}

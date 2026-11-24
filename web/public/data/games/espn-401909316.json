@@ -1,0 +1,86 @@
+{
+ "id": "espn-401909316",
+ "computed_et": "2026-11-24T06:36",
+ "final": false,
+ "report": "2026-11-23_11_45PM",
+ "cutoff_et": "2026-11-24T21:00",
+ "elo_home_win_prob": 0.807,
+ "inputs": {
+  "elo_diff": 149.083,
+  "home_court": 1.0,
+  "point_diff_last10_diff": 3.4,
+  "win_pct_last10_diff": 0.1,
+  "win_pct_last5_diff": 0.2,
+  "rest_days_diff": 0.0,
+  "back_to_back_diff": 0.0,
+  "exp_missing_minutes_diff": 28.7024,
+  "starters_out_diff": 0.0,
+  "exp_missing_value_diff": -0.7192,
+  "exp_stars_missing_diff": 0.0
+ },
+ "home": {
+  "team": "DEN",
+  "elo": 1602.4,
+  "win_pct_last10": 0.7,
+  "win_pct_last5": 0.8,
+  "point_diff_last10": 3.3,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": []
+ },
+ "away": {
+  "team": "DAL",
+  "elo": 1453.3,
+  "win_pct_last10": 0.6,
+  "win_pct_last5": 0.6,
+  "point_diff_last10": -0.1,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Washington, P.J.",
+    "status": "Questionable",
+    "avg_minutes": 30.9,
+    "p_play": 0.611,
+    "exp_missing_minutes": 12.0
+   },
+   {
+    "player": "de Larrea, Sergio",
+    "status": "Out",
+    "avg_minutes": 11.8,
+    "p_play": 0.0,
+    "exp_missing_minutes": 11.7
+   },
+   {
+    "player": "Lawal, Tobi",
+    "status": "Out",
+    "avg_minutes": 4.6,
+    "p_play": 0.001,
+    "exp_missing_minutes": 4.6
+   },
+   {
+    "player": "Martin, Caleb",
+    "status": "Available",
+    "avg_minutes": 22.0,
+    "p_play": 0.986,
+    "exp_missing_minutes": 0.3
+   },
+   {
+    "player": "Biberovic, Tarik",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Lively II, Dereck",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ }
+}
