@@ -1,8 +1,8 @@
 {
  "id": "espn-401910039",
- "computed_et": "2026-11-23T04:43",
- "final": false,
- "report": "2026-11-22_11_45PM",
+ "computed_et": "2026-11-23T20:37",
+ "final": true,
+ "report": "2026-11-23_06_30PM",
  "cutoff_et": "2026-11-23T18:30",
  "elo_home_win_prob": 0.842,
  "inputs": {
@@ -13,9 +13,9 @@
   "win_pct_last5_diff": 0.2,
   "rest_days_diff": 1.0,
   "back_to_back_diff": 0.0,
-  "exp_missing_minutes_diff": -52.1246,
+  "exp_missing_minutes_diff": -54.4254,
   "starters_out_diff": -1.0,
-  "exp_missing_value_diff": -10.454,
+  "exp_missing_value_diff": -10.487,
   "exp_stars_missing_diff": 0.0
  },
  "home": {
@@ -44,10 +44,17 @@
    },
    {
     "player": "Murray-Boyles, Collin",
-    "status": "Probable",
+    "status": "Available",
     "avg_minutes": 23.6,
-    "p_play": 0.941,
-    "exp_missing_minutes": 1.4
+    "p_play": 0.849,
+    "exp_missing_minutes": 3.6
+   },
+   {
+    "player": "Bradley, Jaden",
+    "status": "Available",
+    "avg_minutes": 4.8,
+    "p_play": 0.806,
+    "exp_missing_minutes": 0.9
    },
    {
     "player": "Bittle, Nate",
@@ -70,10 +77,10 @@
   "injuries": [
    {
     "player": "Dieng, Ousmane",
-    "status": "Questionable",
+    "status": "Available",
     "avg_minutes": 12.3,
-    "p_play": 0.592,
-    "exp_missing_minutes": 5.0
+    "p_play": 0.528,
+    "exp_missing_minutes": 5.8
    },
    {
     "player": "Markovic, Bogoljub",
