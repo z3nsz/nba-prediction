@@ -1,5 +1,5 @@
 {
- "updated_et": "2026-11-25T00:39",
+ "updated_et": "2026-11-25T12:05",
  "season": "2026-27",
  "model": {
   "description": "Final NBA model (logistic regression, no intercept), retrained on all six seasons",
@@ -6554,7 +6554,7 @@
    "away": "MIA",
    "p_home": 0.5131,
    "final": false,
-   "report": "2026-11-24_11_45PM",
+   "report": "2026-11-25_12_00PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
@@ -6579,7 +6579,7 @@
    "away": "CHI",
    "p_home": 0.6755,
    "final": false,
-   "report": "2026-11-24_11_45PM",
+   "report": "2026-11-25_12_00PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
@@ -6604,7 +6604,7 @@
    "away": "CLE",
    "p_home": 0.6118,
    "final": false,
-   "report": "2026-11-24_11_45PM",
+   "report": "2026-11-25_12_00PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
@@ -6629,7 +6629,7 @@
    "away": "MIN",
    "p_home": 0.5338,
    "final": false,
-   "report": "2026-11-24_11_45PM",
+   "report": "2026-11-25_12_00PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
@@ -6654,7 +6654,7 @@
    "away": "LAC",
    "p_home": 0.5083,
    "final": false,
-   "report": "2026-11-24_11_45PM",
+   "report": "2026-11-25_12_00PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
@@ -6679,7 +6679,7 @@
    "away": "BKN",
    "p_home": 0.6252,
    "final": false,
-   "report": "2026-11-24_11_45PM",
+   "report": "2026-11-25_12_00PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
@@ -6704,7 +6704,7 @@
    "away": "PHX",
    "p_home": 0.6626,
    "final": false,
-   "report": "2026-11-24_11_45PM",
+   "report": "2026-11-25_12_00PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
@@ -6729,7 +6729,7 @@
    "away": "SAC",
    "p_home": 0.6352,
    "final": false,
-   "report": "2026-11-24_11_45PM",
+   "report": "2026-11-25_12_00PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
@@ -6754,7 +6754,7 @@
    "away": "SAS",
    "p_home": 0.4677,
    "final": false,
-   "report": "2026-11-24_11_45PM",
+   "report": "2026-11-25_12_00PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
