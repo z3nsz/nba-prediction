@@ -1,5 +1,5 @@
 {
- "updated_et": "2026-11-24T19:01",
+ "updated_et": "2026-11-24T21:01",
  "season": "2026-27",
  "model": {
   "description": "Final NBA model (logistic regression, no intercept), retrained on all six seasons",
@@ -6528,8 +6528,8 @@
    "home": "DEN",
    "away": "DAL",
    "p_home": 0.743,
-   "final": false,
-   "report": "2026-11-24_07_00PM",
+   "final": true,
+   "report": "2026-11-24_09_00PM",
    "home_score": null,
    "away_score": null,
    "contributions": {
