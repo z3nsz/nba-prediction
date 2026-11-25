@@ -1,0 +1,136 @@
+{
+ "id": "espn-401909318",
+ "computed_et": "2026-11-25T00:39",
+ "final": false,
+ "report": "2026-11-24_11_45PM",
+ "cutoff_et": "2026-11-25T18:00",
+ "elo_home_win_prob": 0.709,
+ "inputs": {
+  "elo_diff": 54.7021,
+  "home_court": 1.0,
+  "point_diff_last10_diff": -11.3,
+  "win_pct_last10_diff": -0.3,
+  "win_pct_last5_diff": -0.4,
+  "rest_days_diff": 0.0,
+  "back_to_back_diff": 0.0,
+  "exp_missing_minutes_diff": 17.7682,
+  "starters_out_diff": 1.0,
+  "exp_missing_value_diff": 6.7739,
+  "exp_stars_missing_diff": 0.0
+ },
+ "home": {
+  "team": "CHA",
+  "elo": 1465.5,
+  "win_pct_last10": 0.1,
+  "win_pct_last5": 0.0,
+  "point_diff_last10": -11.2,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Schroder, Dennis",
+    "status": "Out",
+    "avg_minutes": 30.0,
+    "p_play": 0.014,
+    "exp_missing_minutes": 29.6
+   },
+   {
+    "player": "Kalkbrenner, Ryan",
+    "status": "Doubtful",
+    "avg_minutes": 17.6,
+    "p_play": 0.016,
+    "exp_missing_minutes": 17.3
+   },
+   {
+    "player": "Allen, Grayson",
+    "status": "Questionable",
+    "avg_minutes": 27.2,
+    "p_play": 0.459,
+    "exp_missing_minutes": 14.7
+   },
+   {
+    "player": "Knueppel, Kon",
+    "status": "Out",
+    "avg_minutes": 6.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 6.0
+   },
+   {
+    "player": "James, Sion",
+    "status": "Probable",
+    "avg_minutes": 27.4,
+    "p_play": 0.905,
+    "exp_missing_minutes": 2.6
+   },
+   {
+    "player": "Ajayi, Michael",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Boswell, Kylan",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ },
+ "away": {
+  "team": "CHI",
+  "elo": 1410.8,
+  "win_pct_last10": 0.4,
+  "win_pct_last5": 0.4,
+  "point_diff_last10": 0.1,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Wilson, Caleb",
+    "status": "Out",
+    "avg_minutes": 30.7,
+    "p_play": 0.0,
+    "exp_missing_minutes": 30.7
+   },
+   {
+    "player": "Powell, Norman",
+    "status": "Out",
+    "avg_minutes": 29.5,
+    "p_play": 0.0,
+    "exp_missing_minutes": 29.5
+   },
+   {
+    "player": "Awaka, Tobe",
+    "status": "Out",
+    "avg_minutes": 10.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 10.0
+   },
+   {
+    "player": "Sellers, Jaylin",
+    "status": "Out",
+    "avg_minutes": 9.9,
+    "p_play": 0.084,
+    "exp_missing_minutes": 9.0
+   },
+   {
+    "player": "Smith, Jalen",
+    "status": "Questionable",
+    "avg_minutes": 25.3,
+    "p_play": 0.657,
+    "exp_missing_minutes": 8.7
+   },
+   {
+    "player": "Robinson, Orlando",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ }
+}

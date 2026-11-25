@@ -1,0 +1,129 @@
+{
+ "id": "espn-401909320",
+ "computed_et": "2026-11-25T00:39",
+ "final": false,
+ "report": "2026-11-24_11_45PM",
+ "cutoff_et": "2026-11-25T18:30",
+ "elo_home_win_prob": 0.653,
+ "inputs": {
+  "elo_diff": 9.859,
+  "home_court": 1.0,
+  "point_diff_last10_diff": -5.3,
+  "win_pct_last10_diff": -0.4,
+  "win_pct_last5_diff": -0.4,
+  "rest_days_diff": 0.0,
+  "back_to_back_diff": 0.0,
+  "exp_missing_minutes_diff": -77.1405,
+  "starters_out_diff": -1.0,
+  "exp_missing_value_diff": 4.6848,
+  "exp_stars_missing_diff": 0.9999
+ },
+ "home": {
+  "team": "OKC",
+  "elo": 1610.5,
+  "win_pct_last10": 0.4,
+  "win_pct_last5": 0.4,
+  "point_diff_last10": 4.7,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Williams, Jalen",
+    "status": "Out",
+    "avg_minutes": 31.7,
+    "p_play": 0.0,
+    "exp_missing_minutes": 31.7
+   },
+   {
+    "player": "Holmgren, Chet",
+    "status": "Out",
+    "avg_minutes": 30.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 30.0
+   },
+   {
+    "player": "Mara, Aday",
+    "status": "Out",
+    "avg_minutes": 22.4,
+    "p_play": 0.001,
+    "exp_missing_minutes": 22.4
+   },
+   {
+    "player": "Williams, Jaylin",
+    "status": "Out",
+    "avg_minutes": 17.1,
+    "p_play": 0.0,
+    "exp_missing_minutes": 17.1
+   },
+   {
+    "player": "Wallace, Cason",
+    "status": "Out",
+    "avg_minutes": 16.3,
+    "p_play": 0.0,
+    "exp_missing_minutes": 16.3
+   },
+   {
+    "player": "Topic, Nikola",
+    "status": "Out",
+    "avg_minutes": 11.3,
+    "p_play": 0.0,
+    "exp_missing_minutes": 11.3
+   },
+   {
+    "player": "Sorber, Thomas",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ },
+ "away": {
+  "team": "MIN",
+  "elo": 1600.6,
+  "win_pct_last10": 0.8,
+  "win_pct_last5": 0.8,
+  "point_diff_last10": 10.0,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Edwards, Anthony",
+    "status": "Out",
+    "avg_minutes": 33.8,
+    "p_play": 0.0,
+    "exp_missing_minutes": 33.7
+   },
+   {
+    "player": "Clark, Jaylen",
+    "status": "Out",
+    "avg_minutes": 13.6,
+    "p_play": 0.0,
+    "exp_missing_minutes": 13.6
+   },
+   {
+    "player": "Beringer, Joan",
+    "status": "Available",
+    "avg_minutes": 17.0,
+    "p_play": 0.859,
+    "exp_missing_minutes": 2.4
+   },
+   {
+    "player": "Zikarsky, Rocco",
+    "status": "Out",
+    "avg_minutes": 2.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 2.0
+   },
+   {
+    "player": "DiVincenzo, Donte",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ }
+}

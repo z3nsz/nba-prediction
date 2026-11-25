@@ -1,0 +1,108 @@
+{
+ "id": "espn-401909324",
+ "computed_et": "2026-11-25T00:39",
+ "final": false,
+ "report": "2026-11-24_11_45PM",
+ "cutoff_et": "2026-11-25T21:00",
+ "elo_home_win_prob": 0.826,
+ "inputs": {
+  "elo_diff": 170.0212,
+  "home_court": 1.0,
+  "point_diff_last10_diff": 8.0,
+  "win_pct_last10_diff": 0.4,
+  "win_pct_last5_diff": 0.0,
+  "rest_days_diff": 1.0,
+  "back_to_back_diff": 0.0,
+  "exp_missing_minutes_diff": -34.8166,
+  "starters_out_diff": 0.0,
+  "exp_missing_value_diff": -12.118,
+  "exp_stars_missing_diff": -1.0
+ },
+ "home": {
+  "team": "GSW",
+  "elo": 1480.1,
+  "win_pct_last10": 0.5,
+  "win_pct_last5": 0.2,
+  "point_diff_last10": -3.4,
+  "rest_days": 3.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Curry, Stephen",
+    "status": "Out",
+    "avg_minutes": 26.1,
+    "p_play": 0.0,
+    "exp_missing_minutes": 26.1
+   },
+   {
+    "player": "Lendeborg, Yaxel",
+    "status": "Questionable",
+    "avg_minutes": 31.4,
+    "p_play": 0.511,
+    "exp_missing_minutes": 15.3
+   },
+   {
+    "player": "Williams, Brandon",
+    "status": "Questionable",
+    "avg_minutes": 17.0,
+    "p_play": 0.555,
+    "exp_missing_minutes": 7.6
+   },
+   {
+    "player": "Butler III, Jimmy",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Moody, Moses",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Porzingis, Kristaps",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ },
+ "away": {
+  "team": "SAC",
+  "elo": 1310.0,
+  "win_pct_last10": 0.1,
+  "win_pct_last5": 0.2,
+  "point_diff_last10": -11.4,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Mogbo, Jonathan",
+    "status": "Out",
+    "avg_minutes": 14.2,
+    "p_play": 0.0,
+    "exp_missing_minutes": 14.2
+   },
+   {
+    "player": "Raynaud, Maxime",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Simmons, Ben",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ }
+}
