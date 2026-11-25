@@ -1,8 +1,8 @@
 {
  "id": "espn-401909321",
- "computed_et": "2026-11-25T12:05",
+ "computed_et": "2026-11-25T16:01",
  "final": false,
- "report": "2026-11-25_12_00PM",
+ "report": "2026-11-25_04_00PM",
  "cutoff_et": "2026-11-25T19:00",
  "elo_home_win_prob": 0.713,
  "inputs": {
@@ -13,9 +13,9 @@
   "win_pct_last5_diff": 0.6,
   "rest_days_diff": 0.0,
   "back_to_back_diff": 0.0,
-  "exp_missing_minutes_diff": -79.0051,
+  "exp_missing_minutes_diff": -76.4208,
   "starters_out_diff": -1.0,
-  "exp_missing_value_diff": -1.8361,
+  "exp_missing_value_diff": -2.0792,
   "exp_stars_missing_diff": 0.0
  },
  "home": {
@@ -81,6 +81,13 @@
     "avg_minutes": 4.2,
     "p_play": 0.0,
     "exp_missing_minutes": 4.2
+   },
+   {
+    "player": "Pickett, Jalen",
+    "status": "Questionable",
+    "avg_minutes": 4.5,
+    "p_play": 0.426,
+    "exp_missing_minutes": 2.6
    },
    {
     "player": "Beal, Bradley",

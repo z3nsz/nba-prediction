@@ -1,8 +1,8 @@
 {
  "id": "espn-401909324",
- "computed_et": "2026-11-25T12:05",
+ "computed_et": "2026-11-25T16:01",
  "final": false,
- "report": "2026-11-25_12_00PM",
+ "report": "2026-11-25_04_00PM",
  "cutoff_et": "2026-11-25T21:00",
  "elo_home_win_prob": 0.826,
  "inputs": {
@@ -13,9 +13,9 @@
   "win_pct_last5_diff": 0.0,
   "rest_days_diff": 1.0,
   "back_to_back_diff": 0.0,
-  "exp_missing_minutes_diff": -34.8166,
+  "exp_missing_minutes_diff": -27.5848,
   "starters_out_diff": 0.0,
-  "exp_missing_value_diff": -12.118,
+  "exp_missing_value_diff": -11.8256,
   "exp_stars_missing_diff": -1.0
  },
  "home": {
@@ -50,6 +50,13 @@
     "exp_missing_minutes": 7.6
    },
    {
+    "player": "Porzingis, Kristaps",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
     "player": "Butler III, Jimmy",
     "status": "Out",
     "avg_minutes": 0.0,
@@ -58,13 +65,6 @@
    },
    {
     "player": "Moody, Moses",
-    "status": "Out",
-    "avg_minutes": 0.0,
-    "p_play": 0.0,
-    "exp_missing_minutes": 0.0
-   },
-   {
-    "player": "Porzingis, Kristaps",
     "status": "Out",
     "avg_minutes": 0.0,
     "p_play": 0.0,
@@ -88,6 +88,13 @@
     "avg_minutes": 14.2,
     "p_play": 0.0,
     "exp_missing_minutes": 14.2
+   },
+   {
+    "player": "LaVine, Zach",
+    "status": "Questionable",
+    "avg_minutes": 32.5,
+    "p_play": 0.778,
+    "exp_missing_minutes": 7.2
    },
    {
     "player": "Raynaud, Maxime",
