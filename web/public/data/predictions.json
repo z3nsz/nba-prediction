@@ -1,5 +1,5 @@
 {
- "updated_et": "2026-11-25T21:01",
+ "updated_et": "2026-11-26T04:24",
  "season": "2026-27",
  "model": {
   "description": "Final NBA model (logistic regression, no intercept), retrained on all six seasons",
@@ -14,11 +14,11 @@
   ]
  },
  "record": {
-  "games": 259,
-  "correct": 166,
-  "accuracy": 0.6409,
-  "log_loss": 0.6149,
-  "brier": 0.2145
+  "games": 267,
+  "correct": 170,
+  "accuracy": 0.6367,
+  "log_loss": 0.6173,
+  "brier": 0.2156
  },
  "games": [
   {
@@ -6580,8 +6580,8 @@
    "p_home": 0.685,
    "final": true,
    "report": "2026-11-25_06_00PM",
-   "home_score": null,
-   "away_score": null,
+   "home_score": 105,
+   "away_score": 107,
    "contributions": {
     "elo_diff": 0.2678,
     "home_court": 0.2167,
@@ -6605,8 +6605,8 @@
    "p_home": 0.6238,
    "final": true,
    "report": "2026-11-25_06_30PM",
-   "home_score": null,
-   "away_score": null,
+   "home_score": 121,
+   "away_score": 102,
    "contributions": {
     "elo_diff": 0.352,
     "home_court": 0.2167,
@@ -6630,8 +6630,8 @@
    "p_home": 0.5338,
    "final": true,
    "report": "2026-11-25_06_30PM",
-   "home_score": null,
-   "away_score": null,
+   "home_score": 106,
+   "away_score": 113,
    "contributions": {
     "elo_diff": 0.0483,
     "home_court": 0.2167,
@@ -6655,8 +6655,8 @@
    "p_home": 0.5117,
    "final": true,
    "report": "2026-11-25_07_00PM",
-   "home_score": null,
-   "away_score": null,
+   "home_score": 115,
+   "away_score": 97,
    "contributions": {
     "elo_diff": 0.2826,
     "home_court": 0.2167,
@@ -6680,8 +6680,8 @@
    "p_home": 0.6252,
    "final": true,
    "report": "2026-11-25_07_00PM",
-   "home_score": null,
-   "away_score": null,
+   "home_score": 97,
+   "away_score": 104,
    "contributions": {
     "elo_diff": 0.0865,
     "home_court": 0.2167,
@@ -6705,8 +6705,8 @@
    "p_home": 0.6664,
    "final": true,
    "report": "2026-11-25_07_30PM",
-   "home_score": null,
-   "away_score": null,
+   "home_score": 116,
+   "away_score": 104,
    "contributions": {
     "elo_diff": 0.3761,
     "home_court": 0.2167,
@@ -6730,8 +6730,8 @@
    "p_home": 0.6946,
    "final": true,
    "report": "2026-11-25_09_00PM",
-   "home_score": null,
-   "away_score": null,
+   "home_score": 129,
+   "away_score": 110,
    "contributions": {
     "elo_diff": 0.8323,
     "home_court": 0.2167,
@@ -6755,8 +6755,8 @@
    "p_home": 0.4677,
    "final": true,
    "report": "2026-11-25_09_00PM",
-   "home_score": null,
-   "away_score": null,
+   "home_score": 116,
+   "away_score": 111,
    "contributions": {
     "elo_diff": -0.5856,
     "home_court": 0.2167,
