@@ -1,0 +1,101 @@
+{
+ "id": "espn-401909336",
+ "computed_et": "2026-11-27T09:55",
+ "final": false,
+ "report": "2026-11-27_09_45AM",
+ "cutoff_et": "2026-11-27T20:30",
+ "elo_home_win_prob": 0.775,
+ "inputs": {
+  "elo_diff": 115.0408,
+  "home_court": 1.0,
+  "point_diff_last10_diff": 6.1,
+  "win_pct_last10_diff": 0.1,
+  "win_pct_last5_diff": 0.2,
+  "rest_days_diff": 0.0,
+  "back_to_back_diff": 0.0,
+  "exp_missing_minutes_diff": -24.3868,
+  "starters_out_diff": 0.0,
+  "exp_missing_value_diff": 8.422,
+  "exp_stars_missing_diff": 1.0
+ },
+ "home": {
+  "team": "POR",
+  "elo": 1599.6,
+  "win_pct_last10": 0.6,
+  "win_pct_last5": 0.6,
+  "point_diff_last10": 4.3,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Morant, Ja",
+    "status": "Out",
+    "avg_minutes": 25.7,
+    "p_play": 0.0,
+    "exp_missing_minutes": 25.7
+   },
+   {
+    "player": "Youngblood, Chris",
+    "status": "Out",
+    "avg_minutes": 13.5,
+    "p_play": 0.0,
+    "exp_missing_minutes": 13.5
+   },
+   {
+    "player": "Krejci, Vit",
+    "status": "Out",
+    "avg_minutes": 11.3,
+    "p_play": 0.0,
+    "exp_missing_minutes": 11.3
+   },
+   {
+    "player": "Sharpe, Shaedon",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ },
+ "away": {
+  "team": "GSW",
+  "elo": 1484.6,
+  "win_pct_last10": 0.5,
+  "win_pct_last5": 0.4,
+  "point_diff_last10": -1.8,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Curry, Stephen",
+    "status": "Out",
+    "avg_minutes": 26.1,
+    "p_play": 0.0,
+    "exp_missing_minutes": 26.1
+   },
+   {
+    "player": "Butler III, Jimmy",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Moody, Moses",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Porzingis, Kristaps",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ }
+}

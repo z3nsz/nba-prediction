@@ -1,0 +1,122 @@
+{
+ "id": "espn-401909329",
+ "computed_et": "2026-11-27T09:55",
+ "final": false,
+ "report": "2026-11-27_09_45AM",
+ "cutoff_et": "2026-11-27T18:30",
+ "elo_home_win_prob": 0.821,
+ "inputs": {
+  "elo_diff": 164.5725,
+  "home_court": 1.0,
+  "point_diff_last10_diff": 2.2,
+  "win_pct_last10_diff": -0.1,
+  "win_pct_last5_diff": 0.0,
+  "rest_days_diff": 2.0,
+  "back_to_back_diff": 0.0,
+  "exp_missing_minutes_diff": -19.5209,
+  "starters_out_diff": -1.0,
+  "exp_missing_value_diff": -10.3845,
+  "exp_stars_missing_diff": 0.0
+ },
+ "home": {
+  "team": "TOR",
+  "elo": 1476.8,
+  "win_pct_last10": 0.2,
+  "win_pct_last5": 0.2,
+  "point_diff_last10": -5.6,
+  "rest_days": 4.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Barrett, RJ",
+    "status": "Out",
+    "avg_minutes": 34.1,
+    "p_play": 0.0,
+    "exp_missing_minutes": 34.1
+   },
+   {
+    "player": "Leonard, Kawhi",
+    "status": "Out",
+    "avg_minutes": 26.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 26.0
+   },
+   {
+    "player": "Martin, Alijah",
+    "status": "Questionable",
+    "avg_minutes": 12.2,
+    "p_play": 0.511,
+    "exp_missing_minutes": 6.0
+   },
+   {
+    "player": "Smith, Malachi",
+    "status": "Out",
+    "avg_minutes": 4.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 4.0
+   },
+   {
+    "player": "Bittle, Nate",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "McCullar Jr., Kevin",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ },
+ "away": {
+  "team": "BKN",
+  "elo": 1312.3,
+  "win_pct_last10": 0.3,
+  "win_pct_last5": 0.2,
+  "point_diff_last10": -7.8,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Traore, Nolan",
+    "status": "Out",
+    "avg_minutes": 22.3,
+    "p_play": 0.0,
+    "exp_missing_minutes": 22.3
+   },
+   {
+    "player": "Wagner, Moritz",
+    "status": "Out",
+    "avg_minutes": 17.1,
+    "p_play": 0.0,
+    "exp_missing_minutes": 17.1
+   },
+   {
+    "player": "Powell, Drake",
+    "status": "Out",
+    "avg_minutes": 7.2,
+    "p_play": 0.0,
+    "exp_missing_minutes": 7.2
+   },
+   {
+    "player": "Jefferson, Joshua",
+    "status": "Out",
+    "avg_minutes": 4.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 4.0
+   },
+   {
+    "player": "Bilodeau, Tyler",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ }
+}

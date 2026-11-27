@@ -1,0 +1,143 @@
+{
+ "id": "espn-401909331",
+ "computed_et": "2026-11-27T09:55",
+ "final": false,
+ "report": "2026-11-27_09_45AM",
+ "cutoff_et": "2026-11-27T19:30",
+ "elo_home_win_prob": 0.772,
+ "inputs": {
+  "elo_diff": 111.9997,
+  "home_court": 1.0,
+  "point_diff_last10_diff": -2.6,
+  "win_pct_last10_diff": 0.0,
+  "win_pct_last5_diff": 0.0,
+  "rest_days_diff": 0.0,
+  "back_to_back_diff": 0.0,
+  "exp_missing_minutes_diff": 38.4527,
+  "starters_out_diff": 0.0,
+  "exp_missing_value_diff": -4.5402,
+  "exp_stars_missing_diff": -0.9999
+ },
+ "home": {
+  "team": "MIN",
+  "elo": 1612.7,
+  "win_pct_last10": 0.8,
+  "win_pct_last5": 0.8,
+  "point_diff_last10": 9.7,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Edwards, Anthony",
+    "status": "Out",
+    "avg_minutes": 33.8,
+    "p_play": 0.0,
+    "exp_missing_minutes": 33.7
+   },
+   {
+    "player": "Clark, Jaylen",
+    "status": "Out",
+    "avg_minutes": 13.6,
+    "p_play": 0.0,
+    "exp_missing_minutes": 13.6
+   },
+   {
+    "player": "Ball, LaMelo",
+    "status": "Questionable",
+    "avg_minutes": 28.5,
+    "p_play": 0.622,
+    "exp_missing_minutes": 10.8
+   },
+   {
+    "player": "Beringer, Joan",
+    "status": "Available",
+    "avg_minutes": 16.9,
+    "p_play": 0.869,
+    "exp_missing_minutes": 2.2
+   },
+   {
+    "player": "Zikarsky, Rocco",
+    "status": "Out",
+    "avg_minutes": 2.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 2.0
+   },
+   {
+    "player": "DiVincenzo, Donte",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ },
+ "away": {
+  "team": "MEM",
+  "elo": 1500.7,
+  "win_pct_last10": 0.8,
+  "win_pct_last5": 0.8,
+  "point_diff_last10": 12.3,
+  "rest_days": 2.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Boozer, Cameron",
+    "status": "Out",
+    "avg_minutes": 30.3,
+    "p_play": 0.001,
+    "exp_missing_minutes": 30.3
+   },
+   {
+    "player": "Grant, Jerami",
+    "status": "Out",
+    "avg_minutes": 21.9,
+    "p_play": 0.0,
+    "exp_missing_minutes": 21.9
+   },
+   {
+    "player": "Pippen Jr., Scotty",
+    "status": "Out",
+    "avg_minutes": 16.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 16.0
+   },
+   {
+    "player": "Jackson, GG",
+    "status": "Out",
+    "avg_minutes": 15.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 15.0
+   },
+   {
+    "player": "Stewart, Isaiah",
+    "status": "Questionable",
+    "avg_minutes": 18.4,
+    "p_play": 0.562,
+    "exp_missing_minutes": 8.1
+   },
+   {
+    "player": "Edey, Zach",
+    "status": "Questionable",
+    "avg_minutes": 20.2,
+    "p_play": 0.682,
+    "exp_missing_minutes": 6.4
+   },
+   {
+    "player": "Lopez, Karim",
+    "status": "Out",
+    "avg_minutes": 3.1,
+    "p_play": 0.001,
+    "exp_missing_minutes": 3.1
+   },
+   {
+    "player": "Saunders, Richie",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ }
+}

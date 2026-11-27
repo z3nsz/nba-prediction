@@ -1,0 +1,115 @@
+{
+ "id": "espn-401909334",
+ "computed_et": "2026-11-27T09:55",
+ "final": false,
+ "report": "2026-11-27_09_45AM",
+ "cutoff_et": "2026-11-27T20:30",
+ "elo_home_win_prob": 0.315,
+ "inputs": {
+  "elo_diff": -234.8487,
+  "home_court": 1.0,
+  "point_diff_last10_diff": -6.3,
+  "win_pct_last10_diff": -0.5,
+  "win_pct_last5_diff": -0.2,
+  "rest_days_diff": 1.0,
+  "back_to_back_diff": 0.0,
+  "exp_missing_minutes_diff": -52.4891,
+  "starters_out_diff": -1.0,
+  "exp_missing_value_diff": -6.0764,
+  "exp_stars_missing_diff": 0.0
+ },
+ "home": {
+  "team": "UTA",
+  "elo": 1335.7,
+  "win_pct_last10": 0.2,
+  "win_pct_last5": 0.4,
+  "point_diff_last10": -4.1,
+  "rest_days": 4.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Markkanen, Lauri",
+    "status": "Out",
+    "avg_minutes": 30.9,
+    "p_play": 0.0,
+    "exp_missing_minutes": 30.9
+   },
+   {
+    "player": "Jackson Jr., Jaren",
+    "status": "Out",
+    "avg_minutes": 26.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 26.0
+   },
+   {
+    "player": "Hayes, Jaxson",
+    "status": "Questionable",
+    "avg_minutes": 23.5,
+    "p_play": 0.323,
+    "exp_missing_minutes": 15.9
+   },
+   {
+    "player": "Bufkin, Kobe",
+    "status": "Out",
+    "avg_minutes": 1.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 1.0
+   },
+   {
+    "player": "Aidoo, Jonas",
+    "status": "Out",
+    "avg_minutes": 1.0,
+    "p_play": 0.001,
+    "exp_missing_minutes": 1.0
+   },
+   {
+    "player": "Ingram, Harrison",
+    "status": "Out",
+    "avg_minutes": 1.0,
+    "p_play": 0.021,
+    "exp_missing_minutes": 1.0
+   },
+   {
+    "player": "Nurkic, Jusuf",
+    "status": "Questionable",
+    "avg_minutes": 0.0,
+    "p_play": 0.598,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ },
+ "away": {
+  "team": "DEN",
+  "elo": 1570.5,
+  "win_pct_last10": 0.7,
+  "win_pct_last5": 0.6,
+  "point_diff_last10": 2.2,
+  "rest_days": 3.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Hopkins, Bryce",
+    "status": "Out",
+    "avg_minutes": 13.0,
+    "p_play": 0.001,
+    "exp_missing_minutes": 13.0
+   },
+   {
+    "player": "Whitmore, Cam",
+    "status": "Out",
+    "avg_minutes": 7.5,
+    "p_play": 0.0,
+    "exp_missing_minutes": 7.5
+   },
+   {
+    "player": "Holmes II, DaRon",
+    "status": "Out",
+    "avg_minutes": 2.8,
+    "p_play": 0.0,
+    "exp_missing_minutes": 2.8
+   }
+  ]
+ }
+}
