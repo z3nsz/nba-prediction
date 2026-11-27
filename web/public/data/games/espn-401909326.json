@@ -1,8 +1,8 @@
 {
  "id": "espn-401909326",
- "computed_et": "2026-11-27T09:55",
- "final": false,
- "report": "2026-11-27_09_45AM",
+ "computed_et": "2026-11-27T18:23",
+ "final": true,
+ "report": "2026-11-27_06_00PM",
  "cutoff_et": "2026-11-27T18:00",
  "elo_home_win_prob": 0.735,
  "inputs": {
@@ -13,10 +13,10 @@
   "win_pct_last5_diff": 0.2,
   "rest_days_diff": 0.0,
   "back_to_back_diff": 0.0,
-  "exp_missing_minutes_diff": -46.5599,
+  "exp_missing_minutes_diff": -80.7677,
   "starters_out_diff": -1.0,
-  "exp_missing_value_diff": 2.0256,
-  "exp_stars_missing_diff": 0.0434
+  "exp_missing_value_diff": 0.8195,
+  "exp_stars_missing_diff": -0.2532
  },
  "home": {
   "team": "NYK",
@@ -30,31 +30,38 @@
   "injuries": [
    {
     "player": "Anunoby, OG",
-    "status": "Doubtful",
+    "status": "Out",
     "avg_minutes": 34.0,
-    "p_play": 0.122,
-    "exp_missing_minutes": 29.9
+    "p_play": 0.0,
+    "exp_missing_minutes": 34.0
    },
    {
     "player": "McBride, Miles",
-    "status": "Questionable",
+    "status": "Out",
     "avg_minutes": 17.2,
-    "p_play": 0.484,
-    "exp_missing_minutes": 8.9
+    "p_play": 0.0,
+    "exp_missing_minutes": 17.2
    },
    {
     "player": "Drummond, Andre",
-    "status": "Questionable",
+    "status": "Out",
     "avg_minutes": 13.7,
-    "p_play": 0.502,
-    "exp_missing_minutes": 6.8
+    "p_play": 0.0,
+    "exp_missing_minutes": 13.7
    },
    {
     "player": "Clarkson, Jordan",
-    "status": "Questionable",
+    "status": "Out",
     "avg_minutes": 9.8,
-    "p_play": 0.365,
-    "exp_missing_minutes": 6.2
+    "p_play": 0.0,
+    "exp_missing_minutes": 9.8
+   },
+   {
+    "player": "Towns, Karl-Anthony",
+    "status": "Questionable",
+    "avg_minutes": 32.5,
+    "p_play": 0.737,
+    "exp_missing_minutes": 8.5
    }
   ]
  },
@@ -69,13 +76,6 @@
   "report_known": true,
   "injuries": [
    {
-    "player": "Wiggins, Andrew",
-    "status": "Probable",
-    "avg_minutes": 26.1,
-    "p_play": 0.918,
-    "exp_missing_minutes": 2.1
-   },
-   {
     "player": "Donaldson, Tre",
     "status": "Out",
     "avg_minutes": 1.7,
@@ -83,11 +83,18 @@
     "exp_missing_minutes": 1.7
    },
    {
+    "player": "Wiggins, Andrew",
+    "status": "Available",
+    "avg_minutes": 26.1,
+    "p_play": 0.981,
+    "exp_missing_minutes": 0.5
+   },
+   {
     "player": "Antetokounmpo, Giannis",
-    "status": "Probable",
+    "status": "Available",
     "avg_minutes": 32.4,
-    "p_play": 0.957,
-    "exp_missing_minutes": 1.4
+    "p_play": 0.991,
+    "exp_missing_minutes": 0.3
    },
    {
     "player": "Goldin, Vladislav",
