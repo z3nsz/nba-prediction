@@ -1,8 +1,8 @@
 {
  "id": "espn-401909336",
- "computed_et": "2026-11-27T20:01",
- "final": false,
- "report": "2026-11-27_08_00PM",
+ "computed_et": "2026-11-27T20:31",
+ "final": true,
+ "report": "2026-11-27_08_30PM",
  "cutoff_et": "2026-11-27T20:30",
  "elo_home_win_prob": 0.775,
  "inputs": {
@@ -57,14 +57,14 @@
     "exp_missing_minutes": 11.3
    },
    {
-    "player": "Sharpe, Shaedon",
+    "player": "Yang, Hansen",
     "status": "Out",
     "avg_minutes": 0.0,
     "p_play": 0.0,
     "exp_missing_minutes": 0.0
    },
    {
-    "player": "Yang, Hansen",
+    "player": "Sharpe, Shaedon",
     "status": "Out",
     "avg_minutes": 0.0,
     "p_play": 0.0,
