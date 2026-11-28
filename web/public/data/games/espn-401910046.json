@@ -1,0 +1,129 @@
+{
+ "id": "espn-401910046",
+ "computed_et": "2026-11-28T09:05",
+ "final": false,
+ "report": "2026-11-28_09_00AM",
+ "cutoff_et": "2026-11-28T16:00",
+ "elo_home_win_prob": 0.441,
+ "inputs": {
+  "elo_diff": -141.1537,
+  "home_court": 1.0,
+  "point_diff_last10_diff": -7.7,
+  "win_pct_last10_diff": -0.2,
+  "win_pct_last5_diff": 0.2,
+  "rest_days_diff": 0.0,
+  "back_to_back_diff": 0.0,
+  "exp_missing_minutes_diff": 36.3596,
+  "starters_out_diff": 1.0,
+  "exp_missing_value_diff": 2.8733,
+  "exp_stars_missing_diff": 0.9999
+ },
+ "home": {
+  "team": "WAS",
+  "elo": 1339.3,
+  "win_pct_last10": 0.3,
+  "win_pct_last5": 0.6,
+  "point_diff_last10": -9.8,
+  "rest_days": 4.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Champagnie, Justin",
+    "status": "Out",
+    "avg_minutes": 18.5,
+    "p_play": 0.0,
+    "exp_missing_minutes": 18.5
+   },
+   {
+    "player": "Okpara, Felix",
+    "status": "Out",
+    "avg_minutes": 2.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 2.0
+   },
+   {
+    "player": "Beekman, Reece",
+    "status": "Out",
+    "avg_minutes": 1.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 1.0
+   },
+   {
+    "player": "Vukcevic, Tristan",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Watkins, Jamir",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ },
+ "away": {
+  "team": "ORL",
+  "elo": 1480.4,
+  "win_pct_last10": 0.5,
+  "win_pct_last5": 0.4,
+  "point_diff_last10": -2.1,
+  "rest_days": 4.0,
+  "back_to_back": false,
+  "report_known": true,
+  "injuries": [
+   {
+    "player": "Banchero, Paolo",
+    "status": "Out",
+    "avg_minutes": 33.5,
+    "p_play": 0.0,
+    "exp_missing_minutes": 33.5
+   },
+   {
+    "player": "Black, Anthony",
+    "status": "Questionable",
+    "avg_minutes": 32.9,
+    "p_play": 0.365,
+    "exp_missing_minutes": 20.9
+   },
+   {
+    "player": "Castleton, Colin",
+    "status": "Out",
+    "avg_minutes": 3.5,
+    "p_play": 0.0,
+    "exp_missing_minutes": 3.5
+   },
+   {
+    "player": "Isaac, Jonathan",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Nelson, Izaiyah",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Penda, Noah",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.0,
+    "exp_missing_minutes": 0.0
+   },
+   {
+    "player": "Porter Jr., Kevin",
+    "status": "Out",
+    "avg_minutes": 0.0,
+    "p_play": 0.007,
+    "exp_missing_minutes": 0.0
+   }
+  ]
+ }
+}
